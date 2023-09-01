@@ -1,53 +1,53 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.26)  8 FEB 2023 15:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.10)  1 SEP 2023 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **MSU-thesis-template.tex
 (./MSU-thesis-template.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (./msu-thesis.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (./msu-thesis.cls
 Document Class: msu-thesis 2023/12/15 Michigan State University Thesis Class ve
 rsion 4.0b
-(/usr/local/texlive/2022/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2022/02/20 v3.7q configurable book, report, article docu
-ment class
-(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article do
+cument class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count181
 )
-\onelineskip=\skip47
-\lxvchars=\skip48
-\xlvchars=\skip49
+\onelineskip=\skip48
+\lxvchars=\skip49
+\xlvchars=\skip50
 \@memcnta=\count182
 \c@@memmarkcntra=\count183
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-\stockheight=\skip50
-\stockwidth=\skip51
-\trimtop=\skip52
-\trimedge=\skip53
+\stockheight=\dimen140
+\stockwidth=\dimen141
+\trimtop=\skip51
+\trimedge=\skip52
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/memoir/mem12.clo
-File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+(/usr/local/texlive/2023/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 )
-\binding=\skip54
-\spinemargin=\skip55
-\foremargin=\skip56
-\uppermargin=\skip57
-\lowermargin=\skip58
-\headdrop=\skip59
-\normalrulethickness=\skip60
-\mem@maxheadheight=\skip61
-\mem@maxfootheight=\skip62
-\headwidth=\skip63
+\binding=\skip53
+\spinemargin=\skip54
+\foremargin=\skip55
+\uppermargin=\skip56
+\lowermargin=\skip57
+\headdrop=\skip58
+\normalrulethickness=\skip59
+\mem@maxheadheight=\skip60
+\mem@maxfootheight=\skip61
+\headwidth=\skip62
 \c@storedpagenumber=\count184
-\memPD=\dimen138
-\m@mabparskip=\skip64
-\thanksmarkwidth=\skip65
-\thanksmarksep=\skip66
-\droptitle=\skip67
+\memPD=\dimen142
+\m@mabparskip=\skip63
+\thanksmarkwidth=\skip64
+\thanksmarksep=\skip65
+\droptitle=\skip66
 \c@book=\count185
 \c@part=\count186
 \c@chapter=\count187
@@ -56,230 +56,230 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \c@subsubsection=\count190
 \c@paragraph=\count191
 \c@subparagraph=\count192
-\beforechapskip=\skip68
-\midchapskip=\skip69
-\afterchapskip=\skip70
-\chapindent=\skip71
-\bottomsectionskip=\skip72
-\secindent=\skip73
-\beforesecskip=\skip74
-\aftersecskip=\skip75
-\subsecindent=\skip76
-\beforesubsecskip=\skip77
-\aftersubsecskip=\skip78
-\subsubsecindent=\skip79
-\beforesubsubsecskip=\skip80
-\aftersubsubsecskip=\skip81
-\paraindent=\skip82
-\beforeparaskip=\skip83
-\afterparaskip=\skip84
-\subparaindent=\skip85
-\beforesubparaskip=\skip86
-\aftersubparaskip=\skip87
-\pfbreakskip=\skip88
+\beforechapskip=\skip67
+\midchapskip=\skip68
+\afterchapskip=\skip69
+\chapindent=\skip70
+\bottomsectionskip=\skip71
+\secindent=\skip72
+\beforesecskip=\skip73
+\aftersecskip=\skip74
+\subsecindent=\skip75
+\beforesubsecskip=\skip76
+\aftersubsecskip=\skip77
+\subsubsecindent=\skip78
+\beforesubsubsecskip=\skip79
+\aftersubsubsecskip=\skip80
+\paraindent=\skip81
+\beforeparaskip=\skip82
+\afterparaskip=\skip83
+\subparaindent=\skip84
+\beforesubparaskip=\skip85
+\aftersubparaskip=\skip86
+\pfbreakskip=\skip87
 \c@@ppsavesec=\count193
 \c@@ppsaveapp=\count194
-\ragrparindent=\dimen139
-\everylistparindent=\dimen140
-\parsepi=\skip89
-\topsepi=\skip90
-\itemsepi=\skip91
-\parsepii=\skip92
-\topsepii=\skip93
-\topsepiii=\skip94
-\itemsepii=\skip95
-\itemsepiii=\skip96
-\partopsepii=\skip97
-\partopsepiii=\skip98
-\m@msavetopsep=\skip99
-\m@msavepartopsep=\skip100
+\ragrparindent=\dimen143
+\everylistparindent=\dimen144
+\parsepi=\skip88
+\topsepi=\skip89
+\itemsepi=\skip90
+\parsepii=\skip91
+\topsepii=\skip92
+\topsepiii=\skip93
+\itemsepii=\skip94
+\itemsepiii=\skip95
+\partopsepii=\skip96
+\partopsepiii=\skip97
+\m@msavetopsep=\skip98
+\m@msavepartopsep=\skip99
 \@enLab=\toks16
-\abstitleskip=\skip101
-\absleftindent=\skip102
-\abs@leftindent=\dimen141
-\absrightindent=\skip103
-\absparindent=\skip104
-\absparsep=\skip105
+\abstitleskip=\skip100
+\absleftindent=\skip101
+\abs@leftindent=\dimen145
+\absrightindent=\skip102
+\absparindent=\skip103
+\absparsep=\skip104
 \c@vslineno=\count195
 \c@poemline=\count196
 \c@modulo@vs=\count197
 \c@memfvsline=\count198
-\vleftskip=\skip106
-\vrightskip=\skip107
-\stanzaskip=\skip108
-\versewidth=\skip109
-\vgap=\skip110
-\vindent=\skip111
-\vleftmargin=\dimen142
+\vleftskip=\skip105
+\vrightskip=\skip106
+\stanzaskip=\skip107
+\versewidth=\skip108
+\vgap=\skip109
+\vindent=\skip110
+\vleftmargin=\dimen146
 \c@verse=\count199
 \c@chrsinstr=\count266
-\beforepoemtitleskip=\skip112
-\afterpoemtitleskip=\skip113
+\beforepoemtitleskip=\skip111
+\afterpoemtitleskip=\skip112
 \c@poem=\count267
-\beforePoemTitleskip=\skip114
-\midPoemTitleskip=\skip115
-\afterPoemTitleskip=\skip116
+\beforePoemTitleskip=\skip113
+\midPoemTitleskip=\skip114
+\afterPoemTitleskip=\skip115
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen143
-\ar@mcellbox=\box50
-\extrarowheight=\dimen144
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box51
+\extrarowheight=\dimen148
 \NC@list=\toks17
-\extratabsurround=\skip117
-\backup@length=\skip118
-\ar@cellbox=\box51
+\extratabsurround=\skip116
+\backup@length=\skip117
+\ar@cellbox=\box52
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/delarray.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen145
-\TX@old@table=\dimen146
-\TX@old@col=\dimen147
-\TX@target=\dimen148
-\TX@delta=\dimen149
+\TX@col@width=\dimen149
+\TX@old@table=\dimen150
+\TX@old@col=\dimen151
+\TX@target=\dimen152
+\TX@delta=\dimen153
 \TX@cols=\count268
 \TX@ftn=\toks18
 )
-\heavyrulewidth=\dimen150
-\lightrulewidth=\dimen151
-\cmidrulewidth=\dimen152
-\belowrulesep=\dimen153
-\belowbottomsep=\dimen154
-\aboverulesep=\dimen155
-\abovetopsep=\dimen156
-\cmidrulesep=\dimen157
-\cmidrulekern=\dimen158
-\defaultaddspace=\dimen159
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
 \@cmidla=\count269
 \@cmidlb=\count270
-\@aboverulesep=\dimen160
-\@belowrulesep=\dimen161
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
 \@thisruleclass=\count271
 \@lastruleclass=\count272
-\@thisrulewidth=\dimen162
-\ctableftskip=\skip119
-\ctabrightskip=\skip120
+\@thisrulewidth=\dimen166
+\ctableftskip=\skip118
+\ctabrightskip=\skip119
 \abovecolumnspenalty=\count273
 \@linestogo=\count274
 \@cellstogo=\count275
 \@cellsincolumn=\count276
 \crtok=\toks19
-\@mincolumnwidth=\dimen163
+\@mincolumnwidth=\dimen167
 \c@newflo@tctr=\count277
-\mem@margin@floatbox=\box52
-\@contcwidth=\skip121
-\@contindw=\skip122
-\abovecaptionskip=\skip123
-\belowcaptionskip=\skip124
-\subfloattopskip=\skip125
-\subfloatcapskip=\skip126
-\subfloatcaptopadj=\skip127
-\subfloatbottomskip=\skip128
-\subfloatlabelskip=\skip129
-\subfloatcapmargin=\dimen164
+\mem@margin@floatbox=\box53
+\@contcwidth=\skip120
+\@contindw=\skip121
+\abovecaptionskip=\skip122
+\belowcaptionskip=\skip123
+\subfloattopskip=\skip124
+\subfloatcapskip=\skip125
+\subfloatcaptopadj=\skip126
+\subfloatbottomskip=\skip127
+\subfloatlabelskip=\skip128
+\subfloatcapmargin=\dimen168
 \c@@contsubnum=\count278
-\m@mscap@capbox=\box53
-\m@mscap@fbox=\box54
-\sidecapsep=\dimen165
-\sidecapwidth=\dimen166
-\m@m@tempdima=\dimen167
-\m@mscapraise=\dimen168
-\sidecapraise=\dimen169
-\m@mscapmainwidth=\dimen170
-\m@mscaplkern=\dimen171
-\beforeepigraphskip=\skip130
-\afterepigraphskip=\skip131
-\epigraphwidth=\skip132
-\epigraphrule=\skip133
+\m@mscap@capbox=\box54
+\m@mscap@fbox=\box55
+\sidecapsep=\dimen169
+\sidecapwidth=\dimen170
+\m@m@tempdima=\dimen171
+\m@mscapraise=\dimen172
+\sidecapraise=\dimen173
+\m@mscapmainwidth=\dimen174
+\m@mscaplkern=\dimen175
+\beforeepigraphskip=\skip129
+\afterepigraphskip=\skip130
+\epigraphwidth=\skip131
+\epigraphrule=\skip132
 LaTeX Info: Redefining \em on input line 7655.
 LaTeX Info: Redefining \emph on input line 7663.
-\tocentryskip=\skip134
-\tocbaseline=\skip135
-\cftparskip=\skip136
-\cftbeforebookskip=\skip137
-\cftbookindent=\dimen172
-\cftbooknumwidth=\dimen173
-\cftbeforepartskip=\skip138
-\cftpartindent=\skip139
-\cftpartnumwidth=\skip140
-\cftbeforechapterskip=\skip141
-\cftchapterindent=\skip142
-\cftchapternumwidth=\skip143
-\cftbeforesectionskip=\skip144
-\cftsectionindent=\skip145
-\cftsectionnumwidth=\skip146
-\cftbeforesubsectionskip=\skip147
-\cftsubsectionindent=\skip148
-\cftsubsectionnumwidth=\skip149
-\cftbeforesubsubsectionskip=\skip150
-\cftsubsubsectionindent=\skip151
-\cftsubsubsectionnumwidth=\skip152
-\cftbeforeparagraphskip=\skip153
-\cftparagraphindent=\skip154
-\cftparagraphnumwidth=\skip155
-\cftbeforesubparagraphskip=\skip156
-\cftsubparagraphindent=\skip157
-\cftsubparagraphnumwidth=\skip158
-\prechapterprecisshift=\dimen174
+\tocentryskip=\skip133
+\tocbaseline=\skip134
+\cftparskip=\skip135
+\cftbeforebookskip=\skip136
+\cftbookindent=\dimen176
+\cftbooknumwidth=\dimen177
+\cftbeforepartskip=\skip137
+\cftpartindent=\skip138
+\cftpartnumwidth=\skip139
+\cftbeforechapterskip=\skip140
+\cftchapterindent=\skip141
+\cftchapternumwidth=\skip142
+\cftbeforesectionskip=\skip143
+\cftsectionindent=\skip144
+\cftsectionnumwidth=\skip145
+\cftbeforesubsectionskip=\skip146
+\cftsubsectionindent=\skip147
+\cftsubsectionnumwidth=\skip148
+\cftbeforesubsubsectionskip=\skip149
+\cftsubsubsectionindent=\skip150
+\cftsubsubsectionnumwidth=\skip151
+\cftbeforeparagraphskip=\skip152
+\cftparagraphindent=\skip153
+\cftparagraphnumwidth=\skip154
+\cftbeforesubparagraphskip=\skip155
+\cftsubparagraphindent=\skip156
+\cftsubparagraphnumwidth=\skip157
+\prechapterprecisshift=\dimen178
 \c@maxsecnumdepth=\count279
-\bibindent=\dimen175
-\bibitemsep=\skip159
-\indexcolsep=\skip160
-\indexrule=\skip161
+\bibindent=\dimen179
+\bibitemsep=\skip158
+\indexcolsep=\skip159
+\indexrule=\skip160
 \indexmarkstyle=\toks20
 \@indexbox=\insert252
-\glossarycolsep=\dimen176
-\glossaryrule=\dimen177
-\sideparvshift=\skip162
+\glossarycolsep=\dimen180
+\glossaryrule=\dimen181
+\sideparvshift=\skip161
 \sideins=\insert251
-\sidebartopsep=\skip163
-\sidebarhsep=\skip164
-\sidebarvsep=\skip165
-\sidebarwidth=\skip166
-\footmarkwidth=\skip167
-\footmarksep=\skip168
-\footparindent=\skip169
-\footinsdim=\skip170
+\sidebartopsep=\skip162
+\sidebarhsep=\skip163
+\sidebarvsep=\skip164
+\sidebarwidth=\skip165
+\footmarkwidth=\skip166
+\footmarksep=\skip167
+\footparindent=\skip168
+\footinsdim=\skip169
 \footinsv@r=\insert250
 \@mpfootinsv@r=\insert249
 \m@m@k=\count280
-\m@m@h=\dimen178
-\m@mipn@skip=\skip171
+\m@m@h=\dimen182
+\m@mipn@skip=\skip170
 \sidefootins=\insert248
-\sidefootadjust=\skip172
-\sidefootheight=\skip173
-\sidefoothsep=\skip174
-\sidefootvsep=\skip175
-\sidefootwidth=\skip176
-\m@mdownsf=\skip177
+\sidefootadjust=\skip171
+\sidefootheight=\skip172
+\sidefoothsep=\skip173
+\sidefootvsep=\skip174
+\sidefootwidth=\skip175
+\m@mdownsf=\skip176
 \c@sidefootnote=\count281
-\sidefootmarkwidth=\skip178
-\sidefootmarksep=\skip179
-\sidefootparindent=\skip180
+\sidefootmarkwidth=\skip177
+\sidefootmarksep=\skip178
+\sidefootparindent=\skip179
 \c@pagenote=\count282
 \c@pagenoteshadow=\count283
-\mem@pn@lastkern=\skip181
+\mem@pn@lastkern=\skip180
 \every@verbatim=\toks21
 \afterevery@verbatim=\toks22
 \verbatim@line=\toks23
 \tab@position=\count284
 \verbatim@in@stream=\read2
-\verbatimindent=\skip182
+\verbatimindent=\skip181
 \verbatim@out=\write3
-\bvboxsep=\skip183
+\bvboxsep=\skip182
 \c@memfbvline=\count285
 \c@bvlinectr=\count286
-\bvnumlength=\skip184
-\fb@frw=\dimen179
-\fb@frh=\dimen180
-\FrameRule=\dimen181
-\FrameSep=\dimen182
+\bvnumlength=\skip183
+\fb@frw=\dimen183
+\fb@frh=\dimen184
+\FrameRule=\dimen185
+\FrameSep=\dimen186
 \c@cp@cntr=\count287
 \c@ism@mctr=\count288
 \c@xsm@mctr=\count289
@@ -296,19 +296,20 @@ LaTeX Info: Redefining \emph on input line 7663.
 \c@lastsheet=\count300
 \c@lastpage=\count301
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
 )
 \c@figure=\count302
 \c@lofdepth=\count303
-\cftbeforefigureskip=\skip185
-\cftfigureindent=\skip186
-\cftfigurenumwidth=\skip187
+\cftbeforefigureskip=\skip184
+\cftfigureindent=\skip185
+\cftfigurenumwidth=\skip186
 \c@table=\count304
 \c@lotdepth=\count305
-\cftbeforetableskip=\skip188
-\cfttableindent=\skip189
-\cfttablenumwidth=\skip190
+\cftbeforetableskip=\skip187
+\cfttableindent=\skip188
+\cfttablenumwidth=\skip189
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
 Package booktabs [2016/05/16] emulated by memoir.
@@ -340,26 +341,25 @@ Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/textpos/textpos.sty
-Package: textpos 2020/09/26 v1.10
+(/usr/local/texlive/2023/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
 
-Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
-Package textpos Info: choosing support for LaTeX3 on input line 61.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
 )
-\TP@textbox=\box55
-\TP@holdbox=\box56
-\TPHorizModule=\dimen183
-\TPVertModule=\dimen184
-\TP@margin=\dimen185
-\TP@absmargin=\dimen186
+\TP@textbox=\box56
+\TP@holdbox=\box57
+\TPHorizModule=\dimen187
+\TPVertModule=\dimen188
+\TP@margin=\dimen189
+\TP@absmargin=\dimen190
 
 Grid set 16 x 16 = 38.39343pt x 49.68562pt
-\TPboxrulesize=\dimen187
-\TP@ox=\dimen188
-\TP@oy=\dimen189
+\TPboxrulesize=\dimen191
+\TP@ox=\dimen192
+\TP@oy=\dimen193
 \TP@tbargs=\toks25
 TextBlockOrigin set to 0pt x 0pt
 )
@@ -367,193 +367,198 @@ TextBlockOrigin set to 0in x 0in
 \c@msu@hchap=\count306
 \c@loadepth=\count307
 \c@algorithm=\count308
-\cftbeforealgorithmskip=\skip191
-\cftalgorithmindent=\skip192
-\cftalgorithmnumwidth=\skip193
+\cftbeforealgorithmskip=\skip190
+\cftalgorithmindent=\skip191
+\cftalgorithmnumwidth=\skip192
 \c@lobdepth=\count309
 \c@abbrev=\count310
-\cftbeforeabbrevskip=\skip194
-\cftabbrevindent=\skip195
-\cftabbrevnumwidth=\skip196
-\msu@abbrevwidth=\skip197
-\apptoclen=\skip198
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+\cftbeforeabbrevskip=\skip193
+\cftabbrevindent=\skip194
+\cftabbrevnumwidth=\skip195
+\msu@abbrevwidth=\skip196
+\apptoclen=\skip197
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 2.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/newtxtext.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/newtxtext.sty
 Package: newtxtext 2022/02/28 v1.71(Michael Sharpe) latex and unicode latex sup
 port for TeXGyreTermesX
 
 `newtxtext' v1.71, 2022/02/28 Text macros taking advantage of TeXGyre Termes an
 d its extensions (msharpe)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks26
 \XKV@tempa@toks=\toks27
 )
 \XKV@depth=\count311
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
 \integerpart=\count312
 \decimalpart=\count313
 )
-Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 21.
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/kastrup/binhex.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kastrup/binhex.tex)
 \ntx@tmpcnta=\count314
 \ntx@cnt=\count315
 
 ntx@otftexttrue
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-02-24 L3 programming layer (loader) 
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
-
-(|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count316
-\l__color_backend_stack_int=\count317
-\g__color_backend_stack_int=\count318
-\g__graphics_track_int=\count319
-\l__pdf_internal_box=\box57
-\g__pdf_backend_object_int=\count320
-\g__pdf_backend_annotation_int=\count321
-\g__pdf_backend_link_int=\count322
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
+\g__graphics_track_int=\count316
+\l__pdf_internal_box=\box58
+\g__pdf_backend_object_int=\count317
+\g__pdf_backend_annotation_int=\count318
+\g__pdf_backend_link_int=\count319
 ))
-Package: xparse 2022-01-12 L3 Experimental document command parser
+Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count323
-\l__fontspec_language_int=\count324
-\l__fontspec_strnum_int=\count325
-\l__fontspec_tmp_int=\count326
-\l__fontspec_tmpa_int=\count327
-\l__fontspec_tmpb_int=\count328
-\l__fontspec_tmpc_int=\count329
-\l__fontspec_em_int=\count330
-\l__fontspec_emdef_int=\count331
-\l__fontspec_strong_int=\count332
-\l__fontspec_strongdef_int=\count333
-\l__fontspec_tmpa_dim=\dimen190
-\l__fontspec_tmpb_dim=\dimen191
-\l__fontspec_tmpc_dim=\dimen192
+\l__fontspec_script_int=\count320
+\l__fontspec_language_int=\count321
+\l__fontspec_strnum_int=\count322
+\l__fontspec_tmp_int=\count323
+\l__fontspec_tmpa_int=\count324
+\l__fontspec_tmpb_int=\count325
+\l__fontspec_tmpc_int=\count326
+\l__fontspec_em_int=\count327
+\l__fontspec_emdef_int=\count328
+\l__fontspec_strong_int=\count329
+\l__fontspec_strongdef_int=\count330
+\l__fontspec_tmpa_dim=\dimen194
+\l__fontspec_tmpb_dim=\dimen195
+\l__fontspec_tmpc_dim=\dimen196
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 LaTeX Info: Redefining \oldstylenums on input line 479.
 LaTeX Info: Redefining \liningnums on input line 483.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/realscripts/realscripts.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/realscripts/realscripts.sty
 Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
 ts
-\subsupersep=\dimen193
+\subsupersep=\dimen197
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/newtxmath.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2022/01/16 v1.71
 
 `newtxmath' v1.71, 2022/01/16 Math macros based originally on txfonts (msharpe)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip199
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip198
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks28
-\ex@=\dimen194
+\ex@=\dimen198
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen195
+\pmbraise@=\dimen199
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count334
+\inf@bad=\count331
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count335
-\leftroot@=\count336
+\uproot@=\count332
+\leftroot@=\count333
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count337
-\DOTSCASE@=\count338
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count334
+\DOTSCASE@=\count335
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box58
-\strutbox@=\box59
-\big@size=\dimen196
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen256
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count339
-\c@MaxMatrixCols=\count340
+\macc@depth=\count336
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count337
 \dotsspace@=\muskip16
-\c@parentequation=\count341
-\dspbrk@lvl=\count342
+\c@parentequation=\count338
+\dspbrk@lvl=\count339
 \tag@help=\toks29
-\row@=\count343
-\column@=\count344
-\maxfields@=\count345
+\row@=\count340
+\column@=\count341
+\maxfields@=\count342
 \andhelp@=\toks30
-\eqnshift@=\dimen197
-\alignsep@=\dimen198
-\tagshift@=\dimen199
-\tagwidth@=\dimen256
-\totwidth@=\dimen257
-\lineht@=\dimen258
+\eqnshift@=\dimen257
+\alignsep@=\dimen258
+\tagshift@=\dimen259
+\tagwidth@=\dimen260
+\totwidth@=\dimen261
+\lineht@=\dimen262
 \@envbody=\toks31
-\multlinegap=\skip256
-\multlinetaggap=\skip257
+\multlinegap=\skip199
+\multlinetaggap=\skip256
 \mathdisplay@stack=\toks32
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/oberdiek/centernot.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count346
+\tx@cntz=\count343
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count347
-\tx@IsAlNum=\count348
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count344
+\tx@IsAlNum=\count345
 \tx@tA=\toks33
 \tx@tB=\toks34
 \tx@su=\read3
@@ -653,36 +658,36 @@ LaTeX Font Info:    Redeclaring math accent \ddot on input line 951.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 2020.
 LaTeX Info: Redefining \Bbbk on input line 2810.
 LaTeX Info: Redefining \not on input line 2959.
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/TeXGyreTermesX.fontspec)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/TeXGyreTermesX.fontspec)
 Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 11.99997pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-Regular.otf
 Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 12.00003pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-Regular.otf
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;" at 
 12.00003pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-Regular.otf
 Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;" at 12.
 00003pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-Bold.otf
 Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;" at 1
 2.00003pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-Italic.otf
 Requested font "[TeXGyreTermesX-Slanted.otf]/OT:script=latn;language=dflt;" at 
 12.00003pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-Slanted.otf
 Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;" 
 at 12.00003pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-BoldItalic.otf
 Requested font "[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;"
  at 12.00003pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-BoldSlanted.otf
 
 Package fontspec Info: Font family 'TeXGyreTermesX(0)' created for font
@@ -743,7 +748,7 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 64.
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05
 ;+tnum;+lnum;mapping=tex-text;" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-Regular.otf
 
 (./MSU-thesis-template.aux (./chapter1.aux))
@@ -753,7 +758,7 @@ LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 64.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  64.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/omlntxmi.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 64.
@@ -767,8 +772,8 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
 4.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 64.
@@ -779,7 +784,7 @@ LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 64.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
 64.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxexa.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
 LaTeX Font Info:    ... okay on input line 64.
@@ -787,7 +792,7 @@ LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 64.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
  64.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
 LaTeX Font Info:    ... okay on input line 64.
@@ -795,7 +800,7 @@ LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 64.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
 e 64.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
 LaTeX Font Info:    ... okay on input line 64.
@@ -820,6 +825,8 @@ Sidefoothsep and sidefootwidth: 7pt and 50pt
 Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
 ******************************************************
 
+LaTeX Info: Command `\dddot' is already robust on input line 64.
+LaTeX Info: Command `\ddddot' is already robust on input line 64.
 [1
 
 
@@ -828,7 +835,7 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 77.
 Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+t
 num;+lnum;mapping=tex-text;" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/newtx/TeXGyreTerme
 sX-Bold.otf
  [2
 
@@ -844,78 +851,78 @@ sX-Bold.otf
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
 e 3.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/ot1minntx.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
 )
 Requested font "ntx-Regular-tlf-ot1" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-o
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-o
 t1.tfm
 Requested font "ntx-Regular-tlf-ot1" at 8.8pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-o
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-o
 t1.tfm
 Requested font "ntx-Regular-tlf-ot1" at 6.6pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-o
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-o
 t1.tfm
 Requested font "ntxmi" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 Requested font "ntxmi" at 8.8pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 Requested font "ntxmi7" at 6.6pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxmi7.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxmi7.tfm
 Requested font "ntxsy" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
 Requested font "ntxsy" at 8.8pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
 Requested font "ntxsy7" at 6.6pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsy7.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsy7.tfm
 Requested font "ntxexx" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
 Requested font "ntxexx" at 8.8pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
 Requested font "ntxexx" at 6.6pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
 3.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxmia.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 Requested font "ntxmia" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 Requested font "ntxmia" at 8.8pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 Requested font "ntxmia" at 6.6pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
 3.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxsym.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 Requested font "ntxsym" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 Requested font "ntxsym" at 8.8pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 Requested font "ntxsym" at 6.6pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
 3.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxsyc.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 Requested font "ntxsyc" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 Requested font "ntxsyc" at 8.8pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 Requested font "ntxsyc" at 6.6pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 Requested font "ntxexa" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 Requested font "ntxexa" at 8.8pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 Requested font "ntxexa" at 6.6pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+ -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 ) [5
 
 ]
@@ -942,12 +949,12 @@ Requested font "ntxexa" at 6.6pt
 
 (./MSU-thesis-template.aux (./chapter1.aux)) ) 
 Here is how much of TeX's memory you used:
- 11244 strings out of 476179
- 213055 string characters out of 5809544
- 582294 words of memory out of 5000000
- 31870 multiletter control sequences out of 15000+600000
- 484256 words of font info for 67 fonts, out of 8000000 for 9000
+ 11293 strings out of 476683
+ 214025 string characters out of 5804047
+ 1846018 words of memory out of 5000000
+ 31416 multiletter control sequences out of 15000+600000
+ 527284 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,11n,99p,467b,312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,11n,99p,467b,311s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on MSU-thesis-template.pdf (8 pages).
