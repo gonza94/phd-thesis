@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  7 SEP 2023 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  7 SEP 2023 12:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1031,7 +1031,8 @@ File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 71.
 
-(./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux))
+(./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux) (./chapter5.aux) (./chapter6.aux))
 \openout1 = `phd-thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 71.
@@ -1146,32 +1147,37 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 ] (./phd-thesis.toc
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 3.
+e 5.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-3.
+5.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-3.
+5.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-3.
+5.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)) [5
+)
+Overfull \hbox (5.8498pt too wide) in paragraph at lines 23--23
+ [][] [][]\T1/ntxtlf/m/n/12 RESONANCE COM-PEN-SA-TION STUD-IES AT THE CERN PS B
+OOSTER[] []  
+ []
 
-]
-(./phd-thesis.lob) [6
+) [5
+
+] (./phd-thesis.lob) [6
 
 ]
 \openout2 = `chapter1.aux'.
@@ -1191,30 +1197,54 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 ]
 \openout2 = `chapter3.aux'.
 
- (./chapter3.tex)
-[3
+
+(./chapter3.tex) [3
+
+
+
+
+]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex) [4
+
+
+
+
+]
+\openout2 = `chapter5.aux'.
+
+ (./chapter5.tex) [5
+
+
+
+
+]
+\openout2 = `chapter6.aux'.
+
+ (./chapter6.tex) [6
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 148.
+(Font)              scaled to size 12.0pt on input line 152.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 148.
+(Font)              scaled to size 12.0pt on input line 152.
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
-148.
+152.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 148.
- [4
+(Font)              scaled to size 12.0pt on input line 152.
+ [7
 
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}] [
-5
+8
 
 ]
 \tf@toc=\write6
@@ -1224,31 +1254,32 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 \openout7 = `phd-thesis.lob'.
 
 
-(./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux))
+(./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux) (./chapter5.aux) (./chapter6.aux))
 Package rerunfilecheck Info: File `phd-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D02479C48157D37D4CDAF832DA3EA81C;2508.
+(rerunfilecheck)             Checksum: 825895ED3939E30BAB34DF72F235F789;6033.
 Package logreq Info: Writing requests to 'phd-thesis.run.xml'.
 \openout1 = `phd-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23232 strings out of 476025
- 383898 string characters out of 5790017
- 1859388 words of memory out of 5000000
- 43369 multiletter control sequences out of 15000+600000
+ 23354 strings out of 476025
+ 386523 string characters out of 5790017
+ 1864388 words of memory out of 5000000
+ 43448 multiletter control sequences out of 15000+600000
  540543 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,1151b,1180s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,1151b,1178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/loca
 l/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/te
 xmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/
 fonts/type1/public/newtx/ztmri.pfb>
-Output written on phd-thesis.pdf (11 pages, 138520 bytes).
+Output written on phd-thesis.pdf (14 pages, 143079 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
