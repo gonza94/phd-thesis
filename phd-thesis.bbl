@@ -407,6 +407,78 @@
       \verb https://www.osti.gov/biblio/1346823
       \endverb
     \endentry
+    \entry{rr0}{report}{}
+      \name{author}{1}{}{%
+        {{hash=66100e45dc129544be22b781cc8a35b8}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Gerry},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{66100e45dc129544be22b781cc8a35b8}
+      \strng{fullhash}{66100e45dc129544be22b781cc8a35b8}
+      \strng{bibnamehash}{66100e45dc129544be22b781cc8a35b8}
+      \strng{authorbibnamehash}{66100e45dc129544be22b781cc8a35b8}
+      \strng{authornamehash}{66100e45dc129544be22b781cc8a35b8}
+      \strng{authorfullhash}{66100e45dc129544be22b781cc8a35b8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{FNAL-TM-1991ON: DE97051388; BR: KAHEP}
+      \field{title}{The Fermilab recycler ring technical design report. Revision 1.2}
+      \field{type}{techreport}
+      \field{year}{1996}
+      \verb{doi}
+      \verb 10.2172/16029
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/16029
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/16029
+      \endverb
+    \endentry
+    \entry{rrnagaitsev}{report}{}
+      \name{author}{1}{}{%
+        {{hash=4b9f2dd0f95be88c6ea85a15589f4350}{%
+           family={Nagaitsev},
+           familyi={N\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{4b9f2dd0f95be88c6ea85a15589f4350}
+      \strng{fullhash}{4b9f2dd0f95be88c6ea85a15589f4350}
+      \strng{bibnamehash}{4b9f2dd0f95be88c6ea85a15589f4350}
+      \strng{authorbibnamehash}{4b9f2dd0f95be88c6ea85a15589f4350}
+      \strng{authornamehash}{4b9f2dd0f95be88c6ea85a15589f4350}
+      \strng{authorfullhash}{4b9f2dd0f95be88c6ea85a15589f4350}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{FERMILAB-FN-0957-AD}
+      \field{title}{Fermilab Antiproton source, Recycler ring and Main Injector}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.2172/1127965
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/1127965
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/1127965
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
