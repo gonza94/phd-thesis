@@ -1,0 +1,55 @@
+@book{wolski,
+author = {Wolski, Andrzej},
+title = {Beam Dynamics in High Energy Particle Accelerators},
+publisher = {WORLD SCIENTIFIC},
+year = {2023},
+doi = {10.1142/13333},
+address = {},
+edition   = {2nd},
+URL = {https://www.worldscientific.com/doi/abs/10.1142/13333},
+eprint = {https://www.worldscientific.com/doi/pdf/10.1142/13333}
+}
+
+@article{rr1,
+  title = {High intensity operation using proton stacking in the Fermilab Recycler to deliver 700 kW of 120 GeV proton beam},
+  author = {Ainsworth, Robert and Adamson, Philip and Brown, Bruce C. and Capista, David and Hazelwood, Kyle and Kourbanis, Ioanis and Morris, Denton K and Xiao, Meiqin and Yang, Ming-Jen},
+  journal = {Phys. Rev. Accel. Beams},
+  volume = {23},
+  issue = {12},
+  pages = {121002},
+  numpages = {10},
+  year = {2020},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevAccelBeams.23.121002},
+  url = {https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002}
+}
+
+
+@article{rr2,
+  title = {High intensity space charge effects on slip stacked beam in the Fermilab Recycler},
+  author = {Ainsworth, R. and Adamson, P. and Amundson, J. and Kourbanis, I. and Lu, Q. and Stern, E.},
+  journal = {Phys. Rev. Accel. Beams},
+  volume = {22},
+  issue = {2},
+  pages = {020404},
+  numpages = {9},
+  year = {2019},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevAccelBeams.22.020404},
+  url = {https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.020404}
+}
+
+@article{pipII1,
+title = {The PIP-II Conceptual Design Report},
+author = {Ball, M. and Burov, A. and Chase, B. and Chakravarty, A. and Chen, A. and Dixon, S. and Edelen, J. and Grassellino, A. and Johnson, D. and Holmes, S. and Kazakov, S. and Klebaner, A. and Kourbanis, I. and Leveling, A. and Melnychuk, O. and Neuffer, D. and Nicol, T. and Ostiguy, J. -F. and Pasquinelli, R. and Passarelli, D. and Ristori, L. and Pellico, W. and Patrick, J. and Prost, L. and Rakhno, I. and Saini, A. and Schappert, W. and Shemyakin, A. and Steimel, J. and Scarpine, V. and Vivoli, A. and Warner, A. and Yakovlev, V. and Ostroumov, P. and Conway, Z.},
+abstractNote = {The Proton Improvement Plan-II (PIP-II) encompasses a set of upgrades and improvements to the Fermilab accelerator complex aimed at supporting a world-leading neutrino program over the next several decades. PIP-II is an integral part of the strategic plan for U.S. High Energy Physics as described in the Particle Physics Project Prioritization Panel (P5) report of May 2014 and formalized through the Mission Need Statement approved in November 2015. As an immediate goal, PIP-II is focused on upgrades to the Fermilab accelerator complex capable of providing proton beam power in excess of 1 MW on target at the initiation of the Long Baseline Neutrino Facility/Deep Underground Neutrino Experiment (LBNF/DUNE) program, currently anticipated for the mid- 2020s. PIP-II is a part of a longer-term goal of establishing a high-intensity proton facility that is unique within the world, ultimately leading to multi-MW capabilities at Fermilab....},
+doi = {10.2172/1346823},
+url = {https://www.osti.gov/biblio/1346823}, journal = {},
+number = ,
+volume = ,
+place = {United States},
+year = {2017},
+month = {3}
+}

@@ -36,6 +36,13 @@
 % The class accepts 12pt, 11pt or 10pt font size options. 
 % For Times New Roman as in this example document, use 12pt (default).
 %
+\usepackage{hyperref}
+\usepackage[
+backend=biber,
+style=numeric-comp,
+sorting=none
+]{biblatex}
+\addbibresource{bibliography.bib}
 % If you require per-chapter appendices add the [chapterapp] option
 %
 % If you require per-chapter bibliographies add the [chapterbib] option
@@ -52,7 +59,7 @@
 % Load any extra packages here
 %
 % You must specify the title of your thesis, your name, the field of study (not department), and the year
-\title{Nonlinear Dynamics Studies at the FNAL Recycler Ring}
+\title{Resonance Correction Studies at the FNAL Recycler Ring}
 \author{Cristhian Gonzalez-Ortiz}
 \fieldofstudy{Physics} % This should be in sentence case
 \date{2024}
@@ -111,9 +118,11 @@ Your acknowledgements here.
 %
 % If you have a Key to  Abbreviations/symbols you would add each abbreviation in its display order
 % using as in the following examples:
-\abbrev{ASU}{Arizona State University}
-\abbrev{MIT}{Massachusetts Institute of Technology}
 \abbrev{MSU}{Michigan State University}
+\abbrev{FNAL}{Fermilab National Accelerator Laboratory}
+\abbrev{RR}{Recycler Ring}
+\abbrev{MI}{Main Injector}
+\abbrev{RDTs}{Resonance Driving Terms}
 % Then issue a \clearpage and print the list 
 \clearpage
 \listofabbreviations 
@@ -135,6 +144,9 @@ Your acknowledgements here.
 % ALL documents using this class must have \chapter divisions
 % If you are using it for an MA/MS thesis you still need to have chapters, even if they are very small.
 \include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\printbibliography
 %\chapter{Your first chapter}
 %
 % If you have pages that must appear in landscape mode, use the [lscape] documentclass option
