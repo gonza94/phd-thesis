@@ -2370,7 +2370,12 @@
     <bcf:citekey order="4" intorder="1">pipII1</bcf:citekey>
     <bcf:citekey order="5" intorder="1">rr0</bcf:citekey>
     <bcf:citekey order="6" intorder="1">rrnagaitsev</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">pipII1</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">rr1</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">rr1</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">rrnagaitsev</bcf:citekey>
+    <bcf:citekey order="8" intorder="3">numi1</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">rrnagaitsev</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">pipII1</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

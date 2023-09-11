@@ -12,31 +12,31 @@
 \contentsline {section}{\numberline {2.1}General Specifications}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Tune Diagram and Resonances}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}High Intensity and Tune Footprint}{3}{section.2.3}%
-\contentsline {chapter}{\chapternumberline {3}Compensation of Third-Order Resonances at Low Intensities}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Global RDTs and Lattice Model}{4}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Measurement of Third Order RDTs}{4}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Compensation of RDTs}{4}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Optimization of Compensation Currents}{4}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Experimental Verification of Compensation}{4}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Dynamic Loss Map}{4}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Static Tune Scans}{4}{subsection.3.5.2}%
-\contentsline {chapter}{\chapternumberline {4}Resonance Compensation Studies at the CERN PS Booster}{5}{chapter.4}%
-\contentsline {section}{\numberline {4.1}General specifications}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Tune Diagram and Operation}{5}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Optimization Algorithms for Resonance Compensation}{5}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Experimental Verification of Compensation}{5}{section.4.4}%
-\contentsline {chapter}{\chapternumberline {5}High Intensity Studies}{6}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Global RDTs and Intensity-Dependent Effects}{6}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Space Charge Tune Shift}{6}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Measurement of Tune Shift}{6}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Static Tune Scans at Different Intensities}{6}{section.5.4}%
-\contentsline {chapter}{\chapternumberline {6}Conclusions and Future Work}{7}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {3}Compensation of Third-Order Resonances at Low Intensities}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Global RDTs and Lattice Model}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Measurement of Third Order RDTs}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Compensation of RDTs}{5}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Optimization of Compensation Currents}{5}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Experimental Verification of Compensation}{5}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Dynamic Loss Map}{5}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Static Tune Scans}{5}{subsection.3.5.2}%
+\contentsline {chapter}{\chapternumberline {4}Resonance Compensation Studies at the CERN PS Booster}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}General specifications}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Tune Diagram and Operation}{6}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Optimization Algorithms for Resonance Compensation}{6}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Experimental Verification of Compensation}{6}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {5}High Intensity Studies}{7}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Global RDTs and Intensity-Dependent Effects}{7}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Space Charge Tune Shift}{7}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Measurement of Tune Shift}{7}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Static Tune Scans at Different Intensities}{7}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {6}Conclusions and Future Work}{8}{chapter.6}%
 \cftinsert {BIB}
 \changetocdepth {1}
-\contentsline {chapter}{Bibliography}{8}{section*.6}%
+\contentsline {chapter}{Bibliography}{9}{section*.6}%
 \cftinsert {BIB}
 \cftinsert {APP}
 \cftinsert {SINGAPP}
 \changetocdepth {0}
-\contentsline {appendix}{\chapternumberline {}Your appendix}{9}{appendix.10}%
+\contentsline {appendix}{\chapternumberline {}Your appendix}{10}{appendix.10}%
 \cftinsert {CHAPAPPR}
