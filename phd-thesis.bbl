@@ -19,12 +19,204 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{wolski}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2f9bada81f52159aa7641b0801229850}{%
+           family={Wolski},
+           familyi={W\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WORLD SCIENTIFIC}%
+      }
+      \strng{namehash}{2f9bada81f52159aa7641b0801229850}
+      \strng{fullhash}{2f9bada81f52159aa7641b0801229850}
+      \strng{bibnamehash}{2f9bada81f52159aa7641b0801229850}
+      \strng{authorbibnamehash}{2f9bada81f52159aa7641b0801229850}
+      \strng{authornamehash}{2f9bada81f52159aa7641b0801229850}
+      \strng{authorfullhash}{2f9bada81f52159aa7641b0801229850}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Beam Dynamics in High Energy Particle Accelerators}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1142/13333
+      \endverb
+      \verb{eprint}
+      \verb https://www.worldscientific.com/doi/pdf/10.1142/13333
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/13333
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/13333
+      \endverb
+    \endentry
+    \entry{todd1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3b955981f23005f4d5db1a8353f69248}{%
+           family={Satogata},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {USPAS: U.S. Particle Accelerator School}%
+      }
+      \strng{namehash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{fullhash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{bibnamehash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{authorbibnamehash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{authornamehash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{authorfullhash}{3b955981f23005f4d5db1a8353f69248}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://toddsatogata.net/2011-USPAS/lieAlgebras.pdf}}
+      \field{month}{1}
+      \field{title}{Lecture Notes on Poisson Brackets and Lie Operators}
+      \field{year}{2008}
+    \endentry
+    \entry{cernthesis1}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=5b4322efa01b52d2a723d17d4b8aee21}{%
+           family={Urschutz},
+           familyi={U\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{publisher}{1}{%
+        {Vienna University of Technology (Technische Universität Wien)}%
+      }
+      \strng{namehash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{fullhash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{bibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{authorbibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{authornamehash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{authorfullhash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Measurement and Compensation of Betatron Resonances at the CERN PS Booster Synchrotron}
+      \field{type}{phdthesis}
+      \field{year}{2004}
+    \endentry
+    \entry{cernthesis2}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=8c7b9e72fb7126927c84841dba7716a0}{%
+           family={Tomas\bibnamedelima Garcia},
+           familyi={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Valencia, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Universitat de Valencia}%
+      }
+      \strng{namehash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{fullhash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{bibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{authorbibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{authornamehash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{authorfullhash}{8c7b9e72fb7126927c84841dba7716a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Direct Measurement of Resonance Driving Terms in the Super Proton Synchrotron (SPS) of CERN using Beam Position Monitors}
+      \field{type}{phdthesis}
+      \field{year}{2003}
+    \endentry
+    \entry{rr0}{report}{}
+      \name{author}{1}{}{%
+        {{hash=dfacc387c53c3a871de0821a11d0205c}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{fullhash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{bibnamehash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{authorbibnamehash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{authornamehash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{authorfullhash}{dfacc387c53c3a871de0821a11d0205c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{FNAL-TM-1991ON: DE97051388; BR: KAHEP}
+      \field{title}{The Fermilab recycler ring technical design report. Revision 1.2}
+      \field{type}{techreport}
+      \field{year}{1996}
+      \verb{doi}
+      \verb 10.2172/16029
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/16029
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/16029
+      \endverb
+    \endentry
+    \entry{rrnagaitsev}{report}{}
+      \name{author}{1}{}{%
+        {{hash=2fb5f3d6168318debe801f038a3af634}{%
+           family={Nagaitsev},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{fullhash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{bibnamehash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{authorbibnamehash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{authornamehash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{authorfullhash}{2fb5f3d6168318debe801f038a3af634}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{FERMILAB-FN-0957-AD}
+      \field{title}{Fermilab Antiproton source, Recycler ring and Main Injector}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.2172/1127965
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/1127965
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/1127965
+      \endverb
+    \endentry
     \entry{rr1}{article}{}
       \name{author}{9}{}{%
-        {{hash=75ec45882dee92c37b5d6307081f82f2}{%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
            family={Ainsworth},
            familyi={A\bibinitperiod},
-           given={Robert},
+           given={R.},
            giveni={R\bibinitperiod}}}%
         {{hash=391d31de27b9e847b1cf2d3f45c600dd}{%
            family={Adamson},
@@ -70,15 +262,15 @@
       \list{publisher}{1}{%
         {American Physical Society}%
       }
-      \strng{namehash}{3af9fda5149171598e0d21b44d793836}
-      \strng{fullhash}{e7fce38773d230b863eb86fad26565a8}
-      \strng{bibnamehash}{3af9fda5149171598e0d21b44d793836}
-      \strng{authorbibnamehash}{3af9fda5149171598e0d21b44d793836}
-      \strng{authornamehash}{3af9fda5149171598e0d21b44d793836}
-      \strng{authorfullhash}{e7fce38773d230b863eb86fad26565a8}
+      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{fullhash}{1a408a640aa937cf78d2f6fd3d650c47}
+      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{12}
@@ -97,386 +289,6 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
-      \endverb
-    \endentry
-    \entry{rr2}{article}{}
-      \name{author}{6}{}{%
-        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
-           family={Ainsworth},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=817ae083bd2222356a9efedab0c7fdde}{%
-           family={Adamson},
-           familyi={A\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=bc02ac90f615d1651eaa1ad5db557cb5}{%
-           family={Amundson},
-           familyi={A\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ff7e7e41e66ecdfefca95cb3ba74ef10}{%
-           family={Kourbanis},
-           familyi={K\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=ccca679c3637e4cb920961722b01f95f}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=d8b98e6bf2c6449e55f3739071fc856b}{%
-           family={Stern},
-           familyi={S\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{fullhash}{22a087b249925ab1e7afe1ef1e4566b0}
-      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{2}
-      \field{journaltitle}{Phys. Rev. Accel. Beams}
-      \field{month}{2}
-      \field{title}{High intensity space charge effects on slip stacked beam in the Fermilab Recycler}
-      \field{volume}{22}
-      \field{year}{2019}
-      \field{pages}{020404}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevAccelBeams.22.020404
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.020404
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.020404
-      \endverb
-    \endentry
-    \entry{wolski}{book}{}
-      \name{author}{1}{}{%
-        {{hash=2f9bada81f52159aa7641b0801229850}{%
-           family={Wolski},
-           familyi={W\bibinitperiod},
-           given={Andrzej},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {WORLD SCIENTIFIC}%
-      }
-      \strng{namehash}{2f9bada81f52159aa7641b0801229850}
-      \strng{fullhash}{2f9bada81f52159aa7641b0801229850}
-      \strng{bibnamehash}{2f9bada81f52159aa7641b0801229850}
-      \strng{authorbibnamehash}{2f9bada81f52159aa7641b0801229850}
-      \strng{authornamehash}{2f9bada81f52159aa7641b0801229850}
-      \strng{authorfullhash}{2f9bada81f52159aa7641b0801229850}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2nd}
-      \field{title}{Beam Dynamics in High Energy Particle Accelerators}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.1142/13333
-      \endverb
-      \verb{eprint}
-      \verb https://www.worldscientific.com/doi/pdf/10.1142/13333
-      \endverb
-      \verb{urlraw}
-      \verb https://www.worldscientific.com/doi/abs/10.1142/13333
-      \endverb
-      \verb{url}
-      \verb https://www.worldscientific.com/doi/abs/10.1142/13333
-      \endverb
-    \endentry
-    \entry{pipII1}{report}{}
-      \name{author}{35}{}{%
-        {{hash=dadb06ca813eab4d3b22cbf521cd1d9f}{%
-           family={Ball},
-           familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e2c3a990400eaf10c4cc32f44f1dd078}{%
-           family={Burov},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9ba9ab6cf1dd10157ace09446660a81a}{%
-           family={Chase},
-           familyi={C\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=675862282f9620b3b516cbd85a4da59a}{%
-           family={Chakravarty},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=744dc10976e4d0c4c2cdc2072da8d405}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5afd8de39ec9fe4a5c00fd9332e898db}{%
-           family={Dixon},
-           familyi={D\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=87be41d3debd228cde9d67860abba6df}{%
-           family={Edelen},
-           familyi={E\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=bb7c8b09ce8918c1d45a2bd610337aec}{%
-           family={Grassellino},
-           familyi={G\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=927a9591a81d13904e2417ff95619693}{%
-           family={Johnson},
-           familyi={J\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=6e9b7e236d12911e0e9d2dc19dc1cb50}{%
-           family={Holmes},
-           familyi={H\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=fe413285e0a0892f92bbe625798c60b7}{%
-           family={Kazakov},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7d6b33d62bab8fb4d670a7e6c49592c3}{%
-           family={Klebaner},
-           familyi={K\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ff7e7e41e66ecdfefca95cb3ba74ef10}{%
-           family={Kourbanis},
-           familyi={K\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=caf6fccaf8b262a39a8176259751621a}{%
-           family={Leveling},
-           familyi={L\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fb703ad100016ff58276a9fee43c58d5}{%
-           family={Melnychuk},
-           familyi={M\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod}}}%
-        {{hash=66be9516597a593b22f2155b1ca8dc48}{%
-           family={Neuffer},
-           familyi={N\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e3bf8bffc660fb41f07f5dd842ce6fbb}{%
-           family={Nicol},
-           familyi={N\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=b345a864cb12450ea5340b11157acb24}{%
-           family={Ostiguy},
-           familyi={O\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
-        {{hash=e97a345aa156da053e3540dab29e3638}{%
-           family={Pasquinelli},
-           familyi={P\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=3d3796cdbd74ee8092caf6bca792a79a}{%
-           family={Passarelli},
-           familyi={P\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=891ec89c894f4efd503a054c4bf89731}{%
-           family={Ristori},
-           familyi={R\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=f448a30d4ed0fb93f2b311dd43681445}{%
-           family={Pellico},
-           familyi={P\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=56fbab9f63a674f79ecfa982fa15e4df}{%
-           family={Patrick},
-           familyi={P\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=5dada583aaa08de8b2b33cf1858e8872}{%
-           family={Prost},
-           familyi={P\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=d41a051e3ed74648e6255bf82a7f8fc1}{%
-           family={Rakhno},
-           familyi={R\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=4c69753c5552317a5061822592689946}{%
-           family={Saini},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=be2cadedb1b8e062f310d42cae179d6c}{%
-           family={Schappert},
-           familyi={S\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=463ed5b8477c45a207764d09956c5170}{%
-           family={Shemyakin},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=2c75f0829f607ee3f1d7467b488ea1a2}{%
-           family={Steimel},
-           familyi={S\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=df204a21d2fe1f35cd7821db0ebc0cb9}{%
-           family={Scarpine},
-           familyi={S\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=e2129766ac05ac4b627844d50dc4d1a6}{%
-           family={Vivoli},
-           familyi={V\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0736f251b4c337db209f746bf06d4858}{%
-           family={Warner},
-           familyi={W\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1c1af291b96cc6e74f5699905267922d}{%
-           family={Yakovlev},
-           familyi={Y\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=fb3aa689a3dbc809cd7f4eceb1c09a8f}{%
-           family={Ostroumov},
-           familyi={O\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=140a38810df5037d2e8b1f7591a8e0a3}{%
-           family={Conway},
-           familyi={C\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Fermilab}%
-      }
-      \strng{namehash}{81e4565971d597e0b0d4d2d4c88ec50f}
-      \strng{fullhash}{7a4889edae2162d1b0d597f6521b493f}
-      \strng{bibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
-      \strng{authorbibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
-      \strng{authornamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
-      \strng{authorfullhash}{7a4889edae2162d1b0d597f6521b493f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{3}
-      \field{number}{FERMILAB-TM-2649-AD-APC1516858}
-      \field{title}{The PIP-II Conceptual Design Report}
-      \field{type}{techreport}
-      \field{year}{2017}
-      \verb{doi}
-      \verb 10.2172/1346823
-      \endverb
-      \verb{urlraw}
-      \verb https://www.osti.gov/biblio/1346823
-      \endverb
-      \verb{url}
-      \verb https://www.osti.gov/biblio/1346823
-      \endverb
-    \endentry
-    \entry{rr0}{report}{}
-      \name{author}{1}{}{%
-        {{hash=66100e45dc129544be22b781cc8a35b8}{%
-           family={Jackson},
-           familyi={J\bibinitperiod},
-           given={Gerry},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Fermilab}%
-      }
-      \strng{namehash}{66100e45dc129544be22b781cc8a35b8}
-      \strng{fullhash}{66100e45dc129544be22b781cc8a35b8}
-      \strng{bibnamehash}{66100e45dc129544be22b781cc8a35b8}
-      \strng{authorbibnamehash}{66100e45dc129544be22b781cc8a35b8}
-      \strng{authornamehash}{66100e45dc129544be22b781cc8a35b8}
-      \strng{authorfullhash}{66100e45dc129544be22b781cc8a35b8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{number}{FNAL-TM-1991ON: DE97051388; BR: KAHEP}
-      \field{title}{The Fermilab recycler ring technical design report. Revision 1.2}
-      \field{type}{techreport}
-      \field{year}{1996}
-      \verb{doi}
-      \verb 10.2172/16029
-      \endverb
-      \verb{urlraw}
-      \verb https://www.osti.gov/biblio/16029
-      \endverb
-      \verb{url}
-      \verb https://www.osti.gov/biblio/16029
-      \endverb
-    \endentry
-    \entry{rrnagaitsev}{report}{}
-      \name{author}{1}{}{%
-        {{hash=4b9f2dd0f95be88c6ea85a15589f4350}{%
-           family={Nagaitsev},
-           familyi={N\bibinitperiod},
-           given={Sergei},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Fermilab}%
-      }
-      \strng{namehash}{4b9f2dd0f95be88c6ea85a15589f4350}
-      \strng{fullhash}{4b9f2dd0f95be88c6ea85a15589f4350}
-      \strng{bibnamehash}{4b9f2dd0f95be88c6ea85a15589f4350}
-      \strng{authorbibnamehash}{4b9f2dd0f95be88c6ea85a15589f4350}
-      \strng{authornamehash}{4b9f2dd0f95be88c6ea85a15589f4350}
-      \strng{authorfullhash}{4b9f2dd0f95be88c6ea85a15589f4350}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{3}
-      \field{number}{FERMILAB-FN-0957-AD}
-      \field{title}{Fermilab Antiproton source, Recycler ring and Main Injector}
-      \field{type}{techreport}
-      \field{year}{2013}
-      \verb{doi}
-      \verb 10.2172/1127965
-      \endverb
-      \verb{urlraw}
-      \verb https://www.osti.gov/biblio/1127965
-      \endverb
-      \verb{url}
-      \verb https://www.osti.gov/biblio/1127965
       \endverb
     \endentry
     \entry{numi1}{article}{}
@@ -1438,8 +1250,8 @@
       \strng{authorbibnamehash}{eab1b02b719abb22ed0d7e1139d71d03}
       \strng{authornamehash}{eab1b02b719abb22ed0d7e1139d71d03}
       \strng{authorfullhash}{c53f982fcac7ce79a72863668baf516e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper describes the hardware and operations of the Neutrinos at the Main Injector (NuMI) beam at Fermilab. It elaborates on the design considerations for the beam as a whole and for individual elements. The most important design details of individual components are described. Beam monitoring systems and procedures, including the tuning and alignment of the beam and NuMI long-term performance, are also discussed.}
@@ -1460,6 +1272,277 @@
       \verb https://www.sciencedirect.com/science/article/pii/S016890021501027X
       \endverb
       \keyw{Neutrinos,Long baseline,Beam,Target,Main Injector}
+    \endentry
+    \entry{pipII1}{report}{}
+      \name{author}{35}{}{%
+        {{hash=dadb06ca813eab4d3b22cbf521cd1d9f}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2c3a990400eaf10c4cc32f44f1dd078}{%
+           family={Burov},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9ba9ab6cf1dd10157ace09446660a81a}{%
+           family={Chase},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=675862282f9620b3b516cbd85a4da59a}{%
+           family={Chakravarty},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=744dc10976e4d0c4c2cdc2072da8d405}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5afd8de39ec9fe4a5c00fd9332e898db}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=87be41d3debd228cde9d67860abba6df}{%
+           family={Edelen},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bb7c8b09ce8918c1d45a2bd610337aec}{%
+           family={Grassellino},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=927a9591a81d13904e2417ff95619693}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6e9b7e236d12911e0e9d2dc19dc1cb50}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fe413285e0a0892f92bbe625798c60b7}{%
+           family={Kazakov},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7d6b33d62bab8fb4d670a7e6c49592c3}{%
+           family={Klebaner},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ff7e7e41e66ecdfefca95cb3ba74ef10}{%
+           family={Kourbanis},
+           familyi={K\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=caf6fccaf8b262a39a8176259751621a}{%
+           family={Leveling},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fb703ad100016ff58276a9fee43c58d5}{%
+           family={Melnychuk},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=66be9516597a593b22f2155b1ca8dc48}{%
+           family={Neuffer},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e3bf8bffc660fb41f07f5dd842ce6fbb}{%
+           family={Nicol},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b345a864cb12450ea5340b11157acb24}{%
+           family={Ostiguy},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi -F.},
+           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+        {{hash=e97a345aa156da053e3540dab29e3638}{%
+           family={Pasquinelli},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3d3796cdbd74ee8092caf6bca792a79a}{%
+           family={Passarelli},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=891ec89c894f4efd503a054c4bf89731}{%
+           family={Ristori},
+           familyi={R\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f448a30d4ed0fb93f2b311dd43681445}{%
+           family={Pellico},
+           familyi={P\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=56fbab9f63a674f79ecfa982fa15e4df}{%
+           family={Patrick},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5dada583aaa08de8b2b33cf1858e8872}{%
+           family={Prost},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d41a051e3ed74648e6255bf82a7f8fc1}{%
+           family={Rakhno},
+           familyi={R\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=4c69753c5552317a5061822592689946}{%
+           family={Saini},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=be2cadedb1b8e062f310d42cae179d6c}{%
+           family={Schappert},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=463ed5b8477c45a207764d09956c5170}{%
+           family={Shemyakin},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2c75f0829f607ee3f1d7467b488ea1a2}{%
+           family={Steimel},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=df204a21d2fe1f35cd7821db0ebc0cb9}{%
+           family={Scarpine},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e2129766ac05ac4b627844d50dc4d1a6}{%
+           family={Vivoli},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0736f251b4c337db209f746bf06d4858}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1c1af291b96cc6e74f5699905267922d}{%
+           family={Yakovlev},
+           familyi={Y\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=fb3aa689a3dbc809cd7f4eceb1c09a8f}{%
+           family={Ostroumov},
+           familyi={O\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=140a38810df5037d2e8b1f7591a8e0a3}{%
+           family={Conway},
+           familyi={C\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{81e4565971d597e0b0d4d2d4c88ec50f}
+      \strng{fullhash}{7a4889edae2162d1b0d597f6521b493f}
+      \strng{bibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
+      \strng{authorbibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
+      \strng{authornamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
+      \strng{authorfullhash}{7a4889edae2162d1b0d597f6521b493f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{FERMILAB-TM-2649-AD-APC1516858}
+      \field{title}{The PIP-II Conceptual Design Report}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.2172/1346823
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/1346823
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/1346823
+      \endverb
+    \endentry
+    \entry{rr2}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=817ae083bd2222356a9efedab0c7fdde}{%
+           family={Adamson},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bc02ac90f615d1651eaa1ad5db557cb5}{%
+           family={Amundson},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ff7e7e41e66ecdfefca95cb3ba74ef10}{%
+           family={Kourbanis},
+           familyi={K\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ccca679c3637e4cb920961722b01f95f}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d8b98e6bf2c6449e55f3739071fc856b}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{fullhash}{22a087b249925ab1e7afe1ef1e4566b0}
+      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. Accel. Beams}
+      \field{month}{2}
+      \field{title}{High intensity space charge effects on slip stacked beam in the Fermilab Recycler}
+      \field{volume}{22}
+      \field{year}{2019}
+      \field{pages}{020404}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevAccelBeams.22.020404
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.020404
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.020404
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

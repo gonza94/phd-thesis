@@ -1,12 +1,41 @@
-\chapter{Single Particle Dynamics}
-The most basic element of a particle accelerator can be thought of as a black box. This black box takes some initial transverse coordinates $x_0,x'_0,y_0,y'_0$, as defined in a Frenet-Serret coordinate system, and maps them to some final coordinates $x_f,x'_f,y_f,y'_f$. For simplicity, any longitudinal effect will not be taken into account for this analysis \cite{rr1} \cite{rr2} \cite{wolski} \cite{pipII1}. 
+\chapter{Introduction}
+\label{sec:ch1}
+
+The following thesis will explore the compensation of third-order resonances in the Fermilab Recycler Ring. Consequently, the structure of this work starts out by summarizing the dynamics of charged particles in a storage ring such as the RR. This \hyperref[sec:ch1]{first chapter} starts out by summarizing single particle dynamics with the help of exponential Lie operators and moves forward to introduce a relevant concept of collective beam dynamics: the space charge tune shift. This theoretical overview gives segue into the \hyperref[sec:ch2]{second chapter} of this thesis, where the Recycler Ring is introduced and described in detail. Motivation for the compensation of third order resonances is given in this chapter under the framework of current and future operation of the RR. With the basic physics concepts and the description of the machine put in place, the \hyperref[sec:ch3]{third chapter} describes in full detail the scheme and experiments developed in order to compensate third order resonances at low intensities. Before moving to explore the Recycler Ring at high intensities, \hyperref[sec:ch4]{chapter four} provides an interlude in order to show a series of experiments done at the CERN PS Booster. These experiments explore the use of advanced optimization algorithms in the aid of compensating multiple resonance lines simultaneously. Coming back to Fermilab, \hyperref[sec:ch5]{chapter five} showcases the studies and experiments done at high intensities in the RR in order to understand the interplay between the compensation of resonance lines and space charge effects. Finally, \hyperref[sec:ch6]{chapter six} brings down the curtain by providing some general conclusions and future work stemming from this thesis. For now, let this first chapter introduce some relevant concepts.\\               
 
 \section{Basic Accelerator Elements}
 
-\section{Normal Form}
+The most basic element of a particle accelerator can be thought of as a black box. This black box takes some single charged particle with initial transverse coordinates $\left( x_0,x'_0,y_0,y'_0 \right)$, as defined in a Frenet-Serret coordinate system, and maps them to some final coordinates $\left( x_f,x'_f,y_f,y'_f \right)$. For simplicity, any longitudinal effect will not be taken into account for this analysis, but can be easily incorporated. By gathering the initial coordinates into a vector, i.e. $\vec{X_0} = \left( x_0,x_0',y_0,y_0' \right)$, and doing the same for the final coordinates, i.e., $\vec{X_f} = \left( x_f,x_f',y_f,y_f' \right)$, one can define the mapping $\mathcal{M}$ that relates both vectors, such that:  
+\begin{equation}
+\label{eq:ch1map}
+\vec{X_f}=\mathcal{M}\vec{X_0}.
+\end{equation}
+For a charged particle inside some accelerator element that can be described using Hamiltonian dynamics, the mapping $\mathcal{M}$ can be understood in terms of Poisson brackets and exponential Lie operators \cite{wolski,todd1,cernthesis1,cernthesis2}.\\
+Let $\vec{X} = \left( q_1,p_1,\dots,q_{n},p_{n} \right)$ be a 2n dimensional vector, made from $n$ pairs of canonical coordinates $(q_i,p_i)$ that make up the 2$n$ dimensional phase space. And let two arbitrary functions $f\left( \vec{X};s\right)$ and $g\left( \vec{X};s\right)$ be functions of $\vec{X}$ and $s$, where $s$ plays the role of the independent "time" coordinate. The Poisson brackets $\left[ \bullet , \bullet \right]$ can be defined as:
+\begin{equation}
+    \label{eq:ch1poisson}
+    \left[ f,g \right] = \sum_{i=1}^{n} \frac{\partial f}{\partial q_i}\frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i}\frac{\partial g}{\partial q_i}. 
+\end{equation}
+Using this definition, one can explicitly write out the Poisson bracket definition for a 4 dimensional phase space described by state vector $\vec{X} = \left( x,x',y,y' \right)$. This reads: 
+\begin{equation}
+    \label{eq:ch1poisson1}
+    \left[ f,g \right] = \frac{\partial f}{\partial x}\frac{\partial g}{\partial x'} - \frac{\partial f}{\partial x'}\frac{\partial g}{\partial x} + \frac{\partial f}{\partial y}\frac{\partial g}{\partial y'} - \frac{\partial f}{\partial y'}\frac{\partial g}{\partial y}. 
+\end{equation}\\
+The Lie operator $:f:$ acts on some function $g$ and is the adjoint operator of the Poisson bracket operator. Its definition reads:
+\begin{equation}
+    \label{eq:ch1lie1}
+    :f:g = \left[ f,g \right].
+\end{equation}
+This specific $:\bullet:$ notation allows for a compact notation in order to define the exponential Lie operator. The exponential Lie operator of an arbitrary function $f$ is defined as
+\begin{equation}
+    \label{eq:ch1explie1}
+    e^{:f:}\bullet = \sum_{k=0}^{\infty}\frac{1}{k!}\left( :f: \right)^k \bullet.
+\end{equation}
+
+\section{One-turn Map and Normal Form}
 
 \section{Resonances in Circular Accelerators}
 
 \section{Resonance Driving Terms}
 
-Trying out zsh function.
+\section{Space Charge Tune Shift}
