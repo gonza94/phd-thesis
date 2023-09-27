@@ -1544,6 +1544,178 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.020404
       \endverb
     \endentry
+    \entry{mionrr}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=24e4d90a8046dcd2087c70be0bc6ba83}{%
+           family={Chelidze},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2a4b746cf9ad7657b14c9391bcfdc7be}{%
+           family={Hazelwood},
+           familyi={H\bibinitperiod},
+           given={K.J.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {JACoW Publishing, Geneva, Switzerland}%
+      }
+      \strng{namehash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{fullhash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{bibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}
+      \field{booktitle}{Proc. 5th Int. Particle Accel. Conf. (NAPAC'22)}
+      \field{eid}{MOPA19}
+      \field{isbn}{978-3-95450-232-5}
+      \field{issn}{2673-7000}
+      \field{month}{10}
+      \field{number}{5}
+      \field{series}{International Particle Accelerator Conference}
+      \field{title}{The Effect of the Main Injector Ramp on the Recycler}
+      \field{venue}{Albuquerque, NM, USA}
+      \field{year}{2022}
+      \field{pages}{90\bibrangedash 92}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.18429/JACoW-NAPAC2022-MOPA19
+      \endverb
+      \verb{urlraw}
+      \verb https://jacow.org/napac2022/papers/mopa19.pdf
+      \endverb
+      \verb{url}
+      \verb https://jacow.org/napac2022/papers/mopa19.pdf
+      \endverb
+      \keyw{focusing,dipole,operation,shielding,quadrupole}
+    \endentry
+    \entry{cris1}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=23c0c1332ac9fc25e758f5425ebe5ca9}{%
+           family={Gonzalez-Ortiz},
+           familyi={G\bibinithyphendelim O\bibinitperiod},
+           given={C.E.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=de9405b27e4b6580cd671ebc62923848}{%
+           family={Ostroumov},
+           familyi={O\bibinitperiod},
+           given={P.N.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {JACoW Publishing, Geneva, Switzerland}%
+      }
+      \strng{namehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{fullhash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{bibnamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authorbibnamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. IPAC'22}
+      \field{eid}{MOPOST050}
+      \field{isbn}{978-3-95450-227-1}
+      \field{issn}{2673-5490}
+      \field{month}{07}
+      \field{number}{13}
+      \field{series}{International Particle Accelerator Conference}
+      \field{title}{{Third-Order Resonance Compensation at the FNAL Recycler Ring}}
+      \field{venue}{Bangkok, Thailand}
+      \field{year}{2022}
+      \field{pages}{195\bibrangedash 198}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.18429/JACoW-IPAC2022-MOPOST050
+      \endverb
+      \verb{urlraw}
+      \verb https://jacow.org/ipac2022/papers/mopost050.pdf
+      \endverb
+      \verb{url}
+      \verb https://jacow.org/ipac2022/papers/mopost050.pdf
+      \endverb
+      \keyw{resonance,sextupole,proton,experiment,operation}
+    \endentry
+    \entry{cris2}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=23c0c1332ac9fc25e758f5425ebe5ca9}{%
+           family={Gonzalez-Ortiz},
+           familyi={G\bibinithyphendelim O\bibinitperiod},
+           given={C.E.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=de9405b27e4b6580cd671ebc62923848}{%
+           family={Ostroumov},
+           familyi={O\bibinitperiod},
+           given={P.N.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {JACoW Publishing, Geneva, Switzerland}%
+      }
+      \strng{namehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{fullhash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{bibnamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authorbibnamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. IPAC'23}
+      \field{isbn}{978-3-95450-231-8}
+      \field{issn}{2673-5490}
+      \field{month}{05}
+      \field{number}{14}
+      \field{series}{IPAC'23 - 14th International Particle Accelerator Conference}
+      \field{title}{Simultaneous Compensation of Third-Order Resonances at the FNAL Recycler Ring}
+      \field{venue}{Venezia}
+      \field{year}{2023}
+      \field{pages}{3328\bibrangedash 3331}
+      \range{pages}{4}
+      \verb{doi}
+      \verb doi:10.18429/jacow-ipac2023-wepl112
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ipac23.org/preproc/pdf/WEPL112.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ipac23.org/preproc/pdf/WEPL112.pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

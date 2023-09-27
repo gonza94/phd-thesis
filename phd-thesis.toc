@@ -4,7 +4,7 @@
 \changetocdepth {1}
 \contentsline {chapter}{List of Abbreviations}{vi}{section*.4}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Basic Accelerator Elements}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Lie Maps in Accelerator Physics}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}One-turn Map and Normal Form}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Resonances in Circular Accelerators}{5}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Resonance Driving Terms}{6}{section.1.4}%
@@ -39,5 +39,5 @@
 \cftinsert {APP}
 \cftinsert {SINGAPP}
 \changetocdepth {0}
-\contentsline {appendix}{\chapternumberline {}Your appendix}{17}{appendix.10}%
+\contentsline {appendix}{\chapternumberline {}Your appendix}{18}{appendix.10}%
 \cftinsert {CHAPAPPR}

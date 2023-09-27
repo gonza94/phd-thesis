@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  18 SEP 2023 15:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  26 SEP 2023 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1243,23 +1243,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
  []
 
 [2]
-<chapter1/oneturn.png, id=227, 604.1772pt x 579.6054pt>
+<chapter1/oneturn.png, id=227, 603.09315pt x 579.96675pt>
 File: chapter1/oneturn.png Graphic file (type png)
 <use chapter1/oneturn.png>
 Package pdftex.def Info: chapter1/oneturn.png  used on input line 52.
-(pdftex.def)             Requested size: 328.82706pt x 315.45859pt.
+(pdftex.def)             Requested size: 328.82706pt x 316.23048pt.
  [3]
-<chapter1/tunediagram.png, id=236, 570.2103pt x 530.4618pt>
+<chapter1/tunediagram.png, id=236, 568.22287pt x 529.37775pt>
 File: chapter1/tunediagram.png Graphic file (type png)
 <use chapter1/tunediagram.png>
 Package pdftex.def Info: chapter1/tunediagram.png  used on input line 62.
-(pdftex.def)             Requested size: 375.80542pt x 349.62021pt.
+(pdftex.def)             Requested size: 375.80542pt x 350.1093pt.
  [4 <./chapter1/oneturn.png>]
-<chapter1/rrtd.png, id=243, 558.6471pt x 522.5121pt>
+<chapter1/rrtd.png, id=243, 556.29832pt x 521.24738pt>
 File: chapter1/rrtd.png Graphic file (type png)
 <use chapter1/rrtd.png>
 Package pdftex.def Info: chapter1/rrtd.png  used on input line 69.
-(pdftex.def)             Requested size: 469.75499pt x 439.38554pt.
+(pdftex.def)             Requested size: 469.75499pt x 440.16725pt.
  [5 <./chapter1/tunediagram.png>]) [6 <./chapter1/rrtd.png>]
 \openout2 = `chapter2.aux'.
 
@@ -1275,17 +1275,17 @@ Package pdftex.def Info: chapter2/FNAL.png  used on input line 12.
 
 
 ] [8 <./chapter2/FNAL.png>]
-<chapter2/rrtdlow.png, id=283, 695.9601pt x 495.7722pt>
+<chapter2/rrtdlow.png, id=283, 678.6153pt x 476.13885pt>
 File: chapter2/rrtdlow.png Graphic file (type png)
 <use chapter2/rrtdlow.png>
 Package pdftex.def Info: chapter2/rrtdlow.png  used on input line 53.
-(pdftex.def)             Requested size: 469.75499pt x 334.63936pt.
+(pdftex.def)             Requested size: 469.75499pt x 329.60416pt.
  [9]
-<chapter2/rrtdhigh.png, id=289, 695.9601pt x 495.7722pt>
+<chapter2/rrtdhigh.png, id=289, 659.8251pt x 472.164pt>
 File: chapter2/rrtdhigh.png Graphic file (type png)
 <use chapter2/rrtdhigh.png>
 Package pdftex.def Info: chapter2/rrtdhigh.png  used on input line 62.
-(pdftex.def)             Requested size: 469.75499pt x 334.63936pt.
+(pdftex.def)             Requested size: 469.75499pt x 336.15376pt.
 ) [10 <./chapter2/rrtdlow.png>] [11 <./chapter2/rrtdhigh.png>]
 \openout2 = `chapter3.aux'.
 
@@ -1344,7 +1344,7 @@ Overfull \hbox (8.36835pt too wide) in paragraph at lines 187--187
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}] [
-17
+17] [18
 
 ]
 \tf@toc=\write6
@@ -1353,22 +1353,22 @@ Overfull \hbox (8.36835pt too wide) in paragraph at lines 187--187
 \tf@lob=\write7
 \openout7 = `phd-thesis.lob'.
 
- (./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux) (./chapter5.aux) (./chapter6.aux))
+ (./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapte
+r4.aux) (./chapter5.aux) (./chapter6.aux))
 Package rerunfilecheck Info: File `phd-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 688D6133D1682EA9BBEF6815B0DA83C5;6240.
+(rerunfilecheck)             Checksum: DA1BE741A5BAB336A4DA42E6FDF75B6D;6271.
 Package logreq Info: Writing requests to 'phd-thesis.run.xml'.
 \openout1 = `phd-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24380 strings out of 476025
- 402773 string characters out of 5790017
- 1866388 words of memory out of 5000000
- 44391 multiletter control sequences out of 15000+600000
+ 24403 strings out of 476025
+ 403358 string characters out of 5790017
+ 1867388 words of memory out of 5000000
+ 44410 multiletter control sequences out of 15000+600000
  544966 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,76p,1850b,1237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,76p,1850b,1360s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/loc
 al/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/tex
@@ -1378,10 +1378,10 @@ live/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/202
 nts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
 /public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/n
 ewtx/ztmri.pfb>
-Output written on phd-thesis.pdf (23 pages, 720239 bytes).
+Output written on phd-thesis.pdf (24 pages, 3494297 bytes).
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
- 375 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
+ 459 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
