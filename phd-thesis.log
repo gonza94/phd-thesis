@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  26 SEP 2023 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  17 OCT 2023 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,7 +1060,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 74.
 
 (./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux) (./chapter5.aux) (./chapter6.aux))
+(./chapter4.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux))
 \openout1 = `phd-thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 74.
@@ -1220,85 +1220,78 @@ LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
-Overfull \hbox (5.8498pt too wide) in paragraph at lines 24--24
- [][] [][]\T1/ntxtlf/m/n/12 RESONANCE COM-PEN-SA-TION STUD-IES AT THE CERN PS B
-OOSTER[] []  
- []
+)) [5
 
-) [5
-
-] (./phd-thesis.lob) [6
+]
+(./phd-thesis.lob) [6
 
 ]
 \openout2 = `chapter1.aux'.
 
- (./chapter1.tex [1
+ (./chapter1.tex) [1
+
+
+
+]
+\openout2 = `chapter2.aux'.
+
+ (./chapter2.tex [2
+
 
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
-[2]
-<chapter1/oneturn.png, id=227, 603.09315pt x 579.96675pt>
-File: chapter1/oneturn.png Graphic file (type png)
-<use chapter1/oneturn.png>
-Package pdftex.def Info: chapter1/oneturn.png  used on input line 52.
-(pdftex.def)             Requested size: 328.82706pt x 316.23048pt.
- [3]
-<chapter1/tunediagram.png, id=236, 568.22287pt x 529.37775pt>
-File: chapter1/tunediagram.png Graphic file (type png)
-<use chapter1/tunediagram.png>
-Package pdftex.def Info: chapter1/tunediagram.png  used on input line 62.
-(pdftex.def)             Requested size: 375.80542pt x 350.1093pt.
- [4 <./chapter1/oneturn.png>]
-<chapter1/rrtd.png, id=243, 556.29832pt x 521.24738pt>
-File: chapter1/rrtd.png Graphic file (type png)
-<use chapter1/rrtd.png>
-Package pdftex.def Info: chapter1/rrtd.png  used on input line 69.
-(pdftex.def)             Requested size: 469.75499pt x 440.16725pt.
- [5 <./chapter1/tunediagram.png>]) [6 <./chapter1/rrtd.png>]
-\openout2 = `chapter2.aux'.
+<chapter2/oneturn.png, id=233, 603.6954pt x 580.0872pt>
+File: chapter2/oneturn.png Graphic file (type png)
+<use chapter2/oneturn.png>
+Package pdftex.def Info: chapter2/oneturn.png  used on input line 50.
+(pdftex.def)             Requested size: 328.82706pt x 315.96866pt.
+[3]
+<chapter2/tunediagram.png, id=245, 569.4876pt x 530.4618pt>
+File: chapter2/tunediagram.png Graphic file (type png)
+<use chapter2/tunediagram.png>
+Package pdftex.def Info: chapter2/tunediagram.png  used on input line 60.
+(pdftex.def)             Requested size: 375.80542pt x 350.0573pt.
+ [4 <./chapter2/oneturn.png>]
+<chapter2/rrtd.png, id=253, 557.4426pt x 522.2712pt>
+File: chapter2/rrtd.png Graphic file (type png)
+<use chapter2/rrtd.png>
+Package pdftex.def Info: chapter2/rrtd.png  used on input line 67.
+(pdftex.def)             Requested size: 469.75499pt x 440.11536pt.
+ [5 <./chapter2/tunediagram.png>]) [6 <./chapter2/rrtd.png>]
+\openout2 = `chapter3.aux'.
 
- (./chapter2.tex
-<chapter2/FNAL.png, id=262, 853.1875pt x 455.7025pt>
-File: chapter2/FNAL.png Graphic file (type png)
-<use chapter2/FNAL.png>
-Package pdftex.def Info: chapter2/FNAL.png  used on input line 12.
-(pdftex.def)             Requested size: 469.75499pt x 250.90833pt.
+ (./chapter3.tex
+<chapter3/complex.png, id=272, 753.5653pt x 396.7322pt>
+File: chapter3/complex.png Graphic file (type png)
+<use chapter3/complex.png>
+Package pdftex.def Info: chapter3/complex.png  used on input line 12.
+(pdftex.def)             Requested size: 469.75499pt x 247.30927pt.
  [7
 
 
 
 
-] [8 <./chapter2/FNAL.png>]
-<chapter2/rrtdlow.png, id=283, 678.6153pt x 476.13885pt>
-File: chapter2/rrtdlow.png Graphic file (type png)
-<use chapter2/rrtdlow.png>
-Package pdftex.def Info: chapter2/rrtdlow.png  used on input line 53.
-(pdftex.def)             Requested size: 469.75499pt x 329.60416pt.
+] [8 <./chapter3/complex.png>]
+<chapter3/rrtdlow.png, id=293, 680.7834pt x 477.4638pt>
+File: chapter3/rrtdlow.png Graphic file (type png)
+<use chapter3/rrtdlow.png>
+Package pdftex.def Info: chapter3/rrtdlow.png  used on input line 53.
+(pdftex.def)             Requested size: 469.75499pt x 329.45766pt.
  [9]
-<chapter2/rrtdhigh.png, id=289, 659.8251pt x 472.164pt>
-File: chapter2/rrtdhigh.png Graphic file (type png)
-<use chapter2/rrtdhigh.png>
-Package pdftex.def Info: chapter2/rrtdhigh.png  used on input line 62.
-(pdftex.def)             Requested size: 469.75499pt x 336.15376pt.
-) [10 <./chapter2/rrtdlow.png>] [11 <./chapter2/rrtdhigh.png>]
-\openout2 = `chapter3.aux'.
-
- (./chapter3.tex) [12
-
-
-
-
-]
+<chapter3/rrtdhigh.png, id=299, 661.5114pt x 473.1276pt>
+File: chapter3/rrtdhigh.png Graphic file (type png)
+<use chapter3/rrtdhigh.png>
+Package pdftex.def Info: chapter3/rrtdhigh.png  used on input line 62.
+(pdftex.def)             Requested size: 469.75499pt x 335.9807pt.
+) [10 <./chapter3/rrtdlow.png>] [11 <./chapter3/rrtdhigh.png>]
 \openout2 = `chapter4.aux'.
 
-
-(./chapter4.tex) [13
+ (./chapter4.tex) [12
 
 
 
@@ -1306,7 +1299,8 @@ Package pdftex.def Info: chapter2/rrtdhigh.png  used on input line 62.
 ]
 \openout2 = `chapter5.aux'.
 
- (./chapter5.tex) [14
+
+(./chapter5.tex) [13
 
 
 
@@ -1314,26 +1308,34 @@ Package pdftex.def Info: chapter2/rrtdhigh.png  used on input line 62.
 ]
 \openout2 = `chapter6.aux'.
 
- (./chapter6.tex) [15
+ (./chapter6.tex) [14
+
+
+
+
+]
+\openout2 = `chapter7.aux'.
+
+ (./chapter7.tex) [15
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 157.
+(Font)              scaled to size 12.0pt on input line 158.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 157.
+(Font)              scaled to size 12.0pt on input line 158.
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
-157.
+158.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 157.
+(Font)              scaled to size 12.0pt on input line 158.
 
-Overfull \hbox (8.36835pt too wide) in paragraph at lines 187--187
+Overfull \hbox (8.36835pt too wide) in paragraph at lines 188--188
 []\T1/ntxtlf/m/n/12 T. Sato-gata. \T1/ntxtlf/m/it/12 Lec-ture Notes on Pois-son
  Brack-ets and Lie Op-er-a-tors\T1/ntxtlf/m/n/12 . []$\T1/ntxtt/m/n/12 https : 
 / / toddsatogata .
@@ -1354,21 +1356,21 @@ Overfull \hbox (8.36835pt too wide) in paragraph at lines 187--187
 \openout7 = `phd-thesis.lob'.
 
  (./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapte
-r4.aux) (./chapter5.aux) (./chapter6.aux))
+r4.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux))
 Package rerunfilecheck Info: File `phd-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DA1BE741A5BAB336A4DA42E6FDF75B6D;6271.
+(rerunfilecheck)             Checksum: 9E3C71FDA1C6143FF5055011B653C3C0;6517.
 Package logreq Info: Writing requests to 'phd-thesis.run.xml'.
 \openout1 = `phd-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24403 strings out of 476025
- 403358 string characters out of 5790017
- 1867388 words of memory out of 5000000
- 44410 multiletter control sequences out of 15000+600000
+ 24439 strings out of 476025
+ 404313 string characters out of 5790017
+ 1866388 words of memory out of 5000000
+ 44436 multiletter control sequences out of 15000+600000
  544966 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,76p,1850b,1360s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,76p,1936b,1360s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/loc
 al/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/tex
@@ -1378,10 +1380,10 @@ live/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/202
 nts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
 /public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/n
 ewtx/ztmri.pfb>
-Output written on phd-thesis.pdf (24 pages, 3494297 bytes).
+Output written on phd-thesis.pdf (24 pages, 1003558 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
