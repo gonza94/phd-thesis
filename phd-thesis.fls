@@ -1020,6 +1020,9 @@ INPUT ./chapter2/tunediagram.png
 INPUT chapter2/tunediagram.png
 INPUT ./chapter2/tunediagram.png
 INPUT ./chapter2/tunediagram.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT ./chapter2/rrtd.png
 INPUT ./chapter2/rrtd.png
 INPUT chapter2/rrtd.png
@@ -1040,6 +1043,11 @@ INPUT ./chapter3/complex.png
 INPUT chapter3/complex.png
 INPUT ./chapter3/complex.png
 INPUT ./chapter3/complex.png
+INPUT ./chapter3/complexPIPII.png
+INPUT ./chapter3/complexPIPII.png
+INPUT chapter3/complexPIPII.png
+INPUT ./chapter3/complexPIPII.png
+INPUT ./chapter3/complexPIPII.png
 INPUT ./chapter3/rrtdlow.png
 INPUT ./chapter3/rrtdlow.png
 INPUT chapter3/rrtdlow.png

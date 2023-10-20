@@ -1,7 +1,7 @@
 \chapter{Beam Dynamics in Rings}
 \label{sec:ch2}
 
-\section{Lie Maps in Accelerator Physics}
+\section{\label{sec:lie}Lie Maps in Accelerator Physics}
 
 The most basic element of a particle accelerator can be thought of as a black box. This black box takes some single charged particle with initial transverse coordinates $\left( x_0,x'_0,y_0,y'_0 \right)$, as defined in a Frenet-Serret coordinate system, and maps them to some final coordinates $\left( x_f,x'_f,y_f,y'_f \right)$. For simplicity, any longitudinal effect will not be taken into account for this analysis, but can be easily incorporated. By gathering the initial coordinates into a vector, i.e. $\vec{X_0} = \left( x_0,x_0',y_0,y_0' \right)$, and doing the same for the final coordinates, i.e., $\vec{X_f} = \left( x_f,x_f',y_f,y_f' \right)$, one can define the mapping $\mathcal{M}$ that relates both vectors, such that:  
 \begin{equation}
@@ -36,14 +36,14 @@ It turns out that for a Hamiltonian system, the mapping of coordinates from $\ve
 \end{equation}
 which is known as a Lie Map \cite{todd1}. In this case, $\ell$ corresponds to the integration length of the independent coordinate. For example, for a particle traversing a magnet which has length $L$, the integration length is $\ell = L$. When looking at the one-turn map, the integration length corresponds to the circumference $C$ of the accelerator over an effective Hamiltonian $H_{eff}$. Furthermore, if working with action-angle variables, the integration length $\ell$ would just be the phase advance $\mu$.\\ 
 
-\section{One-turn Map and Normal Form}
+\section{\label{sec:oneturn}One-turn Map and Normal Form}
 
 The one-turn map $\mathcal{M}_1$ of a circular accelerator is the composition ($\circ$) of mappings from every element in the ring. Choosing an arbitrary initial point at $s=0$ and going around the ring, the one-turn map describes the transformation of coordinates after one turn, i.e., $\vec{X}_{N=1}=\mathcal{M}_1 \vec{X_0}$. This map composition reads:
 \begin{equation}
     \label{eq:oneturnmap}
     \mathcal{M}_1=M_{N+1} \circ e^{:h_N:} \circ \dots \circ e^{:h_2:} \circ M_2 \circ e^{:h_1:} \circ M_1 = M_{N+1}e^{:h_N:} \dots e^{:h_2:}M_2 e^{:h_1:}M_1,
 \end{equation}
-where $M_i$ is the matrix representation of a linear mapping, that does not couple $x-y$ plane, e.g., drift space mapping, quadrupole mapping. On the other hand, the map $e^{:h_i:}$ represents any non-linear mapping that can be found around the machine including coupling elements, e.g., skew quadrupoles, higher order multipole elements.  
+where $M_i$ is the matrix representation of a linear mapping, that does not couple $x-y$ plane, e.g., drift space mapping, quadrupole mapping. On the other hand, the map $e^{:h_i:}$ represents any linear or non-linear mapping that can be found around the machine and can be considered a perturbation to the ideal lattice including coupling elements, e.g., skew quadrupoles, higher order multipole elements. Figure \ref{fig:oneturn} illustrates the procedure to build the one-turn map for a circular accelerator. 
 
 \begin{figure}[H]
     \centering
@@ -51,6 +51,47 @@ where $M_i$ is the matrix representation of a linear mapping, that does not coup
     \caption{Diagram of an arbitrary circular accelerator in order to illustrate the one-turn map.}
     \label{fig:oneturn}
  \end{figure}
+
+Through the use of the Baker-Campbell-Hausdorff formula , Eq. \ref{eq:oneturnmap} can be collapsed to the expression 
+\begin{equation}
+    \label{eq:oneturnmapeff}
+    \mathcal{M}_1=e^{-C :H_{eff}:},
+\end{equation}
+where $C$ is the circumference of the ring and $H_{eff}$ is the effective Hamiltonian of the machine over one turn. As mentioned earlier, for most cases, it is of interest to look at the perturbations to the linear uncoupled dynamics of the design lattice. With this in mind, Eq. \ref{eq:oneturnmapeff} can be rewritten as:
+\begin{equation}
+    \label{eq:oneturnmapeff1}
+    \mathcal{M}_1=e^{:h:}R,
+\end{equation}
+where $R$ is a rotation matrix encoding the linear uncoupled dynamics of the ideal lattice. On the other hand, the term $e^{:h:}$ encodes the perturbations to this ideal situation. It is worth pointing out that for the case $h=0$, the traditional Courant-Snyder variables are recovered.   
+
+The Courant-Snyder variables ($\hat{x}$,$\hat{p}_x$,$\hat{y}$,$\hat{p}_y$) or normalized phase space coordinates can be written for a linear uncoupled case as:
+\begin{equation}
+    \label{eq:norm1}
+    \hat{u}=\sqrt{2J_u} \cos \left( \phi_u + \phi_{u_0}\right);
+\end{equation}
+\begin{equation}
+    \label{eq:norm2}
+    \hat{p}_u=-\sqrt{2J_u} \sin \left( \phi_u + \phi_{u_0}\right),
+\end{equation}
+where $u$ can stand either for the $x$ or $y$ coordinate, $J_u$ and $\phi_u$ correspond to the action-angle variables and $\phi_{u_0}$ corresponds to the initial phase. For the case where perturbations exist, i.e., $h \neq 0$, the action $J_u$ is not constant anymore and will be a function of $\phi_u$.  
+
+The Normal Form formalism is introduced at this point in order to find amplitude-independent coordinates $I_u$ and $\psi_u$, such that the motion just depends on $\psi_u$ at a constant $I_u$, with some initial phase $\psi_{u_0}$. These are known as non-linear action-angle variables. The variables $I_u$ and $\psi_u$ are calculated from the transformation $e^{-:F:}$ acting on $J_u$ and $\phi_u$. Without loss of generality, the generating function $F$ can be written as a Fourier expansion over the objective space $(I_x,\psi_x,I_y,\psi_y)$ such that:
+\begin{equation}
+    \label{eq:F}
+    F=\sum_{jklm} f_{jklm} \left( 2 I_x\right)^{\frac{j+k}{2}} \left( 2 I_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \psi_x+\psi_{x0} \right)+ \left( l-m \right) \left( \psi_y+\psi_{y0} \right)\right]}.
+\end{equation}
+In a similar fashion, the argument of the Lie operator $e^{:h:}$ from Eq. \ref{eq:oneturnmapeff1} can be expanded as:
+\begin{equation}
+    \label{eq:h}
+    h=\sum_{jklm} h_{jklm} \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
+\end{equation}
+For Eqs. \ref{eq:F} and \ref{eq:h}, the integer indices $j,k,l,m$ run from $0$ to infinity, and correspond to the four degrees of freedom for transverse phase space.
+
+The terms $f_{jklm}$ are known as generating function coefficients. The terms $h_{jklm}$ are known as Hamiltonian coefficients or resonance driving terms (RDTs). Section \ref{sec:rdts} will take a closer look into how RDTs can be used to characterize the non-linear dynamics of accelerators. The generating function coefficients $f_{jklm}$ can be related to the Hamiltonian resonance driving terms $h_{jklm}$ through the following relation\cite{cernthesis1,bartolini}:
+\begin{equation}
+    \label{eq:handf}
+    f_{jklm}=\frac{h_{jklm}}{1-e^{2\pi i \left[ \left( j-k \right) Q_x + \left( l-m\right) Q_y \right] }}.
+\end{equation}
 
 \section{Resonances in Circular Accelerators}
 \cite{Wiedemann2015}
@@ -69,6 +110,28 @@ where $M_i$ is the matrix representation of a linear mapping, that does not coup
     \label{fig:rrtd}
  \end{figure}
 
-\section{Resonance Driving Terms}
+\section{\label{sec:rdts}Resonance Driving Terms} 
+
+The resonance basis can be built by getting the quantity $h_u^{\pm}=\hat{u}\pm \hat{p_u}$ in terms of the number of turns $N$ . Specifically, for $h_x^{-}$ this reads:
+\begin{multline}
+    \label{eq:hx-}
+    h_x^{-}(N)=\sqrt{2I_x}e^{i\left( 2\pi Q_x N +\psi_{x_0}\right)} \\
+    -2i \sum_{jklm} j f_{jklm} \left( 2I_x \right)^{\frac{j+k-1}{2}}\left( 2I_y \right)^{\frac{l+m}{2}}
+    e^{i \left[ \left( 1-j+k\right)\left( 2\pi Q_x N + \psi_{x_0} \right) +\left( m-l\right)\left( 2\pi Q_y N + \psi_{y_0} \right)\right]},
+\end{multline}
+where $Q_x$ and $Q_y$ are the horizontal and vertical tune~[3]. 
+
+In general, RDTs are defined by the order in which they enter the one-turn normal form Hamiltonian \cite{bartolini}. The general expression to define RDTs reads:
+\begin{equation}
+    \label{eq:rdt1}
+    h_{jklm}=\Xi _{jklm} \sum_i L_i \beta_{xi}^{\frac{j+k}{2}} \beta_{yi}^{\frac{l+m}{2}} V_{ni}e^{i\left[ (j-k)\phi_{xi} +(l-m) \phi_{yi} \right]},
+\end{equation}
+where $\Xi _{jklm}$ is just a constant defined as:
+\begin{equation}
+    \label{eq:rdt2}
+    \Xi _{jklm} = -\frac{q}{p_0}\frac{1}{2^n}\frac{1}{n} {\binom{n}{l+m}} {\binom{j+k}{j}}{\binom{l+m}{l}}.
+\end{equation}
+
+For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the resonance. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $V_{ni}=B_{ni}$ if $l+m$ is even, or a skew component $V_{ni}=A_{ni}$ if $l+m$ is odd. The symbols for $\beta_{xi}$, $\beta_{yi}$, $\phi_{xi}$ and $\phi_{yi}$ represent the beta functions and phase advances in each plane, respectively.
 
 \section{Space Charge Tune Shift}

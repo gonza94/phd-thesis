@@ -139,6 +139,42 @@
       \field{type}{phdthesis}
       \field{year}{2003}
     \endentry
+    \entry{bartolini}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb664f45fa2caa4a8b1a88e9db582b93}{%
+           family={Bartolini},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0127454c0c43fce484064ba71e8f9bbd}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{fullhash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{bibnamehash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{authorbibnamehash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{authornamehash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{authorfullhash}{3e46f2c4b346af020851d5e7854656f8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Part. Accel.}
+      \field{title}{{Normal form via tracking or beam data}}
+      \field{volume}{59}
+      \field{year}{1998}
+      \field{pages}{93\bibrangedash 106}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/333077
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/333077
+      \endverb
+    \endentry
     \entry{Wiedemann2015}{book}{}
       \name{author}{1}{}{%
         {{hash=f7d524a2ec35fb3f9eff2cd2aa8fca36}{%
@@ -159,8 +195,8 @@
       \strng{authorbibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
       \strng{authornamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
       \strng{authorfullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Particle resonances in circular accelerators occur as a result of perturbation terms involving particular Fourier harmonics. That approach is based on the common knowledge that periodic perturbations of a harmonic oscillator can cause a resonance when the perturbation frequency is equal to an eigenfrequency of the oscillator.}
@@ -197,8 +233,8 @@
       \strng{authorbibnamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authornamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authorfullhash}{dfacc387c53c3a871de0821a11d0205c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -233,8 +269,8 @@
       \strng{authorbibnamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authornamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authorfullhash}{2fb5f3d6168318debe801f038a3af634}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -310,8 +346,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{12}
@@ -1291,8 +1327,8 @@
       \strng{authorbibnamehash}{eab1b02b719abb22ed0d7e1139d71d03}
       \strng{authornamehash}{eab1b02b719abb22ed0d7e1139d71d03}
       \strng{authorfullhash}{c53f982fcac7ce79a72863668baf516e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper describes the hardware and operations of the Neutrinos at the Main Injector (NuMI) beam at Fermilab. It elaborates on the design considerations for the beam as a whole and for individual elements. The most important design details of individual components are described. Beam monitoring systems and procedures, including the tuning and alignment of the beam and NuMI long-term performance, are also discussed.}
@@ -1501,8 +1537,8 @@
       \strng{authorbibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authornamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authorfullhash}{7a4889edae2162d1b0d597f6521b493f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -1563,8 +1599,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
