@@ -216,6 +216,43 @@
       \verb https://doi.org/10.1007/978-3-319-18317-6_16
       \endverb
     \endentry
+    \entry{sylee}{book}{}
+      \name{author}{1}{}{%
+        {{hash=42af251ae29dd645326679fff7ed7a17}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S\bibnamedelima Y},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WORLD SCIENTIFIC}%
+      }
+      \strng{namehash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{fullhash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{bibnamehash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{authorbibnamehash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{authornamehash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{authorfullhash}{42af251ae29dd645326679fff7ed7a17}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{Accelerator Physics}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1142/8335
+      \endverb
+      \verb{eprint}
+      \verb https://www.worldscientific.com/doi/pdf/10.1142/8335
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/8335
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/8335
+      \endverb
+    \endentry
     \entry{rr0}{report}{}
       \name{author}{1}{}{%
         {{hash=dfacc387c53c3a871de0821a11d0205c}{%
@@ -233,8 +270,8 @@
       \strng{authorbibnamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authornamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authorfullhash}{dfacc387c53c3a871de0821a11d0205c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -269,8 +306,8 @@
       \strng{authorbibnamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authornamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authorfullhash}{2fb5f3d6168318debe801f038a3af634}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -346,8 +383,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{12}
@@ -1327,8 +1364,8 @@
       \strng{authorbibnamehash}{eab1b02b719abb22ed0d7e1139d71d03}
       \strng{authornamehash}{eab1b02b719abb22ed0d7e1139d71d03}
       \strng{authorfullhash}{c53f982fcac7ce79a72863668baf516e}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper describes the hardware and operations of the Neutrinos at the Main Injector (NuMI) beam at Fermilab. It elaborates on the design considerations for the beam as a whole and for individual elements. The most important design details of individual components are described. Beam monitoring systems and procedures, including the tuning and alignment of the beam and NuMI long-term performance, are also discussed.}
