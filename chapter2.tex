@@ -52,7 +52,7 @@ where $M_i$ is the matrix representation of a linear mapping, that does not coup
     \label{fig:oneturn}
  \end{figure}
 
-Through the use of the Baker-Campbell-Hausdorff formula , Eq. \ref{eq:oneturnmap} can be collapsed to the expression 
+Through the use of the Baker-Campbell-Hausdorff formula, Eq. \ref{eq:oneturnmap} can be collapsed to the expression 
 \begin{equation}
     \label{eq:oneturnmapeff}
     \mathcal{M}_1=e^{-C :H_{eff}:},
@@ -75,7 +75,20 @@ The Courant-Snyder variables ($\hat{x}$,$\hat{p}_x$,$\hat{y}$,$\hat{p}_y$) or no
 \end{equation}
 where $u$ can stand either for the $x$ or $y$ coordinate, $J_u$ and $\phi_u$ correspond to the action-angle variables and $\phi_{u_0}$ corresponds to the initial phase. For the case where perturbations exist, i.e., $h \neq 0$, the action $J_u$ is not constant anymore and will be a function of $\phi_u$.  
 
-The Normal Form formalism is introduced at this point in order to find amplitude-independent coordinates $I_u$ and $\psi_u$, such that the motion just depends on $\psi_u$ at a constant $I_u$, with some initial phase $\psi_{u_0}$. These are known as non-linear action-angle variables. The variables $I_u$ and $\psi_u$ are calculated from the transformation $e^{-:F:}$ acting on $J_u$ and $\phi_u$. Without loss of generality, the generating function $F$ can be written as a Fourier expansion over the objective space $(I_x,\psi_x,I_y,\psi_y)$ such that:
+The Normal Form formalism is introduced at this point in order to find action-angle coordinates $I_u$ and $\psi_u$, such that the motion just depends on $\psi_u$ at a constant $I_u$, with some initial phase $\psi_{u_0}$. These are known as non-linear action-angle variables. The variables $I_u$ and $\psi_u$ are calculated from the transformation $e^{-:F:}$ acting on $J_u$ and $\phi_u$. The whole point is to find these variables that allow for the Hamiltonian to be only amplitude dependent. These Normal Form gymnastics can be summarized by the following commutative diagram: 
+
+\begin{equation}\begin{tikzcd}
+	{\begin{pmatrix} J_x,\phi_x \\ J_y,\phi_y \end{pmatrix}_0} & {} & {\begin{pmatrix} J_x,\phi_x \\ J_y,\phi_y \end{pmatrix}_{f}} \\
+	\\
+	{\begin{pmatrix} I_x,\psi_x \\ I_y,\psi_y \end{pmatrix}_0} && {\begin{pmatrix} I_x,\psi_x \\ I_y,\psi_y \end{pmatrix}_{f}}
+	\arrow["{e^{:h(J_u,\phi_u):}R}", from=1-1, to=1-3]
+	\arrow["{e^{-F}}"', from=1-1, to=3-1]
+	\arrow["{e^{:H(I_u):}}"', from=3-1, to=3-3]
+	\arrow["{e^{-F}}", from=1-3, to=3-3]
+    .
+\end{tikzcd}\end{equation}
+
+Without loss of generality, the generating function $F$ can be written as a Fourier expansion over the objective space $(I_x,\psi_x,I_y,\psi_y)$ such that:
 \begin{equation}
     \label{eq:F}
     F=\sum_{jklm} f_{jklm} \left( 2 I_x\right)^{\frac{j+k}{2}} \left( 2 I_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \psi_x+\psi_{x0} \right)+ \left( l-m \right) \left( \psi_y+\psi_{y0} \right)\right]}.
@@ -112,7 +125,7 @@ Figure \ref{fig:tunediagram} shows the tune diagram with resonance lines, as def
  \end{figure}
 It is worth stopping here and asking what is the driving force behind each of these resonance lines. Classic accelerator references such as Refs. \cite{wolski,Wiedemann2015,sylee} will derive Eq. \ref{eq:resonances} by perturbing Hill's equation with different magnetic multipole orders. A closer look into each perturbation term reveals that half integer resonances are caused by quadrupole terms, third order resonances by sextupole-like terms, fourth order resonances by octupole terms, and so on and so forth. Nevertheless, the story complicates when one takes into account that pure multipole magnets can feed down to higher order terms, e.g., a tilted quadrupole feeds down to sextupole-like terms.        
 
-Figure \ref{fig:rrtdlow} zooms into the region of interest for the Recycler Ring operation in the tune diagram, as shown in Fig. \ref{fig:tunediagram}. As mentioned before, the operation point   
+Figure \ref{fig:rrtdlow} zooms into the region of interest for the Recycler Ring operation in the tune diagram, as shown in Fig. \ref{fig:tunediagram}. As mentioned before, the operation point of an accelerator in the tune diagram is not a singular point but rather a footprint. While the lattice can be tuned to a specific nominal point, particles will interact with other particles through the Coulomb force. Consequently, each particle will feel a different tune shift depending on their position within the bunch of particles. This is called the incoherent space charge tune shift, and it will be the largest for particles in the core of the bunch, i.e., the beam core. At low particle intensities, such as the one used to produce Fig. \ref{fig:rrtdlow}, the tune spread of the particles in the bunch is small enough to approximate the physics to single-particle dynamics. For beams with low particle intensities and a small tune spread, such as the one depicted in Fig. \ref{fig:rrtdlow}, operating clear from any low order resonance lines is not generally a problem. Nevertheless, at high intensities the situation changes.   
 
  \begin{figure}[H]
     \centering
@@ -121,9 +134,13 @@ Figure \ref{fig:rrtdlow} zooms into the region of interest for the Recycler Ring
     \label{fig:rrtdlow}
  \end{figure}
 
+Figure \ref{fig:rrtdlow} plots all resonance lines up to fourth order in this region of interest. The half integer line $Q_x-Q_y=1$, also known as a difference coupling resonance, is usually driven by solenoidal and skew-quadrupole fields in the lattice. The third order lines $3Q_x=76$ and $Q_x+2Q_y=74$ are driven by sextupole-like fields. The other third order lines $3Q_y=73$ and $2Q_x+Q_y=75$ are driven by skew sextupole terms in the lattice. And finally, the fourth order lines $-Q_x+3Q_y=48$ and $3Q_x-Q_y=52$ are driven by octupole terms in the lattice and Coulomb (space charge) forces from the bunch itself. This is assuming a rectangular multipole expansion notation of the magnetic field, such as the one presented in Ref. \cite{sylee}.      
+
 \section{\label{sec:rdts}Resonance Driving Terms} 
 
-As it turns out, the RDTs $h_{jklm}$ are related to the strength 
+The RDTs $h_{jklm}$ are related to the strength of the resonance $\left( j-k \right) Q_x + \left( l-m\right) Q_y$. Therefore, controlling and measuring these RDTs is of special interest to accelerator physics. The following section explains how to get to a useful expression that can be used in order to measure the $h_{jklm}$ terms through Fourier expansions.
+
+The whole point of introducing the Normal Form coordinates ($J_u,\phi_u$) through the transformation $e^{-:F:}$ as defined in Eq. \ref{eq:F} is to get simple dynamics that lie on a circle. When this happens, a set of canonical coordinates can be defined as:
 
 The resonance basis can be built by getting the quantity $h_u^{\pm}=\hat{u}\pm \hat{p_u}$ in terms of the number of turns $N$ . Specifically, for $h_x^{-}$ this reads:
 \begin{multline}
@@ -148,3 +165,5 @@ where $\Xi _{jklm}$ is just a constant defined as:
 For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the resonance. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $V_{ni}=B_{ni}$ if $l+m$ is even, or a skew component $V_{ni}=A_{ni}$ if $l+m$ is odd. The symbols for $\beta_{xi}$, $\beta_{yi}$, $\phi_{xi}$ and $\phi_{yi}$ represent the beta functions and phase advances in each plane, respectively.
 
 \section{\label{sec:sc1}Space Charge Tune Shift}
+
+Up to this point, everything has been explained in terms of single-particle dynamics. Nevertheless, particles interact with each other through the Coulomb force. 
