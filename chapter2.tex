@@ -140,7 +140,17 @@ Figure \ref{fig:rrtdlow} plots all resonance lines up to fourth order in this re
 
 The RDTs $h_{jklm}$ are related to the strength of the resonance $\left( j-k \right) Q_x + \left( l-m\right) Q_y$. Therefore, controlling and measuring these RDTs is of special interest to accelerator physics. The following section explains how to get to a useful expression that can be used in order to measure the $h_{jklm}$ terms through Fourier expansions.
 
-The whole point of introducing the Normal Form coordinates ($J_u,\phi_u$) through the transformation $e^{-:F:}$ as defined in Eq. \ref{eq:F} is to get simple dynamics that lie on a circle. When this happens, a set of canonical coordinates can be defined as:
+The whole point of introducing the Normal Form coordinates ($I_u,\psi_u$) through the transformation $e^{-:F:}$ as defined in Eq. \ref{eq:F} is to transfer complicated non-linear dynamics to simple dynamics that lie on a circle. When this happens, a set of canonical coordinates $\vec{\zeta} = \left( \zeta_x^+ , \zeta_x^-, \zeta_y^+, \zeta_y^-\right)$ can be defined as:
+\begin{equation}
+    \label{eq:zeta}
+    \zeta_u^{\pm}=\sqrt{2I_u}e^{\mp i\left( \psi_u + \psi_{u_0}\right)},
+\end{equation}
+always keeping in mind that $I_u$ is a constant of motion and $\psi_{u_0}$ is a constant initial phase set by the initial conditions. On the other hand, going back to the Courant-Snyder phase space, a set of coordinates known as a resonance basis $\vec{h} = \left( h_x^+ , h_x^-, h_y^+, h_y^-\right)$ can be defined. In a similar fashion to Eq. \ref{eq:zeta}, the resonance basis reads:
+\begin{equation}
+    \label{eq:hbasis}
+    h_u^{\pm}=\hat{u}\pm \hat{p_u}=\sqrt{2J_u}e^{\mp i\left( \phi_u + \phi_{u_0}\right)},
+\end{equation}
+always keeping in mind that in the Courant-Snyder phase space, the action $J_u$ is a function of the phase $\phi_u$, i.e., $J_u = J_u(\phi_u)$ and is not constant. The initial phase $\phi_{u_0}$ is again a constant set by the initial conditions. 
 
 The resonance basis can be built by getting the quantity $h_u^{\pm}=\hat{u}\pm \hat{p_u}$ in terms of the number of turns $N$ . Specifically, for $h_x^{-}$ this reads:
 \begin{multline}
