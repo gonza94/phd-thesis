@@ -1,15 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'phd-thesis.blg'
-[39] biber-darwin:340> INFO - === Wed Nov  1, 2023, 11:44:34
-[48] Biber.pm:419> INFO - Reading 'phd-thesis.bcf'
-[94] Biber.pm:979> INFO - Found 16 citekeys in bib section 0
-[102] Biber.pm:4419> INFO - Processing section 0
-[108] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[110] bibtex.pm:1713> INFO - LaTeX decoding ...
-[123] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[311] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[311] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[311] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[311] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[323] bbl.pm:660> INFO - Writing 'phd-thesis.bbl' with encoding 'UTF-8'
-[467] bbl.pm:763> INFO - Output to phd-thesis.bbl
+[39] biber-darwin:340> INFO - === Thu Nov  2, 2023, 15:52:26
+[49] Biber.pm:419> INFO - Reading 'phd-thesis.bcf'
+[96] Biber.pm:979> INFO - Found 18 citekeys in bib section 0
+[103] Biber.pm:4419> INFO - Processing section 0
+[110] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[112] bibtex.pm:1713> INFO - LaTeX decoding ...
+[127] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[329] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[329] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[329] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[329] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[342] bbl.pm:660> INFO - Writing 'phd-thesis.bbl' with encoding 'UTF-8'
+[488] bbl.pm:763> INFO - Output to phd-thesis.bbl
+[488] Biber.pm:131> WARN - article entry 'bch' (bibliography.bib): Invalid format '2012/05/01' of date field 'date' - ignoring
+[488] Biber.pm:131> WARN - ISBN '1432-0657' in entry 'bch' is invalid - run biber with '--validate_datamodel' for details.
+[488] Biber.pm:133> INFO - WARNINGS: 2

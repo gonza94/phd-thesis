@@ -1270,6 +1270,8 @@ INPUT ./chapter2/rrtdlow.png
 INPUT chapter2/rrtdlow.png
 INPUT ./chapter2/rrtdlow.png
 INPUT ./chapter2/rrtdlow.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/newtx/ntxexx.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/txexs.tfm
 INPUT ./chapter3.tex
 INPUT ./chapter3.tex
 INPUT ./chapter3.tex

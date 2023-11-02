@@ -8,7 +8,7 @@ The most basic element of a particle accelerator can be thought of as a black bo
 \label{eq:ch2map}
 \vec{X_f}=\mathcal{M}\vec{X_0}.
 \end{equation}
-For a charged particle inside some accelerator element that can be described using Hamiltonian dynamics, the mapping $\mathcal{M}$ can be understood in terms of Poisson brackets and exponential Lie operators \cite{wolski,todd1,cernthesis1,cernthesis2}.\\
+For a charged particle inside some accelerator element that can be described using Hamiltonian dynamics, the mapping $\mathcal{M}$ can be understood in terms of Poisson brackets and exponential Lie operators \cite{wolski,todd1,cernthesis1,cernthesis2,forest}.\\
 Let $\vec{X} = \left( q_1,p_1,\dots,q_{n},p_{n} \right)$ be a 2n dimensional vector, made from $n$ pairs of canonical coordinates $(q_i,p_i)$ that make up the 2$n$ dimensional phase space. And let two arbitrary functions $f\left( \vec{X};s\right)$ and $g\left( \vec{X};s\right)$ be functions of $\vec{X}$ and $s$, where $s$ plays the role of the independent "time" coordinate. The Poisson brackets $\left[ \bullet , \bullet \right]$ can be defined as:
 \begin{equation}
     \label{eq:ch2poisson}
@@ -29,7 +29,7 @@ This specific $:\bullet:$ notation allows for a compact notation in order to def
     \label{eq:ch2explie1}
     e^{:f:}\bullet = \sum_{k=0}^{\infty}\frac{1}{k!}\left( :f: \right)^k \bullet.
 \end{equation}
-It turns out that for a Hamiltonian system, the mapping of coordinates from $\vec{X_0}$ to $\vec{X_f}$ follows the expression:
+For a Hamiltonian system, the mapping of coordinates from $\vec{X_0}$ to $\vec{X_f}$ follows the expression:
 \begin{equation}
     \label{eq:ch2liemap1}
     \vec{X_f}=e^{-\ell :H:}\vec{X}\bigg\rvert_{\vec{X}=\vec{X_0}},
@@ -52,7 +52,7 @@ where $M_i$ is the matrix representation of a linear mapping, that does not coup
     \label{fig:oneturn}
  \end{figure}
 
-Through the use of the Baker-Campbell-Hausdorff formula, Eq. \ref{eq:oneturnmap} can be collapsed to the expression 
+Through the use of the Baker-Campbell-Hausdorff formula \cite{bch}, Eq. \ref{eq:oneturnmap} can be collapsed to the expression 
 \begin{equation}
     \label{eq:oneturnmapeff}
     \mathcal{M}_1=e^{-C :H_{eff}:},
@@ -82,9 +82,9 @@ The Normal Form formalism is introduced at this point in order to find action-an
 	\\
 	{\begin{pmatrix} I_x,\psi_x \\ I_y,\psi_y \end{pmatrix}_0} && {\begin{pmatrix} I_x,\psi_x \\ I_y,\psi_y \end{pmatrix}_{f}}
 	\arrow["{e^{:h(J_u,\phi_u):}R}", from=1-1, to=1-3]
-	\arrow["{e^{-F}}"', from=1-1, to=3-1]
+	\arrow["{e^{-:F:}}"', from=1-1, to=3-1]
 	\arrow["{e^{:H(I_u):}}"', from=3-1, to=3-3]
-	\arrow["{e^{-F}}", from=1-3, to=3-3]
+	\arrow["{e^{-:F:}}", from=1-3, to=3-3]
     .
 \end{tikzcd}\end{equation}
 
@@ -106,6 +106,19 @@ The terms $f_{jklm}$ are known as generating function coefficients. The terms $h
     f_{jklm}=\frac{h_{jklm}}{1-e^{2\pi i \left[ \left( j-k \right) Q_x + \left( l-m\right) Q_y \right] }},
 \end{equation}
 where $Q_x$ and $Q_y$ represent the transverse uncoupled and unperturbed tunes of the accelerator. The transverse tunes of a circular accelerator are defined as the phase advances in each plane over one turn, in units of $2\pi$, i.e., $Q_u=\phi_u(s=C)/2\pi$. 
+
+In general, the terms $h_{jklm}$ are defined by the order in which they enter the one-turn normal form Hamiltonian \cite{bartolini}. The general expression to define RDTs reads:
+\begin{equation}
+    \label{eq:rdt1}
+    h_{jklm}=\Xi _{jklm} \sum_i L_i \beta_{xi}^{\frac{j+k}{2}} \beta_{yi}^{\frac{l+m}{2}} V_{ni}e^{i\left[ (j-k)\phi_{xi} +(l-m) \phi_{yi} \right]},
+\end{equation}
+where $\Xi _{jklm}$ is just a constant defined as:
+\begin{equation}
+    \label{eq:rdt2}
+    \Xi _{jklm} = -\frac{q}{p_0}\frac{1}{2^n}\frac{1}{n} {\binom{n}{l+m}} {\binom{j+k}{j}}{\binom{l+m}{l}}.
+\end{equation}
+
+For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the resonance. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $V_{ni}=B_{ni}$ if $l+m$ is even, or a skew component $V_{ni}=A_{ni}$ if $l+m$ is odd. The symbols for $\beta_{xi}$, $\beta_{yi}$, $\phi_{xi}$ and $\phi_{yi}$ represent the unperturbed beta functions and phase advances in each plane, respectively.
 
 \section{Resonances in Circular Accelerators}
 
@@ -140,39 +153,84 @@ Figure \ref{fig:rrtdlow} plots all resonance lines up to fourth order in this re
 
 The RDTs $h_{jklm}$ are related to the strength of the resonance $\left( j-k \right) Q_x + \left( l-m\right) Q_y$. Therefore, controlling and measuring these RDTs is of special interest to accelerator physics. The following section explains how to get to a useful expression that can be used in order to measure the $h_{jklm}$ terms through Fourier expansions.
 
-The whole point of introducing the Normal Form coordinates ($I_u,\psi_u$) through the transformation $e^{-:F:}$ as defined in Eq. \ref{eq:F} is to transfer complicated non-linear dynamics to simple dynamics that lie on a circle. When this happens, a set of canonical coordinates $\vec{\zeta} = \left( \zeta_x^+ , \zeta_x^-, \zeta_y^+, \zeta_y^-\right)$ can be defined as:
+The whole point of introducing the Normal Form coordinates ($I_u,\psi_u$) through the transformation $e^{-:F:}$ as defined in Eq. \ref{eq:F} is to transfer complicated non-linear dynamics to simple dynamics that lie on a circle where the action is conserved $I_u$ and $\dot{\psi_u}$ is constant. When this happens, a set of canonical coordinates $\vec{\zeta} = \left( \zeta_x^+ , \zeta_x^-, \zeta_y^+, \zeta_y^-\right)$ can be defined as:
 \begin{equation}
     \label{eq:zeta}
     \zeta_u^{\pm}=\sqrt{2I_u}e^{\mp i\left( \psi_u + \psi_{u_0}\right)},
 \end{equation}
-always keeping in mind that $I_u$ is a constant of motion and $\psi_{u_0}$ is a constant initial phase set by the initial conditions. On the other hand, going back to the Courant-Snyder phase space, a set of coordinates known as a resonance basis $\vec{h} = \left( h_x^+ , h_x^-, h_y^+, h_y^-\right)$ can be defined. In a similar fashion to Eq. \ref{eq:zeta}, the resonance basis reads:
+always keeping in mind that $I_u$ is a constant of motion and $\psi_{u_0}$ is a constant initial phase set by the initial conditions. It can be shown that the Poisson brackets for a pair of these quantities are:
+\begin{equation}
+    \label{eq:zetapoisson}
+    \left[ \zeta_u^{+}, \zeta_u^{-} \right]_{\psi_u,J_u} = \frac{\partial \zeta_u^{+}}{\partial \psi_u}\frac{\partial \zeta_u^{-}}{\partial J_u} - \frac{\partial \zeta_u^{+}}{\partial J_u}\frac{\partial \zeta_u^{-}}{\partial \psi_u}=-2i,
+\end{equation}
+for the same plane $u$ and using a reduced form of Eq. \ref{eq:ch2poisson1}. In this notation, the subindices from $[\bullet,\bullet]_{\psi_u,J_u}$ refer to the variables to be used in order to calculate the Poisson brackets. Using Eq. \ref{eq:zetapoisson}, the following useful property can be derived:
+\begin{equation}
+    \label{eq:zetapoisson2}
+    \left[ {\zeta_x^{+}}^j {\zeta_x^{-}}^k {\zeta_y^{+}}^l {\zeta_y^{-}}^m, \zeta_x^{-} \right]_{\psi_x,J_x} = \left( {\zeta_y^{+}}^l {\zeta_y^{-}}^m \right)\left[ {\zeta_x^{+}}^j {\zeta_x^{-}}^k, \zeta_x^{-} \right]_{\psi_x,J_x} =-2ij {\zeta_x^{+}}^{j-1} {\zeta_x^{-}}^k {\zeta_y^{+}}^l {\zeta_y^{-}}^m ,
+\end{equation}   
+where the last step can be achieved using Leibnitz rule for Poisson brackets, i.e., $[fg,h]=[f,h]g+f[g,h]$.
+
+On the other hand, going back to the Courant-Snyder phase space, a set of coordinates known as a resonance basis $\vec{h} = \left( h_x^+ , h_x^-, h_y^+, h_y^-\right)$ can be defined. In a similar fashion to Eq. \ref{eq:zeta}, the resonance basis reads:
 \begin{equation}
     \label{eq:hbasis}
     h_u^{\pm}=\hat{u}\pm \hat{p_u}=\sqrt{2J_u}e^{\mp i\left( \phi_u + \phi_{u_0}\right)},
 \end{equation}
 always keeping in mind that in the Courant-Snyder phase space, the action $J_u$ is a function of the phase $\phi_u$, i.e., $J_u = J_u(\phi_u)$ and is not constant. The initial phase $\phi_{u_0}$ is again a constant set by the initial conditions. 
 
-The resonance basis can be built by getting the quantity $h_u^{\pm}=\hat{u}\pm \hat{p_u}$ in terms of the number of turns $N$ . Specifically, for $h_x^{-}$ this reads:
+The basis grouped in $\vec{h}$ and the one grouped in $\vec{\zeta}$ are related by the transformation:
+\begin{equation}
+    \label{eq:htozeta}
+    \vec{h}=e^{:F \left(\vec{\zeta}\right):}\vec{\zeta},
+\end{equation}
+where $F(\vec{\zeta})$ is the generating function written in terms of the basis $\vec{\zeta}$. The inverse transformation to Eq. \ref{eq:htozeta} reads:
+\begin{equation}
+    \label{eq:zetatoh}
+    \vec{\zeta}=e^{-:F\left( \vec{\zeta} \right):}\vec{h}.
+\end{equation}
+Writing out the generating function $F(\vec{\zeta})$ in a general polynomial form, this functions reads:
+\begin{equation}
+    \label{eq:Fzeta}
+    F\left( \vec{\zeta} \right)=\sum_{jklm} f_{jklm} {\zeta_x^{+}}^{j} {\zeta_x^{-}}^k {\zeta_y^{+}}^l {\zeta_y^{-}}^m.
+\end{equation}
+By inserting the definitions in Eq. \ref{eq:zeta} into Eq. \ref{eq:Fzeta}, the proposed definition in Eq. \ref{eq:F} can be recovered.
+
+Expanding Eq. \ref{eq:htozeta} by using the exponential Lie operator definition from Eq. \ref{eq:ch2explie1} reads:
+\begin{equation}
+    \label{eq:htozetaexpansion}
+    \vec{h}=\vec{\zeta}+\left[ F \left(\vec{\zeta}\right), \vec{\zeta}\right]+\frac{1}{2} \left[ F \left[ F , \vec{\zeta}\right] \right] + \dots,
+\end{equation}
+where this expression was truncated to second order in the Poisson brackets. By taking only the first two terms of the expansion, and introducing the expression from Eq. \ref{eq:Fzeta}, one can find an approximated expression for $h_{x}^{-}$ which reads:
+\begin{equation}
+    \label{eq:htozeta2}
+    h_x^- \approx \zeta_x^{-} + \left[ F \left(\vec{\zeta}\right), \zeta_x^{-}\right] =  \zeta_x^{-} + \sum_{jklm} f_{jklm} \left[ {\zeta_x^{+}}^{j} {\zeta_x^{-}}^k {\zeta_y^{+}}^l {\zeta_y^{-}}^m, \zeta_x^{-}\right],
+\end{equation}
+At this point is where the usefulness of Eq. \ref{eq:zetapoisson2} comes into play. Introducing the explicit result from Eq. \ref{eq:zetapoisson2} into Eq. \ref{eq:htozeta2} yields the following expression:
+\begin{equation}
+    \label{eq:htozeta3}
+    h_x^- \approx \zeta_x^{-} -2i \sum_{jklm}j f_{jklm} {\zeta_x^{+}}^{j-1} {\zeta_x^{-}}^k {\zeta_y^{+}}^l {\zeta_y^{-}}^m.
+\end{equation}
+Manipulating this expression further, the definition for $\zeta_u$ as described in Eq. \ref{eq:zeta} can be introduced into Eq. \ref{eq:htozeta3}. This yields:
+\begin{multline}
+    \label{eq:hxpsi}
+    h_x^{-}(N)=\sqrt{2I_x}e^{i\left( \psi_x+\psi_{x_0}\right)} \\
+    -2i \sum_{jklm} j f_{jklm} \left( 2I_x \right)^{\frac{j+k-1}{2}}\left( 2I_y \right)^{\frac{l+m}{2}}
+    e^{i \left[ \left( 1-j+k\right)\left( \psi_x + \psi_{x_0} \right) +\left( m-l\right)\left( \psi_y + \psi_{y_0} \right)\right]}.
+\end{multline}
+At this point, Eq. \ref{eq:hxpsi} is starting to look as a useful Fourier expansion. Ultimately, the data that can be extracted from a circular accelerator will come from a diagnostic device triggered every turn, i.e., turn-by-turn data. For that reason, it will be useful to rewrite Eq. \ref{eq:hxpsi} in terms of the $N$ number of turns of particles in the accelerator. The expression relating the phase advances to the turn number reads:
+\begin{equation}
+    \label{eq:psiu}
+    \psi_u=2 \pi Q_u N, 
+\end{equation}  
+where $2 \pi Q_u$ is the respective phase advance over one turn of the accelerator, i.e. the tune of the circular accelerator.
+
+Therefore, the resonance basis can be built by getting the quantity $h_u^{\pm}=\hat{u}\pm \hat{p}_u$ in terms of the number of turns $N$ and using Eq. \ref{eq:psiu}. Specifically, for $h_x^{-}$ this reads:
 \begin{multline}
     \label{eq:hx-}
     h_x^{-}(N)=\sqrt{2I_x}e^{i\left( 2\pi Q_x N +\psi_{x_0}\right)} \\
     -2i \sum_{jklm} j f_{jklm} \left( 2I_x \right)^{\frac{j+k-1}{2}}\left( 2I_y \right)^{\frac{l+m}{2}}
     e^{i \left[ \left( 1-j+k\right)\left( 2\pi Q_x N + \psi_{x_0} \right) +\left( m-l\right)\left( 2\pi Q_y N + \psi_{y_0} \right)\right]},
 \end{multline}
-where $Q_x$ and $Q_y$ are the horizontal and vertical tune~[3]. 
-
-In general, RDTs are defined by the order in which they enter the one-turn normal form Hamiltonian \cite{bartolini}. The general expression to define RDTs reads:
-\begin{equation}
-    \label{eq:rdt1}
-    h_{jklm}=\Xi _{jklm} \sum_i L_i \beta_{xi}^{\frac{j+k}{2}} \beta_{yi}^{\frac{l+m}{2}} V_{ni}e^{i\left[ (j-k)\phi_{xi} +(l-m) \phi_{yi} \right]},
-\end{equation}
-where $\Xi _{jklm}$ is just a constant defined as:
-\begin{equation}
-    \label{eq:rdt2}
-    \Xi _{jklm} = -\frac{q}{p_0}\frac{1}{2^n}\frac{1}{n} {\binom{n}{l+m}} {\binom{j+k}{j}}{\binom{l+m}{l}}.
-\end{equation}
-
-For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the resonance. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $V_{ni}=B_{ni}$ if $l+m$ is even, or a skew component $V_{ni}=A_{ni}$ if $l+m$ is odd. The symbols for $\beta_{xi}$, $\beta_{yi}$, $\phi_{xi}$ and $\phi_{yi}$ represent the beta functions and phase advances in each plane, respectively.
+where $Q_x$ and $Q_y$ are the horizontal and vertical uncoupled tune. Note that this analysis can be easily extended to calculate the other elements in $\vec{h}$. These calculations are left as an exercise for the reader.  
 
 \section{\label{sec:sc1}Space Charge Tune Shift}
 

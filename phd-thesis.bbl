@@ -139,6 +139,79 @@
       \field{type}{phdthesis}
       \field{year}{2003}
     \endentry
+    \entry{forest}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6476c949f8d1ffd5615fcf68772a88c4}{%
+           family={Forest},
+           familyi={F\bibinitperiod},
+           given={Étienne},
+           giveni={É\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam, The Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {Hardwood Academic / CRC Press}%
+      }
+      \strng{namehash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{fullhash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{bibnamehash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{authorbibnamehash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{authornamehash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{authorfullhash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-90-5702-574-7}
+      \field{series}{The Physics and Technology of Particle and Photon Beams}
+      \field{title}{{Beam Dynamics: A New Attitude and Framework}}
+      \field{volume}{8}
+      \field{year}{1998}
+    \endentry
+    \entry{bch}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ce532f4d06611242ab8929437ddc2c3b}{%
+           family={Achilles},
+           familyi={A\bibinitperiod},
+           given={Rüdiger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9bbdd2bd9ed7dc42e3328938055abce0}{%
+           family={Bonfiglioli},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{57e4819df6478782f36a979835603f96}
+      \strng{fullhash}{57e4819df6478782f36a979835603f96}
+      \strng{bibnamehash}{57e4819df6478782f36a979835603f96}
+      \strng{authorbibnamehash}{57e4819df6478782f36a979835603f96}
+      \strng{authornamehash}{57e4819df6478782f36a979835603f96}
+      \strng{authorfullhash}{57e4819df6478782f36a979835603f96}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of this paper is to provide a comprehensive exposition of the early contributions to the so-called Campbell, Baker, Hausdorff, Dynkin Theorem during the years 1890--1950. Related works by Schur, Poincaré, Pascal, Campbell, Baker, Hausdorff, and Dynkin will be investigated and compared. For a full recovery of the original sources, many mathematical details will also be furnished. In particular, we rediscover and comment on a series of five notable papers by Pascal (Lomb Ist Rend, 1901--1902), which nowadays are almost forgotten.}
+      \field{isbn}{1432-0657}
+      \field{journaltitle}{Archive for History of Exact Sciences}
+      \field{number}{3}
+      \field{title}{The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin}
+      \field{volume}{66}
+      \field{year}{2012}
+      \field{pages}{295\bibrangedash 358}
+      \range{pages}{64}
+      \verb{doi}
+      \verb 10.1007/s00407-012-0095-8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00407-012-0095-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00407-012-0095-8
+      \endverb
+      \warn{\item article entry 'bch' (bibliography.bib): Invalid format '2012/05/01' of date field 'date' - ignoring}
+    \endentry
     \entry{bartolini}{article}{}
       \name{author}{2}{}{%
         {{hash=bb664f45fa2caa4a8b1a88e9db582b93}{%
@@ -158,8 +231,8 @@
       \strng{authorbibnamehash}{3e46f2c4b346af020851d5e7854656f8}
       \strng{authornamehash}{3e46f2c4b346af020851d5e7854656f8}
       \strng{authorfullhash}{3e46f2c4b346af020851d5e7854656f8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Part. Accel.}
@@ -195,8 +268,8 @@
       \strng{authorbibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
       \strng{authornamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
       \strng{authorfullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Particle resonances in circular accelerators occur as a result of perturbation terms involving particular Fourier harmonics. That approach is based on the common knowledge that periodic perturbations of a harmonic oscillator can cause a resonance when the perturbation frequency is equal to an eigenfrequency of the oscillator.}
@@ -233,8 +306,8 @@
       \strng{authorbibnamehash}{42af251ae29dd645326679fff7ed7a17}
       \strng{authornamehash}{42af251ae29dd645326679fff7ed7a17}
       \strng{authorfullhash}{42af251ae29dd645326679fff7ed7a17}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{3rd}
@@ -270,8 +343,8 @@
       \strng{authorbibnamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authornamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authorfullhash}{dfacc387c53c3a871de0821a11d0205c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -306,8 +379,8 @@
       \strng{authorbibnamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authornamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authorfullhash}{2fb5f3d6168318debe801f038a3af634}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
