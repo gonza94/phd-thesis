@@ -193,8 +193,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The aim of this paper is to provide a comprehensive exposition of the early contributions to the so-called Campbell, Baker, Hausdorff, Dynkin Theorem during the years 1890--1950. Related works by Schur, Poincaré, Pascal, Campbell, Baker, Hausdorff, and Dynkin will be investigated and compared. For a full recovery of the original sources, many mathematical details will also be furnished. In particular, we rediscover and comment on a series of five notable papers by Pascal (Lomb Ist Rend, 1901--1902), which nowadays are almost forgotten.}
-      \field{isbn}{1432-0657}
       \field{journaltitle}{Archive for History of Exact Sciences}
+      \field{month}{5}
       \field{number}{3}
       \field{title}{The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin}
       \field{volume}{66}
@@ -210,7 +210,6 @@
       \verb{url}
       \verb https://doi.org/10.1007/s00407-012-0095-8
       \endverb
-      \warn{\item article entry 'bch' (bibliography.bib): Invalid format '2012/05/01' of date field 'date' - ignoring}
     \endentry
     \entry{bartolini}{article}{}
       \name{author}{2}{}{%
