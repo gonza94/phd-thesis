@@ -1,8 +1,6 @@
 if [ "$1" = "--clearcache" -o "$1" = "-cc" ]; then
     echo "Cleaning biber cache"
     rm -rf $(biber --cache)
-else
-    break
 fi
 
 pdflatex -synctex=1 -interaction=nonstopmode "phd-thesis".tex

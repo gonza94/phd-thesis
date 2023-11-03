@@ -2,7 +2,7 @@ PWD /Users/lalito/Desktop/phd-thesis
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT phd-thesis.tex
+INPUT /Users/lalito/Desktop/phd-thesis/phd-thesis.tex
 OUTPUT phd-thesis.log
 INPUT ./msu-thesis.cls
 INPUT ./msu-thesis.cls
