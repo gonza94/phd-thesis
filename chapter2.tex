@@ -1,6 +1,13 @@
 \chapter{Beam Dynamics in Rings}
 \label{sec:ch2}
 
+\section{\label{sec:basic}Introductory Accelerator Physics}
+The basic building blocks of a particle accelerator are the elements that steer and focus the beam in the transverse direction. While there are a handful of electromagnetic devices that can do this, the most prominent ones are pure dipole magnets for steering and pure quadrupole magnets for focusing. Nevertheless, some machines such as the Recycler Ring have combined function magnets which can have both types of magnets---and even higher order magnets---embedded in one, in order to steer and focus the particles. The previous information assumes that every magnet can be expanded and described as a decomposition of magnetic multipoles, where dipole and quadrupole components are the lowest order terms of the expansion. Therefore, using the Beth representation \cite{sylee}, the multipole expansion for an arbitrary mutipole magnet reads:
+\begin{equation}
+    \label{eq:ch2magnet}
+    B_y(x,y)+iB_x(x,y)=B_0 \sum{n=0}^{\infty} 
+\end{equation}
+
 \section{\label{sec:lie}Lie Maps in Accelerator Physics}
 
 The most basic element of a particle accelerator can be thought of as a LEGO® brick acting as a black box transformation for a single particle. This black box takes some single charged particle with initial transverse coordinates $\left( x_0,x'_0,y_0,y'_0 \right)$, as defined in a Frenet-Serret coordinate system, and maps them to some final coordinates $\left( x_f,x'_f,y_f,y'_f \right)$. For simplicity, any longitudinal effect will not be taken into account for this analysis, but can be easily incorporated. By gathering the initial coordinates into a vector, i.e. $\vec{X_0} = \left( x_0,x_0',y_0,y_0' \right)$, and doing the same for the final coordinates, i.e., $\vec{X_f} = \left( x_f,x_f',y_f,y_f' \right)$, one can define the mapping $\mathcal{M}$ that relates both vectors, such that:  

@@ -2369,32 +2369,33 @@
     <bcf:citekey order="3" intorder="1">forest</bcf:citekey>
     <bcf:citekey order="4" intorder="1">tevatron</bcf:citekey>
     <bcf:citekey order="5" intorder="1">fermilab1</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">wolski</bcf:citekey>
-    <bcf:citekey order="6" intorder="2">todd1</bcf:citekey>
-    <bcf:citekey order="6" intorder="3">cernthesis1</bcf:citekey>
-    <bcf:citekey order="6" intorder="4">cernthesis2</bcf:citekey>
-    <bcf:citekey order="6" intorder="5">forest</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">todd1</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">bch</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">cernthesis1</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">bartolini</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">bartolini</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Wiedemann2015</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">wolski</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">Wiedemann2015</bcf:citekey>
-    <bcf:citekey order="12" intorder="3">sylee</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">sylee</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">rr0</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">rrnagaitsev</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">rr1</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">sylee</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">wolski</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">todd1</bcf:citekey>
+    <bcf:citekey order="7" intorder="3">cernthesis1</bcf:citekey>
+    <bcf:citekey order="7" intorder="4">cernthesis2</bcf:citekey>
+    <bcf:citekey order="7" intorder="5">forest</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">todd1</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">bch</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">cernthesis1</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">bartolini</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">bartolini</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Wiedemann2015</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">wolski</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">Wiedemann2015</bcf:citekey>
+    <bcf:citekey order="13" intorder="3">sylee</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">sylee</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">rr0</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">rrnagaitsev</bcf:citekey>
     <bcf:citekey order="17" intorder="1">rr1</bcf:citekey>
-    <bcf:citekey order="17" intorder="2">rrnagaitsev</bcf:citekey>
-    <bcf:citekey order="17" intorder="3">numi1</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">pipII1</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">rr2</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">mionrr</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">cris1</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">cris2</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">rr1</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">rrnagaitsev</bcf:citekey>
+    <bcf:citekey order="18" intorder="3">numi1</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">pipII1</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">rr2</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">mionrr</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">cris1</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">cris2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

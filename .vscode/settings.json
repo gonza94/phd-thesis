@@ -5,5 +5,45 @@
         "nonlinearities",
         "octupole",
         "quadrupoles"
+    ],
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.message.badbox.show": false,
+    // "latex-workshop.message.latexlog.exclude":["Reference.*undefined*", "Hyper reference.*undefined*"],
+    // "latex-workshop.message.latexlog.exclude":["LaTeX Warning: Reference *"],
+    // "latex-workshop.latex.external.build.command": "zsh try_make_pdf.sh",
+    // "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatexthesis",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%",
+            ],
+            "env": {}
+        },
+        {
+            "name": "biberthesis",
+            "command": "biber",
+            "args": [
+                "-D",
+                "%DOC%"
+            ],
+            "env": {}
+        }
+
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "makethesis",
+            "tools": [
+                "pdflatexthesis",
+                "biberthesis",
+                "pdflatexthesis",
+                "pdflatexthesis"
+            ]
+        }
     ]
 }

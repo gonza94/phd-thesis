@@ -64,8 +64,9 @@
            given={David},
            giveni={D\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {John Wiley & Sons, Ltd}%
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons, Ltd}%
       }
       \strng{namehash}{f155d780982df4094a3495f4b0c58354}
       \strng{fullhash}{f155d780982df4094a3495f4b0c58354}
@@ -249,8 +250,8 @@
       \strng{authorbibnamehash}{2f9bada81f52159aa7641b0801229850}
       \strng{authornamehash}{2f9bada81f52159aa7641b0801229850}
       \strng{authorfullhash}{2f9bada81f52159aa7641b0801229850}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
@@ -286,8 +287,8 @@
       \strng{authorbibnamehash}{3b955981f23005f4d5db1a8353f69248}
       \strng{authornamehash}{3b955981f23005f4d5db1a8353f69248}
       \strng{authorfullhash}{3b955981f23005f4d5db1a8353f69248}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://toddsatogata.net/2011-USPAS/lieAlgebras.pdf}}
@@ -315,8 +316,8 @@
       \strng{authorbibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
       \strng{authornamehash}{5b4322efa01b52d2a723d17d4b8aee21}
       \strng{authorfullhash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Measurement and Compensation of Betatron Resonances at the CERN PS Booster Synchrotron}
@@ -343,8 +344,8 @@
       \strng{authorbibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
       \strng{authornamehash}{8c7b9e72fb7126927c84841dba7716a0}
       \strng{authorfullhash}{8c7b9e72fb7126927c84841dba7716a0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{1}
@@ -371,8 +372,8 @@
       \strng{authorbibnamehash}{57e4819df6478782f36a979835603f96}
       \strng{authornamehash}{57e4819df6478782f36a979835603f96}
       \strng{authorfullhash}{57e4819df6478782f36a979835603f96}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The aim of this paper is to provide a comprehensive exposition of the early contributions to the so-called Campbell, Baker, Hausdorff, Dynkin Theorem during the years 1890--1950. Related works by Schur, Poincaré, Pascal, Campbell, Baker, Hausdorff, and Dynkin will be investigated and compared. For a full recovery of the original sources, many mathematical details will also be furnished. In particular, we rediscover and comment on a series of five notable papers by Pascal (Lomb Ist Rend, 1901--1902), which nowadays are almost forgotten.}
@@ -413,8 +414,8 @@
       \strng{authorbibnamehash}{3e46f2c4b346af020851d5e7854656f8}
       \strng{authornamehash}{3e46f2c4b346af020851d5e7854656f8}
       \strng{authorfullhash}{3e46f2c4b346af020851d5e7854656f8}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Part. Accel.}
@@ -1854,8 +1855,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
