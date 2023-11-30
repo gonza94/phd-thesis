@@ -100,35 +100,27 @@
       \endverb
       \keyw{charge-to-mass ratio,electrons,corpuscles,nucleus,helium atoms}
     \endentry
-    \entry{forest}{book}{}
+    \entry{frib}{misc}{}
       \name{author}{1}{}{%
-        {{hash=6476c949f8d1ffd5615fcf68772a88c4}{%
-           family={Forest},
-           familyi={F\bibinitperiod},
-           given={Étienne},
-           giveni={É\bibinitperiod}}}%
+        {{hash=4deda574b6051626774e82454c731ff1}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={Michigan\bibnamedelima State},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Amsterdam, The Netherlands}%
-      }
-      \list{publisher}{1}{%
-        {Hardwood Academic / CRC Press}%
-      }
-      \strng{namehash}{6476c949f8d1ffd5615fcf68772a88c4}
-      \strng{fullhash}{6476c949f8d1ffd5615fcf68772a88c4}
-      \strng{bibnamehash}{6476c949f8d1ffd5615fcf68772a88c4}
-      \strng{authorbibnamehash}{6476c949f8d1ffd5615fcf68772a88c4}
-      \strng{authornamehash}{6476c949f8d1ffd5615fcf68772a88c4}
-      \strng{authorfullhash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{namehash}{4deda574b6051626774e82454c731ff1}
+      \strng{fullhash}{4deda574b6051626774e82454c731ff1}
+      \strng{bibnamehash}{4deda574b6051626774e82454c731ff1}
+      \strng{authorbibnamehash}{4deda574b6051626774e82454c731ff1}
+      \strng{authornamehash}{4deda574b6051626774e82454c731ff1}
+      \strng{authorfullhash}{4deda574b6051626774e82454c731ff1}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{978-90-5702-574-7}
-      \field{series}{The Physics and Technology of Particle and Photon Beams}
-      \field{title}{{Beam Dynamics: A New Attitude and Framework}}
-      \field{volume}{8}
-      \field{year}{1998}
+      \field{journaltitle}{FRIB}
+      \field{note}{https://frib.msu.edu/index.php}
+      \field{title}{Facility for Rare Isotope Beams at Michigan State University}
     \endentry
     \entry{tevatron}{inbook}{}
       \name{author}{4}{}{%
@@ -187,6 +179,68 @@
       \verb 10.1007/978-1-4939-0885-1_1
       \endverb
     \endentry
+    \entry{forest}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6476c949f8d1ffd5615fcf68772a88c4}{%
+           family={Forest},
+           familyi={F\bibinitperiod},
+           given={Étienne},
+           giveni={É\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam, The Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {Hardwood Academic / CRC Press}%
+      }
+      \strng{namehash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{fullhash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{bibnamehash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{authorbibnamehash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{authornamehash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \strng{authorfullhash}{6476c949f8d1ffd5615fcf68772a88c4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-90-5702-574-7}
+      \field{series}{The Physics and Technology of Particle and Photon Beams}
+      \field{title}{{Beam Dynamics: A New Attitude and Framework}}
+      \field{volume}{8}
+      \field{year}{1998}
+    \endentry
+    \entry{srfcavs}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=345edd79b020b549f68308bdd3822699}{%
+           family={Kako},
+           familyi={K\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d0f0bfb21fd78d9aa945a7dbf5fc0de6}{%
+           family={Pierini},
+           familyi={P\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=412d2a4276fbb4d149775783d2494a2e}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={C.E.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{564b194b0de47a352604dd5bd6bf6822}
+      \strng{fullhash}{564b194b0de47a352604dd5bd6bf6822}
+      \strng{bibnamehash}{564b194b0de47a352604dd5bd6bf6822}
+      \strng{authorbibnamehash}{564b194b0de47a352604dd5bd6bf6822}
+      \strng{authornamehash}{564b194b0de47a352604dd5bd6bf6822}
+      \strng{authorfullhash}{564b194b0de47a352604dd5bd6bf6822}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{CERN Courier}
+      \field{month}{12}
+      \field{note}{https://cerncourier.com/a/teslas-high-gradient-march/}
+      \field{year}{2020}
+    \endentry
     \entry{fermilab1}{book}{}
       \name{author}{3}{}{%
         {{hash=7f9d81406e8101ce8414272954fe5e95}{%
@@ -214,8 +268,8 @@
       \strng{authorbibnamehash}{0c6d66f43490e6a211f44e4f95d85257}
       \strng{authornamehash}{0c6d66f43490e6a211f44e4f95d85257}
       \strng{authorfullhash}{0c6d66f43490e6a211f44e4f95d85257}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{Fermi National Accelerator Laboratory, located in the western suburbs of Chicago, has stood at the frontier of high-energy physics for forty years. This book is the first history of this laboratory and of its powerful accelerators told from the point of view of the people who built and used them for scientific discovery. Focusing on the first two decades of research at Fermilab, during the tenure of the laboratory's charismatic first two directors, Robert R. Wilson and Leon M. Lederman, the book traces the rise of what they call “megascience”, the collaborative struggle to conduct large-scale international experiments in a climate of limited federal funding. In the midst of this new climate, this book illuminates the growth of the modern research laboratory during the Cold War and captures the drama of human exploration at the cutting edge of science.}}
@@ -231,397 +285,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.7208/chicago/9780226346250.001.0001
-      \endverb
-    \endentry
-    \entry{wolski}{book}{}
-      \name{author}{1}{}{%
-        {{hash=2f9bada81f52159aa7641b0801229850}{%
-           family={Wolski},
-           familyi={W\bibinitperiod},
-           given={Andrzej},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {WORLD SCIENTIFIC}%
-      }
-      \strng{namehash}{2f9bada81f52159aa7641b0801229850}
-      \strng{fullhash}{2f9bada81f52159aa7641b0801229850}
-      \strng{bibnamehash}{2f9bada81f52159aa7641b0801229850}
-      \strng{authorbibnamehash}{2f9bada81f52159aa7641b0801229850}
-      \strng{authornamehash}{2f9bada81f52159aa7641b0801229850}
-      \strng{authorfullhash}{2f9bada81f52159aa7641b0801229850}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2nd}
-      \field{title}{Beam Dynamics in High Energy Particle Accelerators}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.1142/13333
-      \endverb
-      \verb{eprint}
-      \verb https://www.worldscientific.com/doi/pdf/10.1142/13333
-      \endverb
-      \verb{urlraw}
-      \verb https://www.worldscientific.com/doi/abs/10.1142/13333
-      \endverb
-      \verb{url}
-      \verb https://www.worldscientific.com/doi/abs/10.1142/13333
-      \endverb
-    \endentry
-    \entry{todd1}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=3b955981f23005f4d5db1a8353f69248}{%
-           family={Satogata},
-           familyi={S\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {USPAS: U.S. Particle Accelerator School}%
-      }
-      \strng{namehash}{3b955981f23005f4d5db1a8353f69248}
-      \strng{fullhash}{3b955981f23005f4d5db1a8353f69248}
-      \strng{bibnamehash}{3b955981f23005f4d5db1a8353f69248}
-      \strng{authorbibnamehash}{3b955981f23005f4d5db1a8353f69248}
-      \strng{authornamehash}{3b955981f23005f4d5db1a8353f69248}
-      \strng{authorfullhash}{3b955981f23005f4d5db1a8353f69248}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://toddsatogata.net/2011-USPAS/lieAlgebras.pdf}}
-      \field{month}{1}
-      \field{title}{Lecture Notes on Poisson Brackets and Lie Operators}
-      \field{year}{2008}
-    \endentry
-    \entry{cernthesis1}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=5b4322efa01b52d2a723d17d4b8aee21}{%
-           family={Urschutz},
-           familyi={U\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Vienna, Austria}%
-      }
-      \list{publisher}{1}{%
-        {Vienna University of Technology (Technische Universität Wien)}%
-      }
-      \strng{namehash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \strng{fullhash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \strng{bibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \strng{authorbibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \strng{authornamehash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \strng{authorfullhash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Measurement and Compensation of Betatron Resonances at the CERN PS Booster Synchrotron}
-      \field{type}{phdthesis}
-      \field{year}{2004}
-    \endentry
-    \entry{cernthesis2}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=8c7b9e72fb7126927c84841dba7716a0}{%
-           family={Tomas\bibnamedelima Garcia},
-           familyi={T\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Valencia, Spain}%
-      }
-      \list{publisher}{1}{%
-        {Universitat de Valencia}%
-      }
-      \strng{namehash}{8c7b9e72fb7126927c84841dba7716a0}
-      \strng{fullhash}{8c7b9e72fb7126927c84841dba7716a0}
-      \strng{bibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
-      \strng{authorbibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
-      \strng{authornamehash}{8c7b9e72fb7126927c84841dba7716a0}
-      \strng{authorfullhash}{8c7b9e72fb7126927c84841dba7716a0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Direct Measurement of Resonance Driving Terms in the Super Proton Synchrotron (SPS) of CERN using Beam Position Monitors}
-      \field{type}{phdthesis}
-      \field{year}{2003}
-    \endentry
-    \entry{bch}{article}{}
-      \name{author}{2}{}{%
-        {{hash=ce532f4d06611242ab8929437ddc2c3b}{%
-           family={Achilles},
-           familyi={A\bibinitperiod},
-           given={Rüdiger},
-           giveni={R\bibinitperiod}}}%
-        {{hash=9bbdd2bd9ed7dc42e3328938055abce0}{%
-           family={Bonfiglioli},
-           familyi={B\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{57e4819df6478782f36a979835603f96}
-      \strng{fullhash}{57e4819df6478782f36a979835603f96}
-      \strng{bibnamehash}{57e4819df6478782f36a979835603f96}
-      \strng{authorbibnamehash}{57e4819df6478782f36a979835603f96}
-      \strng{authornamehash}{57e4819df6478782f36a979835603f96}
-      \strng{authorfullhash}{57e4819df6478782f36a979835603f96}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The aim of this paper is to provide a comprehensive exposition of the early contributions to the so-called Campbell, Baker, Hausdorff, Dynkin Theorem during the years 1890--1950. Related works by Schur, Poincaré, Pascal, Campbell, Baker, Hausdorff, and Dynkin will be investigated and compared. For a full recovery of the original sources, many mathematical details will also be furnished. In particular, we rediscover and comment on a series of five notable papers by Pascal (Lomb Ist Rend, 1901--1902), which nowadays are almost forgotten.}
-      \field{journaltitle}{Archive for History of Exact Sciences}
-      \field{month}{5}
-      \field{number}{3}
-      \field{title}{The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin}
-      \field{volume}{66}
-      \field{year}{2012}
-      \field{pages}{295\bibrangedash 358}
-      \range{pages}{64}
-      \verb{doi}
-      \verb 10.1007/s00407-012-0095-8
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s00407-012-0095-8
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s00407-012-0095-8
-      \endverb
-    \endentry
-    \entry{bartolini}{article}{}
-      \name{author}{2}{}{%
-        {{hash=bb664f45fa2caa4a8b1a88e9db582b93}{%
-           family={Bartolini},
-           familyi={B\bibinitperiod},
-           given={R},
-           giveni={R\bibinitperiod}}}%
-        {{hash=0127454c0c43fce484064ba71e8f9bbd}{%
-           family={Schmidt},
-           familyi={S\bibinitperiod},
-           given={F},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{3e46f2c4b346af020851d5e7854656f8}
-      \strng{fullhash}{3e46f2c4b346af020851d5e7854656f8}
-      \strng{bibnamehash}{3e46f2c4b346af020851d5e7854656f8}
-      \strng{authorbibnamehash}{3e46f2c4b346af020851d5e7854656f8}
-      \strng{authornamehash}{3e46f2c4b346af020851d5e7854656f8}
-      \strng{authorfullhash}{3e46f2c4b346af020851d5e7854656f8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Part. Accel.}
-      \field{title}{{Normal form via tracking or beam data}}
-      \field{volume}{59}
-      \field{year}{1998}
-      \field{pages}{93\bibrangedash 106}
-      \range{pages}{14}
-      \verb{urlraw}
-      \verb https://cds.cern.ch/record/333077
-      \endverb
-      \verb{url}
-      \verb https://cds.cern.ch/record/333077
-      \endverb
-    \endentry
-    \entry{Wiedemann2015}{book}{}
-      \name{author}{1}{}{%
-        {{hash=f7d524a2ec35fb3f9eff2cd2aa8fca36}{%
-           family={Wiedemann},
-           familyi={W\bibinitperiod},
-           given={Helmut},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{fullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{bibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authorbibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authornamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authorfullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Particle resonances in circular accelerators occur as a result of perturbation terms involving particular Fourier harmonics. That approach is based on the common knowledge that periodic perturbations of a harmonic oscillator can cause a resonance when the perturbation frequency is equal to an eigenfrequency of the oscillator.}
-      \field{booktitle}{Particle Accelerator Physics}
-      \field{isbn}{978-3-319-18317-6}
-      \field{title}{Resonances}
-      \field{year}{2015}
-      \field{pages}{539\bibrangedash 564}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.1007/978-3-319-18317-6_16
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-3-319-18317-6_16
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-3-319-18317-6_16
-      \endverb
-    \endentry
-    \entry{rr0}{report}{}
-      \name{author}{1}{}{%
-        {{hash=dfacc387c53c3a871de0821a11d0205c}{%
-           family={Jackson},
-           familyi={J\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Fermilab}%
-      }
-      \strng{namehash}{dfacc387c53c3a871de0821a11d0205c}
-      \strng{fullhash}{dfacc387c53c3a871de0821a11d0205c}
-      \strng{bibnamehash}{dfacc387c53c3a871de0821a11d0205c}
-      \strng{authorbibnamehash}{dfacc387c53c3a871de0821a11d0205c}
-      \strng{authornamehash}{dfacc387c53c3a871de0821a11d0205c}
-      \strng{authorfullhash}{dfacc387c53c3a871de0821a11d0205c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{number}{FNAL-TM-1991ON: DE97051388; BR: KAHEP}
-      \field{title}{The Fermilab recycler ring technical design report. Revision 1.2}
-      \field{type}{techreport}
-      \field{year}{1996}
-      \verb{doi}
-      \verb 10.2172/16029
-      \endverb
-      \verb{urlraw}
-      \verb https://www.osti.gov/biblio/16029
-      \endverb
-      \verb{url}
-      \verb https://www.osti.gov/biblio/16029
-      \endverb
-    \endentry
-    \entry{rrnagaitsev}{report}{}
-      \name{author}{1}{}{%
-        {{hash=2fb5f3d6168318debe801f038a3af634}{%
-           family={Nagaitsev},
-           familyi={N\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Fermilab}%
-      }
-      \strng{namehash}{2fb5f3d6168318debe801f038a3af634}
-      \strng{fullhash}{2fb5f3d6168318debe801f038a3af634}
-      \strng{bibnamehash}{2fb5f3d6168318debe801f038a3af634}
-      \strng{authorbibnamehash}{2fb5f3d6168318debe801f038a3af634}
-      \strng{authornamehash}{2fb5f3d6168318debe801f038a3af634}
-      \strng{authorfullhash}{2fb5f3d6168318debe801f038a3af634}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{3}
-      \field{number}{FERMILAB-FN-0957-AD}
-      \field{title}{Fermilab Antiproton source, Recycler ring and Main Injector}
-      \field{type}{techreport}
-      \field{year}{2013}
-      \verb{doi}
-      \verb 10.2172/1127965
-      \endverb
-      \verb{urlraw}
-      \verb https://www.osti.gov/biblio/1127965
-      \endverb
-      \verb{url}
-      \verb https://www.osti.gov/biblio/1127965
-      \endverb
-    \endentry
-    \entry{rr1}{article}{}
-      \name{author}{9}{}{%
-        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
-           family={Ainsworth},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=391d31de27b9e847b1cf2d3f45c600dd}{%
-           family={Adamson},
-           familyi={A\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod}}}%
-        {{hash=34166168504b71de8816c480ffb9ee68}{%
-           family={Brown},
-           familyi={B\bibinitperiod},
-           given={Bruce\bibnamedelima C.},
-           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=f3f5433af2b0d99b80d5fe125536bdc2}{%
-           family={Capista},
-           familyi={C\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=59da48c3d4aa93b2814f0921ff7a2764}{%
-           family={Hazelwood},
-           familyi={H\bibinitperiod},
-           given={Kyle},
-           giveni={K\bibinitperiod}}}%
-        {{hash=305f1a2989f8e4ea1effe8274740795f}{%
-           family={Kourbanis},
-           familyi={K\bibinitperiod},
-           given={Ioanis},
-           giveni={I\bibinitperiod}}}%
-        {{hash=ca5cdd4a4fd53f64cc8c81a0748c5a2a}{%
-           family={Morris},
-           familyi={M\bibinitperiod},
-           given={Denton\bibnamedelima K},
-           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=7177c54bd109a4d31d12325f327cdd9d}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Meiqin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ec20afc71167704fd53ef78512fe0ad6}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Ming-Jen},
-           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{fullhash}{1a408a640aa937cf78d2f6fd3d650c47}
-      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{12}
-      \field{journaltitle}{Phys. Rev. Accel. Beams}
-      \field{month}{12}
-      \field{title}{High intensity operation using proton stacking in the Fermilab Recycler to deliver 700 kW of 120 GeV proton beam}
-      \field{volume}{23}
-      \field{year}{2020}
-      \field{pages}{121002}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevAccelBeams.23.121002
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
       \endverb
     \endentry
     \entry{numi1}{article}{}
@@ -1606,6 +1269,397 @@
       \endverb
       \keyw{Neutrinos,Long baseline,Beam,Target,Main Injector}
     \endentry
+    \entry{wolski}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2f9bada81f52159aa7641b0801229850}{%
+           family={Wolski},
+           familyi={W\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WORLD SCIENTIFIC}%
+      }
+      \strng{namehash}{2f9bada81f52159aa7641b0801229850}
+      \strng{fullhash}{2f9bada81f52159aa7641b0801229850}
+      \strng{bibnamehash}{2f9bada81f52159aa7641b0801229850}
+      \strng{authorbibnamehash}{2f9bada81f52159aa7641b0801229850}
+      \strng{authornamehash}{2f9bada81f52159aa7641b0801229850}
+      \strng{authorfullhash}{2f9bada81f52159aa7641b0801229850}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Beam Dynamics in High Energy Particle Accelerators}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1142/13333
+      \endverb
+      \verb{eprint}
+      \verb https://www.worldscientific.com/doi/pdf/10.1142/13333
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/13333
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/13333
+      \endverb
+    \endentry
+    \entry{todd1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3b955981f23005f4d5db1a8353f69248}{%
+           family={Satogata},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {USPAS: U.S. Particle Accelerator School}%
+      }
+      \strng{namehash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{fullhash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{bibnamehash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{authorbibnamehash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{authornamehash}{3b955981f23005f4d5db1a8353f69248}
+      \strng{authorfullhash}{3b955981f23005f4d5db1a8353f69248}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://toddsatogata.net/2011-USPAS/lieAlgebras.pdf}}
+      \field{month}{1}
+      \field{title}{Lecture Notes on Poisson Brackets and Lie Operators}
+      \field{year}{2008}
+    \endentry
+    \entry{cernthesis1}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=5b4322efa01b52d2a723d17d4b8aee21}{%
+           family={Urschutz},
+           familyi={U\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{publisher}{1}{%
+        {Vienna University of Technology (Technische Universität Wien)}%
+      }
+      \strng{namehash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{fullhash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{bibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{authorbibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{authornamehash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \strng{authorfullhash}{5b4322efa01b52d2a723d17d4b8aee21}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Measurement and Compensation of Betatron Resonances at the CERN PS Booster Synchrotron}
+      \field{type}{phdthesis}
+      \field{year}{2004}
+    \endentry
+    \entry{cernthesis2}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=8c7b9e72fb7126927c84841dba7716a0}{%
+           family={Tomas\bibnamedelima Garcia},
+           familyi={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Valencia, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Universitat de Valencia}%
+      }
+      \strng{namehash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{fullhash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{bibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{authorbibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{authornamehash}{8c7b9e72fb7126927c84841dba7716a0}
+      \strng{authorfullhash}{8c7b9e72fb7126927c84841dba7716a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Direct Measurement of Resonance Driving Terms in the Super Proton Synchrotron (SPS) of CERN using Beam Position Monitors}
+      \field{type}{phdthesis}
+      \field{year}{2003}
+    \endentry
+    \entry{bch}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ce532f4d06611242ab8929437ddc2c3b}{%
+           family={Achilles},
+           familyi={A\bibinitperiod},
+           given={Rüdiger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9bbdd2bd9ed7dc42e3328938055abce0}{%
+           family={Bonfiglioli},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{57e4819df6478782f36a979835603f96}
+      \strng{fullhash}{57e4819df6478782f36a979835603f96}
+      \strng{bibnamehash}{57e4819df6478782f36a979835603f96}
+      \strng{authorbibnamehash}{57e4819df6478782f36a979835603f96}
+      \strng{authornamehash}{57e4819df6478782f36a979835603f96}
+      \strng{authorfullhash}{57e4819df6478782f36a979835603f96}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of this paper is to provide a comprehensive exposition of the early contributions to the so-called Campbell, Baker, Hausdorff, Dynkin Theorem during the years 1890--1950. Related works by Schur, Poincaré, Pascal, Campbell, Baker, Hausdorff, and Dynkin will be investigated and compared. For a full recovery of the original sources, many mathematical details will also be furnished. In particular, we rediscover and comment on a series of five notable papers by Pascal (Lomb Ist Rend, 1901--1902), which nowadays are almost forgotten.}
+      \field{journaltitle}{Archive for History of Exact Sciences}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin}
+      \field{volume}{66}
+      \field{year}{2012}
+      \field{pages}{295\bibrangedash 358}
+      \range{pages}{64}
+      \verb{doi}
+      \verb 10.1007/s00407-012-0095-8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00407-012-0095-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00407-012-0095-8
+      \endverb
+    \endentry
+    \entry{bartolini}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb664f45fa2caa4a8b1a88e9db582b93}{%
+           family={Bartolini},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0127454c0c43fce484064ba71e8f9bbd}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{fullhash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{bibnamehash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{authorbibnamehash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{authornamehash}{3e46f2c4b346af020851d5e7854656f8}
+      \strng{authorfullhash}{3e46f2c4b346af020851d5e7854656f8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Part. Accel.}
+      \field{title}{{Normal form via tracking or beam data}}
+      \field{volume}{59}
+      \field{year}{1998}
+      \field{pages}{93\bibrangedash 106}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/333077
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/333077
+      \endverb
+    \endentry
+    \entry{Wiedemann2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f7d524a2ec35fb3f9eff2cd2aa8fca36}{%
+           family={Wiedemann},
+           familyi={W\bibinitperiod},
+           given={Helmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{fullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{bibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{authorbibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{authornamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{authorfullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Particle resonances in circular accelerators occur as a result of perturbation terms involving particular Fourier harmonics. That approach is based on the common knowledge that periodic perturbations of a harmonic oscillator can cause a resonance when the perturbation frequency is equal to an eigenfrequency of the oscillator.}
+      \field{booktitle}{Particle Accelerator Physics}
+      \field{isbn}{978-3-319-18317-6}
+      \field{title}{Resonances}
+      \field{year}{2015}
+      \field{pages}{539\bibrangedash 564}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/978-3-319-18317-6_16
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-18317-6_16
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-18317-6_16
+      \endverb
+    \endentry
+    \entry{rr0}{report}{}
+      \name{author}{1}{}{%
+        {{hash=dfacc387c53c3a871de0821a11d0205c}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{fullhash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{bibnamehash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{authorbibnamehash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{authornamehash}{dfacc387c53c3a871de0821a11d0205c}
+      \strng{authorfullhash}{dfacc387c53c3a871de0821a11d0205c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{FNAL-TM-1991ON: DE97051388; BR: KAHEP}
+      \field{title}{The Fermilab recycler ring technical design report. Revision 1.2}
+      \field{type}{techreport}
+      \field{year}{1996}
+      \verb{doi}
+      \verb 10.2172/16029
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/16029
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/16029
+      \endverb
+    \endentry
+    \entry{rrnagaitsev}{report}{}
+      \name{author}{1}{}{%
+        {{hash=2fb5f3d6168318debe801f038a3af634}{%
+           family={Nagaitsev},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{fullhash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{bibnamehash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{authorbibnamehash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{authornamehash}{2fb5f3d6168318debe801f038a3af634}
+      \strng{authorfullhash}{2fb5f3d6168318debe801f038a3af634}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{FERMILAB-FN-0957-AD}
+      \field{title}{Fermilab Antiproton source, Recycler ring and Main Injector}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.2172/1127965
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/1127965
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/1127965
+      \endverb
+    \endentry
+    \entry{rr1}{article}{}
+      \name{author}{9}{}{%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=391d31de27b9e847b1cf2d3f45c600dd}{%
+           family={Adamson},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=34166168504b71de8816c480ffb9ee68}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Bruce\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f3f5433af2b0d99b80d5fe125536bdc2}{%
+           family={Capista},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=59da48c3d4aa93b2814f0921ff7a2764}{%
+           family={Hazelwood},
+           familyi={H\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=305f1a2989f8e4ea1effe8274740795f}{%
+           family={Kourbanis},
+           familyi={K\bibinitperiod},
+           given={Ioanis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ca5cdd4a4fd53f64cc8c81a0748c5a2a}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Denton\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7177c54bd109a4d31d12325f327cdd9d}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Meiqin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ec20afc71167704fd53ef78512fe0ad6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ming-Jen},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{fullhash}{1a408a640aa937cf78d2f6fd3d650c47}
+      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. Accel. Beams}
+      \field{month}{12}
+      \field{title}{High intensity operation using proton stacking in the Fermilab Recycler to deliver 700 kW of 120 GeV proton beam}
+      \field{volume}{23}
+      \field{year}{2020}
+      \field{pages}{121002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevAccelBeams.23.121002
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
+      \endverb
+    \endentry
     \entry{pipII1}{report}{}
       \name{author}{35}{}{%
         {{hash=dadb06ca813eab4d3b22cbf521cd1d9f}{%
@@ -1793,8 +1847,8 @@
       \strng{authorbibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authornamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authorfullhash}{7a4889edae2162d1b0d597f6521b493f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
