@@ -2,7 +2,7 @@
 \label{sec:ch2}
 
 \section{\label{sec:basic}Introductory Accelerator Physics}
-The basic building blocks of a particle accelerator are the elements that steer and focus the beam in the transverse direction. While there are a handful of electromagnetic devices that can do this, the most prominent ones are pure dipole magnets for steering and pure quadrupole magnets for focusing. Nevertheless, some machines such as the Recycler Ring have combined function magnets which can have both types of magnets---and even higher order magnets---embedded in one, in order to steer and focus the particles. The previous information assumes that every magnet can be expanded and described as a decomposition of magnetic multipoles, where dipole and quadrupole components are the lowest order terms of the expansion. Therefore, using the Beth representation \cite{sylee}, the multipole expansion for an arbitrary mutipole magnet reads:
+The basic building blocks of a particle accelerator are the elements that steer and focus the beam in the transverse direction. While there are a handful of electromagnetic devices that can do this, the most prominent ones are pure dipole magnets for steering and pure quadrupole magnets for focusing. Nevertheless, some machines such as the Recycler Ring have combined function magnets which can have both types of magnets---and even higher order magnets---embedded in one, in order to steer and focus the particles. The previous information assumes that every magnet can be expanded and described as a decomposition of magnetic multipoles, where dipole and quadrupole components are the lowest order terms of the expansion. Therefore, using the Beth representation \cite{sylee}, the multipole expansion for an arbitrary multipole magnet reads:
 \begin{equation}
     \label{eq:ch2magnet}
     B_y(x,y)+iB_x(x,y)=B_0 \sum{n=0}^{\infty} 
@@ -45,7 +45,7 @@ which is known as a Lie Map \cite{todd1}. In this case, $\ell$ corresponds to th
 
 \section{\label{sec:oneturn}One-turn Map and Normal Form}
 
-Such as LEGO® bricks can be put together to create complex structures, accelerator elements can be assembled together to create complex cycloidal structures such as circular accelerators. In such structures, particles will experience the same one-turn mapping over thousands or even millions of turns. The one-turn map $\mathcal{M}_1$ of a circular accelerator is the composition ($\circ$) of mappings from every LEGO® element in the ring. Choosing an arbitrary initial point at $s=0$ and going around the ring, the one-turn map describes the transformation of coordinates after one turn, i.e., $\vec{X}_{N=1}=\mathcal{M}_1 \vec{X_0}$. This map composition reads:
+Such as LEGO® bricks can be put together to create complex structures, accelerator elements can be assembled together to create complex ring-shaped structures such as circular accelerators. In such structures, particles will experience the same one-turn mapping over thousands or even millions of turns. The one-turn map $\mathcal{M}_1$ of a circular accelerator is the composition ($\circ$) of mappings from every LEGO® element in the ring. Choosing an arbitrary initial point at $s=0$ and going around the ring, the one-turn map describes the transformation of coordinates after one turn, i.e., $\vec{X}_{N=1}=\mathcal{M}_1 \vec{X_0}$. This map composition reads:
 \begin{equation}
     \label{eq:oneturnmap}
     \mathcal{M}_1=M_{N+1} \circ e^{:h_N:} \circ \dots \circ e^{:h_2:} \circ M_2 \circ e^{:h_1:} \circ M_1 = M_{N+1}e^{:h_N:} \dots e^{:h_2:}M_2 e^{:h_1:}M_1,
@@ -100,7 +100,7 @@ Without loss of generality, the generating function $F$ can be written as a Four
     \label{eq:F}
     F=\sum_{jklm} f_{jklm} \left( 2 I_x\right)^{\frac{j+k}{2}} \left( 2 I_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \psi_x+\psi_{x0} \right)+ \left( l-m \right) \left( \psi_y+\psi_{y0} \right)\right]}.
 \end{equation}
-In a similar fashion, the argument of the Lie operator $e^{:h:}$ from Eq. \ref{eq:oneturnmapeff1} can be expanded as:
+Similarly, the argument of the Lie operator $e^{:h:}$ from Eq. \ref{eq:oneturnmapeff1} can be expanded as:
 \begin{equation}
     \label{eq:h}
     h=\sum_{jklm} h_{jklm} \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
@@ -136,7 +136,7 @@ Equation \ref{eq:handf} diverges for when the denominator goes to zero. Specific
 \end{equation}
 where $p$ can be any integer. Equation \ref{eq:resonances} defines resonance lines in tune space of order $n=j+k+l+m$. If the accelerator is tuned to operate on top of these resonances, the perturbations will add up coherently turn to turn and kick the resonant particles out of their original trajectory. In general, operating close or on top of a resonance line is harmful as particles will be lost. This is specially true for lower order resonances, i.e., for $n<4$. In general, the higher order of a resonance, the weaker it is \cite{Wiedemann2015}. This thesis work focuses on third order resonances, i.e., $n=3$, and how to mitigate their deleterious effect. 
 
-Figure \ref{fig:tunediagram} shows the tune diagram with resonance lines, as defined by Eq. \ref{eq:resonances}, drawn up to fifth order. The integer part of both tunes are chosen to include the actual area of operation of the Recycler Ring. Nevertheless, the fractional part of the tune carries the significant information for resonance diagrams. The operation and tune diagram for the Recycler Ring are described in more detail in Ch. \ref{sec:ch3}. Normally, the operation point of a circular accelerator is chosen to be clear of any resonance line and far away as possible from integer ($n=1$) and half integer ($n=2$) resonances. Nevertheless, in reality there are two concepts that complicate things. The first one relates to the fact that resonance lines are not infinitely thin and have some stop band width. The second one, concerns the fact that at high intensities particles will not have localized tunes, but rather a distribution of tunes with some tune spread, i.e., a tune footprint. Section \ref{sec:sc1} takes a closer look at this effect known as space charge tune shift. Ultimately, choosing the operation point on Fig. \ref{fig:tunediagram} is a matter of localizing a resonance-free region where the intensity-dependent tune footprint can be placed.   
+Figure \ref{fig:tunediagram} shows the tune diagram with resonance lines, as defined by Eq. \ref{eq:resonances}, drawn up to fifth order. The integer part of both tunes are chosen to include the actual area of operation of the Recycler Ring. Nevertheless, the fractional part of the tune carries the significant information for resonance diagrams. The operation and tune diagram for the Recycler Ring are described in more detail in Ch. \ref{sec:ch3}. Normally, the operation point of a circular accelerator is chosen to be clear of any resonance line and far away as possible from integer ($n=1$) and half integer ($n=2$) resonances. Nevertheless, in reality there are two concepts that complicate things. The first one relates to the fact that resonance lines are not infinitely thin and have some stop bandwidth. The second one, concerns the fact that at high intensities particles will not have localized tunes, but rather a distribution of tunes with some tune spread, i.e., a tune footprint. Section \ref{sec:sc1} takes a closer look at this effect known as space charge tune shift. Ultimately, choosing the operation point on Fig. \ref{fig:tunediagram} is a matter of localizing a resonance-free region where the intensity-dependent tune footprint can be placed.   
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\columnwidth]{chapter2/tunediagram.png}
@@ -177,7 +177,7 @@ for the same plane $u$ and using a reduced form of Eq. \ref{eq:ch2poisson1}. In 
 \end{equation}   
 where the last step can be achieved using Leibnitz rule for Poisson brackets, i.e., $[fg,h]=[f,h]g+f[g,h]$.
 
-On the other hand, going back to the Courant-Snyder phase space, a set of coordinates known as a resonance basis $\vec{h} = \left( h_x^+ , h_x^-, h_y^+, h_y^-\right)$ can be defined. In a similar fashion to Eq. \ref{eq:zeta}, the resonance basis reads:
+On the other hand, going back to the Courant-Snyder phase space, a set of coordinates known as a resonance basis $\vec{h} = \left( h_x^+ , h_x^-, h_y^+, h_y^-\right)$ can be defined. Similarly to Eq. \ref{eq:zeta}, the resonance basis reads:
 \begin{equation}
     \label{eq:hbasis}
     h_u^{\pm}=\hat{u}\pm \hat{p_u}=\sqrt{2J_u}e^{\mp i\left( \phi_u + \phi_{u_0}\right)},
