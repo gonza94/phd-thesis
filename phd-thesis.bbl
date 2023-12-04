@@ -1740,6 +1740,47 @@
       \verb https://doi.org/10.1007/978-3-319-18317-6_16
       \endverb
     \endentry
+    \entry{witchcraft}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6339c73ea3416abb0201769a1b3dab54}{%
+           family={Davidson},
+           familyi={D\bibinitperiod},
+           given={Ronald\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=152d7dff2a31e22f49e2fa3ea7e4c6b0}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IMPERIAL COLLEGE PRESS CO-PUBLISHED WITH WORLD SCIENTIFIC PUBLISHING CO}%
+      }
+      \strng{namehash}{e6860cdd23cb89a3606ded96773f781d}
+      \strng{fullhash}{e6860cdd23cb89a3606ded96773f781d}
+      \strng{bibnamehash}{e6860cdd23cb89a3606ded96773f781d}
+      \strng{authorbibnamehash}{e6860cdd23cb89a3606ded96773f781d}
+      \strng{authornamehash}{e6860cdd23cb89a3606ded96773f781d}
+      \strng{authorfullhash}{e6860cdd23cb89a3606ded96773f781d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physics of Intense Charged Particle Beams in High Energy Accelerators}
+      \field{year}{2001}
+      \verb{doi}
+      \verb 10.1142/p250
+      \endverb
+      \verb{eprint}
+      \verb https://www.worldscientific.com/doi/pdf/10.1142/p250
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/p250
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/p250
+      \endverb
+    \endentry
     \entry{rr0}{report}{}
       \name{author}{1}{}{%
         {{hash=dfacc387c53c3a871de0821a11d0205c}{%
@@ -1793,8 +1834,8 @@
       \strng{authorbibnamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authornamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authorfullhash}{2fb5f3d6168318debe801f038a3af634}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
