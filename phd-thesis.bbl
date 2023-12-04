@@ -56,6 +56,52 @@
       \verb https://www.worldscientific.com/doi/abs/10.1142/8335
       \endverb
     \endentry
+    \entry{fermilab1}{book}{}
+      \name{author}{3}{}{%
+        {{hash=7f9d81406e8101ce8414272954fe5e95}{%
+           family={Hoddeson},
+           familyi={H\bibinitperiod},
+           given={Lillian},
+           giveni={L\bibinitperiod}}}%
+        {{hash=520aa44b6f7bed9e34327d774b491441}{%
+           family={Kolb},
+           familyi={K\bibinitperiod},
+           given={Adrienne\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=653a51a809a86a7f8631e27b9dc090ab}{%
+           family={Westfall},
+           familyi={W\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{0c6d66f43490e6a211f44e4f95d85257}
+      \strng{fullhash}{0c6d66f43490e6a211f44e4f95d85257}
+      \strng{bibnamehash}{0c6d66f43490e6a211f44e4f95d85257}
+      \strng{authorbibnamehash}{0c6d66f43490e6a211f44e4f95d85257}
+      \strng{authornamehash}{0c6d66f43490e6a211f44e4f95d85257}
+      \strng{authorfullhash}{0c6d66f43490e6a211f44e4f95d85257}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Fermi National Accelerator Laboratory, located in the western suburbs of Chicago, has stood at the frontier of high-energy physics for forty years. This book is the first history of this laboratory and of its powerful accelerators told from the point of view of the people who built and used them for scientific discovery. Focusing on the first two decades of research at Fermilab, during the tenure of the laboratory's charismatic first two directors, Robert R. Wilson and Leon M. Lederman, the book traces the rise of what they call “megascience”, the collaborative struggle to conduct large-scale international experiments in a climate of limited federal funding. In the midst of this new climate, this book illuminates the growth of the modern research laboratory during the Cold War and captures the drama of human exploration at the cutting edge of science.}}
+      \field{isbn}{9780226346236}
+      \field{month}{12}
+      \field{title}{{Fermilab: Physics, the Frontier, and Megascience}}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.7208/chicago/9780226346250.001.0001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.7208/chicago/9780226346250.001.0001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.7208/chicago/9780226346250.001.0001
+      \endverb
+    \endentry
     \entry{griffiths}{inbook}{}
       \name{author}{1}{}{%
         {{hash=f155d780982df4094a3495f4b0c58354}{%
@@ -74,8 +120,8 @@
       \strng{authorbibnamehash}{f155d780982df4094a3495f4b0c58354}
       \strng{authornamehash}{f155d780982df4094a3495f4b0c58354}
       \strng{authorfullhash}{f155d780982df4094a3495f4b0c58354}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Summary This chapter contains sections titled: The Classical Era (1897-1932) The Photon (1900-1924) Mesons (1934-1947) Antiparticles (1930-1956) Neutrinos (1930-1962) Strange Particles (1947-1960) The Eightfold Way (1961-1964) The Quark Model (1964) The November Revolution and Its Aftermath (1974-1983) Intermediate Vector Bosons (1983) The Standard Model (1978-?)}
@@ -114,8 +160,8 @@
       \strng{authorbibnamehash}{4deda574b6051626774e82454c731ff1}
       \strng{authornamehash}{4deda574b6051626774e82454c731ff1}
       \strng{authorfullhash}{4deda574b6051626774e82454c731ff1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{FRIB}
@@ -136,8 +182,8 @@
       \strng{authorbibnamehash}{c9db65bca06c33e76dbf47dc089be4e5}
       \strng{authornamehash}{c9db65bca06c33e76dbf47dc089be4e5}
       \strng{authorfullhash}{c9db65bca06c33e76dbf47dc089be4e5}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SLAC}
@@ -188,8 +234,8 @@
       \strng{editorbibnamehash}{bf8a8d769a5115bc457d186c7e6565be}
       \strng{editornamehash}{bf8a8d769a5115bc457d186c7e6565be}
       \strng{editorfullhash}{bf8a8d769a5115bc457d186c7e6565be}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{Accelerator physics at the Tevatron Collider}}
@@ -213,8 +259,8 @@
       \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
       \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
       \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{CERN}
@@ -243,8 +289,8 @@
       \strng{authorbibnamehash}{b3b79eb395f846dc379cf98082fa8fd8}
       \strng{authornamehash}{b3b79eb395f846dc379cf98082fa8fd8}
       \strng{authorfullhash}{b3b79eb395f846dc379cf98082fa8fd8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
@@ -282,8 +328,8 @@
       \strng{authorbibnamehash}{6476c949f8d1ffd5615fcf68772a88c4}
       \strng{authornamehash}{6476c949f8d1ffd5615fcf68772a88c4}
       \strng{authorfullhash}{6476c949f8d1ffd5615fcf68772a88c4}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-90-5702-574-7}
@@ -324,50 +370,73 @@
       \field{note}{https://cerncourier.com/a/teslas-high-gradient-march/}
       \field{year}{2020}
     \endentry
-    \entry{fermilab1}{book}{}
-      \name{author}{3}{}{%
-        {{hash=7f9d81406e8101ce8414272954fe5e95}{%
-           family={Hoddeson},
+    \entry{fermipic}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ae0c3bba747cb707ad2d043faf3005b7}{%
+           family={Hahn},
            familyi={H\bibinitperiod},
-           given={Lillian},
-           giveni={L\bibinitperiod}}}%
-        {{hash=520aa44b6f7bed9e34327d774b491441}{%
-           family={Kolb},
-           familyi={K\bibinitperiod},
-           given={Adrienne\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=653a51a809a86a7f8631e27b9dc090ab}{%
-           family={Westfall},
-           familyi={W\bibinitperiod},
-           given={Catherine},
-           giveni={C\bibinitperiod}}}%
+           given={Reidar},
+           giveni={R\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {University of Chicago Press}%
-      }
-      \strng{namehash}{0c6d66f43490e6a211f44e4f95d85257}
-      \strng{fullhash}{0c6d66f43490e6a211f44e4f95d85257}
-      \strng{bibnamehash}{0c6d66f43490e6a211f44e4f95d85257}
-      \strng{authorbibnamehash}{0c6d66f43490e6a211f44e4f95d85257}
-      \strng{authornamehash}{0c6d66f43490e6a211f44e4f95d85257}
-      \strng{authorfullhash}{0c6d66f43490e6a211f44e4f95d85257}
+      \strng{namehash}{ae0c3bba747cb707ad2d043faf3005b7}
+      \strng{fullhash}{ae0c3bba747cb707ad2d043faf3005b7}
+      \strng{bibnamehash}{ae0c3bba747cb707ad2d043faf3005b7}
+      \strng{authorbibnamehash}{ae0c3bba747cb707ad2d043faf3005b7}
+      \strng{authornamehash}{ae0c3bba747cb707ad2d043faf3005b7}
+      \strng{authorfullhash}{ae0c3bba747cb707ad2d043faf3005b7}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{{Fermi National Accelerator Laboratory, located in the western suburbs of Chicago, has stood at the frontier of high-energy physics for forty years. This book is the first history of this laboratory and of its powerful accelerators told from the point of view of the people who built and used them for scientific discovery. Focusing on the first two decades of research at Fermilab, during the tenure of the laboratory's charismatic first two directors, Robert R. Wilson and Leon M. Lederman, the book traces the rise of what they call “megascience”, the collaborative struggle to conduct large-scale international experiments in a climate of limited federal funding. In the midst of this new climate, this book illuminates the growth of the modern research laboratory during the Cold War and captures the drama of human exploration at the cutting edge of science.}}
-      \field{isbn}{9780226346236}
-      \field{month}{12}
-      \field{title}{{Fermilab: Physics, the Frontier, and Megascience}}
-      \field{year}{2008}
-      \verb{doi}
-      \verb 10.7208/chicago/9780226346250.001.0001
-      \endverb
+      \field{note}{File: https://upload.wikimedia.org/wikipedia/commons/3/3f/Fermilab.jpg}
+      \field{title}{Fermilab}
+      \field{year}{2003}
       \verb{urlraw}
-      \verb https://doi.org/10.7208/chicago/9780226346250.001.0001
+      \verb https://en.wikipedia.org/wiki/File:Fermilab.jpg
       \endverb
       \verb{url}
-      \verb https://doi.org/10.7208/chicago/9780226346250.001.0001
+      \verb https://en.wikipedia.org/wiki/File:Fermilab.jpg
+      \endverb
+    \endentry
+    \entry{fermi50}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a7d92b08808b9df8a1d87428fd46933f}{%
+           family={Chattopadhyay},
+           familyi={C\bibinitperiod},
+           given={Swapan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4da0ff14e1d0f1fc2fa8b5793c639136}{%
+           family={Lykken},
+           familyi={L\bibinitperiod},
+           given={Joseph\bibnamedelima David},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WORLD SCIENTIFIC}%
+      }
+      \strng{namehash}{995e0517b085ab16227aeafba4e43661}
+      \strng{fullhash}{995e0517b085ab16227aeafba4e43661}
+      \strng{bibnamehash}{995e0517b085ab16227aeafba4e43661}
+      \strng{authorbibnamehash}{995e0517b085ab16227aeafba4e43661}
+      \strng{authornamehash}{995e0517b085ab16227aeafba4e43661}
+      \strng{authorfullhash}{995e0517b085ab16227aeafba4e43661}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fermilab at 50}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1142/10637
+      \endverb
+      \verb{eprint}
+      \verb https://www.worldscientific.com/doi/pdf/10.1142/10637
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/10637
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/10637
       \endverb
     \endentry
     \entry{numi1}{article}{}
@@ -1352,6 +1421,86 @@
       \endverb
       \keyw{Neutrinos,Long baseline,Beam,Target,Main Injector}
     \endentry
+    \entry{rr1}{article}{}
+      \name{author}{9}{}{%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=391d31de27b9e847b1cf2d3f45c600dd}{%
+           family={Adamson},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=34166168504b71de8816c480ffb9ee68}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Bruce\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f3f5433af2b0d99b80d5fe125536bdc2}{%
+           family={Capista},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=59da48c3d4aa93b2814f0921ff7a2764}{%
+           family={Hazelwood},
+           familyi={H\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=305f1a2989f8e4ea1effe8274740795f}{%
+           family={Kourbanis},
+           familyi={K\bibinitperiod},
+           given={Ioanis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ca5cdd4a4fd53f64cc8c81a0748c5a2a}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Denton\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7177c54bd109a4d31d12325f327cdd9d}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Meiqin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ec20afc71167704fd53ef78512fe0ad6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ming-Jen},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{fullhash}{1a408a640aa937cf78d2f6fd3d650c47}
+      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. Accel. Beams}
+      \field{month}{12}
+      \field{title}{High intensity operation using proton stacking in the Fermilab Recycler to deliver 700 kW of 120 GeV proton beam}
+      \field{volume}{23}
+      \field{year}{2020}
+      \field{pages}{121002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevAccelBeams.23.121002
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
+      \endverb
+    \endentry
     \entry{wolski}{book}{}
       \name{author}{1}{}{%
         {{hash=2f9bada81f52159aa7641b0801229850}{%
@@ -1369,8 +1518,8 @@
       \strng{authorbibnamehash}{2f9bada81f52159aa7641b0801229850}
       \strng{authornamehash}{2f9bada81f52159aa7641b0801229850}
       \strng{authorfullhash}{2f9bada81f52159aa7641b0801229850}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
@@ -1406,8 +1555,8 @@
       \strng{authorbibnamehash}{3b955981f23005f4d5db1a8353f69248}
       \strng{authornamehash}{3b955981f23005f4d5db1a8353f69248}
       \strng{authorfullhash}{3b955981f23005f4d5db1a8353f69248}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://toddsatogata.net/2011-USPAS/lieAlgebras.pdf}}
@@ -1435,8 +1584,8 @@
       \strng{authorbibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
       \strng{authornamehash}{5b4322efa01b52d2a723d17d4b8aee21}
       \strng{authorfullhash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Measurement and Compensation of Betatron Resonances at the CERN PS Booster Synchrotron}
@@ -1463,8 +1612,8 @@
       \strng{authorbibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
       \strng{authornamehash}{8c7b9e72fb7126927c84841dba7716a0}
       \strng{authorfullhash}{8c7b9e72fb7126927c84841dba7716a0}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{1}
@@ -1491,8 +1640,8 @@
       \strng{authorbibnamehash}{57e4819df6478782f36a979835603f96}
       \strng{authornamehash}{57e4819df6478782f36a979835603f96}
       \strng{authorfullhash}{57e4819df6478782f36a979835603f96}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The aim of this paper is to provide a comprehensive exposition of the early contributions to the so-called Campbell, Baker, Hausdorff, Dynkin Theorem during the years 1890--1950. Related works by Schur, Poincaré, Pascal, Campbell, Baker, Hausdorff, and Dynkin will be investigated and compared. For a full recovery of the original sources, many mathematical details will also be furnished. In particular, we rediscover and comment on a series of five notable papers by Pascal (Lomb Ist Rend, 1901--1902), which nowadays are almost forgotten.}
@@ -1533,8 +1682,8 @@
       \strng{authorbibnamehash}{3e46f2c4b346af020851d5e7854656f8}
       \strng{authornamehash}{3e46f2c4b346af020851d5e7854656f8}
       \strng{authorfullhash}{3e46f2c4b346af020851d5e7854656f8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Part. Accel.}
@@ -1661,86 +1810,6 @@
       \endverb
       \verb{url}
       \verb https://www.osti.gov/biblio/1127965
-      \endverb
-    \endentry
-    \entry{rr1}{article}{}
-      \name{author}{9}{}{%
-        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
-           family={Ainsworth},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=391d31de27b9e847b1cf2d3f45c600dd}{%
-           family={Adamson},
-           familyi={A\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod}}}%
-        {{hash=34166168504b71de8816c480ffb9ee68}{%
-           family={Brown},
-           familyi={B\bibinitperiod},
-           given={Bruce\bibnamedelima C.},
-           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=f3f5433af2b0d99b80d5fe125536bdc2}{%
-           family={Capista},
-           familyi={C\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=59da48c3d4aa93b2814f0921ff7a2764}{%
-           family={Hazelwood},
-           familyi={H\bibinitperiod},
-           given={Kyle},
-           giveni={K\bibinitperiod}}}%
-        {{hash=305f1a2989f8e4ea1effe8274740795f}{%
-           family={Kourbanis},
-           familyi={K\bibinitperiod},
-           given={Ioanis},
-           giveni={I\bibinitperiod}}}%
-        {{hash=ca5cdd4a4fd53f64cc8c81a0748c5a2a}{%
-           family={Morris},
-           familyi={M\bibinitperiod},
-           given={Denton\bibnamedelima K},
-           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=7177c54bd109a4d31d12325f327cdd9d}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Meiqin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ec20afc71167704fd53ef78512fe0ad6}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Ming-Jen},
-           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{fullhash}{1a408a640aa937cf78d2f6fd3d650c47}
-      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{12}
-      \field{journaltitle}{Phys. Rev. Accel. Beams}
-      \field{month}{12}
-      \field{title}{High intensity operation using proton stacking in the Fermilab Recycler to deliver 700 kW of 120 GeV proton beam}
-      \field{volume}{23}
-      \field{year}{2020}
-      \field{pages}{121002}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevAccelBeams.23.121002
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
       \endverb
     \endentry
     \entry{pipII1}{report}{}
@@ -1930,8 +1999,8 @@
       \strng{authorbibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authornamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authorfullhash}{7a4889edae2162d1b0d597f6521b493f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -1992,8 +2061,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -2044,8 +2113,8 @@
       \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}

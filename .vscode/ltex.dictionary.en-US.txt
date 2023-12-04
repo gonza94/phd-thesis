@@ -23,3 +23,5 @@ Frenet-Serret
 betatron
 Synchrotron
 Chs
+synchrotron
+megascience
