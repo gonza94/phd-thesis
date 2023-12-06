@@ -2,11 +2,29 @@
 \label{sec:ch2}
 
 \section{\label{sec:basic}Introductory Accelerator Physics}
-The basic building blocks of a particle accelerator are the elements that steer and focus the beam in the transverse direction. While there are a handful of electromagnetic devices that can do this, the most prominent ones are pure dipole magnets for steering and pure quadrupole magnets for focusing. Nevertheless, some machines such as the Recycler Ring have combined function magnets which can have both types of magnets---and even higher order magnets---embedded in one, in order to steer and focus the particles. The previous information assumes that every magnet can be expanded and described as a decomposition of magnetic multipoles, where dipole and quadrupole components are the lowest order terms of the expansion. Therefore, using the Beth representation \cite{sylee}, the multipole expansion for an arbitrary multipole magnet reads:
+The basic building blocks of a particle accelerator are the elements that steer and focus the beam in the transverse direction. While there are a handful of electromagnetic devices that can do this, the most prominent ones in high-energy accelerators are pure dipole magnets for steering and pure quadrupole magnets for focusing. Nevertheless, some machines such as the Recycler Ring have combined function magnets which can have both types of magnets---and even higher order magnets---embedded in one, in order to steer and focus the particles. The previous information assumes that every magnet can be expanded and described as a decomposition of magnetic multipoles, where dipole and quadrupole components are the lowest order terms of the expansion. Therefore, using the Beth representation \cite{sylee}, the multipole expansion for an arbitrary multipole magnet reads:
 \begin{equation}
     \label{eq:ch2magnet}
-    B_y(x,y)+iB_x(x,y)=B_0 \sum{n=0}^{\infty} 
+    \frac{1}{\left[ B \rho \right]}\left(B_y(x,y)+iB_x(x,y) \right)=-\frac{1}{\rho} \sum_{n=0}^{\infty} \left( b_n+i a_n\right) \left( x+i y\right)^n, 
 \end{equation}
+where $b_n$ and $a_n$ are the multipole coefficients defined by
+\begin{equation}
+    \label{eq:ch2magnetcoeffs}
+    b_n=\frac{1}{B_0 n!} \left. \frac{\partial^n B_y}{\partial x^n} \right| _{x=y=0}, \quad  a_n=\frac{1}{B_0 n!} \left. \frac{\partial^n B_x}{\partial x^n} \right| _{x=y=0}.  
+\end{equation}
+For Eqs. \ref{eq:ch2magnet} and \ref{eq:ch2magnetcoeffs}, $x$ and $y$ represent the Cartesian coordinates, the product $\left[ B \rho \right]$ represents the magnetic rigidity of the beam with $B_0$ being the main dipole field and $\rho$ is the bending radius, while $B_x$ and $B_y$ are the transverse magnetic fields in the magnets. Specifically, the coefficients $b_n$ and $a_n$ represent the multipole coefficient of the magnet with the dipole coefficient defined as $b_0=1$, such that $B_0b_0=-\left[ B \rho\right]/\rho$. Following the expansion, the term $a_0$ is referred to as the dipole roll coefficient, $b_1$ as the quadrupole coefficient, $a_1$ as the skew quadrupole coefficient, $b_2$ as the sextupole coefficient, $a_2$ for the skew sextupole coefficient, $b_3$ for the octupole coefficient, $a_3$ for the skew octupole coefficient, etc. This is all following the U.S. convention.
+
+The most basic circular accelerator of circumference $C$ is composed of LEGO® blocks chosen from a pile of dipoles, quadrupoles and free drift spaces. Each of these elements are described by Eqs. \ref{eq:ch2magnet} and \ref{eq:ch2magnetcoeffs}, i.e., for the quadrupole case, the only nonzero coefficient is $b_1$. The particles inside this ring have a longitudinal relativistic velocity of $v=\beta_L c$, and therefore have a revolution frequency of $f_{rev}=\beta_L c/C$. The Hamiltonian of a single particle with position coordinates $x,y$ and momentum coordinates $p_x,p_y$ traversing through such a system at an independent time coordinate $s$ is:
+\begin{equation}
+    \label{eq:ham1}
+    H=\frac{1}{2}\left( K_x(s)x^2+ \frac{1}{2}K_y(s)y^2+ p_x^2 + p_y^2\right),
+\end{equation}
+where $K_x(s),K_y(s)$ are the effective focusing functions, and are defined as:
+\begin{equation}
+    \label{eq:kx}
+    K_x(s)=\frac{1}{\rho^2}-\frac{b_1(s)}{\rho}, \quad K_y(s)=\frac{b_1(s)}{\rho}
+\end{equation}
+assuming the definition of $b_1(s)$ in \ref{eq:ch2magnetcoeffs} has been extended to describe the distribution of the horizontal quadrupole coefficient around the ring. For the case where $\rho\gg 1$ (high-energy limit), the function $K_y(s)=-K_x(s)$, i.e., horizontally focusing quadrupoles will have a defocusing effect in the vertical direction and vice versa. 
 
 \section{\label{sec:lie}Lie Maps in Accelerator Physics}
 
@@ -117,15 +135,15 @@ where $Q_x$ and $Q_y$ represent the transverse uncoupled and unperturbed tunes o
 In general, the terms $h_{jklm}$ are defined by the order in which they enter the one-turn normal form Hamiltonian \cite{bartolini}. The general expression to define RDTs reads:
 \begin{equation}
     \label{eq:rdt1}
-    h_{jklm}=\Xi _{jklm} \sum_i L_i \beta_{xi}^{\frac{j+k}{2}} \beta_{yi}^{\frac{l+m}{2}} V_{ni}e^{i\left[ (j-k)\phi_{xi} +(l-m) \phi_{yi} \right]},
+    h_{jklm}=\Xi _{jklm} \sum_i L_i K_{ni} \beta_{xi}^{\frac{j+k}{2}} \beta_{yi}^{\frac{l+m}{2}} e^{i\left[ (j-k)\phi_{xi} +(l-m) \phi_{yi} \right]},
 \end{equation}
 where $\Xi _{jklm}$ is just a constant defined as:
 \begin{equation}
     \label{eq:rdt2}
-    \Xi _{jklm} = -\frac{q}{p_0}\frac{1}{2^n}\frac{1}{n} {\binom{n}{l+m}} {\binom{j+k}{j}}{\binom{l+m}{l}}.
+    \Xi _{jklm} = -\frac{1}{2^n}\frac{1}{n} {\binom{n}{l+m}} {\binom{j+k}{j}}{\binom{l+m}{l}}.
 \end{equation}
 
-For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the resonance. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $V_{ni}=B_{ni}$ if $l+m$ is even, or a skew component $V_{ni}=A_{ni}$ if $l+m$ is odd. The symbols for $\beta_{xi}$, $\beta_{yi}$, $\phi_{xi}$ and $\phi_{yi}$ represent the unperturbed beta functions and phase advances in each plane, respectively.
+For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the resonance. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $K_{ni}=b_{ni}/\rho$ if $l+m$ is even, or a skew component $K_{ni}=a_{ni}/\rho$ if $l+m$ is odd, remembering $\rho$ is the bending radius as it appeared on Eq. \ref{eq:ch2magnet}. The symbols for $\beta_{xi}$, $\beta_{yi}$, $\phi_{xi}$ and $\phi_{yi}$ represent the unperturbed beta functions and phase advances in each plane, respectively.
 
 \section{\label{sec:resonances}Resonances in Circular Accelerators}
 
@@ -136,7 +154,7 @@ Equation \ref{eq:handf} diverges for when the denominator goes to zero. Specific
 \end{equation}
 where $p$ can be any integer. Equation \ref{eq:resonances} defines resonance lines in tune space of order $n=j+k+l+m$. If the accelerator is tuned to operate on top of these resonances, the perturbations will add up coherently turn to turn and kick the resonant particles out of their original trajectory. In general, operating close or on top of a resonance line is harmful as particles will be lost. This is specially true for lower order resonances, i.e., for $n<4$. In general, the higher order of a resonance, the weaker it is \cite{Wiedemann2015}. This thesis work focuses on third order resonances, i.e., $n=3$, and how to mitigate their deleterious effect. 
 
-Figure \ref{fig:tunediagram} shows the tune diagram with resonance lines, as defined by Eq. \ref{eq:resonances}, drawn up to fifth order. The integer part of both tunes are chosen to include the actual area of operation of the Recycler Ring. Nevertheless, the fractional part of the tune carries the significant information for resonance diagrams. The operation and tune diagram for the Recycler Ring are described in more detail in Ch. \ref{sec:ch3}. Normally, the operation point of a circular accelerator is chosen to be clear of any resonance line and far away as possible from integer ($n=1$) and half integer ($n=2$) resonances. Nevertheless, in reality there are two concepts that complicate things. The first one relates to the fact that resonance lines are not infinitely thin and have some stop bandwidth. The second one, concerns the fact that at high intensities particles will not have localized tunes, but rather a distribution of tunes with some tune spread, i.e., a tune footprint. Section \ref{sec:sc1} takes a closer look at this effect known as space charge tune shift. Ultimately, choosing the operation point on Fig. \ref{fig:tunediagram} is a matter of localizing a resonance-free region where the intensity-dependent tune footprint can be placed.   
+Figure \ref{fig:tunediagram} shows the tune diagram with resonance lines, as defined by Eq. \ref{eq:resonances}, drawn up to fifth order. The integer part of both tunes are chosen to include the actual area of operation of the Recycler Ring. Nevertheless, only the fractional part of the tune carries the significant information for resonance diagrams. The operation and tune diagram for the Recycler Ring are described in more detail in Ch. \ref{sec:ch3}. Normally, the operation point of a circular accelerator is chosen to be clear of any resonance line and far away as possible from integer ($n=1$) and half integer ($n=2$) resonances. Nevertheless, in reality there are two concepts that complicate things. The first one relates to the fact that resonance lines are not infinitely thin and have some stop bandwidth. The second one, concerns the fact that at high intensities particles will not have localized tunes, but rather a distribution of tunes with some tune spread, i.e., a tune footprint. Section \ref{sec:sc1} takes a closer look at this effect known as space charge tune shift. Ultimately, choosing the operation point on Fig. \ref{fig:tunediagram} is a matter of localizing a resonance-free region where the intensity-dependent tune footprint can be placed.   
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\columnwidth]{chapter2/tunediagram.png}
@@ -154,7 +172,7 @@ Figure \ref{fig:rrtdlow} zooms into the region of interest for the Recycler Ring
     \label{fig:rrtdlow}
  \end{figure}
 
-Figure \ref{fig:rrtdlow} plots all resonance lines up to fourth order in this region of interest. The half integer line $Q_x-Q_y=1$, also known as a difference coupling resonance, is usually driven by solenoidal and skew-quadrupole fields in the lattice. The third order lines $3Q_x=76$ and $Q_x+2Q_y=74$ are driven by sextupole-like fields. The other third order lines $3Q_y=73$ and $2Q_x+Q_y=75$ are driven by skew sextupole terms in the lattice. And finally, the fourth order lines $-Q_x+3Q_y=48$ and $3Q_x-Q_y=52$ are driven by octupole terms in the lattice and Coulomb (space charge) forces from the bunch itself. This is assuming a rectangular multipole expansion notation of the magnetic field, such as the one presented in Ref. \cite{sylee}.      
+Figure \ref{fig:rrtdlow} plots all resonance lines up to fourth order in this region of interest. The half integer line $Q_x-Q_y=1$, also known as a difference coupling resonance, is usually driven by solenoidal and skew-quadrupole fields in the lattice. The third order lines $3Q_x=76$ and $Q_x+2Q_y=74$ are driven by sextupole-like fields. The other third order lines $3Q_y=73$ and $2Q_x+Q_y=75$ are driven by skew sextupole terms in the lattice. And finally, the fourth order lines $-Q_x+3Q_y=48$ and $3Q_x-Q_y=52$ are driven by octupole terms in the lattice and Coulomb (space charge) forces from the bunch itself. This is assuming a rectangular multipole expansion notation of the magnetic field, such as the one presented in Eq. \ref{eq:ch2magnet}.      
 
 \section{\label{sec:rdts}Resonance Driving Terms} 
 
@@ -241,6 +259,10 @@ where $Q_x$ and $Q_y$ are the horizontal and vertical uncoupled tune. Note that 
 
 \section{\label{sec:sc1}Space Charge Tune Shift}
 
-Up to this point, the beam dynamics of high energy particle accelerators has been explained in terms of single-particle dynamics. Up until now, a couple of implicit assumptions have been made: (a) particles do not interact with each other; and (b) the LEGO® blocks composing the lattice have been idealized to create the fields but without supplying any electromagnetic boundary conditions. Nevertheless, in order to have a model closer to reality, the interaction between particles through the Coulomb force has to be taken into account. Furthermore, particles also interact with the electromagnetic properties of the lattice LEGO® blocks, ultimately, creating unwanted electromagnetic wake fields. This latter phenomenon opens another branch of accelerator physics that studies collective beam instabilities. However, the scope of this thesis is only interested in the first bullet point regarding direct particle-particle interactions through the Coulomb force---widely known as space charge physics. It is worth specifying that this restricts the analysis to a single bunch of particles. 
+Up to this point, the beam dynamics of high energy particle accelerators has been explained in terms of single-particle dynamics. Up until now, a couple of implicit assumptions have been made: (a) particles do not interact with each other; and (b) the LEGO® blocks composing the lattice have been idealized to create the fields but without supplying any electromagnetic boundary conditions. Nevertheless, in order to have a model closer to reality, the interaction between particles through the Coulomb force has to be taken into account. Furthermore, particles also interact with the electromagnetic properties of the lattice LEGO® blocks, ultimately, creating unwanted electromagnetic wake fields. This latter phenomenon opens another branch of accelerator physics that studies collective beam instabilities \cite{chao}. However, the scope of this thesis is only interested in the first bullet point regarding direct particle-particle interactions through the Coulomb force---widely known as space charge physics. It is worth specifying that this restricts the analysis to a single bunch of particles. 
 
-As mentioned in Sec. \ref{sec:resonances}, the Coulomb force will act as a detuning force on each individual particle. In order to explain this statement using a Hamiltonian formalism, the starting point needs to be the single-particle Hamiltonian \cite{witchcraft} that includes the Coulomb potential from the charge distribution in the bunch.   
+As mentioned in Sec. \ref{sec:resonances}, the Coulomb force will act as a detuning force on each individual particle. In order to explain this statement using a Hamiltonian formalism, the starting point needs to be the single-particle Hamiltonian that includes the Coulomb potential from the charge distribution in the bunch \cite{witchcraft}. The expression for this system reads:
+\begin{equation}
+    \label{eq:hpsi}
+    H(x,y,s)=H_{0}(x,y,s)+H_{1}(x,y,s)+\Psi(x,y,s) 
+\end{equation}     

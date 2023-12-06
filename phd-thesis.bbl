@@ -1740,6 +1740,28 @@
       \verb https://doi.org/10.1007/978-3-319-18317-6_16
       \endverb
     \endentry
+    \entry{chao}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cdcf559c5763c40879c70b77c2c852ee}{%
+           family={Chao},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdcf559c5763c40879c70b77c2c852ee}
+      \strng{fullhash}{cdcf559c5763c40879c70b77c2c852ee}
+      \strng{bibnamehash}{cdcf559c5763c40879c70b77c2c852ee}
+      \strng{authorbibnamehash}{cdcf559c5763c40879c70b77c2c852ee}
+      \strng{authornamehash}{cdcf559c5763c40879c70b77c2c852ee}
+      \strng{authorfullhash}{cdcf559c5763c40879c70b77c2c852ee}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-471-55184-3}
+      \field{title}{{Physics of collective beam instabilities in high-energy accelerators}}
+      \field{year}{1993}
+    \endentry
     \entry{witchcraft}{book}{}
       \name{author}{2}{}{%
         {{hash=6339c73ea3416abb0201769a1b3dab54}{%
