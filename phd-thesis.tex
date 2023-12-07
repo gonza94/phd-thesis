@@ -43,6 +43,7 @@
 %\usepackage[document]{ragged2e}
 \usepackage{graphicx}
 \usepackage{tikz-cd}
+\usepackage[final]{pdfpages}
 \usepackage[
 backend=biber,
 style=numeric-comp,
@@ -188,9 +189,10 @@ Your acknowledgements here.
 %
 % If you have appendices, they would go here.  
 % If you only have one appendix it will look like this: (comment this out if you have no appendices)
-\begin{appendix}
-\chapter{Your appendix}
-\end{appendix}
+\begin{appendices}
+\include{appendix1}
+\include{appendix2}
+\end{appendices}
 %
 %
 % If you have more than one appendix, you need to use 

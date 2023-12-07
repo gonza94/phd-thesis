@@ -26,6 +26,28 @@ where $K_x(s),K_y(s)$ are the effective focusing functions, and are defined as:
 \end{equation}
 assuming the definition of $b_1(s)$ in \ref{eq:ch2magnetcoeffs} has been extended to describe the distribution of the horizontal quadrupole coefficient around the ring. For the case where $\rho\gg 1$ (high-energy limit), the function $K_y(s)=-K_x(s)$, i.e., horizontally focusing quadrupoles will have a defocusing effect in the vertical direction and vice versa. 
 
+In classic accelerator references, such as Refs. \cite{sylee,wolski,Wiedemann2015}, the equations of motion derived from the Hamiltonian in Eq. \ref{eq:ham1} are known as Hill's equations. The usual accelerator-physics method to solve this type of equations is to introduce transfer matrices for each type of linear element. This will define linear mappings bringing some initial state vector $\vec{X_0} = \left( x_0,x_0',y_0,y_0' \right)$ to a final vector $\vec{X_f} = \left( x_f,x_f',y_f,y_f' \right)$ using a symplectic matrix $M$, i.e., $\vec{X_f}=M\vec{X_0}$. In Sec. \ref{sec:lie}, Lie operators are used in order to extend these mappings to the nonlinear regime.    
+
+\begin{table}[H]
+    \centering
+    \caption{}
+    \label{tab:my-table}
+    \begin{tabular}{|c|c|}
+    \hline
+    \textbf{Element}                                                          & \textbf{4D Transfer Matrix}                                                                                                                            \\ \hline
+    \begin{tabular}[c]{@{}c@{}}Drift space \\ of length $L$\end{tabular}      & \newline \begin{tabular}[c]{@{}c@{}}$M= \begin{bmatrix} \\ 1 & 5 & 8 & a \\\\ 0 & 2 & 4 & a \\\\ 3 & 3 &-8 & a \\\\ 3 & 3 &-8 & a\\ \end{bmatrix}$\end{tabular} \newline \\ \hline
+    \begin{tabular}[c]{@{}c@{}}Thin Quadrupole\\ of strength $k$\end{tabular} & \newline \begin{tabular}[c]{@{}c@{}}$M= \begin{bmatrix} \\ 1 & 5 & 8 & a \\\\ 0 & 2 & 4 & a \\\\ 3 & 3 &-8 & a \\\\ 3 & 3 &-8 & a\\ \end{bmatrix}$\end{tabular} \newline \\ \hline
+    \end{tabular}
+    \end{table}
+
+Just like stacking LEGO® bricks together, these transfer matrices can be stacked up in order to calculate the total mapping through a stack of elements. The total linear mapping of a consecution of accelerator elements is just the matrix multiplication of the corresponding transfer matrices, i.e., for a lattice with $N$ linear blocks the total transfer matrix reads:
+\begin{equation}
+    \label{eq:consecution}
+    M_{Total}=M_NM_{N-1}...M_1.     
+\end{equation}
+
+Taking linear lattices one step further, the Twiss parametrization can be introduced. This parametrization assumes that any  
+
 \section{\label{sec:lie}Lie Maps in Accelerator Physics}
 
 The most basic element of a particle accelerator can be thought of as a LEGO® brick acting as a black box transformation for a single particle. This black box takes some single charged particle with initial transverse coordinates $\left( x_0,x'_0,y_0,y'_0 \right)$, as defined in a Frenet-Serret coordinate system, and maps them to some final coordinates $\left( x_f,x'_f,y_f,y'_f \right)$. For simplicity, any longitudinal effect will not be taken into account for this analysis, but can be easily incorporated. By gathering the initial coordinates into a vector, i.e. $\vec{X_0} = \left( x_0,x_0',y_0,y_0' \right)$, and doing the same for the final coordinates, i.e., $\vec{X_f} = \left( x_f,x_f',y_f,y_f' \right)$, one can define the mapping $\mathcal{M}$ that relates both vectors, such that:  

@@ -1538,6 +1538,47 @@
       \verb https://www.worldscientific.com/doi/abs/10.1142/13333
       \endverb
     \endentry
+    \entry{Wiedemann2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f7d524a2ec35fb3f9eff2cd2aa8fca36}{%
+           family={Wiedemann},
+           familyi={W\bibinitperiod},
+           given={Helmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{fullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{bibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{authorbibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{authornamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \strng{authorfullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Particle resonances in circular accelerators occur as a result of perturbation terms involving particular Fourier harmonics. That approach is based on the common knowledge that periodic perturbations of a harmonic oscillator can cause a resonance when the perturbation frequency is equal to an eigenfrequency of the oscillator.}
+      \field{booktitle}{Particle Accelerator Physics}
+      \field{isbn}{978-3-319-18317-6}
+      \field{title}{Resonances}
+      \field{year}{2015}
+      \field{pages}{539\bibrangedash 564}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/978-3-319-18317-6_16
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-18317-6_16
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-18317-6_16
+      \endverb
+    \endentry
     \entry{todd1}{misc}{}
       \name{author}{1}{}{%
         {{hash=3b955981f23005f4d5db1a8353f69248}{%
@@ -1699,47 +1740,6 @@
       \verb https://cds.cern.ch/record/333077
       \endverb
     \endentry
-    \entry{Wiedemann2015}{book}{}
-      \name{author}{1}{}{%
-        {{hash=f7d524a2ec35fb3f9eff2cd2aa8fca36}{%
-           family={Wiedemann},
-           familyi={W\bibinitperiod},
-           given={Helmut},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{fullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{bibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authorbibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authornamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authorfullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Particle resonances in circular accelerators occur as a result of perturbation terms involving particular Fourier harmonics. That approach is based on the common knowledge that periodic perturbations of a harmonic oscillator can cause a resonance when the perturbation frequency is equal to an eigenfrequency of the oscillator.}
-      \field{booktitle}{Particle Accelerator Physics}
-      \field{isbn}{978-3-319-18317-6}
-      \field{title}{Resonances}
-      \field{year}{2015}
-      \field{pages}{539\bibrangedash 564}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.1007/978-3-319-18317-6_16
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-3-319-18317-6_16
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-3-319-18317-6_16
-      \endverb
-    \endentry
     \entry{chao}{book}{}
       \name{author}{1}{}{%
         {{hash=cdcf559c5763c40879c70b77c2c852ee}{%
@@ -1820,8 +1820,8 @@
       \strng{authorbibnamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authornamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authorfullhash}{dfacc387c53c3a871de0821a11d0205c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}

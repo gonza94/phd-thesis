@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  6 DEC 2023 09:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  7 DEC 2023 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,72 +789,105 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowlength=\dimen316
 \pgfarrowwidth=\dimen317
 \pgfarrowlinewidth=\dimen318
-))) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
+))) (/usr/local/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count368
+\calc@Bcount=\count369
+\calc@Adimen=\dimen319
+\calc@Bdimen=\dimen320
+\calc@Askip=\skip258
+\calc@Bskip=\skip259
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count370
+\calc@Cskip=\skip260
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen321
+\ESO@tempdimb=\dimen322
+)
+\AM@pagewidth=\dimen323
+\AM@pageheight=\dimen324
+\AM@fboxrule=\dimen325
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count371
+\AM@pagebox=\box73
+\AM@global@opts=\toks46
+\AM@pagecnt=\count372
+\AM@toc@title=\toks47
+\AM@lof@heading=\toks48
+\c@AM@survey=\count373
+\AM@templatesizebox=\box74
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count368
+\lrq@indent=\count374
  (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count369
-\c@listtotal=\count370
-\c@listcount=\count371
-\c@liststart=\count372
-\c@liststop=\count373
-\c@citecount=\count374
-\c@citetotal=\count375
-\c@multicitecount=\count376
-\c@multicitetotal=\count377
-\c@instcount=\count378
-\c@maxnames=\count379
-\c@minnames=\count380
-\c@maxitems=\count381
-\c@minitems=\count382
-\c@citecounter=\count383
-\c@maxcitecounter=\count384
-\c@savedcitecounter=\count385
-\c@uniquelist=\count386
-\c@uniquename=\count387
-\c@refsection=\count388
-\c@refsegment=\count389
-\c@maxextratitle=\count390
-\c@maxextratitleyear=\count391
-\c@maxextraname=\count392
-\c@maxextradate=\count393
-\c@maxextraalpha=\count394
-\c@abbrvpenalty=\count395
-\c@highnamepenalty=\count396
-\c@lownamepenalty=\count397
-\c@maxparens=\count398
-\c@parenlevel=\count399
-\blx@tempcnta=\count400
-\blx@tempcntb=\count401
-\blx@tempcntc=\count402
-\c@blx@maxsection=\count403
-\blx@maxsegment@0=\count404
-\blx@notetype=\count405
-\blx@parenlevel@text=\count406
-\blx@parenlevel@foot=\count407
-\blx@sectionciteorder@0=\count408
-\blx@sectionciteorderinternal@0=\count409
-\blx@entrysetcounter=\count410
-\blx@biblioinstance=\count411
-\labelnumberwidth=\skip258
-\labelalphawidth=\skip259
-\biblabelsep=\skip260
-\bibnamesep=\skip261
-\bibinitsep=\skip262
-\bibparsep=\skip263
-\bibhang=\skip264
+))
+\c@tabx@nest=\count375
+\c@listtotal=\count376
+\c@listcount=\count377
+\c@liststart=\count378
+\c@liststop=\count379
+\c@citecount=\count380
+\c@citetotal=\count381
+\c@multicitecount=\count382
+\c@multicitetotal=\count383
+\c@instcount=\count384
+\c@maxnames=\count385
+\c@minnames=\count386
+\c@maxitems=\count387
+\c@minitems=\count388
+\c@citecounter=\count389
+\c@maxcitecounter=\count390
+\c@savedcitecounter=\count391
+\c@uniquelist=\count392
+\c@uniquename=\count393
+\c@refsection=\count394
+\c@refsegment=\count395
+\c@maxextratitle=\count396
+\c@maxextratitleyear=\count397
+\c@maxextraname=\count398
+\c@maxextradate=\count399
+\c@maxextraalpha=\count400
+\c@abbrvpenalty=\count401
+\c@highnamepenalty=\count402
+\c@lownamepenalty=\count403
+\c@maxparens=\count404
+\c@parenlevel=\count405
+\blx@tempcnta=\count406
+\blx@tempcntb=\count407
+\blx@tempcntc=\count408
+\c@blx@maxsection=\count409
+\blx@maxsegment@0=\count410
+\blx@notetype=\count411
+\blx@parenlevel@text=\count412
+\blx@parenlevel@foot=\count413
+\blx@sectionciteorder@0=\count414
+\blx@sectionciteorderinternal@0=\count415
+\blx@entrysetcounter=\count416
+\blx@biblioinstance=\count417
+\labelnumberwidth=\skip261
+\labelalphawidth=\skip262
+\biblabelsep=\skip263
+\bibnamesep=\skip264
+\bibinitsep=\skip265
+\bibparsep=\skip266
+\bibhang=\skip267
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language87
-\c@mincomprange=\count412
-\c@maxcomprange=\count413
-\c@mincompwidth=\count414
+\c@mincomprange=\count418
+\c@maxcomprange=\count419
+\c@mincompwidth=\count420
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -864,88 +897,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count415
-\c@savedafterword=\count416
-\c@annotator=\count417
-\c@savedannotator=\count418
-\c@author=\count419
-\c@savedauthor=\count420
-\c@bookauthor=\count421
-\c@savedbookauthor=\count422
-\c@commentator=\count423
-\c@savedcommentator=\count424
-\c@editor=\count425
-\c@savededitor=\count426
-\c@editora=\count427
-\c@savededitora=\count428
-\c@editorb=\count429
-\c@savededitorb=\count430
-\c@editorc=\count431
-\c@savededitorc=\count432
-\c@foreword=\count433
-\c@savedforeword=\count434
-\c@holder=\count435
-\c@savedholder=\count436
-\c@introduction=\count437
-\c@savedintroduction=\count438
-\c@namea=\count439
-\c@savednamea=\count440
-\c@nameb=\count441
-\c@savednameb=\count442
-\c@namec=\count443
-\c@savednamec=\count444
-\c@translator=\count445
-\c@savedtranslator=\count446
-\c@shortauthor=\count447
-\c@savedshortauthor=\count448
-\c@shorteditor=\count449
-\c@savedshorteditor=\count450
-\c@labelname=\count451
-\c@savedlabelname=\count452
-\c@institution=\count453
-\c@savedinstitution=\count454
-\c@lista=\count455
-\c@savedlista=\count456
-\c@listb=\count457
-\c@savedlistb=\count458
-\c@listc=\count459
-\c@savedlistc=\count460
-\c@listd=\count461
-\c@savedlistd=\count462
-\c@liste=\count463
-\c@savedliste=\count464
-\c@listf=\count465
-\c@savedlistf=\count466
-\c@location=\count467
-\c@savedlocation=\count468
-\c@organization=\count469
-\c@savedorganization=\count470
-\c@origlocation=\count471
-\c@savedoriglocation=\count472
-\c@origpublisher=\count473
-\c@savedorigpublisher=\count474
-\c@publisher=\count475
-\c@savedpublisher=\count476
-\c@language=\count477
-\c@savedlanguage=\count478
-\c@origlanguage=\count479
-\c@savedoriglanguage=\count480
-\c@pageref=\count481
-\c@savedpageref=\count482
-\shorthandwidth=\skip265
-\shortjournalwidth=\skip266
-\shortserieswidth=\skip267
-\shorttitlewidth=\skip268
-\shortauthorwidth=\skip269
-\shorteditorwidth=\skip270
-\locallabelnumberwidth=\skip271
-\locallabelalphawidth=\skip272
-\localshorthandwidth=\skip273
-\localshortjournalwidth=\skip274
-\localshortserieswidth=\skip275
-\localshorttitlewidth=\skip276
-\localshortauthorwidth=\skip277
-\localshorteditorwidth=\skip278
+\c@afterword=\count421
+\c@savedafterword=\count422
+\c@annotator=\count423
+\c@savedannotator=\count424
+\c@author=\count425
+\c@savedauthor=\count426
+\c@bookauthor=\count427
+\c@savedbookauthor=\count428
+\c@commentator=\count429
+\c@savedcommentator=\count430
+\c@editor=\count431
+\c@savededitor=\count432
+\c@editora=\count433
+\c@savededitora=\count434
+\c@editorb=\count435
+\c@savededitorb=\count436
+\c@editorc=\count437
+\c@savededitorc=\count438
+\c@foreword=\count439
+\c@savedforeword=\count440
+\c@holder=\count441
+\c@savedholder=\count442
+\c@introduction=\count443
+\c@savedintroduction=\count444
+\c@namea=\count445
+\c@savednamea=\count446
+\c@nameb=\count447
+\c@savednameb=\count448
+\c@namec=\count449
+\c@savednamec=\count450
+\c@translator=\count451
+\c@savedtranslator=\count452
+\c@shortauthor=\count453
+\c@savedshortauthor=\count454
+\c@shorteditor=\count455
+\c@savedshorteditor=\count456
+\c@labelname=\count457
+\c@savedlabelname=\count458
+\c@institution=\count459
+\c@savedinstitution=\count460
+\c@lista=\count461
+\c@savedlista=\count462
+\c@listb=\count463
+\c@savedlistb=\count464
+\c@listc=\count465
+\c@savedlistc=\count466
+\c@listd=\count467
+\c@savedlistd=\count468
+\c@liste=\count469
+\c@savedliste=\count470
+\c@listf=\count471
+\c@savedlistf=\count472
+\c@location=\count473
+\c@savedlocation=\count474
+\c@organization=\count475
+\c@savedorganization=\count476
+\c@origlocation=\count477
+\c@savedoriglocation=\count478
+\c@origpublisher=\count479
+\c@savedorigpublisher=\count480
+\c@publisher=\count481
+\c@savedpublisher=\count482
+\c@language=\count483
+\c@savedlanguage=\count484
+\c@origlanguage=\count485
+\c@savedoriglanguage=\count486
+\c@pageref=\count487
+\c@savedpageref=\count488
+\shorthandwidth=\skip268
+\shortjournalwidth=\skip269
+\shortserieswidth=\skip270
+\shorttitlewidth=\skip271
+\shortauthorwidth=\skip272
+\shorteditorwidth=\skip273
+\locallabelnumberwidth=\skip274
+\locallabelalphawidth=\skip275
+\localshorthandwidth=\skip276
+\localshortjournalwidth=\skip277
+\localshortserieswidth=\skip278
+\localshorttitlewidth=\skip279
+\localshortauthorwidth=\skip280
+\localshorteditorwidth=\skip281
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -955,19 +988,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count483
-\c@textcitetotal=\count484
-\c@textcitemaxnames=\count485
-\c@biburlbigbreakpenalty=\count486
-\c@biburlbreakpenalty=\count487
-\c@biburlnumpenalty=\count488
-\c@biburlucpenalty=\count489
-\c@biburllcpenalty=\count490
+\c@textcitecount=\count489
+\c@textcitetotal=\count490
+\c@textcitemaxnames=\count491
+\c@biburlbigbreakpenalty=\count492
+\c@biburlbreakpenalty=\count493
+\c@biburlnumpenalty=\count494
+\c@biburlucpenalty=\count495
+\c@biburllcpenalty=\count496
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count491
+\c@smartand=\count497
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
@@ -981,17 +1014,17 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count492
-\c@bbx:relatedtotal=\count493
+\c@bbx:relatedcount=\count498
+\c@bbx:relatedtotal=\count499
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count494
-\c@cbx@tempcntb=\count495
-\c@cbx@tempcntc=\count496
-\c@cbx@tempcntd=\count497
+\c@cbx@tempcnta=\count500
+\c@cbx@tempcntb=\count501
+\c@cbx@tempcntc=\count502
+\c@cbx@tempcntd=\count503
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1015,8 +1048,8 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2023-02-22 L3 programming layer (loader) 
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count498
-\l__pdf_internal_box=\box73
+\l__color_backend_stack_int=\count504
+\l__pdf_internal_box=\box75
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2023-02-22 L3 programming layer (loader) 
@@ -1033,16 +1066,16 @@ Package: newtxtext 2022/02/28 v1.71(Michael Sharpe) latex and unicode latex supp
  `newtxtext' v1.71, 2022/02/28 Text macros taking advantage of TeXGyre Termes and its extensions (msharpe) (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks46
-\XKV@tempa@toks=\toks47
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
 )
-\XKV@depth=\count499
+\XKV@depth=\count505
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count500
-\decimalpart=\count501
+\integerpart=\count506
+\decimalpart=\count507
 )
 Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/scalefnt.sty)
@@ -1051,8 +1084,8 @@ LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 21.
  (/usr/local/texlive/2023/texmf-dist/tex/generic/kastrup/binhex.tex)
-\ntx@tmpcnta=\count502
-\ntx@cnt=\count503
+\ntx@tmpcnta=\count508
+\ntx@cnt=\count509
 
 ntx@otftextfalse
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontaxes/fontaxes.sty
@@ -1078,12 +1111,12 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count504
+\tx@cntz=\count510
  (/usr/local/texlive/2023/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count505
-\tx@IsAlNum=\count506
-\tx@tA=\toks48
-\tx@tB=\toks49
+\tx@Isdigit=\count511
+\tx@IsAlNum=\count512
+\tx@tA=\toks51
+\tx@tB=\toks52
 \tx@su=\read5
 
 amsthm NOT loaded
@@ -1165,7 +1198,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \symlargesymbolsTXA=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 643.
-\tx@sbptoks=\toks50
+\tx@sbptoks=\toks53
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 866.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 867.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 868.
@@ -1185,53 +1218,53 @@ LaTeX Info: Redefining \not on input line 2959.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 77.
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 78.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 77.
- (./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux))
+(Font)              scaled to size 12.0pt on input line 78.
+ (./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux) (./appendix1.aux) (./appendix2.aux))
 \openout1 = `phd-thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 77.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 77.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 78.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 78.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 77.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 78.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 77.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 78.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 77.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 78.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
 
 
 ******************************************************
@@ -1253,31 +1286,39 @@ Sidefoothsep and sidefootwidth: 7pt and 50pt
 Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
 ******************************************************
 
-LaTeX Info: Command `\dddot' is already robust on input line 77.
-LaTeX Info: Command `\ddddot' is already robust on input line 77.
-Package hyperref Info: Link coloring OFF on input line 77.
+LaTeX Info: Command `\dddot' is already robust on input line 78.
+LaTeX Info: Command `\ddddot' is already robust on input line 78.
+Package hyperref Info: Link coloring OFF on input line 78.
 (./phd-thesis.out) (./phd-thesis.out)
 \@outlinefile=\write6
 \openout6 = `phd-thesis.out'.
 
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count507
-\scratchdimen=\dimen319
-\scratchbox=\box74
-\nofMPsegments=\count508
-\nofMParguments=\count509
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count510
-\MPscratchDim=\dimen320
-\MPnumerator=\count511
-\makeMPintoPDFobject=\count512
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count513
+\scratchdimen=\dimen326
+\scratchbox=\box76
+\nofMPsegments=\count514
+\nofMParguments=\count515
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count516
+\MPscratchDim=\dimen327
+\MPnumerator=\count517
+\makeMPintoPDFobject=\count518
+\everyMPtoPDFconversion=\toks55
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1292,16 +1333,16 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'phd-thesis.bbl' found.
  (./phd-thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 77.
-Package biblatex Info: Reference segment=0 on input line 77.
-\c@mv@tabular=\count513
-\c@mv@boldtabular=\count514
+Package biblatex Info: Reference section=0 on input line 78.
+Package biblatex Info: Reference segment=0 on input line 78.
+\c@mv@tabular=\count519
+\c@mv@boldtabular=\count520
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 90.
+(Font)              scaled to size 12.0pt on input line 91.
  [2
 
 
@@ -1313,24 +1354,24 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 
 ] (./phd-thesis.toc
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 5.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 4.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 5.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 4.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 5.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 4.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 5.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 4.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)) [5
+) [5
 
-] [6] (./phd-thesis.lob) [7
+]) [6] (./phd-thesis.lob) [7
 
 ]
 \openout2 = `chapter1.aux'.
@@ -1347,13 +1388,13 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 14.
  [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [3]
-<chapter1/fermilab.jpeg, id=274, 724.6272pt x 472.164pt>
+<chapter1/fermilab.jpeg, id=206, 724.6272pt x 472.164pt>
 File: chapter1/fermilab.jpeg Graphic file (type jpg)
 <use chapter1/fermilab.jpeg>
 Package pdftex.def Info: chapter1/fermilab.jpeg  used on input line 41.
 (pdftex.def)             Requested size: 469.75499pt x 306.08884pt.
  [4 <./chapter1/fermilab.jpeg>]
-<chapter1/complex.png, id=289, 753.5653pt x 396.7322pt>
+<chapter1/complex.png, id=221, 753.5653pt x 396.7322pt>
 File: chapter1/complex.png Graphic file (type png)
 <use chapter1/complex.png>
 Package pdftex.def Info: chapter1/complex.png  used on input line 52.
@@ -1366,65 +1407,65 @@ Package pdftex.def Info: chapter1/complex.png  used on input line 52.
 
 
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-[9]
-<chapter2/oneturn.png, id=356, 603.6954pt x 580.0872pt>
+[10]
+<chapter2/oneturn.png, id=301, 603.6954pt x 580.0872pt>
 File: chapter2/oneturn.png Graphic file (type png)
 <use chapter2/oneturn.png>
-Package pdftex.def Info: chapter2/oneturn.png  used on input line 75.
+Package pdftex.def Info: chapter2/oneturn.png  used on input line 97.
 (pdftex.def)             Requested size: 328.82706pt x 315.96866pt.
- [10] [11 <./chapter2/oneturn.png>] [12] [13]
-<chapter2/tunediagram.png, id=413, 569.4876pt x 530.4618pt>
+ [11] [12 <./chapter2/oneturn.png>] [13] [14]
+<chapter2/tunediagram.png, id=358, 569.4876pt x 530.4618pt>
 File: chapter2/tunediagram.png Graphic file (type png)
 <use chapter2/tunediagram.png>
-Package pdftex.def Info: chapter2/tunediagram.png  used on input line 160.
+Package pdftex.def Info: chapter2/tunediagram.png  used on input line 182.
 (pdftex.def)             Requested size: 375.80542pt x 350.0573pt.
- [14] [15 <./chapter2/tunediagram.png>]
-<chapter2/rrtdlow.png, id=434, 680.7834pt x 477.4638pt>
+ [15] [16 <./chapter2/tunediagram.png>]
+<chapter2/rrtdlow.png, id=378, 680.7834pt x 477.4638pt>
 File: chapter2/rrtdlow.png Graphic file (type png)
 <use chapter2/rrtdlow.png>
-Package pdftex.def Info: chapter2/rrtdlow.png  used on input line 170.
+Package pdftex.def Info: chapter2/rrtdlow.png  used on input line 192.
 (pdftex.def)             Requested size: 469.75499pt x 329.45766pt.
- [16 <./chapter2/rrtdlow.png>] [17] [18] [19]) [20]
+ [17 <./chapter2/rrtdlow.png>] [18] [19] [20]) [21]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
-<chapter3/complex.png, id=505, 753.5653pt x 396.7322pt>
+<chapter3/complex.png, id=449, 753.5653pt x 396.7322pt>
 File: chapter3/complex.png Graphic file (type png)
 <use chapter3/complex.png>
 Package pdftex.def Info: chapter3/complex.png  used on input line 12.
 (pdftex.def)             Requested size: 469.75499pt x 247.30927pt.
- [21
+ [22
 
 
 
 
 ]
-<chapter3/complexPIPII.png, id=514, 753.5653pt x 396.7322pt>
+<chapter3/complexPIPII.png, id=458, 753.5653pt x 396.7322pt>
 File: chapter3/complexPIPII.png Graphic file (type png)
 <use chapter3/complexPIPII.png>
 Package pdftex.def Info: chapter3/complexPIPII.png  used on input line 19.
 (pdftex.def)             Requested size: 469.75499pt x 247.30927pt.
- [22 <./chapter3/complex.png> <./chapter3/complexPIPII.png>]
-<chapter3/rrtd.png, id=524, 557.4426pt x 522.2712pt>
+ [23 <./chapter3/complex.png> <./chapter3/complexPIPII.png>]
+<chapter3/rrtd.png, id=468, 557.4426pt x 522.2712pt>
 File: chapter3/rrtd.png Graphic file (type png)
 <use chapter3/rrtd.png>
 Package pdftex.def Info: chapter3/rrtd.png  used on input line 64.
 (pdftex.def)             Requested size: 469.75499pt x 440.11536pt.
- [23]
-<chapter3/rrtdhigh.png, id=532, 661.5114pt x 473.1276pt>
+ [24]
+<chapter3/rrtdhigh.png, id=477, 661.5114pt x 473.1276pt>
 File: chapter3/rrtdhigh.png Graphic file (type png)
 <use chapter3/rrtdhigh.png>
 Package pdftex.def Info: chapter3/rrtdhigh.png  used on input line 73.
 (pdftex.def)             Requested size: 469.75499pt x 335.9807pt.
-) [24 <./chapter3/rrtd.png>] [25 <./chapter3/rrtdhigh.png>]
+) [25 <./chapter3/rrtd.png>] [26 <./chapter3/rrtdhigh.png>]
 \openout2 = `chapter4.aux'.
 
- (./chapter4.tex) [26
+ (./chapter4.tex) [27
 
 
 
@@ -1432,7 +1473,7 @@ Package pdftex.def Info: chapter3/rrtdhigh.png  used on input line 73.
 ]
 \openout2 = `chapter5.aux'.
 
- (./chapter5.tex) [27
+ (./chapter5.tex) [28
 
 
 
@@ -1440,7 +1481,7 @@ Package pdftex.def Info: chapter3/rrtdhigh.png  used on input line 73.
 ]
 \openout2 = `chapter6.aux'.
 
- (./chapter6.tex) [28
+ (./chapter6.tex) [29
 
 
 
@@ -1448,75 +1489,249 @@ Package pdftex.def Info: chapter3/rrtdhigh.png  used on input line 73.
 ]
 \openout2 = `chapter7.aux'.
 
- (./chapter7.tex) [29
+ (./chapter7.tex) [30
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 161.
+(Font)              scaled to size 12.0pt on input line 162.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 161.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 161.
+(Font)              scaled to size 12.0pt on input line 162.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 162.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 161.
+(Font)              scaled to size 12.0pt on input line 162.
 
-Overfull \hbox (0.43805pt too wide) in paragraph at lines 191--191
+Overfull \hbox (0.43805pt too wide) in paragraph at lines 192--192
 []$\T1/ntxtt/m/n/12 https : / / onlinelibrary . wiley . com / doi / pdf / 10 . 1002 / 9783527618460 . ch1$[]\T1/ntxtlf/m/n/12 . \T1/ntxtlf/m/sc/12 url\T1/ntxtlf/m/n/12 :
  []
 
 
-Overfull \hbox (34.6107pt too wide) in paragraph at lines 191--191
+Overfull \hbox (34.6107pt too wide) in paragraph at lines 192--192
 []\T1/ntxtlf/m/n/12 Reidar Hahn. \T1/ntxtlf/m/it/12 Fer-mi-lab\T1/ntxtlf/m/n/12 . File: https://upload.wikimedia.org/wikipedia/commons/3/3f/Fermilab.jpg.
  []
 
-[30
+[31
 
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}]
-Overfull \hbox (8.36835pt too wide) in paragraph at lines 191--191
+Overfull \hbox (8.36835pt too wide) in paragraph at lines 192--192
 []\T1/ntxtlf/m/n/12 T. Sato-gata. \T1/ntxtlf/m/it/12 Lec-ture Notes on Pois-son Brack-ets and Lie Op-er-a-tors\T1/ntxtlf/m/n/12 . []$\T1/ntxtt/m/n/12 https : / / toddsatogata .
  []
 
 
-Overfull \hbox (23.06998pt too wide) in paragraph at lines 191--191
+Overfull \hbox (23.06998pt too wide) in paragraph at lines 192--192
 \T1/ntxtt/m/n/12 worldscientific . com / doi / pdf / 10 . 1142 / p250$[]\T1/ntxtlf/m/n/12 . \T1/ntxtlf/m/sc/12 url\T1/ntxtlf/m/n/12 : []$\T1/ntxtt/m/n/12 https : / / www . worldscientific .
  []
 
-[31] [32] [33
+[32] [33]
+\openout2 = `appendix1.aux'.
+
+ (./appendix1.tex
+<lie2D.pdf, id=607, 614.295pt x 794.97pt>
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf>
+Package pdftex.def Info: lie2D.pdf  used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf>
+Package pdftex.def Info: lie2D.pdf  used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<lie2D.pdf, id=610, page=1, 614.295pt x 794.97pt>
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 1>
+Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 1>
+Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [34
+
 
 ]
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 1>
+Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 1>
+Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 1>
+Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [35 <./lie2D.pdf>]
+<lie2D.pdf, id=705, page=2, 614.295pt x 794.97pt>
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 2>
+Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 2>
+Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 2>
+Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [36 <./lie2D.pdf>]
+<lie2D.pdf, id=750, page=3, 614.295pt x 794.97pt>
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 3>
+Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 3>
+Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 3>
+Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [37 <./lie2D.pdf>])
+\openout2 = `appendix2.aux'.
+
+ (./appendix2.tex
+<lie4D.pdf, id=765, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf>
+Package pdftex.def Info: lie4D.pdf  used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf>
+Package pdftex.def Info: lie4D.pdf  used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<lie4D.pdf, id=768, page=1, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 1>
+Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 1>
+Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [38
+
+
+
+
+]
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 1>
+Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 1>
+Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 1>
+Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [39 <./lie4D.pdf>]
+<lie4D.pdf, id=863, page=2, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [40 <./lie4D.pdf>]
+<lie4D.pdf, id=907, page=3, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [41 <./lie4D.pdf>]
+<lie4D.pdf, id=913, page=4, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [42 <./lie4D.pdf>]
+<lie4D.pdf, id=922, page=5, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [43 <./lie4D.pdf>]
+<lie4D.pdf, id=939, page=6, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 6>
+Package pdftex.def Info: lie4D.pdf , page6 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 6>
+Package pdftex.def Info: lie4D.pdf , page6 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 6>
+Package pdftex.def Info: lie4D.pdf , page6 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [44 <./lie4D.pdf>])
 \tf@toc=\write7
 \openout7 = `phd-thesis.toc'.
 
 \tf@lob=\write8
 \openout8 = `phd-thesis.lob'.
 
- (./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux))
+ (./phd-thesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux) (./appendix1.aux) (./appendix2.aux))
 Package rerunfilecheck Info: File `phd-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EFF2B626C5817FE74F08610F2B5C61B3;7185.
+(rerunfilecheck)             Checksum: F1EE2E664B3A9479981ACBA8F9595326;2604.
 Package logreq Info: Writing requests to 'phd-thesis.run.xml'.
 \openout1 = `phd-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36668 strings out of 476025
- 675610 string characters out of 5790017
+ 37577 strings out of 476025
+ 692972 string characters out of 5790017
  1871388 words of memory out of 5000000
- 56346 multiletter control sequences out of 15000+600000
+ 57197 multiletter control sequences out of 15000+600000
  546277 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,20n,103p,1713b,1475s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,21n,103p,1713b,1476s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on phd-thesis.pdf (40 pages, 3029577 bytes).
+Output written on phd-thesis.pdf (51 pages, 3698642 bytes).
 PDF statistics:
- 759 PDF objects out of 1000 (max. 8388607)
- 669 compressed objects within 7 object streams
- 169 named destinations out of 1000 (max. 500000)
- 338 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1039 PDF objects out of 1200 (max. 8388607)
+ 835 compressed objects within 9 object streams
+ 184 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
