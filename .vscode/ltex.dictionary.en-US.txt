@@ -28,3 +28,6 @@ megascience
 defocusing
 consecution
 Twiss
+paraxial
+Mathematica
+perturbative

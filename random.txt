@@ -1,0 +1,5 @@
+Thick Skew \\ Quadrupole\\ of strength $k>0$\end{tabular} & \begin{tabular}[c]{@{}c@{}} \\ \begin{miniscule}$M= \frac{1}{2}\begin{bmatrix}  
+        \cos \sqrt{k} \ell + \cosh \sqrt{k} \ell & \frac{1}{\sqrt{k}} \left( \sin \sqrt{k} \ell + \sinh \sqrt{k} \ell \right)& \cos \sqrt{k} \ell - \cosh \sqrt{k} \ell  & \frac{1}{\sqrt{k}} \left( \sin \sqrt{k} \ell - \sinh \sqrt{k} \ell \right) \\\\ 
+        -\sqrt{k} \left( \sin \sqrt{k} \ell - \sinh \sqrt{k} \ell \right) & \cos \sqrt{k} \ell + \cosh \sqrt{k} \ell  & -\sqrt{k} \left( \sin \sqrt{k} \ell + \sinh \sqrt{k} \ell \right) & \cos \sqrt{k} \ell - \cosh \sqrt{k} \ell  \\\\ 
+        \cos \sqrt{k} \ell - \cosh \sqrt{k} \ell  & \frac{1}{\sqrt{k}} \left( \sin \sqrt{k} \ell - \sinh \sqrt{k} \ell \right) & \cos \sqrt{k} \ell + \cosh \sqrt{k} \ell  & \frac{1}{\sqrt{k}} \left( \sin \sqrt{k} \ell + \sinh \sqrt{k} \ell \right) \\\\ 
+        -\sqrt{k} \left( \sin \sqrt{k} \ell + \sinh \sqrt{k} \ell \right) & \cos \sqrt{k} \ell - \cosh \sqrt{|k|} \ell  & -\sqrt{k} \left( \sin \sqrt{k} \ell - \sinh \sqrt{k} \ell \right) & \cos \sqrt{k} \ell + \cosh \sqrt{k} \ell \\ \end{bmatrix}$ \end{miniscule}
