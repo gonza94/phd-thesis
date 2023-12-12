@@ -2413,9 +2413,11 @@
     <bcf:citekey order="34" intorder="3">numi1</bcf:citekey>
     <bcf:citekey order="35" intorder="1">pipII1</bcf:citekey>
     <bcf:citekey order="36" intorder="1">rr2</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">mionrr</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">cris1</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">cris2</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">rr1</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">rr1</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">mionrr</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">cris1</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">cris2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

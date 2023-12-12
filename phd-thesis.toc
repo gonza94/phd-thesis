@@ -8,39 +8,39 @@
 \contentsline {section}{\numberline {1.3}Outline}{6}{section.1.3}%
 \contentsline {chapter}{\chapternumberline {2}Beam Dynamics in Rings}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introductory Accelerator Physics}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Lie Maps in Accelerator Physics}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}One-turn Map and Normal Form}{13}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Resonances in Circular Accelerators}{16}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Resonance Driving Terms}{20}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Space Charge Tune Shift}{23}{section.2.6}%
-\contentsline {chapter}{\chapternumberline {3}The FNAL Recycler Ring}{24}{chapter.3}%
-\contentsline {section}{\numberline {3.1}General Specifications}{26}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Tune Diagram and Resonances}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}High Intensity and Tune Footprint}{28}{section.3.3}%
-\contentsline {chapter}{\chapternumberline {4}Compensation of Third-Order Resonances at Low Intensities}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Global RDTs and Lattice Model}{29}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Measurement of Third Order RDTs}{29}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Compensation of RDTs}{29}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Optimization of Compensation Currents}{29}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Experimental Verification of Compensation}{29}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Dynamic Loss Map}{29}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Static Tune Scans}{29}{subsection.4.5.2}%
-\contentsline {chapter}{\chapternumberline {5}Resonance Compensation Studies at the CERN Proton Synchrotron Booster}{30}{chapter.5}%
-\contentsline {section}{\numberline {5.1}General specifications}{30}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Tune Diagram and Operation}{30}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Optimization Algorithms for Resonance Compensation}{30}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Experimental Verification of Compensation}{30}{section.5.4}%
-\contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{31}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{31}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{31}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Measurement of Tune Shift}{31}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{31}{section.6.4}%
-\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{32}{chapter.7}%
+\contentsline {section}{\numberline {2.2}Lie Maps in Accelerator Physics}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}One-turn Map and Normal Form}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Resonances in Circular Accelerators}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Resonance Driving Terms}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Space Charge Tune Shift}{25}{section.2.6}%
+\contentsline {chapter}{\chapternumberline {3}The FNAL Recycler Ring}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}General Specifications}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Tune Diagram and Resonances}{30}{section.3.2}%
+\contentsline {section}{\numberline {3.3}High Intensity and Tune Footprint}{31}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {4}Compensation of Third-Order Resonances at Low Intensities}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Global RDTs and Lattice Model}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Measurement of Third Order RDTs}{32}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Compensation of RDTs}{32}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Optimization of Compensation Currents}{32}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Experimental Verification of Compensation}{32}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Dynamic Loss Map}{32}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Static Tune Scans}{32}{subsection.4.5.2}%
+\contentsline {chapter}{\chapternumberline {5}Resonance Compensation Studies at the CERN Proton Synchrotron Booster}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}General specifications}{33}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tune Diagram and Operation}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Optimization Algorithms for Resonance Compensation}{33}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Experimental Verification of Compensation}{33}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{34}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{34}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{34}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Measurement of Tune Shift}{34}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{34}{section.6.4}%
+\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{35}{chapter.7}%
 \cftinsert {BIB}
 \changetocdepth {1}
-\contentsline {chapter}{Bibliography}{33}{section*.6}%
+\contentsline {chapter}{Bibliography}{36}{section*.6}%
 \cftinsert {BIB}
 \cftinsert {APP}
 \changetocdepth {0}
-\contentsline {appendix}{\chapternumberline {A}Lie Algebra Methods for Accelerator Physics in 2D using MATHEMATICA}{37}{chapter.11}%
-\contentsline {appendix}{\chapternumberline {B}Lie Algebra Methods for Accelerator Physics in 4D using MATHEMATICA}{41}{chapter.12}%
+\contentsline {appendix}{\chapternumberline {A}Lie Algebra Methods for Accelerator Physics in 2D using MATHEMATICA}{40}{chapter.11}%
+\contentsline {appendix}{\chapternumberline {B}Lie Algebra Methods for Accelerator Physics in 4D using MATHEMATICA}{44}{chapter.12}%

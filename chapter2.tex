@@ -2,7 +2,7 @@
 \label{sec:ch2}
 
 \section{\label{sec:basic}Introductory Accelerator Physics}
-The basic building blocks of a particle accelerator are the elements that steer and focus the beam in the transverse direction. While there are a handful of electromagnetic devices that can do this, the most prominent ones in high-energy accelerators are pure dipole magnets for steering and pure quadrupole magnets for focusing. Nevertheless, some machines such as the Recycler Ring have combined function magnets which can have both types of magnets---and even higher order magnets---embedded in one, in order to steer and focus the particles. The previous information assumes that every magnet can be expanded and described as a decomposition of magnetic multipoles, where dipole and quadrupole components are the lowest order terms of the expansion. Therefore, using the Beth representation \cite{sylee}, the multipole expansion for an arbitrary multipole magnet reads:
+The basic building blocks of a particle accelerator are the elements that steer and focus the beam in the transverse direction. This is done by utilizing and manipulating the Lorentz force $\vec{F_L}$ by means of the electromagnetic fields $\vec{E}$ and $\vec{B}$ to act on some particle with charge $q$ and velocity $\vec{v}$, i.e., $\vec{F_L}=q\left( \vec{E}+\vec{v}\times \vec{B}\right)$. While there are a handful of electromagnetic devices that can do this, the most prominent ones in high-energy accelerators are magnets which have no electric field, $\vec{E}=0$. In particular, there are pure dipole magnets for steering and pure quadrupole magnets for focusing. Nevertheless, some machines such as the Recycler Ring have combined function magnets which can have both types of magnets---and even higher order magnets---embedded in one, in order to steer and focus the particles. The previous information assumes that every magnet can be expanded and described as a decomposition of magnetic multipoles, where dipole and quadrupole components are the lowest order terms of the expansion. Therefore, using the Beth representation \cite{sylee}, the multipole expansion for an arbitrary multipole magnet reads:
 \begin{equation}
     \label{eq:ch2magnet}
     \frac{1}{\left[ B \rho \right]}\left(B_y(x,y)+iB_x(x,y) \right)=-\frac{1}{\rho} \sum_{n=0}^{\infty} \left( b_n+i a_n\right) \left( x+i y\right)^n, 
@@ -50,13 +50,13 @@ Just like stacking LEGO® bricks together, these transfer matrices can be stacke
     M_{Total}=M_NM_{N-1}...M_1.     
 \end{equation}
 
-Taking linear lattices one step further, the Twiss parametrization can be introduced. This parametrization employs the fact that any linear element or stack of linear elements can be parametrized by the Twiss functions $\beta_u(s),\alpha_u(s)$ and $\gamma_u(s)$ and a phase advance defined as $\Delta \phi_u(s)=\int_0^s ds/\beta_u(s)$, where $u$ stands for either the $x$ or $y$ plane. This results in the following transfer matrix from location $s=0$ to an arbitrary location $s$:
+Taking linear lattices one step further, the Twiss parametrization can be introduced. This parametrization employs the fact that any linear element or stack of linear elements can be parametrized by the Twiss functions $\beta_u(s),\alpha_u(s)$ and $\gamma_u(s)$ and a phase advance defined as $  \phi_u(s)=\int_0^s ds/\beta_u(s)$, where $u$ stands for either the $x$ or $y$ plane. This results in the following transfer matrix from location $s=0$ to an arbitrary location $s$:
 \begin{equation}
     \label{eq:twissmatrix}
     M(s)= 
     \begin{bmatrix} 
-    M_x(s) & \textbf{0}_{2 \times 2} \\ 
-    \textbf{0}_{2 \times 2} & M_y(s)
+    M_x(s) & 0_{2 \times 2} \\ 
+    0_{2 \times 2} & M_y(s)
     \end{bmatrix},
 \end{equation}
 where $M_u$ is a square matrix defined as:
@@ -64,20 +64,25 @@ where $M_u$ is a square matrix defined as:
     \label{eq:mu}
     M_u= 
     \begin{bmatrix} 
-    \sqrt{\frac{\beta_u(s)}{\beta_u (0)}}\left( \cos \Delta \phi_u(s) +\alpha_u(0) \sin \Delta \phi_u(s) \right) & \sqrt{\beta_u(s) \beta_u(0)} \sin \Delta \phi_u(s) \\ \frac{\alpha_u(0)-\alpha_u(s)}{\beta_u(s) \beta_u(0)}\cos \Delta \phi_u(s) - \frac{1+\alpha_u(0)\alpha_u(s)}{\beta_u(s) \beta_u(0)} \sin \Delta \phi_u(s) & \sqrt{\frac{\beta_u(0)}{\beta_u (s)}}\left( \cos \Delta \phi_u(s) - \alpha_u(s) \sin \Delta \phi_u(s) \right) 
+    \sqrt{\frac{\beta_u(s)}{\beta_u (0)}}\left( \cos  \phi_u(s) +\alpha_u(0) \sin  \phi_u(s) \right) & \sqrt{\beta_u(s) \beta_u(0)} \sin  \phi_u(s) \\ \frac{\alpha_u(0)-\alpha_u(s)}{\beta_u(s) \beta_u(0)}\cos  \phi_u(s) - \frac{1+\alpha_u(0)\alpha_u(s)}{\beta_u(s) \beta_u(0)} \sin  \phi_u(s) & \sqrt{\frac{\beta_u(0)}{\beta_u (s)}}\left( \cos  \phi_u(s) - \alpha_u(s) \sin  \phi_u(s) \right) 
     \end{bmatrix},
 \end{equation}
-and $\textbf{0}_{2\times 2}$ is a square matrix of size $2\times 2$ with zeros in all of its entries. As a consequence of the Twiss parametrization, the position coordinate at an arbitrary $s$ along a linear lattice may be expressed as:
+and $0_{2\times 2}$ is a square matrix of size $2\times 2$ with zeros in all of its entries. As a consequence of the Twiss parametrization, the position coordinate at an arbitrary $s$ along a linear lattice may be expressed as:
 \begin{equation}
     \label{eq:betatron}
-    u(s)=\sqrt{2 J_u \beta_u(s)} \cos \left( \Delta \phi_u(s) + \phi_{u0} \right),
+    u(s)=\sqrt{2 J_u \beta_u(s)} \cos \left(  \phi_u(s) + \phi_{u0} \right),
 \end{equation} 
-where $J_u$ is a constant of motion known as the action and $\phi_{u0}$ is an arbitrary phase constant. Equation \ref{eq:betatron} describes what is known as betatron oscillations. Additionally, the action $J_u$ can be calculated as $2J_u=\gamma_u u^2 +2\alpha_u u u' +\beta_u u'^2$ for any $s$ using the property $\beta_u \gamma_u = 1+\alpha_u^2$. Therefore, the particles traversing through the lattice will exhibit oscillatory motion, with amplitude dictated by the $\beta_u(s)$ function and frequency dictated by the $\Delta \phi_u(s)$ function.
+where $J_u$ is a constant of motion known as the action and $\phi_{u0}$ is an arbitrary phase constant. Equation \ref{eq:betatron} describes what is known as betatron oscillations. Additionally, the action $J_u$ can be calculated as 
+\begin{equation}
+    \label{eq:ellipse}
+    2J_u=\gamma_u u^2 +2\alpha_u u u' +\beta_u u'^2, 
+\end{equation}
+for any $s$ using the property $\beta_u \gamma_u = 1+\alpha_u^2$. Therefore, the particles traversing through the lattice will exhibit oscillatory motion, with amplitude dictated by the $\beta_u(s)$ function and frequency dictated by the $ \phi_u(s)$ function.
 
 Up until now, all of this formalism can be applied to either a linear or circular accelerator. No assumption has been made on how the stacking of the LEGO® bricks in the lattice affects this formalism. Nevertheless, in a circular accelerator of circumference $C$ there is an additional constraint on the Twiss functions given that there exists periodic boundary conditions, i.e., $\beta(s)=\beta(s+C)$, and similarly for the other Twiss functions. Another important parameter for a circular lattice is the tune $Q_u$, defined as the total phase advance over one turn of the machine, i.e.,
 \begin{equation}
     \label{eq:tune}
-    2 \pi Q_u = \Delta \phi_u(C) = \int_s^{s+C}\frac{ds}{\beta_u (s)}. 
+    2 \pi Q_u =  \phi_u(C) = \int_s^{s+C}\frac{ds}{\beta_u (s)}. 
 \end{equation}
 
 With the definition of the tune $Q_u$, Eq. \ref{eq:mu} can be rewritten in order to calculate the one-turn matrix $M(C)$ of the circular accelerator, such that:
@@ -85,8 +90,8 @@ With the definition of the tune $Q_u$, Eq. \ref{eq:mu} can be rewritten in order
     \label{eq:twissmatrixC}
     M(C)= 
     \begin{bmatrix} 
-    M_x(C) & \textbf{0}_{2 \times 2} \\ 
-    \textbf{0}_{2 \times 2} & M_y(C)
+    M_x(C) & 0_{2 \times 2} \\ 
+    0_{2 \times 2} & M_y(C)
     \end{bmatrix},
 \end{equation}
 where each plane will have its own one-turn transfer matrix reading:
@@ -96,8 +101,58 @@ where each plane will have its own one-turn transfer matrix reading:
     \begin{bmatrix} 
         \cos 2\pi Q_u +\alpha_u(C) \sin 2\pi Q_u & \beta_u(C) \sin 2\pi Q_u \\ 
         - \gamma_u(C) \sin 2\pi Q_u & \cos 2 \pi Q_u -\alpha_u(C) \sin 2\pi Q_u
-    \end{bmatrix},
+    \end{bmatrix}.
 \end{equation}
+Ultimately, Eq. \ref{eq:muC} can be used to calculate the particle's state vector after $N$ turns, where the total transfer matrix $M_u(NC)$ will just be $M_u(NC)=M_u(C)^N$. In fact, if a particle with some initial conditions is tracked for enough turns and its geometrical coordinates $\left( x,x,y,y' \right)$ are recorded through some diagnostic device every turn, the resulting trajectory would lie on an ellipse---the phase space ellipse. The astute reader would have already identified that Eq. \ref{eq:ellipse} hinted to this fact, given that this is just the implicit definition for an ellipse. In essence, the Twiss parametrization will give the geometry in order to fully describe the ellipse. These statements are illustrated in Fig. \ref{fig:ellipses}, where the phase space ellipse is drawn with geometrical quantities associated to the Twiss functions.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter2/ellipses.png}
+    \caption{Phase space ellipse in geometrical coordinates with Twiss parametrization and its counterpart transformation in normalized phase space.}
+    \label{fig:ellipses}
+ \end{figure}
+
+Figure \ref{fig:ellipses} also hints at the fact that a linear transformation $T_u(s)$ can be done in order to transform the phase space ellipse into a circle. This is referred to as a Floquet transformation. Therefore, a change of coordinates from geometrical coordinates $(u,u')$ to normalized coordinates $(\hat{u},\hat{p}_u)$ can be achieved through the following linear transformation:
+\begin{equation}
+    \label{eq:floquet}
+    \begin{bmatrix} 
+        \hat{u} \\
+        \hat{p}_u     
+    \end{bmatrix}
+    =
+    \begin{bmatrix} 
+        \frac{1}{\sqrt{\beta_u}} & 0 \\ 
+        \frac{\alpha_u}{\beta_u} & \sqrt{\beta_u}
+    \end{bmatrix}
+    \begin{bmatrix} 
+        u \\
+        u'     
+    \end{bmatrix}
+    =
+    \sqrt{2J_u}
+    \begin{bmatrix} 
+        \cos \phi _u (s) \\
+        -\sin \phi _u (s)    
+    \end{bmatrix}.
+\end{equation}
+Ultimately, Floquet and his transformations show that the one-turn Hamiltonian for circular accelerators can be expressed as:
+\begin{equation}
+    \label{eq:hflo}
+    H_0=2\pi Q_x J_x + 2\pi Q_y J_y,
+\end{equation}
+which is simpler and more succinct than the Hamiltonian in Eq. \ref{eq:ham1}. Conclusively, all the dynamics of a linear circular accelerator with all of its intricacies can be mapped to rotations on a simple circle. The dynamics in normalized phase space is just parametrized by a rotation matrix $R(s)$, that will depend on the lattice itself, and is analogous to the transfer matrices $M(s)$ in geometrical space. Therefore, linear dynamics in a circular accelerator can be summarized with the following commutative diagram:      
+\begin{equation}\begin{tikzcd}
+    {\begin{pmatrix} x,x' \\ y,y' \end{pmatrix}_0} & {} & {\begin{pmatrix} x,x' \\ y,y' \end{pmatrix}_{f}} \\
+	\\
+	{\begin{pmatrix} J_x,\phi_x \\ J_y,\phi_y \end{pmatrix}_0} & {} & {\begin{pmatrix} J_x,\phi_x \\ J_y,\phi_y \end{pmatrix}_{f}.} \\
+	\arrow["{M(s)}", from=1-1, to=1-3]
+	\arrow["{T(s)}"', from=1-1, to=3-1]
+	\arrow["{R(s)}"', from=3-1, to=3-3]
+	\arrow["{T(s)}", from=1-3, to=3-3]
+\end{tikzcd}\end{equation}
+
+Before proceeding to the next sections, where Lie operators are introduced in order to generalize to non-linear mappings, a short summary is adequate. For a linear circular accelerator, the last section has shown that starting from Hill's equation, linear transformations can be applied to a complex machine such as an accelerator in order to end up with a simple mathematical equation such as the one described in Eq. \ref{eq:hflo}. Simply put, nonlinear elements will distort the phase space circle of Fig. \ref{fig:ellipses}, destroying the linearity of the system. The premise here is that non-linear elements in circular accelerators are inevitable, and they will come from anywhere and everywhere in the lattice, either from accounted or unaccounted sources. Therefore, higher-tier mathematical tools have to be used in order to describe non-linear dynamics in a circular accelerator. Linear matrices will only get you so far.  
+
 \section{\label{sec:lie}Lie Maps in Accelerator Physics}
 
 The most basic element of a particle accelerator can be thought of as a LEGO® brick acting as a black box transformation for a single particle. This black box takes some single charged particle with initial transverse coordinates $\left( x_0,x'_0,y_0,y'_0 \right)$, as defined in a Frenet-Serret coordinate system, and maps them to some final coordinates $\left( x_f,x'_f,y_f,y'_f \right)$. For simplicity, any longitudinal effect will not be taken into account for this analysis, but can be easily incorporated. By gathering the initial coordinates into a vector, i.e. $\vec{X_0} = \left( x_0,x_0',y_0,y_0' \right)$, and doing the same for the final coordinates, i.e., $\vec{X_f} = \left( x_f,x_f',y_f,y_f' \right)$, one can define the mapping $\mathcal{M}$ that relates both vectors, such that:  
