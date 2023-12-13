@@ -32,3 +32,4 @@ paraxial
 Mathematica
 perturbative
 Floquet
+perveance

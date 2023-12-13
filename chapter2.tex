@@ -267,7 +267,7 @@ In general, the terms $h_{jklm}$ are defined by the order in which they enter th
 where $\Xi _{jklm}$ is just a constant defined as:
 \begin{equation}
     \label{eq:rdt2}
-    \Xi _{jklm} = -\frac{1}{2^n}\frac{1}{n} {\binom{n}{l+m}} {\binom{j+k}{j}}{\binom{l+m}{l}}.
+    \Xi _{jklm} = -\frac{1}{2^n}\frac{1}{n!} {\binom{n}{l+m}} {\binom{j+k}{j}}{\binom{l+m}{l}}.
 \end{equation}
 
 For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the resonance. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $K_{ni}=b_{ni}/\rho$ if $l+m$ is even, or a skew component $K_{ni}=a_{ni}/\rho$ if $l+m$ is odd, remembering $\rho$ is the bending radius as it appeared on Eq. \ref{eq:ch2magnet}. The symbols for $\beta_{xi}$, $\beta_{yi}$, $\phi_{xi}$ and $\phi_{yi}$ represent the unperturbed beta functions and phase advances in each plane, respectively.
@@ -391,5 +391,16 @@ Up to this point, the beam dynamics of high energy particle accelerators has bee
 As mentioned in Sec. \ref{sec:resonances}, the Coulomb force will act as a detuning force on each individual particle. In order to explain this statement using a Hamiltonian formalism, the starting point needs to be the single-particle Hamiltonian that includes the Coulomb potential from the charge distribution in the bunch \cite{witchcraft}. The expression for this system reads:
 \begin{equation}
     \label{eq:hpsi}
-    H(x,y,s)=H_{0}(x,y,s)+H_{1}(x,y,s)+\Psi(x,y,s) 
+    H(x,y,s)=H_{0}(x,y,s)+H_{1}(x,y,s)+\psi(x,y,\tilde{z},s), 
 \end{equation}     
+keeping in mind that $x$ and $y$ are interchangeable for their respective action-phase variables $J_x,\phi_x,J_y, \phi_y$. Additionally, the self-potential $\psi(x,y,\tilde{z},s)$ is determined self-consistently from the 3D Poisson equation with a particle number density $n_b(x,y,\tilde{z},s)$ reading:
+\begin{equation}
+    \label{eq:poisson1}
+    \left( \frac{\partial}{\partial x}+\frac{\partial}{\partial y}+\frac{\partial}{\partial \tilde{z}}\right)\psi (x,y,\tilde{z},s)=\frac{2 \pi K_b}{N_b}n_b(x,y,\tilde{z},s), 
+\end{equation}
+where $K_b$ is a dimensionless parameter known as the self-field perveance defined as
+\begin{equation}
+    \label{eq:perv}
+    K_b = \frac{2 N_b e_b^2}{\gamma _L^3 m_b \beta_L^2 c^2},
+\end{equation}
+with $N_b$ being the total number of particles in the bunch defined as $N_b=\int dx \; dy \; d\tilde{z} \; n_b(x,y,\tilde{z},s)$, $e_b$ is the charge of one beam particle, $m_b$ is the rest mass of one beam particle, $\gamma_L$ and $\beta_L$ being the relativistic longitudinal factors of a beam with total energy $E_T=\gamma_L m_b c^2$, and $c$ being the speed of light.  
