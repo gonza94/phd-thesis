@@ -393,7 +393,7 @@ As mentioned in Sec. \ref{sec:resonances}, the Coulomb force will act as a detun
     \label{eq:hpsi}
     H(x,y,s)=H_{0}(x,y,s)+H_{1}(x,y,s)+\psi(x,y,\tilde{z},s), 
 \end{equation}     
-keeping in mind that $x$ and $y$ are interchangeable for their respective action-phase variables $J_x,\phi_x,J_y, \phi_y$. Additionally, the self-potential $\psi(x,y,\tilde{z},s)$ is determined self-consistently from the 3D Poisson equation with a particle number density $n_b(x,y,\tilde{z},s)$ reading:
+keeping in mind that $x$ and $y$ are interchangeable for their respective action-phase variables $J_x,\phi_x,J_y, \phi_y$. For a bunched beam, the variable $\tilde{z}=z-z_b$ is introduced in order to represent the longitudinal distance from the center of the bunch, always keeping in mind that the reference system moves with the bunch as described by a Frenet-Serret coordinate system. The center of the bunch with coordinates $(0,0,z_b)$ is determined from the centroid of the longitudinal charge distribution.  Additionally, the self-potential $\psi(x,y,\tilde{z},s)$ is determined self-consistently from the 3D Poisson equation with a particle number density $n_b(x,y,\tilde{z},s)$ reading:
 \begin{equation}
     \label{eq:poisson1}
     \left( \frac{\partial}{\partial x}+\frac{\partial}{\partial y}+\frac{\partial}{\partial \tilde{z}}\right)\psi (x,y,\tilde{z},s)=\frac{2 \pi K_b}{N_b}n_b(x,y,\tilde{z},s), 
@@ -403,4 +403,11 @@ where $K_b$ is a dimensionless parameter known as the self-field perveance defin
     \label{eq:perv}
     K_b = \frac{2 N_b e_b^2}{\gamma _L^3 m_b \beta_L^2 c^2},
 \end{equation}
-with $N_b$ being the total number of particles in the bunch defined as $N_b=\int dx \; dy \; d\tilde{z} \; n_b(x,y,\tilde{z},s)$, $e_b$ is the charge of one beam particle, $m_b$ is the rest mass of one beam particle, $\gamma_L$ and $\beta_L$ being the relativistic longitudinal factors of a beam with total energy $E_T=\gamma_L m_b c^2$, and $c$ being the speed of light.  
+with $N_b$ being the total number of particles in the bunch defined as $N_b=\int dx \; dy \; d\tilde{z} \; n_b(x,y,\tilde{z},s)$, $e_b$ is the charge of one beam particle, $m_b$ is the rest mass of one beam particle, $\gamma_L$ and $\beta_L$ being the relativistic longitudinal factors of a beam with total energy $E_T=\gamma_L m_b c^2$, and $c$ being the speed of light.
+
+From Secs. \ref{sec:basic} and \ref{sec:oneturn}, the expressions for $H_0$ and $H_1$ have been explicitly written in Eqs. \ref{eq:hflo} and \ref{eq:h} in terms of $J_x,\phi_x,J_y,\phi_y$, therefore the sum of both expression reads:
+\begin{equation}
+    \label{eq:h0h1}
+    H_0+H_1=2\pi Q_x J_x + 2\pi Q_y J_y + \sum_{jklm} h_{jklm} \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
+\end{equation}
+Nevertheless, it is important to remember that $H_1$ is the compilation of all perturbations after one turn to the linear Hamiltonian $H_0$, and is therefore perturbative. 
