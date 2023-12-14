@@ -1829,6 +1829,102 @@
       \verb https://www.worldscientific.com/doi/abs/10.1142/p250
       \endverb
     \endentry
+    \entry{arfken}{inbook}{}
+      \name{author}{3}{}{%
+        {{hash=4963c826992d0abdfc79cc7edb5bef92}{%
+           family={Arfken},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e17048c80ef9b0e17796f8b23e67a6d4}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Hans\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ffd422c12e4df2735265da88845497b}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Frank\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=4963c826992d0abdfc79cc7edb5bef92}{%
+           family={Arfken},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e17048c80ef9b0e17796f8b23e67a6d4}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Hans\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ffd422c12e4df2735265da88845497b}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Frank\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{fullhash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{bibnamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{authorbibnamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{authornamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{authorfullhash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{editorbibnamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{editornamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{editorfullhash}{73395921483465fe8d9c21a5471d0b1b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mathematical Methods for Physicists (Seventh Edition)}
+      \field{edition}{Seventh Edition}
+      \field{isbn}{978-0-12-384654-9}
+      \field{title}{Chapter 10 - Green's Functions}
+      \field{year}{2013}
+      \field{pages}{447\bibrangedash 467}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-384654-9.00010-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780123846549000104
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780123846549000104
+      \endverb
+    \endentry
+    \entry{tellez}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c60d77c012ca36689f73062e3f3876e0}{%
+           family={Tellez\bibnamedelima Acosta},
+           familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ediciones Uniandes}%
+      }
+      \strng{namehash}{c60d77c012ca36689f73062e3f3876e0}
+      \strng{fullhash}{c60d77c012ca36689f73062e3f3876e0}
+      \strng{bibnamehash}{c60d77c012ca36689f73062e3f3876e0}
+      \strng{authorbibnamehash}{c60d77c012ca36689f73062e3f3876e0}
+      \strng{authornamehash}{c60d77c012ca36689f73062e3f3876e0}
+      \strng{authorfullhash}{c60d77c012ca36689f73062e3f3876e0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789587981827}
+      \field{title}{Metodos Matemeticos}
+      \field{year}{2022}
+    \endentry
     \entry{rr0}{report}{}
       \name{author}{1}{}{%
         {{hash=dfacc387c53c3a871de0821a11d0205c}{%
@@ -2202,8 +2298,8 @@
       \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}

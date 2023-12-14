@@ -411,3 +411,9 @@ From Secs. \ref{sec:basic} and \ref{sec:oneturn}, the expressions for $H_0$ and 
     H_0+H_1=2\pi Q_x J_x + 2\pi Q_y J_y + \sum_{jklm} h_{jklm} \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
 \end{equation}
 Nevertheless, it is important to remember that $H_1$ is the compilation of all perturbations after one turn to the linear Hamiltonian $H_0$, and is therefore perturbative. 
+
+The solution to Eq. \ref{eq:poisson1} can be found in any mathematical methods for physics book, see Refs. \cite{arfken,tellez}. The solution to this equation involves using Green's function and finding the convolution with the particle number density $n_b(x,y,\tilde{z},s)=n_b(\vec{r},s)$. This reads:
+\begin{equation}
+    \label{eq:greens1}
+    \psi(x,y,\tilde{z},s)=-\frac{2 \pi K_b}{N_b} \int_{\mathbb{R}^3} d\vec{r}' \; \frac{n(\vec{r},s)}{\left| \vec{r}-\vec{r}' \right|}
+\end{equation} 
