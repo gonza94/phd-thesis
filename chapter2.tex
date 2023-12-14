@@ -262,7 +262,7 @@ where $Q_x$ and $Q_y$ represent the transverse uncoupled and unperturbed tunes o
 In general, the terms $h_{jklm}$ are defined by the order in which they enter the one-turn normal form Hamiltonian \cite{bartolini}. The general expression to define RDTs reads:
 \begin{equation}
     \label{eq:rdt1}
-    h_{jklm}=\Xi _{jklm} \sum_i L_i K_{ni} \beta_{xi}^{\frac{j+k}{2}} \beta_{yi}^{\frac{l+m}{2}} e^{i\left[ (j-k)\phi_{xi} +(l-m) \phi_{yi} \right]},
+    h_{jklm}=\Xi _{jklm} \sum_i L_i K_{n-1,i} \beta_{x,i}^{\frac{j+k}{2}} \beta_{y,i}^{\frac{l+m}{2}} e^{i\left[ (j-k)\phi_{x,i} +(l-m) \phi_{y,i} \right]},
 \end{equation}
 where $\Xi _{jklm}$ is just a constant defined as:
 \begin{equation}
@@ -270,7 +270,7 @@ where $\Xi _{jklm}$ is just a constant defined as:
     \Xi _{jklm} = -\frac{1}{2^n}\frac{1}{n!} {\binom{n}{l+m}} {\binom{j+k}{j}}{\binom{l+m}{l}}.
 \end{equation}
 
-For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the resonance. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $K_{ni}=b_{ni}/\rho$ if $l+m$ is even, or a skew component $K_{ni}=a_{ni}/\rho$ if $l+m$ is odd, remembering $\rho$ is the bending radius as it appeared on Eq. \ref{eq:ch2magnet}. The symbols for $\beta_{xi}$, $\beta_{yi}$, $\phi_{xi}$ and $\phi_{yi}$ represent the unperturbed beta functions and phase advances in each plane, respectively.
+For Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}, $n=j+k+l+m$ represents the order of the RDT. The sum over $i$ is done over all multipoles of order $n$ and length $L_i$ that either have a normal component $K_{n-1,i}=b_{n-1,i}/\rho$ if $l+m$ is even, or a skew component $K_{n-1,i}=a_{n-1,i}/\rho$ if $l+m$ is odd, remembering $\rho$ is the bending radius as it appeared on Eq. \ref{eq:ch2magnet}. The notation $K_{n-1,i}$ is to keep up with the MAD-X convention for naming normal multipole coefficients. The symbols for $\beta_{x,i}$, $\beta_{y,i}$, $\phi_{x,i}$ and $\phi_{y,i}$ represent the unperturbed beta functions and phase advances in each plane, respectively.
 
 \section{\label{sec:resonances}Resonances in Circular Accelerators}
 
@@ -384,6 +384,78 @@ Therefore, the resonance basis can be built by getting the quantity $h_u^{\pm}=\
 \end{multline}
 where $Q_x$ and $Q_y$ are the horizontal and vertical uncoupled tune. Note that this analysis can be easily extended to calculate the other elements in $\vec{h}$. These calculations are left as an exercise for the reader.  
 
+\section{\label{sec:amp}Amplitude-Dependent Tune Shift}
+The RDT formalism allows to calculate an important quantity in accelerator physics called the amplitude-dependent tune shift. The Hamiltonian for a single particle in a linear circular lattice with perturbation elements reads: 
+\begin{equation}
+    \label{eq:hh}
+    H(x,y,s)=H_{0}(J_x,J_y)+H_{1}(J_x, \phi_x, J_y, \phi_y, s), 
+\end{equation} 
+where $H_0$ is the unperturbed linear Hamiltonian with tunes $Q_x$ and $Q_y$, and $H_1$ is the perturbation Hamiltonian stemming from linear and non-linear unaccounted blocks in the lattice.
+
+From Secs. \ref{sec:basic} and \ref{sec:oneturn}, the expressions for $H_0$ and $H_1$ have been explicitly written in Eqs. \ref{eq:hflo} and \ref{eq:h} in terms of $J_x,\phi_x,J_y,\phi_y$, therefore the sum of both expression reads:
+\begin{equation}
+    \label{eq:h0h1}
+    H_0+H_1=2\pi Q_x J_x + 2\pi Q_y J_y + \sum_{jklm} h_{jklm} \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
+\end{equation}
+Nevertheless, it is important to remember that $H_1$ is the compilation of all perturbations after one turn to the linear Hamiltonian $H_0$, and is therefore perturbative. 
+
+Therefore, for Eq. \ref{eq:h0h1}, the independent time variable is the number of turns $N$. For this case, the equations of motion taking $N$ as the number of turns around the circular accelerator are just:
+\begin{equation}
+    \label{eq:eom1}
+    \frac{\partial J_u}{\partial N} = -\frac{\partial H}{\partial \phi_u} = -\frac{\partial H_1}{\partial \phi_u},
+\end{equation}
+and
+\begin{equation}
+    \label{eq:eom2}
+    \frac{\partial \phi_u}{\partial N} = \frac{\partial H}{\partial J_u} = 2\pi Q_u + \frac{\partial H_1}{\partial J_u}.
+\end{equation}
+This last term ${\partial H_1}/{\partial J_u}$ in Eq. \ref{eq:eom2} will define the amplitude-dependent tune shift. If the whole lattice were just a linear lattice, the betatron oscillations would just gain a phase change of $2\pi Q_u$ every turn, i.e., $\Delta \phi(N)=2\pi Q_u N$. Nevertheless, given that this new term $H_1$ perturbs the dynamics in the accelerator, the phase change will now depend on the amplitude $J_u$ of the betatron oscillations of the single particle. Therefore, given that this effect acts on each individual particle, it is an incoherent effect. The effective result from this new term is to detune the circular lattice from its original tune $Q_u$ for each individual particle.
+
+Explicitly calculating the expression from Eq. \ref{eq:eom2} for $J_x$ and $\phi_x$ using the Hamiltonian in Eq. \ref{eq:hh} yields
+\begin{equation}
+    \label{eq:detune}
+    \frac{\partial \phi_x}{\partial N} = 2\pi Q_x + \sum_{jklm} h_{jklm} \left( \frac{j+k}{2}\right) \left( 2 J_x\right)^{\frac{j+k}{2}-1} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
+\end{equation}   
+In particular, it is of interest to look at the average limit where particles have undergone large number of turns around the circular accelerator $N \rightarrow \infty$. This is done in order to wash out any oscillatory behavior in ${\partial H_1}/{\partial J_u}$. Therefore, the following quantity is of interest: 
+\begin{equation}
+    \label{eq:Nave1}
+    \lim_{N\to\infty} \left\langle \frac{\partial \phi_x}{\partial N}\right\rangle _N = \lim_{N\to\infty} \frac{1}{N} \int_0^N dN' \; {\frac{\partial \phi_x}{\partial N'}},
+\end{equation}
+which is just the definition for the average of ${\partial \phi_x}/{\partial N}$ over $N$ turns, for many turns. Explicitly calculating this quantity gives:
+\begin{multline}
+    \label{eq:Nave2}
+    \lim_{N\to\infty} \left\langle \frac{\partial \phi_x}{\partial N}\right\rangle _N = 2\pi Q_x\\
+    +\sum_{jklm} h_{jklm} \left( \frac{j+k}{2}\right) \lim_{N\to\infty} \frac{1}{N} \int_0^N dN' \; \left( 2 J_x\right)^{\frac{j+k}{2}-1} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right) \right]}.
+\end{multline}
+In general, it is known that $J_u,\phi_u$ depend on the number of turns, i.e., $J_u,\phi_u=J_u (N),\phi_u (N)$. Nevertheless, Eq. \ref{eq:Nave2} can be approximated by inserting the unperturbed solution of $H_0$ which means that $J_u$ is constant and $\phi_u = 2 \pi Q_u N$. With this in mind and assuming the constants $\phi_{u0}=0$ without loss of generality, Eq. \ref{eq:Nave2} reduces to
+\begin{multline}
+    \label{eq:Nave3}
+    \lim_{N\to\infty} \left\langle \frac{\partial \phi_x}{\partial N}\right\rangle _N = 2\pi Q_x\\
+    +\sum_{jklm} h_{jklm} \left( \frac{j+k}{2}\right) \left( 2 J_x\right)^{\frac{j+k}{2}-1} \left( 2 J_y\right)^{\frac{l+m}{2}} \lim_{N\to\infty} \frac{1}{N} \int_0^N dN' \;  e^{2 \pi i \left[ \left( j-k \right) Q_x+ \left( l-m \right) Q_y \right] N'}.
+\end{multline}
+A closer look into the integral in Eq. \ref{eq:Nave3} reveals that this integral in the limit where $N \rightarrow \infty$ is just a delta function reading $\delta\left( (j-k)Q_x+(l-m)Q_y\right)$. As a reminder, the RDT approximation breaks down if Eq. \ref{eq:resonances} holds. Therefore, it can be shown that the argument in the delta function can only be zero if $j=k$ and $l=m$. Thus, this delta function effectively becomes two Kronecker deltas---$\delta_{jk}$ and $\delta_{lm}$. Inserting this into Eq. \ref{eq:Nave3} yields:
+\begin{equation}
+    \label{eq:Nave4}
+    \lim_{N\to\infty} \left\langle \frac{\partial \phi_x}{\partial N}\right\rangle _N = 2\pi Q_x\\
+    +\sum_{jklm} h_{jklm} \left( \frac{j+k}{2}\right) \left( 2 J_x\right)^{\frac{j+k}{2}-1} \left( 2 J_y\right)^{\frac{l+m}{2}} \delta _{jk} \delta_{lm}.
+\end{equation}
+Reducing this expression further with the properties of Kronecker deltas reads:
+\begin{equation}
+    \label{eq:Nave5}
+    \lim_{N\to\infty} \left\langle \frac{\partial \phi_x}{\partial N}\right\rangle _N = 2\pi Q_x\\
+    +\sum_{jl} h_{jjll} j \left( 2 J_x\right)^{j-1} \left( 2 J_y\right)^{l}.
+\end{equation}
+Equation \ref{eq:Nave5} is stating that the constant detuning terms in the accelerators will be given by the terms where $j=k$ and $l=m$. As a consequence of Eq. \ref{eq:rdt1}, for this case the RDTs will be real numbers, i.e., $h_{jklm}\in \mathbb{R}$. Therefore, the constant detuning terms will come from even orders of $n=j+k+l+m$. It is worth remembering that this is a first approximation given that the assumption is that the dynamics are mainly governed by $H_0$. Higher order approximations would involve recursively solving Eqs. \ref{eq:eom1} and \ref{eq:eom2} as a Taylor expansion of the actions $J_u$ \cite{higher}.
+
+As an example, Eq. \ref{eq:Nave5} can be used to calculate the detuning due to horizontal quadrupole errors $n=2$. For this, the calculation would only involve calculating $h_{1100}$ from Eq. \ref{eq:rdt1}, the only surviving term. Therefore, the detuning in $x$ due to quadrupole errors would read  
+\begin{equation}
+    \label{eq:quad}
+    \lim_{N\to\infty} \left\langle \frac{\partial \phi_x}{\partial N}\right\rangle _N = 2\pi Q_x + 2h_{1100} = 2\pi Q_x - \frac{1}{2}\sum_i L_i K_{1,i} \beta_{x,i} = 2\pi Q_x - \frac{1}{2}\sum_i L_i \frac{b_{1,i}}{\rho} \beta_{x,i}, 
+\end{equation}
+where the sum over $i$ goes around all the quadrupole errors in the ring. Equation \ref{eq:quad} gives a well-known result in accelerator physics \cite{sylee}. 
+
+Another example
+
 \section{\label{sec:sc1}Space Charge Tune Shift}
 
 Up to this point, the beam dynamics of high energy particle accelerators has been explained in terms of single-particle dynamics. Up until now, a couple of implicit assumptions have been made: (a) particles do not interact with each other; and (b) the LEGO® blocks composing the lattice have been idealized to create the fields but without supplying any electromagnetic boundary conditions. Nevertheless, in order to have a model closer to reality, the interaction between particles through the Coulomb force has to be taken into account. Furthermore, particles also interact with the electromagnetic properties of the lattice LEGO® blocks, ultimately, creating unwanted electromagnetic wake fields. This latter phenomenon opens another branch of accelerator physics that studies collective beam instabilities \cite{chao}. However, the scope of this thesis is only interested in the first bullet point regarding direct particle-particle interactions through the Coulomb force---widely known as space charge physics. It is worth specifying that this restricts the analysis to a single bunch of particles. 
@@ -405,15 +477,9 @@ where $K_b$ is a dimensionless parameter known as the self-field perveance defin
 \end{equation}
 with $N_b$ being the total number of particles in the bunch defined as $N_b=\int dx \; dy \; d\tilde{z} \; n_b(x,y,\tilde{z},s)$, $e_b$ is the charge of one beam particle, $m_b$ is the rest mass of one beam particle, $\gamma_L$ and $\beta_L$ being the relativistic longitudinal factors of a beam with total energy $E_T=\gamma_L m_b c^2$, and $c$ being the speed of light.
 
-From Secs. \ref{sec:basic} and \ref{sec:oneturn}, the expressions for $H_0$ and $H_1$ have been explicitly written in Eqs. \ref{eq:hflo} and \ref{eq:h} in terms of $J_x,\phi_x,J_y,\phi_y$, therefore the sum of both expression reads:
-\begin{equation}
-    \label{eq:h0h1}
-    H_0+H_1=2\pi Q_x J_x + 2\pi Q_y J_y + \sum_{jklm} h_{jklm} \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
-\end{equation}
-Nevertheless, it is important to remember that $H_1$ is the compilation of all perturbations after one turn to the linear Hamiltonian $H_0$, and is therefore perturbative. 
-
 The solution to Eq. \ref{eq:poisson1} can be found in any mathematical methods for physics book, see Refs. \cite{arfken,tellez}. The solution to this equation involves using Green's function and finding the convolution with the particle number density $n_b(x,y,\tilde{z},s)=n_b(\vec{r},s)$. This reads:
 \begin{equation}
     \label{eq:greens1}
-    \psi(x,y,\tilde{z},s)=-\frac{2 \pi K_b}{N_b} \int_{\mathbb{R}^3} d\vec{r}' \; \frac{n(\vec{r},s)}{\left| \vec{r}-\vec{r}' \right|}
+    \psi(x,y,\tilde{z},s)=-\frac{2 \pi K_b}{N_b} \int_{\mathbb{R}^3} d\vec{r}' \; \frac{n(\vec{r},s)}{\left| \vec{r}-\vec{r}' \right|}.
 \end{equation} 
+ 

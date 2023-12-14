@@ -33,3 +33,4 @@ Mathematica
 perturbative
 Floquet
 perveance
+detune

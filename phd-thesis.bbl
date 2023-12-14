@@ -1766,6 +1766,50 @@
       \verb https://cds.cern.ch/record/333077
       \endverb
     \endentry
+    \entry{higher}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b916a94cd40f4696c972955cce261e10}{%
+           family={Soutome},
+           familyi={S\bibinitperiod},
+           given={Kouichi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=02296a7fa84be6b805ee790a7b93df6d}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Hitoshi},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{42549ee4f7ab697cf2b18ae60095245c}
+      \strng{fullhash}{42549ee4f7ab697cf2b18ae60095245c}
+      \strng{bibnamehash}{42549ee4f7ab697cf2b18ae60095245c}
+      \strng{authorbibnamehash}{42549ee4f7ab697cf2b18ae60095245c}
+      \strng{authornamehash}{42549ee4f7ab697cf2b18ae60095245c}
+      \strng{authorfullhash}{42549ee4f7ab697cf2b18ae60095245c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. Accel. Beams}
+      \field{month}{6}
+      \field{title}{Higher-order formulas of amplitude-dependent tune shift caused by a sextupole magnetic field distribution}
+      \field{volume}{20}
+      \field{year}{2017}
+      \field{pages}{064001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevAccelBeams.20.064001
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.20.064001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.20.064001
+      \endverb
+    \endentry
     \entry{chao}{book}{}
       \name{author}{1}{}{%
         {{hash=cdcf559c5763c40879c70b77c2c852ee}{%
@@ -1780,8 +1824,8 @@
       \strng{authorbibnamehash}{cdcf559c5763c40879c70b77c2c852ee}
       \strng{authornamehash}{cdcf559c5763c40879c70b77c2c852ee}
       \strng{authorfullhash}{cdcf559c5763c40879c70b77c2c852ee}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-471-55184-3}
@@ -1892,12 +1936,6 @@
       \range{pages}{21}
       \verb{doi}
       \verb https://doi.org/10.1016/B978-0-12-384654-9.00010-4
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/B9780123846549000104
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/B9780123846549000104
       \endverb
     \endentry
     \entry{tellez}{book}{}
