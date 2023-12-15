@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  14 DEC 2023 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  15 DEC 2023 11:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1428,13 +1428,13 @@ File: chapter2/oneturn.png Graphic file (type png)
 Package pdftex.def Info: chapter2/oneturn.png  used on input line 202.
 (pdftex.def)             Requested size: 328.82706pt x 315.96866pt.
  [15] [16 <./chapter2/oneturn.png>] [17] [18]
-<chapter2/tunediagram.png, id=405, 569.4876pt x 530.4618pt>
+<chapter2/tunediagram.png, id=407, 569.4876pt x 530.4618pt>
 File: chapter2/tunediagram.png Graphic file (type png)
 <use chapter2/tunediagram.png>
 Package pdftex.def Info: chapter2/tunediagram.png  used on input line 287.
 (pdftex.def)             Requested size: 375.80542pt x 350.0573pt.
  [19] [20 <./chapter2/tunediagram.png>]
-<chapter2/rrtdlow.png, id=427, 680.7834pt x 477.4638pt>
+<chapter2/rrtdlow.png, id=429, 680.7834pt x 477.4638pt>
 File: chapter2/rrtdlow.png Graphic file (type png)
 <use chapter2/rrtdlow.png>
 Package pdftex.def Info: chapter2/rrtdlow.png  used on input line 297.
@@ -1443,7 +1443,7 @@ Package pdftex.def Info: chapter2/rrtdlow.png  used on input line 297.
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
-<chapter3/complex.png, id=557, 753.5653pt x 396.7322pt>
+<chapter3/complex.png, id=559, 753.5653pt x 396.7322pt>
 File: chapter3/complex.png Graphic file (type png)
 <use chapter3/complex.png>
 Package pdftex.def Info: chapter3/complex.png  used on input line 12.
@@ -1454,24 +1454,24 @@ Package pdftex.def Info: chapter3/complex.png  used on input line 12.
 
 
 ]
-<chapter3/complexPIPII.png, id=567, 753.5653pt x 396.7322pt>
+<chapter3/complexPIPII.png, id=569, 753.5653pt x 396.7322pt>
 File: chapter3/complexPIPII.png Graphic file (type png)
 <use chapter3/complexPIPII.png>
 Package pdftex.def Info: chapter3/complexPIPII.png  used on input line 19.
 (pdftex.def)             Requested size: 469.75499pt x 247.30927pt.
-<chapter3/RRschematic.png, id=570, 1143.52219pt x 750.55406pt>
+<chapter3/RRschematic.png, id=572, 1143.52219pt x 750.55406pt>
 File: chapter3/RRschematic.png Graphic file (type png)
 <use chapter3/RRschematic.png>
 Package pdftex.def Info: chapter3/RRschematic.png  used on input line 31.
 (pdftex.def)             Requested size: 469.75499pt x 308.32469pt.
  [31 <./chapter3/complex.png> <./chapter3/complexPIPII.png>] [32 <./chapter3/RRschematic.png>]
-<chapter3/rrtd.png, id=588, 557.4426pt x 522.2712pt>
+<chapter3/rrtd.png, id=590, 557.4426pt x 522.2712pt>
 File: chapter3/rrtd.png Graphic file (type png)
 <use chapter3/rrtd.png>
 Package pdftex.def Info: chapter3/rrtd.png  used on input line 71.
 (pdftex.def)             Requested size: 469.75499pt x 440.11536pt.
  [33]
-<chapter3/rrtdhigh.png, id=594, 661.5114pt x 473.1276pt>
+<chapter3/rrtdhigh.png, id=596, 661.5114pt x 473.1276pt>
 File: chapter3/rrtdhigh.png Graphic file (type png)
 <use chapter3/rrtdhigh.png>
 Package pdftex.def Info: chapter3/rrtdhigh.png  used on input line 80.
@@ -1550,7 +1550,7 @@ Overfull \hbox (20.9144pt too wide) in paragraph at lines 192--192
 \openout2 = `appendix1.aux'.
 
  (./appendix1.tex
-<lie2D.pdf, id=734, 614.295pt x 794.97pt>
+<lie2D.pdf, id=742, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf>
 Package pdftex.def Info: lie2D.pdf  used on input line 2.
@@ -1559,7 +1559,7 @@ File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf>
 Package pdftex.def Info: lie2D.pdf  used on input line 2.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<lie2D.pdf, id=737, page=1, 614.295pt x 794.97pt>
+<lie2D.pdf, id=745, page=1, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 1>
 Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
@@ -1585,7 +1585,7 @@ File: lie2D.pdf Graphic file (type pdf)
 Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [45 <./lie2D.pdf>]
-<lie2D.pdf, id=832, page=2, 614.295pt x 794.97pt>
+<lie2D.pdf, id=840, page=2, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 2>
 Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
@@ -1599,7 +1599,7 @@ File: lie2D.pdf Graphic file (type pdf)
 Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [46 <./lie2D.pdf>]
-<lie2D.pdf, id=876, page=3, 614.295pt x 794.97pt>
+<lie2D.pdf, id=884, page=3, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 3>
 Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
@@ -1616,7 +1616,7 @@ Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
 \openout2 = `appendix2.aux'.
 
  (./appendix2.tex
-<lie4D.pdf, id=891, 614.295pt x 794.97pt>
+<lie4D.pdf, id=899, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf>
 Package pdftex.def Info: lie4D.pdf  used on input line 2.
@@ -1625,7 +1625,7 @@ File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf>
 Package pdftex.def Info: lie4D.pdf  used on input line 2.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<lie4D.pdf, id=894, page=1, 614.295pt x 794.97pt>
+<lie4D.pdf, id=902, page=1, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 1>
 Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
@@ -1653,7 +1653,7 @@ File: lie4D.pdf Graphic file (type pdf)
 Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [49 <./lie4D.pdf>]
-<lie4D.pdf, id=990, page=2, 614.295pt x 794.97pt>
+<lie4D.pdf, id=998, page=2, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 2>
 Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
@@ -1667,7 +1667,7 @@ File: lie4D.pdf Graphic file (type pdf)
 Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [50 <./lie4D.pdf>]
-<lie4D.pdf, id=1034, page=3, 614.295pt x 794.97pt>
+<lie4D.pdf, id=1042, page=3, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 3>
 Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
@@ -1681,7 +1681,7 @@ File: lie4D.pdf Graphic file (type pdf)
 Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [51 <./lie4D.pdf>]
-<lie4D.pdf, id=1040, page=4, 614.295pt x 794.97pt>
+<lie4D.pdf, id=1048, page=4, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 4>
 Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
@@ -1695,7 +1695,7 @@ File: lie4D.pdf Graphic file (type pdf)
 Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [52 <./lie4D.pdf>]
-<lie4D.pdf, id=1048, page=5, 614.295pt x 794.97pt>
+<lie4D.pdf, id=1056, page=5, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 5>
 Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
@@ -1709,7 +1709,7 @@ File: lie4D.pdf Graphic file (type pdf)
 Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [53 <./lie4D.pdf>]
-<lie4D.pdf, id=1065, page=6, 614.295pt x 794.97pt>
+<lie4D.pdf, id=1073, page=6, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 6>
 Package pdftex.def Info: lie4D.pdf , page6 used on input line 2.
@@ -1737,18 +1737,18 @@ Package logreq Info: Writing requests to 'phd-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37747 strings out of 476025
- 696446 string characters out of 5790017
+ 37751 strings out of 476025
+ 696567 string characters out of 5790017
  1877388 words of memory out of 5000000
- 57320 multiletter control sequences out of 15000+600000
+ 57323 multiletter control sequences out of 15000+600000
  547161 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,23n,103p,1713b,1476s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on phd-thesis.pdf (61 pages, 4096402 bytes).
+Output written on phd-thesis.pdf (61 pages, 4097002 bytes).
 PDF statistics:
- 1180 PDF objects out of 1200 (max. 8388607)
- 958 compressed objects within 10 object streams
- 225 named destinations out of 1000 (max. 500000)
+ 1188 PDF objects out of 1200 (max. 8388607)
+ 966 compressed objects within 10 object streams
+ 226 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

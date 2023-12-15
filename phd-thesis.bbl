@@ -1766,6 +1766,13 @@
       \verb https://cds.cern.ch/record/333077
       \endverb
     \endentry
+    \entry{madx}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{http://madx.web.cern.ch/madx}
+      \field{title}{MAD-X: Methodical Accelerator Design}
+    \endentry
     \entry{higher}{article}{}
       \name{author}{2}{}{%
         {{hash=b916a94cd40f4696c972955cce261e10}{%
@@ -1788,8 +1795,8 @@
       \strng{authorbibnamehash}{42549ee4f7ab697cf2b18ae60095245c}
       \strng{authornamehash}{42549ee4f7ab697cf2b18ae60095245c}
       \strng{authorfullhash}{42549ee4f7ab697cf2b18ae60095245c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -2284,8 +2291,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
