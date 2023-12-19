@@ -1970,6 +1970,32 @@
       \field{title}{Metodos Matemeticos}
       \field{year}{2022}
     \endentry
+    \entry{Kellog_1967}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=176948264f8b477574373b26687b6db1}{%
+           family={Kellog},
+           familyi={K\bibinitperiod},
+           given={Oliver\bibnamedelima Dimon},
+           giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{176948264f8b477574373b26687b6db1}
+      \strng{fullhash}{176948264f8b477574373b26687b6db1}
+      \strng{bibnamehash}{176948264f8b477574373b26687b6db1}
+      \strng{authorbibnamehash}{176948264f8b477574373b26687b6db1}
+      \strng{authornamehash}{176948264f8b477574373b26687b6db1}
+      \strng{authorfullhash}{176948264f8b477574373b26687b6db1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundations of potential theory}
+      \field{year}{1967}
+      \field{pages}{192\bibrangedash 194}
+      \range{pages}{3}
+    \endentry
     \entry{rr0}{report}{}
       \name{author}{1}{}{%
         {{hash=dfacc387c53c3a871de0821a11d0205c}{%
@@ -2229,8 +2255,8 @@
       \strng{authorbibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authornamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authorfullhash}{7a4889edae2162d1b0d597f6521b493f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
