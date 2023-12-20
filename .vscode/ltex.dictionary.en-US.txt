@@ -34,3 +34,5 @@ perturbative
 Floquet
 perveance
 detune
+SCRDTs
+GSCRDTs

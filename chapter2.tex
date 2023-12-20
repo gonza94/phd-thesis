@@ -481,12 +481,23 @@ As mentioned in Sec. \ref{sec:resonances}, the Coulomb force will act as a detun
     \label{eq:hpsi}
     H(x,y)=H_{0}(x,y)+H_{1}(x,y)+\Psi(x,y,\tilde{z}), 
 \end{equation}     
-keeping in mind that $x$ and $y$ are interchangeable for their respective action-phase variables $J_x,\phi_x,J_y, \phi_y$. For a bunched beam, the variable $\tilde{z}=z-z_b$ is introduced in order to represent the longitudinal distance from the center of the bunch, always keeping in mind that the reference system moves with the bunch as described by a Frenet-Serret coordinate system. The center of the bunch with coordinates $(0,0,z_b)$ is determined from the centroid of the longitudinal charge distribution. The space-charge potential $\Psi$, is the average potential from all the space charge kicks around the accelerator. Nevertheless, the functional form should be similar to Eq. \ref{eq:rdt1}, in order to apply the same method of Sec. \ref{sec:amp}. Therefore, this reads:.
+keeping in mind that $x$ and $y$ are interchangeable for their respective action-phase variables $J_x,\phi_x,J_y, \phi_y$. For a bunched beam, the variable $\tilde{z}=z-z_b$ is introduced in order to represent the longitudinal distance from the center of the bunch, always keeping in mind that the reference system moves with the bunch as described by a Frenet-Serret coordinate system. The center of the bunch with coordinates $(0,0,z_b)$ is determined from the centroid of the longitudinal charge distribution. The one-turn space-charge potential $\Psi$, is the average potential from all the space charge kicks around the accelerator for one turn. Nevertheless, the functional form should be similar to Eq. \ref{eq:rdt1}, in order to apply the same methods of Sec. \ref{sec:amp}. Therefore, this reads:.
 \begin{equation}
     \label{eq:scpot1}
-    \Psi(J_x,\phi_x,J_y, \phi_y,\tilde{z})= \sum_{jklm} V_{jklm} \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
+    \Psi(J_x,\phi_x,J_y, \phi_y,\tilde{z})= \sum_{jklm} G_{jklm} \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
 \end{equation}
-Additionally, the self-potential $\psi(x,y,\tilde{z},s)$ is determined self-consistently from the 3D Poisson equation with a particle number density $n_b(x,y,\tilde{z},s)$ reading:
+Analogous to Eq. \ref{eq:rdt1}, the terms $G_{jklm}$ are named the global space-charge resonance driving terms (GSCRDTs). These terms are calculated as the one-turn average of the instantaneous driving terms of order $l,j,k$ and $m$ which have an explicit $s$ dependence. Therefore, the definition for the GSCRDTs $G_{jklm}$ reads:
+\begin{equation}
+    \label{eq:gscrdts}
+    G_{jklm}= \frac{1}{C}\int_{s_0}^{s_0+C} \tilde{V}_{jklm}(s) e^{i\left[ \left( j-k \right)\left( \phi_x(s)+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y(s)+\phi_{y0} \right)\right]} \; ds,
+\end{equation}
+where the terms $\tilde{V}_{jklm}(s)$ are the instantaneous driving terms of the expansion for the self-field potential $\psi$ of the bunch at a point $s$ of the accelerator, i.e.,
+\begin{equation}
+    \label{eq:scpot2}
+    \psi(J_u,\phi_u,\tilde{z},s)= f(\tilde{z}) + \sum_{jklm} \tilde{V}_{jklm}(s) \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
+\end{equation} 
+
+The term $f(\tilde{z})$ will hold any longitudinal dependence of the potential, but in general it is not of relevance to the space charge detuning calculation. This is a similar approach as the one taken by Ref. \cite{scrdt_report}. All of this assumes the self-field potential has been calculated and a Floquet transformation has been performed using Eq. \ref{eq:betatron}. The self-potential $\psi(x,y,\tilde{z},s)$ is determined self-consistently from the 3D Poisson equation with a particle number density of the bunch $n_b(x,y,\tilde{z},s)$ reading:
 \begin{equation}
     \label{eq:poisson1}
     \left( \frac{\partial}{\partial x}+\frac{\partial}{\partial y}+\frac{\partial}{\partial \tilde{z}}\right)\psi (x,y,\tilde{z},s)=-\frac{2 \pi K_b}{N_b}n_b(x,y,\tilde{z},s), 
@@ -504,14 +515,12 @@ The solution to Eq. \ref{eq:poisson1} can be found in any mathematical methods f
     \psi(x,y,\tilde{z},s)=-\frac{2 \pi K_b}{N_b} \int_{\mathbb{R}^3} d\vec{r}' \; \frac{n_b(\vec{r},s)}{\left| \vec{r}-\vec{r}' \right|}.
 \end{equation} 
  
-In section \ref{sec:amp} it was of interest to look at how particles at different amplitudes undergo different detuning due to $H_1$ given their $J_u$ coordinates. The same will be true for the effect of $\psi$ on the single-particle dynamics. The quantity of interest will be the detuning due to Coulomb forces---the space-charge tune shift. Therefore, just like $H_1$ as defined in Eq. \ref{eq:rdt1}, the ultimate goal is to find an expansion for the space-charge potential that looks like:
+In section \ref{sec:amp} it was of interest to look at how particles at different amplitudes undergo different detuning due to $H_1$ given their $J_u$ coordinates. The same will be true for the effect of $\Psi$ on the single-particle dynamics. The quantity of interest will be the detuning due to Coulomb forces---the space-charge tune shift. Nevertheless, it is important to note that space charge will be a continuous force all around the accelerator. Therefore, the terms $G_{jklm}$ in order to enter the one-turn Hamiltonian in Eq. \ref{eq:hpsi} will have to be an average of the space-charge force around the ring for a single particle, just like it was defined in Eq. \ref{eq:gscrdts}. Ultimately, the space-charge tune shift will also be an incoherent quantity.
 
-Nevertheless, it is important to note that space charge will be a continuous force all around the accelerator. Therefore, the terms $V_{jklm}$ in order to enter the one-turn Hamiltonian in Eq. \ref{eq:hpsi} will have to be an average of the space-charge force around the ring for a single particle. Ultimately, the space-charge tune shift will also be an incoherent quantity.
-
-For now, let $H_1=0$, but let space-charge dictate the functional form of $\psi$. For this case, and in analogy to Eq. \ref{eq:eom2}, the space charge tune shift will be dictated by:
+For now, let $H_1=0$, but let space-charge dictate the functional form of $\Psi$. For this case, and in analogy to Eq. \ref{eq:eom2}, the space charge tune shift will be dictated by:
 \begin{equation}
     \label{eq:eompsi}
-    \frac{\partial \phi_u}{\partial N} = \frac{\partial H}{\partial J_u} = 2\pi Q_u + \frac{\partial \psi}{\partial J_u}.
+    \frac{\partial \phi_u}{\partial N} = \frac{\partial H}{\partial J_u} = 2\pi Q_u + \frac{\partial \Psi}{\partial J_u}.
 \end{equation}
 The non-trivial part about this calculation is figuring ${\partial \psi}/{\partial J_u}$ for a specific bunch distribution after calculating the integral in Eq. \ref{eq:greens1}.
 
@@ -525,7 +534,7 @@ The first case to analyze is when the bunch has a uniform charge density enclose
         \end{array} 
     \right.,
 \end{equation}
-where $a(s),b(s)$ and $c(s)$ are the length of the semi-axes of the ellipsoid around the accelerator, and can be calculated from the beam-envelope equations. Inputting this distribution into Eq. \ref{eq:greens1} gives the expression for the potential. This involves solving a 3D integral inside the ellipsoid. This reads:
+where $a(s),b(s)$ and $c(s)$ are the length of the semi-axes of the ellipsoid around the accelerator, and can be calculated from the beam-envelope equations \cite{witchcraft}. Additionally, the constant particle number density over an ellipsoid is defined as $\hat{n}_b=N_b/V_e$, where $V_e$ is the volume of an ellipsoid reading $V_e=4/3 \pi abc$. Inputting this distribution into Eq. \ref{eq:greens1} gives the expression for the potential. This involves solving a 3D integral inside the ellipsoid. This reads:
 \begin{equation}
     \label{eq:potential1}
     \psi(x,y,\tilde{z},s)=-\frac{2 \pi K_b \hat{n}_b}{N_b} \int_{\mathbb{S}} d\vec{r}' \; \frac{1}{\left| \vec{r}-\vec{r}' \right|},
@@ -555,6 +564,48 @@ such that $A,B,C$ and $D$ are calculated as:
 Furthermore, Eq. \ref{eq:potential2} can be rewritten using Eq. \ref{eq:betatron}, in order to explicitly highlight the dependence on $J_u,\phi_u$. This reads:
 \begin{multline}
     \label{eq:potential3}
-    \psi(J_x,\phi_x, J_y, \phi_y, \tilde{z},s)=-\frac{\pi K_b \hat{n}_b a b c }{N_b} \left[ -A \left( 2 \beta_x J_x \right) \left( \frac{e^{2i(\phi_x+\phi_{x0})}+e^{-2i(\phi_x+\phi_{x0})}}{4} \right) \right. \\
-    \left. -B \left( 2 \beta_y J_y \right) \left( \frac{e^{2i(\phi_y+\phi_{y0})}+e^{-2i(\phi_y+\phi_{y0})}}{4}\right) - C \tilde{z}^2 +D  \right],
+    \psi(J_u,\phi_u, \tilde{z},s)=-\frac{\pi K_b \hat{n}_b a b c }{N_b} \left[ -A \left( 2 \beta_x J_x \right) \left( \frac{e^{2i(\phi_x+\phi_{x0})}+e^{-2i(\phi_x+\phi_{x0})}+2}{4} \right) \right. \\
+    \left. -B \left( 2 \beta_y J_y \right) \left( \frac{e^{2i(\phi_y+\phi_{y0})}+e^{-2i(\phi_y+\phi_{y0})}+2}{4}\right) - C \tilde{z}^2 +D  \right].
 \end{multline}
+Equation \ref{eq:potential3} can be cross-examined using Eq. \ref{eq:scpot2} in order to retrieve the driving terms $\tilde{V}_{jklm}$ and $f(\tilde{z})$. Therefore, for a uniform distribution, the following expansion for the self-potential holds:
+\begin{multline}
+    \psi(J_u,\phi_u, \tilde{z},s) = f_0(\tilde{z})+\tilde{V}_{2000}J_x e^{2i(\phi_x+\phi_{x0})}+\tilde{V}_{0200}J_x e^{-2i(\phi_x+\phi_{x0})}+\tilde{V}_{1100}J_x\\+\tilde{V}_{0020}J_y e^{2i(\phi_y+\phi_{y0})}+\tilde{V}_{0002}J_y e^{-2i(\phi_y+\phi_{y0})}+\tilde{V}_{0011}J_y.
+\end{multline}
+
+\begin{table}[H]
+    \centering
+    \caption{Instantaneous driving terms and GSCRDTs for a uniform beam}
+    \label{tab:my-table}
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    $\tilde{V}_{jklm}$  &  $\tilde{V}_{jklm}(s)$ & $G_{jklm}$  &  $G_{jklm}(s)$  \\ \hline
+    & & & \\
+    $\tilde{V}_{2000}$ &  $\frac{3}{8} K_b A(s) \beta_x(s)$ & $G_{2000}$ & $\frac{3K_b}{8C}{\displaystyle\int_{s_0}^{s_0+C} A(s) \beta_x(s) e^{2 i \left( \phi_x(s)+\phi_{x0} \right)} \; ds}$ \\ 
+    & & & \\ \hline
+    & & & \\
+    $\tilde{V}_{0200}$ &  $\frac{3}{8} K_b A(s) \beta_x(s)$ & $G_{0200}$ & $\frac{3K_b}{8C}{\displaystyle\int_{s_0}^{s_0+C} A(s) \beta_x(s) e^{-2 i \left( \phi_x(s)+\phi_{x0} \right)} \; ds}$\\ 
+    & & & \\ \hline
+    & & & \\
+    $\tilde{V}_{1100}$ &  $\frac{3}{4} K_b A(s) \beta_x(s)$ & $G_{1100}$ & $\frac{3K_b}{4C}{\displaystyle\int_{s_0}^{s_0+C} A(s) \beta_x(s) \; ds}$\\ 
+    & & & \\ \hline
+    & & & \\
+    $\tilde{V}_{0020}$ &  $\frac{3}{8} K_b B(s) \beta_y(s)$ & $G_{0020}$ & $\frac{3K_b}{8C}{\displaystyle\int_{s_0}^{s_0+C} B(s) \beta_y(s) e^{2 i \left( \phi_y(s)+\phi_{y0} \right)} \; ds}$\\ 
+    & & & \\ \hline
+    & & & \\
+    $\tilde{V}_{0002}$ &  $\frac{3}{8} K_b B(s) \beta_y(s)$ & $G_{0002}$ & $\frac{3K_b}{8C}{\displaystyle\int_{s_0}^{s_0+C} B(s) \beta_y(s) e^{-2 i \left( \phi_y(s)+\phi_{y0} \right)} \; ds}$\\ 
+    & & & \\ \hline
+    & & & \\
+    $\tilde{V}_{0011}$ &  $\frac{3}{4} K_b B(s) \beta_y(s)$ & $G_{0011}$ & $\frac{3K_b}{4C}{\displaystyle\int_{s_0}^{s_0+C} B(s) \beta_y(s) \; ds}$\\ 
+    & & & \\ \hline
+    \end{tabular}
+    \end{table}
+
+Just like in Sec. \ref{sec:amp}, it is of interest to look at the terms where $j=k$ and $l=m$. This will give nonlinear detuning terms due to having a uniform charge distribution. Therefore, similar to Eq. \ref{eq:Nave5}, the nonlinear detuning terms due to space charge are:
+\begin{equation}
+    \label{eq:scave1}
+    \lim_{N\to\infty} \left\langle \frac{\partial \phi_x}{\partial N}\right\rangle _N = 2\pi Q_x+2\sum_{jl} G_{jjll} j \left( 2 J_x\right)^{j-1} \left( 2 J_y\right)^{l}.
+\end{equation}
+
+The previous analysis has been done for a 
+
+\cite{pyscrdt}

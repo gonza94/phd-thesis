@@ -1880,6 +1880,35 @@
       \verb https://www.worldscientific.com/doi/abs/10.1142/p250
       \endverb
     \endentry
+    \entry{scrdt_report}{report}{}
+      \name{author}{2}{}{%
+        {{hash=3f7eb129dd5661c4d43d030980c59888}{%
+           family={Asvesta},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=caa843f9a14d34c52daf5f86b05f3d07}{%
+           family={Bartosik},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4dbe6e4f58b8768202d19536d63ad8d3}
+      \strng{fullhash}{4dbe6e4f58b8768202d19536d63ad8d3}
+      \strng{bibnamehash}{4dbe6e4f58b8768202d19536d63ad8d3}
+      \strng{authorbibnamehash}{4dbe6e4f58b8768202d19536d63ad8d3}
+      \strng{authornamehash}{4dbe6e4f58b8768202d19536d63ad8d3}
+      \strng{authorfullhash}{4dbe6e4f58b8768202d19536d63ad8d3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{https://cds.cern.ch/record/2696190/files/CERN-ACC-NOTE-2019-0046.pdf}
+      \field{number}{CERN-ACC-NOTE-2019-0046}
+      \field{title}{Resonance Driving Terms From Space Charge Potential}
+      \field{type}{techreport}
+      \field{year}{2019}
+    \endentry
     \entry{arfken}{inbook}{}
       \name{author}{3}{}{%
         {{hash=4963c826992d0abdfc79cc7edb5bef92}{%
@@ -1996,6 +2025,27 @@
       \field{pages}{192\bibrangedash 194}
       \range{pages}{3}
     \endentry
+    \entry{pyscrdt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3f7eb129dd5661c4d43d030980c59888}{%
+           family={Asvesta},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{fullhash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{bibnamehash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{authorbibnamehash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{authornamehash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{authorfullhash}{3f7eb129dd5661c4d43d030980c59888}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PySCRDT}
+      \field{year}{2019}
+    \endentry
     \entry{rr0}{report}{}
       \name{author}{1}{}{%
         {{hash=dfacc387c53c3a871de0821a11d0205c}{%
@@ -2049,8 +2099,8 @@
       \strng{authorbibnamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authornamehash}{2fb5f3d6168318debe801f038a3af634}
       \strng{authorfullhash}{2fb5f3d6168318debe801f038a3af634}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
