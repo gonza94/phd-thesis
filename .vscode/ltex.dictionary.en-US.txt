@@ -36,3 +36,4 @@ perveance
 detune
 SCRDTs
 GSCRDTs
+PySCRDT

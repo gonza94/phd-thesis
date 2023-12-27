@@ -325,7 +325,7 @@ where the last step can be achieved using Leibnitz rule for Poisson brackets, i.
 On the other hand, going back to the Courant-Snyder phase space, a set of coordinates known as a resonance basis $\vec{h} = \left( h_x^+ , h_x^-, h_y^+, h_y^-\right)$ can be defined. Similarly to Eq. \ref{eq:zeta}, the resonance basis reads:
 \begin{equation}
     \label{eq:hbasis}
-    h_u^{\pm}=\hat{u}\pm \hat{p_u}=\sqrt{2J_u}e^{\mp i\left( \phi_u + \phi_{u_0}\right)},
+    h_u^{\pm}=\hat{u}\pm \hat{p}_u=\sqrt{2J_u}e^{\mp i\left( \phi_u + \phi_{u_0}\right)},
 \end{equation}
 always keeping in mind that in the Courant-Snyder phase space, the action $J_u$ is a function of the phase $\phi_u$, i.e., $J_u = J_u(\phi_u)$ and is not constant. The initial phase $\phi_{u_0}$ is again a constant set by the initial conditions. 
 
@@ -619,11 +619,11 @@ This is the approach taken in Refs. \cite{pyscrdt, scrdt_report}. Specifically, 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter2/rrtdmid.png}
-    \caption{Tune footprint for a Gaussian beam in the Recycler Ring at an intensity of 5e10 particles per bunch.}
+    \caption{Tune footprint for a Gaussian beam in the Recycler Ring at an intensity of 5e10 particles per bunch created with PySCRDT.}
     \label{fig:rrtdmid}
  \end{figure}
 
- Up until now, for this section the assumption $H_1=0$ holds. Nevertheless, in high-intensity particle accelerators there will be an interplay between the nonlinear Hamiltonian and the space charge potential. Ultimately, the terms $h_{jklm}$ and $G_jklm$ will dictate the perturbation to the linear Hamiltonian by their effective detuning. Therefore, the following Hamiltonian will describe the perturbation due to nonlinear elements in the circular lattice and due to space charge forces:
+ Up until now, for this section the assumption $H_1=0$ holds. Nevertheless, in high-intensity particle accelerators there will be an interplay between the nonlinear Hamiltonian and the space charge potential. Ultimately, the terms $h_{jklm}$ and $G_{jklm}$ will dictate the perturbation to the linear Hamiltonian by their effective detuning. Therefore, the following Hamiltonian will describe the perturbation due to nonlinear elements in the circular lattice and due to space charge forces:
  \begin{multline}
     \label{eq:hfinal}
     H(J_x,\phi_x,J_y, \phi_y,\tilde{z})= 2\pi Q_x J_x + 2\pi Q_y J_y + \\
