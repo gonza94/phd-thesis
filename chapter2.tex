@@ -295,7 +295,7 @@ Figure \ref{fig:rrtdlow} zooms into the region of interest for the Recycler Ring
  \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter2/rrtdlow.png}
-    \caption{Approximate operational tune footprint at low intensities, i.e., 1e10 particles per bunch.}
+    \caption{Approximate operational tune footprint at low intensities calculated with PySCRDT \cite{pyscrdt}, i.e., 1e10 particles per bunch.}
     \label{fig:rrtdlow}
  \end{figure}
 
@@ -534,7 +534,7 @@ The first case to analyze is when the bunch has a uniform charge density enclose
         \end{array} 
     \right.,
 \end{equation}
-where $a(s),b(s)$ and $c(s)$ are the length of the semi-axes of the ellipsoid around the accelerator, and can be calculated from the beam-envelope equations \cite{witchcraft}. Additionally, the constant particle number density over an ellipsoid is defined as $\hat{n}_b=N_b/V_e$, where $V_e$ is the volume of an ellipsoid reading $V_e=4/3 \pi abc$. Inputting this distribution into Eq. \ref{eq:greens1} gives the expression for the potential. This involves solving a 3D integral inside the ellipsoid. This reads:
+where $a(s),b(s)$ and $c(s)$ are the length of the semi-axes of the ellipsoid around the accelerator, and can be calculated from the beam-envelope equations \cite{witchcraft}. Additionally, the constant particle number density over an ellipsoid is defined as $\hat{n}_b=N_b/V_e$, where $V_e$ is the volume of an ellipsoid reading $V_e=(4/3) \pi abc$. Inputting this distribution into Eq. \ref{eq:greens1} gives the expression for the potential. This involves solving a 3D integral inside the ellipsoid. This reads:
 \begin{equation}
     \label{eq:potential1}
     \psi(x,y,\tilde{z},s)=-\frac{2 \pi K_b \hat{n}_b}{N_b} \int_{\mathbb{S}} d\vec{r}' \; \frac{1}{\left| \vec{r}-\vec{r}' \right|},
@@ -542,9 +542,9 @@ where $a(s),b(s)$ and $c(s)$ are the length of the semi-axes of the ellipsoid ar
 where $\mathbb{S}$ is the region enclosed by the ellipsoid. The integral has been studied with ellipsoidal coordinates and the solution can be found in Refs. \cite{Kellog_1967, witchcraft}. In these references, it is shown that the solution can be expressed as a quadratic function of $x,y$ and $\tilde{z}$ such that:
 \begin{equation}
     \label{eq:potential2}
-    \psi(x,y,\tilde{z},s)=-\frac{\pi K_b \hat{n}_b a b c }{N_b} \left[ -A x^2 -B y^2 - C \tilde{z}^2 +D \right],
+    \psi(x,y,\tilde{z},s)=-\frac{\pi K_b \hat{n}_b a b c }{N_b} \left[ -A x^2 -B y^2 - \tilde{C} \tilde{z}^2 +D \right],
 \end{equation}
-such that $A,B,C$ and $D$ are calculated as:
+such that $A,B,\tilde{C}$ and $D$ are calculated as:
 \begin{equation}
     \label{eq:A}
     A(s)=\int_0^{\infty}{\frac{d \varsigma }{\left( a^2+ \varsigma \right) \sqrt{\left( a^2+ \varsigma \right) \left( b^2+ \varsigma \right) \left( c^2+ \varsigma \right)}}},
@@ -555,7 +555,7 @@ such that $A,B,C$ and $D$ are calculated as:
 \end{equation}
 \begin{equation}
     \label{eq:C}
-    C(s)=\int_0^{\infty}{\frac{d \varsigma }{\left( c^2+ \varsigma \right) \sqrt{\left( a^2+ \varsigma \right) \left( b^2+ \varsigma \right) \left( c^2+ \varsigma \right)}}},
+    \tilde{C}(s)=\int_0^{\infty}{\frac{d \varsigma }{\left( c^2+ \varsigma \right) \sqrt{\left( a^2+ \varsigma \right) \left( b^2+ \varsigma \right) \left( c^2+ \varsigma \right)}}},
 \end{equation}
 \begin{equation}
     \label{eq:D}
@@ -565,20 +565,22 @@ Furthermore, Eq. \ref{eq:potential2} can be rewritten using Eq. \ref{eq:betatron
 \begin{multline}
     \label{eq:potential3}
     \psi(J_u,\phi_u, \tilde{z},s)=-\frac{\pi K_b \hat{n}_b a b c }{N_b} \left[ -A \left( 2 \beta_x J_x \right) \left( \frac{e^{2i(\phi_x+\phi_{x0})}+e^{-2i(\phi_x+\phi_{x0})}+2}{4} \right) \right. \\
-    \left. -B \left( 2 \beta_y J_y \right) \left( \frac{e^{2i(\phi_y+\phi_{y0})}+e^{-2i(\phi_y+\phi_{y0})}+2}{4}\right) - C \tilde{z}^2 +D  \right].
+    \left. -B \left( 2 \beta_y J_y \right) \left( \frac{e^{2i(\phi_y+\phi_{y0})}+e^{-2i(\phi_y+\phi_{y0})}+2}{4}\right) - \tilde{C} \tilde{z}^2 +D  \right].
 \end{multline}
 Equation \ref{eq:potential3} can be cross-examined using Eq. \ref{eq:scpot2} in order to retrieve the driving terms $\tilde{V}_{jklm}$ and $f(\tilde{z})$. Therefore, for a uniform distribution, the following expansion for the self-potential holds:
 \begin{multline}
+    \label{eq:potential4}
     \psi(J_u,\phi_u, \tilde{z},s) = f_0(\tilde{z})+\tilde{V}_{2000}J_x e^{2i(\phi_x+\phi_{x0})}+\tilde{V}_{0200}J_x e^{-2i(\phi_x+\phi_{x0})}+\tilde{V}_{1100}J_x\\+\tilde{V}_{0020}J_y e^{2i(\phi_y+\phi_{y0})}+\tilde{V}_{0002}J_y e^{-2i(\phi_y+\phi_{y0})}+\tilde{V}_{0011}J_y.
 \end{multline}
+The instantaneous driving terms $\tilde{V}_{jklm}$ from Eq. \ref{eq:potential4} are summarized in Table \ref{tab:vjklms}. Table \ref{tab:vjklms} also shows how to calculate the SCRDTs $G_{jklm}$ from averaging out the $\tilde{V}_{jklm}(s)$ all around the circular accelerator as an example of using Eq. \ref{eq:gscrdts}. The integrals for the $G_{jklm}$ should be carried out with previous knowledge of the unperturbed beta functions and phase advances all around the ring. The envelope equations, as described in Ref. \cite{witchcraft}, should also be solved previously in order to get $a(s)$, $b(s)$ and $c(s)$ around the lattice, ultimately, aiding in the evaluation of $A(s)$, $B(s)$ and $C(s)$.
 
 \begin{table}[H]
     \centering
     \caption{Instantaneous driving terms and GSCRDTs for a uniform beam}
-    \label{tab:my-table}
+    \label{tab:vjklms}
     \begin{tabular}{|c|c|c|c|}
     \hline
-    $\tilde{V}_{jklm}$  &  $\tilde{V}_{jklm}(s)$ & $G_{jklm}$  &  $G_{jklm}(s)$  \\ \hline
+    $\tilde{V}_{jklm}$  &  $\tilde{V}_{jklm}(s)$ & $G_{jklm}$  &  $G_{jklm}$  \\ \hline
     & & & \\
     $\tilde{V}_{2000}$ &  $\frac{3}{8} K_b A(s) \beta_x(s)$ & $G_{2000}$ & $\frac{3K_b}{8C}{\displaystyle\int_{s_0}^{s_0+C} A(s) \beta_x(s) e^{2 i \left( \phi_x(s)+\phi_{x0} \right)} \; ds}$ \\ 
     & & & \\ \hline
@@ -600,12 +602,30 @@ Equation \ref{eq:potential3} can be cross-examined using Eq. \ref{eq:scpot2} in 
     \end{tabular}
     \end{table}
 
-Just like in Sec. \ref{sec:amp}, it is of interest to look at the terms where $j=k$ and $l=m$. This will give nonlinear detuning terms due to having a uniform charge distribution. Therefore, similar to Eq. \ref{eq:Nave5}, the nonlinear detuning terms due to space charge are:
+Just like in Sec. \ref{sec:amp}, it is of interest to look at the terms where $j=k$ and $l=m$. This will give nonlinear detuning terms due to having a uniform charge distribution. Therefore, similar to Eq. \ref{eq:Nave5}, the nonlinear detuning terms due to space charge for the horizontal plane are:
 \begin{equation}
     \label{eq:scave1}
     \lim_{N\to\infty} \left\langle \frac{\partial \phi_x}{\partial N}\right\rangle _N = 2\pi Q_x+2\sum_{jl} G_{jjll} j \left( 2 J_x\right)^{j-1} \left( 2 J_y\right)^{l}.
 \end{equation}
+Therefore, it would be of interest to look at the terms $G_{1100}$ and $G_{0011}$ which will cause constant detuning of the unperturbed tunes. 
 
-The previous analysis has been done for a 
+The previous analysis has been done for a uniform beam, i.e., the particle number density is constant inside the bunch. Nevertheless, this is an idealized case for a circular accelerator. A more realistic approach would be to consider a Gaussian distribution. This multivariate distribution assuming no correlation reads:
+\begin{equation}
+    \label{eq:distgaussian}
+    n_b(x,y,\tilde{z},s) = \frac{1}{\left(2 \pi \right)^{3/2} \sigma_x \sigma_y \sigma_{\tilde{z}}}e^{-\frac{x^2}{2 \sigma_x^2}-\frac{y^2}{2 \sigma_y^2}-\frac{\tilde{z}^2}{2 \sigma_{\tilde{z}}^2}}
+\end{equation}
+This is the approach taken in Refs. \cite{pyscrdt, scrdt_report}. Specifically, the Python library developed at CERN called PySCRDT \cite{pyscrdt} allows for calculation of GSCRDTs, as well as calculation of the tune footprint, for a Gaussian beam distribution. As mentioned before in the discussion of Fig. \ref{fig:rrtdlow}, the tune footprint depends on the intensity of the beam interchangeable with the beam space charge perveance parameter $K_b$. Figure \ref{fig:rrtdmid} shows the space charge tune footprint for the Recycler Ring for typical beam parameters used in studies. The footprint has been calculated using PySCRDT. Nevertheless, the approach behind PySCRDT is similar to the example provided with a uniform beam distribution. One special feature of the Gaussian beam is that the space charge potential is its largest at the core of the beam. Hence, the detuning is largest for particles close the middle of the bunch. In contrast, the particles away from the core of the beam will not be subject to the full space charge potential, and therefore, will oscillate close to the unperturbed nominal tune of $Q_u$. Figure \ref{fig:rrtdmid} illustrates this concept by drawing a color map at different actions, close to the beam core and $6\sigma_u$ away from the center of the bunch---location where particles are oscillating at nominal tunes.         
 
-\cite{pyscrdt}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter2/rrtdmid.png}
+    \caption{Tune footprint for a Gaussian beam in the Recycler Ring at an intensity of 5e10 particles per bunch.}
+    \label{fig:rrtdmid}
+ \end{figure}
+
+ Up until now, for this section the assumption $H_1=0$ holds. Nevertheless, in high-intensity particle accelerators there will be an interplay between the nonlinear Hamiltonian and the space charge potential. Ultimately, the terms $h_{jklm}$ and $G_jklm$ will dictate the perturbation to the linear Hamiltonian by their effective detuning. Therefore, the following Hamiltonian will describe the perturbation due to nonlinear elements in the circular lattice and due to space charge forces:
+ \begin{multline}
+    \label{eq:hfinal}
+    H(J_x,\phi_x,J_y, \phi_y,\tilde{z})= 2\pi Q_x J_x + 2\pi Q_y J_y + \\
+    \sum_{jklm} \left( h_{jklm}+G_{jklm} \right) \left( 2 J_x\right)^{\frac{j+k}{2}} \left( 2 J_y\right)^{\frac{l+m}{2}} e^{i\left[ \left( j-k \right)\left( \phi_x+\phi_{x0} \right)+ \left( l-m \right) \left( \phi_y+\phi_{y0} \right)\right]}.
+\end{multline}

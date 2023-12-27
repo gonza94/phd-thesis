@@ -1773,6 +1773,27 @@
       \field{note}{http://madx.web.cern.ch/madx}
       \field{title}{MAD-X: Methodical Accelerator Design}
     \endentry
+    \entry{pyscrdt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3f7eb129dd5661c4d43d030980c59888}{%
+           family={Asvesta},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{fullhash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{bibnamehash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{authorbibnamehash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{authornamehash}{3f7eb129dd5661c4d43d030980c59888}
+      \strng{authorfullhash}{3f7eb129dd5661c4d43d030980c59888}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PySCRDT}
+      \field{year}{2019}
+    \endentry
     \entry{higher}{article}{}
       \name{author}{2}{}{%
         {{hash=b916a94cd40f4696c972955cce261e10}{%
@@ -2025,27 +2046,6 @@
       \field{pages}{192\bibrangedash 194}
       \range{pages}{3}
     \endentry
-    \entry{pyscrdt}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=3f7eb129dd5661c4d43d030980c59888}{%
-           family={Asvesta},
-           familyi={A\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{3f7eb129dd5661c4d43d030980c59888}
-      \strng{fullhash}{3f7eb129dd5661c4d43d030980c59888}
-      \strng{bibnamehash}{3f7eb129dd5661c4d43d030980c59888}
-      \strng{authorbibnamehash}{3f7eb129dd5661c4d43d030980c59888}
-      \strng{authornamehash}{3f7eb129dd5661c4d43d030980c59888}
-      \strng{authorfullhash}{3f7eb129dd5661c4d43d030980c59888}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{PySCRDT}
-      \field{year}{2019}
-    \endentry
     \entry{rr0}{report}{}
       \name{author}{1}{}{%
         {{hash=dfacc387c53c3a871de0821a11d0205c}{%
@@ -2063,8 +2063,8 @@
       \strng{authorbibnamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authornamehash}{dfacc387c53c3a871de0821a11d0205c}
       \strng{authorfullhash}{dfacc387c53c3a871de0821a11d0205c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -2419,8 +2419,8 @@
       \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}
@@ -2478,8 +2478,8 @@
       \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
       \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}
@@ -2536,8 +2536,8 @@
       \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
       \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'23}
