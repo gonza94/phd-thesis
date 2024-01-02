@@ -2,3 +2,4 @@
 {"rule":"PRP_COMMA","sentence":"^\\QNear it he sees a towering white structure, a group of colorful smaller buildings, an expanse of\\E$"}
 {"rule":"PRP_COMMA","sentence":"^\\QNear it he sees a towering white structure, a group of colorful smaller buildings, an expanse of forest, open fields and lakes.\\E$"}
 {"rule":"PRP_COMMA","sentence":"^\\QNear it he sees a towering white structure, a group of colorful smaller buildings, an expanse of forest, open fields, and lakes.\\E$"}
+{"rule":"PHRASE_REPETITION","sentence":"^\\QCorresponding RDTs and spectral lines for each resonance line Resonance Line RDT Hor.\\E$"}

@@ -182,6 +182,7 @@
       \strng{authorbibnamehash}{c9db65bca06c33e76dbf47dc089be4e5}
       \strng{authornamehash}{c9db65bca06c33e76dbf47dc089be4e5}
       \strng{authorfullhash}{c9db65bca06c33e76dbf47dc089be4e5}
+      \field{extraname}{1}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -2324,6 +2325,34 @@
       \verb https://www.osti.gov/biblio/1346823
       \endverb
     \endentry
+    \entry{dune}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ab4656dc91407ddb7440ce45c3e65c15}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={Fermi\bibnamedelimb National\bibnamedelima Accelerator},
+           giveni={F\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab4656dc91407ddb7440ce45c3e65c15}
+      \strng{fullhash}{ab4656dc91407ddb7440ce45c3e65c15}
+      \strng{bibnamehash}{ab4656dc91407ddb7440ce45c3e65c15}
+      \strng{authorbibnamehash}{ab4656dc91407ddb7440ce45c3e65c15}
+      \strng{authornamehash}{ab4656dc91407ddb7440ce45c3e65c15}
+      \strng{authorfullhash}{ab4656dc91407ddb7440ce45c3e65c15}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fermi National Accelerator Laboratory}
+      \field{title}{Deep Underground Neutrino Experiment}
+      \verb{urlraw}
+      \verb https://www.dunescience.org/
+      \endverb
+      \verb{url}
+      \verb https://www.dunescience.org/
+      \endverb
+    \endentry
     \entry{rr2}{article}{}
       \name{author}{6}{}{%
         {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
@@ -2367,8 +2396,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}

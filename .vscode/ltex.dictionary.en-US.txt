@@ -37,3 +37,4 @@ detune
 SCRDTs
 GSCRDTs
 PySCRDT
+Sextupole
