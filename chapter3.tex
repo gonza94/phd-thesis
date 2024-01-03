@@ -13,7 +13,7 @@ The MI/RR complex is fed protons by the Proton Source, which by itself consists 
    \label{fig:fnal}
 \end{figure}
 
-The Proton Improvement Plan II (PIP-II) is the first step in establishing the Fermilab Accelerator Complex as a multi-MW proton facility \cite{pipII1}. The near-future objective is to deliver a 1.2 MW proton beam to the Deep Underground Neutrino Experiment (DUNE) through the Long-Baseline Neutrino Facility (LBNF) \cite{dune}, still in construction. In order to meet this goal, several upgrades are being planned in the accelerator complex, including a new 800 MeV superconducting linear accelerator. The future plan for the layout of the Fermilab Accelerator Complex is shown in Fig. \ref{fig:fnalpip2}. With minimal upgrades to the Main Injector and Recycler Ring, but with a substantial overhaul of the Booster Ring, this will allow for a 50\% increase in particles per pulse intensity. Table \ref{tab:rrparams} also specifies some upgrades that will happen for the PIP-II era. Some examples include an increase of the particle per bunch intensity, a shortening of the Main Injector acceleration ramp and an increase in the Booster ramping rate.
+The Proton Improvement Plan II (PIP-II) is the first step in establishing the Fermilab Accelerator Complex as a multi-MW proton facility \cite{pipII1}. The near-future objective is to deliver a 1.2 MW proton beam to the Deep Underground Neutrino Experiment (DUNE) through the Long-Baseline Neutrino Facility (LBNF) \cite{dune}, still in construction. In order to meet this goal, several upgrades are being planned in the accelerator complex, including a new 800 MeV superconducting linear accelerator. The future plan for the layout of the Fermilab Accelerator Complex is shown in Fig. \ref{fig:fnalpip2}. With minimal upgrades to the Main Injector and Recycler Ring, but with a substantial overhaul of the Booster Ring, this will allow for a 50\% increase in particles per pulse intensity. Table \ref{tab:rrparams} also specifies some upgrades that will happen for the PIP-II era. Some examples include an increase of the particle per bunch intensity, a shortening of the Main Injector acceleration ramp and an increase in the Booster ramping rate. As the Recycler Ring starts to deal with higher intensities from the PIP-II upgrade, it is important to mitigate the effects of space charge as discussed in Secs. \ref{sec:resonances} and \ref{sec:sc1}. Particles along the bunch will experience space charge force leading to detuning in their betatron frequencies. Given the incoherent nature of this process, this leads to the beam having a larger tune spread in the tune diagram and having particles operate on top of resonances.
 
 \begin{figure}[H]
    \centering
@@ -24,8 +24,8 @@ The Proton Improvement Plan II (PIP-II) is the first step in establishing the Fe
 
 \section{General Specifications}
 
-The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835 GeV/c.
-\cite{pipII1} \cite{rr2}
+The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835 GeV/c. 
+\cite{pipII1} \cite{rr2} \cite{fermi_rookie}
 
 \begin{figure}[H]
    \centering
@@ -41,8 +41,10 @@ The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835
 \begin{tabular}{@{}ccc@{}}
 \toprule
 \textbf{Parameter}          & \textbf{Value}                             & \textbf{Unit} \\ \midrule
-Circumference               & 3319                                       & m             \\
+Circumference               & 3319.4                                     & m             \\
 Momentum                    & 8.835                                      & GeV/c         \\
+Revolution Period           & 11.1                                       & $\mu$s        \\
+Revolution Frequency        & 90.1                                       & kHz        \\
 RF Frequency                & 52.8                                       & MHz           \\
 RF Voltage                  & 80                                         & kV            \\
 Harmonic Number             & 588                                        &               \\
@@ -64,6 +66,20 @@ Booster Frequency           & 15                                         & Hz   
                             & 20 (PIP-II)                                & Hz            \\ \bottomrule
 \end{tabular}
 \end{table}
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=\columnwidth]{chapter3/betas.png}
+   \caption{Beta functions for the Recycler Ring lattice tuned to $Q_x=25.44$ and $Q_y=24.39$. Lattice functions calculated from lattice file using SYNERGIA.}
+   \label{fig:rrbetas}
+\end{figure}
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=\columnwidth]{chapter3/disps.png}
+   \caption{Dispersion functions for the Recycler Ring lattice tuned to $Q_x=25.44$ and $Q_y=24.39$. Lattice functions calculated from lattice file using SYNERGIA.}
+   \label{fig:rrdisps}
+\end{figure}
 
 \section{Tune Diagram and Resonances}
 

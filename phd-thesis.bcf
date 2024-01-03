@@ -2434,11 +2434,14 @@
     <bcf:citekey order="52" intorder="1">rr1</bcf:citekey>
     <bcf:citekey order="53" intorder="1">pipII1</bcf:citekey>
     <bcf:citekey order="54" intorder="1">rr2</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">rr1</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">fermi_rookie</bcf:citekey>
     <bcf:citekey order="56" intorder="1">rr1</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">mionrr</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">cris1</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">cris2</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">rr1</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">cernplot</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">cernplot</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">mionrr</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">cris1</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">cris2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

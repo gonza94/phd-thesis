@@ -2417,6 +2417,52 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.020404
       \endverb
     \endentry
+    \entry{fermi_rookie}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=57eb27f1c65941c536a00c6433b894f8}{%
+           family={Department},
+           familyi={D\bibinitperiod},
+           given={Fermilab\bibnamedelimb Accelerator\bibnamedelimb Division\bibnamedelimb —\bibnamedelima Operations},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{fullhash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{bibnamehash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{authorbibnamehash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{authornamehash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{authorfullhash}{57eb27f1c65941c536a00c6433b894f8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Concepts Rookie Book}
+    \endentry
+    \entry{cernplot}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=22552363b818ea97be8a85cefdee8725}{%
+           family={Landua},
+           familyi={L\bibinitperiod},
+           given={Fabienne},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{22552363b818ea97be8a85cefdee8725}
+      \strng{fullhash}{22552363b818ea97be8a85cefdee8725}
+      \strng{bibnamehash}{22552363b818ea97be8a85cefdee8725}
+      \strng{authorbibnamehash}{22552363b818ea97be8a85cefdee8725}
+      \strng{authornamehash}{22552363b818ea97be8a85cefdee8725}
+      \strng{authorfullhash}{22552363b818ea97be8a85cefdee8725}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A graphic overview of all accelerators in operation at CERN.}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2813716?ln=en
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2813716?ln=en
+      \endverb
+    \endentry
     \entry{mionrr}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=24e4d90a8046dcd2087c70be0bc6ba83}{%
@@ -2447,8 +2493,8 @@
       \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}
@@ -2506,8 +2552,8 @@
       \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
       \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}
@@ -2564,8 +2610,8 @@
       \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
       \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'23}
