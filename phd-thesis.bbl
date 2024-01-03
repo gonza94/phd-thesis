@@ -1712,7 +1712,6 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The aim of this paper is to provide a comprehensive exposition of the early contributions to the so-called Campbell, Baker, Hausdorff, Dynkin Theorem during the years 1890--1950. Related works by Schur, Poincaré, Pascal, Campbell, Baker, Hausdorff, and Dynkin will be investigated and compared. For a full recovery of the original sources, many mathematical details will also be furnished. In particular, we rediscover and comment on a series of five notable papers by Pascal (Lomb Ist Rend, 1901--1902), which nowadays are almost forgotten.}
       \field{journaltitle}{Archive for History of Exact Sciences}
       \field{month}{5}
       \field{number}{3}
@@ -2576,7 +2575,7 @@
       \field{number}{14}
       \field{series}{IPAC'23 - 14th International Particle Accelerator Conference}
       \field{title}{Simultaneous Compensation of Third-Order Resonances at the FNAL Recycler Ring}
-      \field{venue}{Venezia}
+      \field{venue}{Venice}
       \field{year}{2023}
       \field{pages}{3328\bibrangedash 3331}
       \range{pages}{4}
