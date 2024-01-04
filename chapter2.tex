@@ -17,7 +17,7 @@ For Eqs. \ref{eq:ch2magnet} and \ref{eq:ch2magnetcoeffs}, $x$ and $y$ represent 
 The most basic circular accelerator of circumference $C$ is composed of LEGO® blocks chosen from a pile of dipoles, quadrupoles and free drift spaces. Each of these elements are described by Eqs. \ref{eq:ch2magnet} and \ref{eq:ch2magnetcoeffs}, i.e., for the quadrupole case, the only nonzero coefficient is $b_1$. The particles inside this ring have a longitudinal relativistic velocity of $v=\beta_L c$, and therefore have a revolution frequency of $f_{rev}=\beta_L c/C$. The Hamiltonian of a single particle with position coordinates $x,y$ and momentum coordinates $p_x,p_y$ traversing through such a system at an independent time coordinate $s$ is:
 \begin{equation}
     \label{eq:ham1}
-    H=\frac{1}{2}\left( K_x(s)x^2+ \frac{1}{2}K_y(s)y^2+ p_x^2 + p_y^2\right),
+    H=\frac{1}{2}\left( K_x(s)x^2+ K_y(s)y^2+ p_x^2 + p_y^2\right),
 \end{equation}
 where $K_x(s),K_y(s)$ are the effective focusing functions, and are defined as:
 \begin{equation}
@@ -50,7 +50,7 @@ Just like stacking LEGO® bricks together, these transfer matrices can be stacke
     M_{Total}=M_NM_{N-1}...M_1.     
 \end{equation}
 
-Taking linear lattices one step further, the Twiss parametrization can be introduced. This parametrization employs the fact that any linear element or stack of linear elements can be parametrized by the Twiss functions $\beta_u(s),\alpha_u(s)$ and $\gamma_u(s)$ and a phase advance defined as $  \phi_u(s)=\int_0^s ds/\beta_u(s)$, where $u$ stands for either the $x$ or $y$ plane. This results in the following transfer matrix from location $s=0$ to an arbitrary location $s$:
+Taking linear lattices one step further, the Courant-Snyder (CS) parametrization can be introduced. This parametrization employs the fact that any linear element or stack of linear elements can be parametrized by the Twiss functions $\beta_u(s),\alpha_u(s)$ and $\gamma_u(s)$ and a phase advance defined as $  \phi_u(s)=\int_0^s ds/\beta_u(s)$, where $u$ stands for either the $x$ or $y$ plane. This results in the following transfer matrix from location $s=0$ to an arbitrary location $s$:
 \begin{equation}
     \label{eq:twissmatrix}
     M(s)= 
@@ -288,7 +288,7 @@ Figure \ref{fig:tunediagram} shows the tune diagram with resonance lines, as def
     \caption{Tune diagram with resonance lines up to fifth order, enclosing the operation point of the Recycler Ring.}
     \label{fig:tunediagram}
  \end{figure}
-It is worth stopping here and asking what is the driving force behind each of these resonance lines. Classic accelerator references such as Refs. \cite{wolski,Wiedemann2015,sylee} will derive Eq. \ref{eq:resonances} by perturbing Hill's equation with different magnetic multipole orders. A closer look into each perturbation term reveals that half integer resonances are caused by quadrupole terms, third order resonances by sextupole-like terms, fourth order resonances by octupole terms, and so on and so forth. Nevertheless, the story complicates when one takes into account that pure multipole magnets can feed down to higher order terms, e.g., a tilted quadrupole feeds down to sextupole-like terms.        
+It is worth stopping here and asking what is the driving force behind each of these resonance lines. Classic accelerator references such as Refs. \cite{wolski,Wiedemann2015,sylee} will derive Eq. \ref{eq:resonances} by perturbing Hill's equation with different magnetic multipole orders. A closer look into each perturbation term reveals that half integer resonances are caused by quadrupole terms, third order resonances by sextupole-like terms, fourth order resonances by octupole terms, and so on and so forth. Nevertheless, the story complicates when one takes into account that pure multipole magnets can feed down or up to other order terms if there is installation misalignment, e.g., a misaligned sextupole feeds to skew quadrupole-like terms.        
 
 Figure \ref{fig:rrtdlow} zooms into the region of interest for the Recycler Ring operation in the tune diagram, as shown in Fig. \ref{fig:tunediagram}. As mentioned before, the operation point of an accelerator in the tune diagram is not a singular point but rather a footprint. While the lattice can be tuned to a specific nominal point, particles will interact with other particles through the Coulomb force. Consequently, each particle will feel a different tune shift depending on their position within the bunch of particles. This is called the incoherent space charge tune shift, and it will be the largest for particles in the core of the bunch, i.e., the beam core. At low particle intensities, such as the one used to produce Fig. \ref{fig:rrtdlow}, the tune spread of the particles in the bunch is small enough to approximate the physics to single-particle dynamics. For beams with low particle intensities and a small tune spread, such as the one depicted in Fig. \ref{fig:rrtdlow}, operating clear from any low order resonance lines is not generally a problem. Nevertheless, at high intensities the situation changes.   
 
@@ -474,7 +474,7 @@ To summarize, the amplitude-dependent tune shift $\Delta\left( 2 \pi Q_u \right)
 
 \section{\label{sec:sc1}Space Charge Tune Shift}
 
-Up to this point, the beam dynamics of high energy particle accelerators has been explained in terms of single-particle dynamics. Up until now, a couple of implicit assumptions have been made: (a) particles do not interact with each other; and (b) the LEGO® blocks composing the lattice have been idealized to create the fields but without supplying any electromagnetic boundary conditions. Nevertheless, in order to have a model closer to reality, the interaction between particles through the Coulomb force has to be taken into account. Furthermore, particles also interact with the electromagnetic properties of the lattice LEGO® blocks, ultimately, creating unwanted electromagnetic wake fields. This latter phenomenon opens another branch of accelerator physics that studies collective beam instabilities \cite{chao}. However, the scope of this thesis is only interested in the first bullet point regarding direct particle-particle interactions through the Coulomb force---widely known as space charge physics. It is worth specifying that this restricts the analysis to a single bunch of particles. 
+Up to this point, the beam dynamics of high energy particle accelerators has been explained in terms of single-particle dynamics. Up until now, a couple of implicit assumptions have been made: (a) particles do not interact with each other; and (b) the basic blocks composing the lattice have been idealized to create the fields but without supplying any electromagnetic boundary conditions. Nevertheless, in order to have a model closer to reality, the interaction between particles through the Coulomb force has to be taken into account. Furthermore, particles also interact with the electromagnetic properties of the basic elements, ultimately, creating unwanted electromagnetic wake fields. This latter phenomenon opens another branch of accelerator physics that studies collective beam instabilities \cite{chao}. However, the scope of this thesis is only interested in the first bullet point regarding direct particle-particle interactions through the Coulomb force---widely known as space charge physics. It is worth specifying that this restricts the analysis to a single bunch of particles. 
 
 As mentioned in Sec. \ref{sec:resonances}, the Coulomb force will act as a detuning force on each individual particle. In order to explain this statement using a Hamiltonian formalism, the starting point needs to be the single-particle Hamiltonian that includes the Coulomb potential from the charge distribution in the bunch \cite{witchcraft}. The expression for this system reads:
 \begin{equation}
@@ -522,7 +522,7 @@ For now, let $H_1=0$, but let space-charge dictate the functional form of $\Psi$
     \label{eq:eompsi}
     \frac{\partial \phi_u}{\partial N} = \frac{\partial H}{\partial J_u} = 2\pi Q_u + \frac{\partial \Psi}{\partial J_u}.
 \end{equation}
-The non-trivial part about this calculation is figuring ${\partial \psi}/{\partial J_u}$ for a specific bunch distribution after calculating the integral in Eq. \ref{eq:greens1}.
+The non-trivial part about this calculation is figuring ${\partial \Psi}/{\partial J_u}$ for a specific bunch distribution after calculating the integral in Eq. \ref{eq:greens1}.
 
 The first case to analyze is when the bunch has a uniform charge density enclosed in a 3D ellipsoid. The charge bunch distribution reads:
 \begin{equation}

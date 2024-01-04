@@ -60,3 +60,4 @@ SYNERGIA
 JACoW
 HB
 synchrotrons
+sextupoles

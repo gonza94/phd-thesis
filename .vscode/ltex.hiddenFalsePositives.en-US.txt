@@ -7,3 +7,5 @@
 {"rule":"EN_DIACRITICS_REPLACE","sentence":"^\\QBogota, Colombia\\E$"}
 {"rule":"DATE_NEW_YEAR","sentence":"^\\Q2023-11-02 14:22:05 -0500\\E$"}
 {"rule":"CD_NN","sentence":"^\\QTypical Recycler Ring properties for beam sent to NuMI Parameter Value Unit Circumference 3319.4 m Momentum 8.835 GeV/c Revolution Period 11.1 \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Qs Revolution Frequency 90.1 kHz RF Frequency 52.8 MHz RF Voltage 80 kV Harmonic Number 588 Synchrotron Tune 0.0028 Slip Factor -8.6 \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q 10\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q Superperiodicity 2 Horizontal Tune 25.43 Vertical Tune 24.445 Horizontal Chromaticity -6 Vertical Chromaticity -7 95% Normalized Emittance 15 \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q mm mrad 95% Longitudinal Emittance 0.08 eV s Intensity \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q ppb \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q (PIP-II) ppb MI Ramp Time 1.2 s 1.133 s 1.067 s Booster Frequency 15 Hz 20 (PIP-II) Hz\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QResonance Line Source RDT Hor.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSpect.\\E$"}

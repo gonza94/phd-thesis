@@ -3,7 +3,7 @@
 
 \section{Global RDTs and Lattice Model}
 
- \begin{table}[H]
+\begin{table}[H]
     \centering
     \caption{Corresponding RDTs and spectral lines for each resonance line.}
     \begin{tabular}{lc}
@@ -17,21 +17,21 @@
         \bottomrule
     \end{tabular}
     \label{tab:rdts}
- \end{table}
+\end{table}
 
- \begin{figure}[H]
+\begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/h3000_bare.png}
     \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point.}
     \label{fig:h3000bare}
- \end{figure}
+\end{figure}
 
- \begin{figure}[H]
+\begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/h1020_bare.png}
     \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point.}
     \label{fig:h1020bare}
- \end{figure}
+\end{figure}
 
 \section{Measurement of Third Order RDTs}
 
@@ -49,23 +49,101 @@
         \bottomrule
     \end{tabular}
     \label{tab:rdtlines}
- \end{table}
+\end{table}
 
- \section{Compensation of RDTs}
+\section{Compensation of RDTs}
+
+\begin{equation}
+    \begin{bmatrix}
+        -|{h_{3000}}|  \cos (\psi_{3000})\\
+        -|{h_{3000}}|  \sin (\psi_{3000})\\
+        -|{h_{1020}}|  \cos (\psi_{1020})\\
+        -|{h_{1020}}|  \sin (\psi_{1020})\\
+      \end{bmatrix}_{(Bare)}
+    =
+      \boldsymbol{M}
+    \begin{bmatrix}
+        I_{sc220} \\
+        I_{sc222} \\
+        I_{sc319} \\
+        I_{sc321} \\
+      \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \begin{bmatrix}
+        -|{h_{3000}}|  \cos (\psi_{3000})\\
+        -|{h_{3000}}|  \sin (\psi_{3000})\\
+        -|{h_{1020}}|  \cos (\psi_{1020})\\
+        -|{h_{1020}}|  \sin (\psi_{1020})\\
+        -|{h_{0030}}|  \cos (\psi_{3000})\\
+        -|{h_{0030}}|  \sin (\psi_{3000})\\
+        -|{h_{2010}}|  \cos (\psi_{1020})\\
+        -|{h_{2010}}|  \sin (\psi_{1020})\\
+      \end{bmatrix}_{(Bare)}
+    =
+      \boldsymbol{M}
+    \begin{bmatrix}
+        I_{sc220} \\
+        I_{sc222} \\
+        I_{sc319} \\
+        I_{sc321} \\
+        I_{ss223} \\
+        I_{ss323} \\
+        I_{ss319} \\
+        I_{ss321} \\
+      \end{bmatrix}
+\end{equation}
+ 
+\begin{equation}
+    \begin{bmatrix}
+        -|h_{3000}| \cos \psi_{3000} \\
+        -|h_{3000}| \sin \psi_{3000} \\
+        -|h_{1020}| \cos \psi_{1020} \\
+        -|h_{1020}| \sin \psi_{1020} \\
+        \end{bmatrix}_{(Bare)}
+         =
+        \boldsymbol{M}
+        \begin{bmatrix}
+        k_2^{(sc220)} \\
+        k_2^{(sc222)}\\
+        k_2^{(sc319)} \\
+        k_2^{(sc321)}\\
+        k_2^{(1)} \\
+        k_2^{(2)}\\
+        \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \begin{bmatrix}
+        -|h_{3000}| \cos \psi_{3000} \\
+        -|h_{3000}| \sin \psi_{3000} \\
+        -|h_{1020}| \cos \psi_{1020} \\
+        -|h_{1020}| \sin \psi_{1020} \\
+        \end{bmatrix}_{(Bare)}
+         =
+        \boldsymbol{M}
+        \begin{bmatrix}
+        k_2^{(sc220)} \\
+        k_2^{(sc222)}\\
+        k_2^{(sc319)} \\
+        k_2^{(sc321)}\\
+        \end{bmatrix}        
+\end{equation}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/h3000_3qxcomp.png}
     \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point when correction elements are set to compensate $3Q_x=76$, i.e., $h_{3000}=0$.}
     \label{fig:h3000_3qxcomp}
- \end{figure}
+\end{figure}
 
- \begin{figure}[H]
+\begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/h1020_3qxcomp.png}
     \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point when correction elements are set to compensate $3Q_x=76$, i.e., $h_{3000}=0$.}
     \label{fig:h1020_3qxcomp}
- \end{figure}
+\end{figure}
 
 \section{Optimization of Compensation Currents}
 
