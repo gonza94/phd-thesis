@@ -57,3 +57,6 @@ Conf
 NAPAC
 kV
 SYNERGIA
+JACoW
+HB
+synchrotrons

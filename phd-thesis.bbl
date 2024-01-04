@@ -2463,6 +2463,331 @@
       \verb https://cds.cern.ch/record/2813716?ln=en
       \endverb
     \endentry
+    \entry{liu}{book}{}
+      \name{author}{14}{}{%
+        {{hash=027835f7e2c02b87f3e900f2e78f9061}{%
+           family={Damerau},
+           familyi={D\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d8eb8643756718619d0cc1011b7ed75f}{%
+           family={Funken},
+           familyi={F\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a757878ab5937f43ea8a0fe62fb85b30}{%
+           family={Garoby},
+           familyi={G\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e87680cd103d381ef63d08837b22ab76}{%
+           family={Gilardoni},
+           familyi={G\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=917a18ad2e15d1686e50dbfa493f36cf}{%
+           family={Goddard},
+           familyi={G\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=76a56c37c3c1bf26eed258a9eced0b2e}{%
+           family={Hanke},
+           familyi={H\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d507164cad06ce3a3fccbb31686f0fc9}{%
+           family={Lombardi},
+           familyi={L\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a31d4390b90e592db15cd04f5c89c0af}{%
+           family={Manglunki},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=edddfc7c45e15ad3934b48f9376051d0}{%
+           family={Meddahi},
+           familyi={M\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b66fb9ba88116f9a499fa9eb52e8d7cc}{%
+           family={Mikulec},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1796d960ef735684bc2e50b45bcd263d}{%
+           family={Rumolo},
+           familyi={R\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e4708c121f16d28a3b4552af0a59f297}{%
+           family={Shaposhnikova},
+           familyi={S\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=09d2d90a4aeedd6cf225e777fab046cc}{%
+           family={Vretenar},
+           familyi={V\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e269b2249fa4727819e5dc4cee9e6431}{%
+           family={Coupard},
+           familyi={C\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{91480137c09092dea171a84c35e8fd06}
+      \strng{fullhash}{85a5635d96ff8eaa3543ba3c3aae61ab}
+      \strng{bibnamehash}{91480137c09092dea171a84c35e8fd06}
+      \strng{authorbibnamehash}{91480137c09092dea171a84c35e8fd06}
+      \strng{authornamehash}{91480137c09092dea171a84c35e8fd06}
+      \strng{authorfullhash}{85a5635d96ff8eaa3543ba3c3aae61ab}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{LHC Injectors Upgrade, Technical Design Report}}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.17181/CERN.7NHR.6HGC
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1976692
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1976692
+      \endverb
+    \endentry
+    \entry{psbstrip}{article}{}
+      \name{author}{6}{}{%
+        {{hash=261e22606faa2898028c3249d96b7fa7}{%
+           family={Weterings},
+           familyi={W\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod}}}%
+        {{hash=641a811ec1518208aabb1f4ec412e24d}{%
+           family={Bracco},
+           familyi={B\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=62e074fcd9fd62ec175299fcca6825da}{%
+           family={Jorat},
+           familyi={J\bibinitperiod},
+           given={Louise\bibnamedelima Olivia},
+           giveni={L\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=20b740e77d325bea480a21a6c9181f41}{%
+           family={Meddahi},
+           familyi={M\bibinitperiod},
+           given={Malika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=51ae924ffa96fec84169b64cf1b0ecb1}{%
+           family={Noulibos},
+           familyi={N\bibinitperiod},
+           given={Remy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1a4f3e2053c92bc393a35b86e499ff92}{%
+           family={Van\bibnamedelima Trappen},
+           familyi={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{809f6beb3a09aa4da5de8855377170e1}
+      \strng{fullhash}{969b08b0060531d5cff3e703ab90ab23}
+      \strng{bibnamehash}{809f6beb3a09aa4da5de8855377170e1}
+      \strng{authorbibnamehash}{809f6beb3a09aa4da5de8855377170e1}
+      \strng{authornamehash}{809f6beb3a09aa4da5de8855377170e1}
+      \strng{authorfullhash}{969b08b0060531d5cff3e703ab90ab23}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The new injection region of the CERN PS Booster}}
+      \field{year}{2019}
+      \field{pages}{WEPMP039}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.18429/JACoW-IPAC2019-WEPMP039
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2693918
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2693918
+      \endverb
+    \endentry
+    \entry{foteini1}{article}{}
+      \name{author}{10}{}{%
+        {{hash=fc6e3f8425ade0b83d750635365ea0e0}{%
+           family={Asvesta},
+           familyi={A\bibinitperiod},
+           given={Foteini},
+           giveni={F\bibinitperiod}}}%
+        {{hash=519b438e0c11467f07bc0a9492dd6e98}{%
+           family={Albright},
+           familyi={A\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b13b33607e70e16db4d173778ca2946}{%
+           family={Antoniou},
+           familyi={A\bibinitperiod},
+           given={Fanouria},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d51147d5c76437aa3f78031ccc04a72e}{%
+           family={Bartosik},
+           familyi={B\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+        {{hash=641a811ec1518208aabb1f4ec412e24d}{%
+           family={Bracco},
+           familyi={B\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8abb1f13792f39caeb7520456abe77c4}{%
+           family={Di\bibnamedelima Giovanni},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Gian\bibnamedelima Piero},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7d215a2d54f6e0239a3a4007ecd27e7d}{%
+           family={Maclean},
+           familyi={M\bibinitperiod},
+           given={Ewen},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0da90a0d84e7cb03b8d2818f702cd117}{%
+           family={Mikulec},
+           familyi={M\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d5d75cb64fafa9287c74ef15c00bc684}{%
+           family={Prebibaj},
+           familyi={P\bibinitperiod},
+           given={Tirsi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ab30157d2f2910f9f3bfb4291e7ce38a}{%
+           family={Renner},
+           familyi={R\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d767829ebe264b87c8ebdce7d89a5537}
+      \strng{fullhash}{03d34e21a5698fc048e03844b07077c0}
+      \strng{bibnamehash}{d767829ebe264b87c8ebdce7d89a5537}
+      \strng{authorbibnamehash}{d767829ebe264b87c8ebdce7d89a5537}
+      \strng{authornamehash}{d767829ebe264b87c8ebdce7d89a5537}
+      \strng{authorfullhash}{03d34e21a5698fc048e03844b07077c0}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JACoW HB}
+      \field{title}{{Resonance Compensation for High Intensity and High Brightness Beams in the CERN PSB}}
+      \field{volume}{2021}
+      \field{year}{2022}
+      \field{pages}{40\bibrangedash 45}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.18429/JACoW-HB2021-MOP06
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2841816
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2841816
+      \endverb
+    \endentry
+    \entry{foteini2}{inproceedings}{}
+      \name{author}{10}{}{%
+        {{hash=3f7eb129dd5661c4d43d030980c59888}{%
+           family={Asvesta},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4d2ef600a393862be7688ba4ae69d33c}{%
+           family={Albright},
+           familyi={A\bibinitperiod},
+           given={S.C.P.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a7c1c608b4125ec6105de020ee93739a}{%
+           family={Antoniou},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=caa843f9a14d34c52daf5f86b05f3d07}{%
+           family={Bartosik},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=17a2ae3129cbb02a6265cb72f08c49f3}{%
+           family={Bracco},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a0315249d32daaecd5db120463b4866c}{%
+           family={Giovanni},
+           familyi={G\bibinitperiod},
+           given={G.P.\bibnamedelimi Di},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4eb818512e74e61d17eb0a0a0a59480c}{%
+           family={Renner},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1796d960ef735684bc2e50b45bcd263d}{%
+           family={Rumolo},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7dfbf057802d7930d888ea14a37e4a8a}{%
+           family={Skowroński},
+           familyi={S\bibinitperiod},
+           given={P.K.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=37a3a88c0a3141f7a9129233b5d92974}{%
+           family={Zannini},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {JACoW Publishing, Geneva, Switzerland}%
+      }
+      \strng{namehash}{ea37cc1fe0c64b30ac6eae4d61047cbb}
+      \strng{fullhash}{0944d11ce02669a08c75141b1578502f}
+      \strng{bibnamehash}{ea37cc1fe0c64b30ac6eae4d61047cbb}
+      \strng{authorbibnamehash}{ea37cc1fe0c64b30ac6eae4d61047cbb}
+      \strng{authornamehash}{ea37cc1fe0c64b30ac6eae4d61047cbb}
+      \strng{authorfullhash}{0944d11ce02669a08c75141b1578502f}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. IPAC'22}
+      \field{eid}{WEPOTK011}
+      \field{isbn}{978-3-95450-227-1}
+      \field{issn}{2673-5490}
+      \field{month}{07}
+      \field{number}{13}
+      \field{series}{International Particle Accelerator Conference}
+      \field{title}{{High Intensity Studies in the CERN Proton Synchrotron Booster}}
+      \field{venue}{Bangkok, Thailand}
+      \field{year}{2022}
+      \field{pages}{2056\bibrangedash 2059}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.18429/JACoW-IPAC2022-WEPOTK011
+      \endverb
+      \verb{urlraw}
+      \verb https://jacow.org/ipac2022/papers/wepotk011.pdf
+      \endverb
+      \verb{url}
+      \verb https://jacow.org/ipac2022/papers/wepotk011.pdf
+      \endverb
+      \keyw{resonance,injection,operation,proton,ISOL}
+    \endentry
     \entry{mionrr}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=24e4d90a8046dcd2087c70be0bc6ba83}{%
