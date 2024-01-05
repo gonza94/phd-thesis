@@ -61,3 +61,6 @@ JACoW
 HB
 synchrotrons
 sextupoles
+ferrite
+Defocusing
+FODO

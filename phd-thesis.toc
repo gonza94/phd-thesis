@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {3.2}General Description}{37}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Tune Diagram and Resonances}{42}{section.3.3}%
 \contentsline {section}{\numberline {3.4}High Intensity and Tune Footprint}{43}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Diagnostic Devices}{44}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Diagnostic Devices}{43}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Elements for Resonance Compensation}{46}{section.3.6}%
 \contentsline {chapter}{\chapternumberline {4}Compensation of Third-Order Resonances at Low Intensities}{47}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Global RDTs and Lattice Model}{47}{section.4.1}%

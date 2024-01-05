@@ -2451,8 +2451,8 @@
       \strng{authorbibnamehash}{22552363b818ea97be8a85cefdee8725}
       \strng{authornamehash}{22552363b818ea97be8a85cefdee8725}
       \strng{authorfullhash}{22552363b818ea97be8a85cefdee8725}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A graphic overview of all accelerators in operation at CERN.}
@@ -2542,8 +2542,8 @@
       \strng{authorbibnamehash}{91480137c09092dea171a84c35e8fd06}
       \strng{authornamehash}{91480137c09092dea171a84c35e8fd06}
       \strng{authorfullhash}{85a5635d96ff8eaa3543ba3c3aae61ab}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{LHC Injectors Upgrade, Technical Design Report}}
