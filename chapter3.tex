@@ -22,7 +22,7 @@ The Proton Improvement Plan II (PIP-II) is the first step in establishing the Fe
    \label{fig:fnalpip2}
 \end{figure}
 
-\section{General Description}
+\section{\label{sec:rrgen}General Description}
 
 The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835 GeV/c equivalent to an energy of 8 GeV. The basic cell structures of this machine are FODO (Focusing Quadrupole - Drift - Defocusing Quadrupole - Drift) cells. During its conception, the need for a quick and non-expensive design spurred the idea of combining quadrupole and dipole magnets into one combined function magnet. These combined function magnets can be seen in Fig. \ref{fig:rrtunnel} as the green covered magnets on the top ring--the Recycler Ring. In order to further reduce costs and human labor during its construction, these magnets were chosen to be permanent magnets made out of a strontium ferrite \cite{rr0}. Some advantages of having permanent magnets is that there is no need for power supplies, cooling systems or power distribution cables. Consequently, these type of magnets are very stable against time and temperature. Nevertheless, the magnetic field of such magnets does degrade over time. Reference \cite{rr1} shows how the fields in RR-type magnets can degrade around 1\% after 20 years. Ultimately, this slightly changes the nominal energy in the machine. 
 
@@ -115,7 +115,9 @@ Booster Frequency           & 15                                         & Hz   
 
 \section{Diagnostic Devices}
 
-The Recycler Ring has two main diagnostic devices 
+The Recycler Ring has two main diagnostic devices that fall under the scope of this work: the Beam Position Monitors (BPMs) and the Ion Profile Monitors (IPMs). Although both systems are used to quantify properties of the beam, each one gives different information about the beam distribution. In particular, BPMs are used to probe the first moment of the transverse distribution, i.e., the mean position or beam centroid of the bunch. This is done either in one plane or in both planes simultaneously, depending on the BPM system. On the other hand, IPMs go one order higher and give information about the second order moment of the transverse beam distribution---information about the variance and spread of the bunch. Specifically for the Recycler case, there is one IPM for the horizontal direction and another one for the vertical case.
+
+There 208 BPMs in the Recycler Ring in total. Specifically, there are 104 horizontal BPMs and 104 vertical BPMs. Each class is oriented in order to measure the corresponding plane. The BPMs are labelled according to their position around the ring as it was described in Sec. \ref{sec:rrgen} and in Fig. \ref{fig:rrschematic}. One BPM consists of two parallel pick-up electrodes that produce electric signal once the beam passes through. The beam position is determined from the relative amplitude between the signals of the opposing channels \cite{rrbpms}---also known as the $(A-B)/(A+B)$ signal. This signal is digitized and calibrated to include the scaling factors and offsets, ultimately, in order to represent the transverse beam position. The digitized signal from all 208 BPMs is interfaced to ACNET, in order to be used for accelerator applications. The resulting data is digitized every turn, hence known as turn-by-turn (TbT) data. Figure \ref{fig:bpmkick} shows an example of this TbT BPM data for a beam that was pinged in the horizontal direction recorded for 2048 turns.      
 
 \begin{figure}[H]
    \centering
@@ -123,6 +125,8 @@ The Recycler Ring has two main diagnostic devices
    \caption{BPM turn-by-turn data for an arbitrary kick at horizontal BPM R:HP620.}
    \label{fig:bpmkick}
 \end{figure}
+
+One important example of using TbT data is using it in order to perform tune measurements. As mentioned in Sec. \ref{sec:basic}, specifically in Eq. \ref{eq:betatron}, the motion inside the Recycler Ring will exhibit betatron oscillations. In particular, the main harmonic of these oscillations will be dictated by the tune frequency. Say a particular set of BPM TbT data has been recorded for $N$ number of turns. Therefore, a Fast-Fourier Transform (FFT) will help uncover and measure to FFT accuracy---$\sigma_Q\approx 1/N $---the main frequency of these oscillations. Figure \ref{fig:bpmfft} shows how the main peak of the FFT can be identified in order to measure the horizontal tune $Q_x$ of the circular accelerator. Furthermore, Ch. \ref{sec:ch4} will explore how a more involved Fourier Transform algorithm, such as NAFF (Numerical Analysis of Fundamental Frequencies) will help analyze the spectrum of TbT data and measure higher order harmonics, ultimately, leading to the measurement of RDTs in the RR.     
 
 \begin{figure}[H]
    \centering
