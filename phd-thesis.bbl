@@ -2352,6 +2352,56 @@
       \verb https://www.dunescience.org/
       \endverb
     \endentry
+    \entry{fermi_rookie}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=57eb27f1c65941c536a00c6433b894f8}{%
+           family={Department},
+           familyi={D\bibinitperiod},
+           given={Fermilab\bibnamedelimb Accelerator\bibnamedelimb Division\bibnamedelimb —\bibnamedelima Operations},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{fullhash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{bibnamehash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{authorbibnamehash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{authornamehash}{57eb27f1c65941c536a00c6433b894f8}
+      \strng{authorfullhash}{57eb27f1c65941c536a00c6433b894f8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Concepts Rookie Book}
+    \endentry
+    \entry{trombone}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=6e6ede3c9de6f73699c90cb2ea78f784}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{fullhash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{bibnamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{authorbibnamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{authornamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{authorfullhash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Particle Accelerator Conference}
+      \field{edition}{2005}
+      \field{number}{Proceedings of the Particle Accelerator Conference, PAC 2005}
+      \field{title}{Phase trombone program migration for the recycler ring at Fermilab.}
+      \field{volume}{2005}
+      \field{year}{2005}
+      \field{pages}{3135-3137 \bibrangedash  3137}
+      \range{pages}{-1}
+    \endentry
     \entry{rr2}{article}{}
       \name{author}{6}{}{%
         {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
@@ -2395,8 +2445,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -2416,26 +2466,6 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.020404
       \endverb
-    \endentry
-    \entry{fermi_rookie}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=57eb27f1c65941c536a00c6433b894f8}{%
-           family={Department},
-           familyi={D\bibinitperiod},
-           given={Fermilab\bibnamedelimb Accelerator\bibnamedelimb Division\bibnamedelimb —\bibnamedelima Operations},
-           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{57eb27f1c65941c536a00c6433b894f8}
-      \strng{fullhash}{57eb27f1c65941c536a00c6433b894f8}
-      \strng{bibnamehash}{57eb27f1c65941c536a00c6433b894f8}
-      \strng{authorbibnamehash}{57eb27f1c65941c536a00c6433b894f8}
-      \strng{authornamehash}{57eb27f1c65941c536a00c6433b894f8}
-      \strng{authorfullhash}{57eb27f1c65941c536a00c6433b894f8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Concepts Rookie Book}
     \endentry
     \entry{rrbpms}{article}{}
       \name{author}{9}{}{%
@@ -2841,8 +2871,8 @@
       \strng{authornamehash}{ea37cc1fe0c64b30ac6eae4d61047cbb}
       \strng{authorfullhash}{0944d11ce02669a08c75141b1578502f}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}
@@ -2898,8 +2928,8 @@
       \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}
@@ -2957,8 +2987,8 @@
       \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
       \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}

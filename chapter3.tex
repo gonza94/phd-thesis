@@ -24,7 +24,7 @@ The Proton Improvement Plan II (PIP-II) is the first step in establishing the Fe
 
 \section{\label{sec:rrgen}General Description}
 
-The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835 GeV/c equivalent to an energy of 8 GeV. The basic cell structures of this machine are FODO (Focusing Quadrupole - Drift - Defocusing Quadrupole - Drift) cells. During its conception, the need for a quick and non-expensive design spurred the idea of combining quadrupole and dipole magnets into one combined function magnet. These combined function magnets can be seen in Fig. \ref{fig:rrtunnel} as the green covered magnets on the top ring--the Recycler Ring. In order to further reduce costs and human labor during its construction, these magnets were chosen to be permanent magnets made out of a strontium ferrite \cite{rr0}. Some advantages of having permanent magnets is that there is no need for power supplies, cooling systems or power distribution cables. Consequently, these type of magnets are very stable against time and temperature. Nevertheless, the magnetic field of such magnets does degrade over time. Reference \cite{rr1} shows how the fields in RR-type magnets can degrade around 1\% after 20 years. Ultimately, this slightly changes the nominal energy in the machine. 
+The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835 GeV/c equivalent to an energy of 8 GeV. The basic cell structures of this machine are FODO (Focusing Quadrupole - Drift - Defocusing Quadrupole - Drift) cells. During its conception, the need for a quick and non-expensive design spurred the idea of combining quadrupole and dipole magnets into one combined function magnet. These combined function magnets can be seen in Fig. \ref{fig:rrtunnel} as the green covered magnets on the top ring---the Recycler Ring. In order to further reduce costs during its construction, these magnets were chosen to be permanent magnets made out of a strontium ferrite \cite{rr0}. Some advantages of having permanent magnets is that there is no need for power supplies, cooling systems or power distribution cables. Consequently, these type of magnets are very stable against time and temperature. Nevertheless, the magnetic field of such magnets does degrade over time. Reference \cite{rr1} shows how the fields in RR-type magnets can degrade around 1\% after 20 years. Ultimately, this slightly changes the nominal energy in the machine. 
 
 \begin{figure}[H]
    \centering
@@ -33,8 +33,9 @@ The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835
    \label{fig:rrtunnel}
 \end{figure}
 
+Figure \ref{fig:rrtunnel} reminds the reader that the Main Injector and the Recycler Ring share the same tunnel. This tunnel is divided into six sections with labels: 100, 200, 300, 400, 500 and 600. Injection from the Booster Ring into the Recycler takes place just after the beginning of section 100. Specifically, this happens at a Lambertson magnet labelled as LAM102. This is just an example of how every element in the RR or MI will be labelled according to their position in one of these sections. Figure \ref{fig:rrschematic} shows a schematic of the Recycler Ring section with some labels for important subsystems inside them. In particular, it shows the location close to 232 where beam is transferred from the Recycler Ring to the Main Injector. Figure \ref{fig:rrschematic} also presents the location in section 500 where beam is transferred from RR to the Muon Campus, as well as the location after 401 where beam is dumped towards the abort line \cite{rr1,fermi_rookie}.
 
-\cite{pipII1} \cite{rr2} \cite{fermi_rookie}
+An important subsystem as highlighted in Fig. \ref{fig:rrschematic} is the tune trombone. The RR has two of them, one located in sections 601-609 and another one in 301-309. A tune trombone or phase trombone is a linear insert composed of quadrupoles used to introduce local phase advances. These quadrupoles are powered in such a way that they add a controlled phase advance, while leaving the Twiss parameters unchanged at the end of the insert and matched to the start of the trombone \cite{trombone,rr0}. Ultimately, these subsystems introduce local tune changes that allow to control both tunes in a range of $\pm 0.5$, i.e., $\Delta Q_u = \pm 0.5$. The Recycler Ring has accelerator applications that allow to control these tune trombones and set the tunes to some desired values. Furthermore, this application allows introducing tune ramps, continuous linear changes in the tunes. This feature is crucial for building dynamic loss maps---an important tool to probe resonance lines as will be described in Sec. \ref{sec:lossmaps}.    
 
 \begin{figure}[H]
    \centering
@@ -43,38 +44,16 @@ The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835
    \label{fig:rrschematic}
 \end{figure}
 
-\begin{table}[H]
-\centering
-\caption{Typical Recycler Ring properties for beam sent to NuMI}
-\label{tab:rrparams}
-\begin{tabular}{@{}ccc@{}}
-\toprule
-\textbf{Parameter}          & \textbf{Value}                             & \textbf{Unit} \\ \midrule
-Circumference               & 3319.4                                     & m             \\
-Momentum                    & 8.835                                      & GeV/c         \\
-Revolution Period           & 11.1                                       & $\mu$s        \\
-Revolution Frequency        & 90.1                                       & kHz        \\
-RF Frequency                & 52.8                                       & MHz           \\
-RF Voltage                  & 80                                         & kV            \\
-Harmonic Number             & 588                                        &               \\
-Synchrotron Tune            & 0.0028                                     &               \\
-Slip Factor                 & -8.6 $\times$ 10$^{-3}$                    &               \\
-Superperiodicity            & 2                                          &               \\
-Horizontal Tune             & 25.43                                      &               \\
-Vertical Tune               & 24.445                                     &               \\
-Horizontal Chromaticity     & -6                                         &               \\
-Vertical Chromaticity       & -7                                         &               \\
-95\% Normalized Emittance   & 15                                         & $\pi$ mm mrad \\
-95\% Longitudinal Emittance & 0.08                                       & eV s          \\
-Intensity                   & $5\times10^{10}$                           & ppb           \\
-                            & $8\times10^{10}$ (PIP-II)                  & ppb           \\
-MI Ramp Time                & 1.2                                        & s             \\
-                            & 1.133                                      & s             \\
-                            & 1.067                                      & s             \\
-Booster Frequency           & 15                                         & Hz            \\
-                            & 20 (PIP-II)                                & Hz            \\ \bottomrule
-\end{tabular}
-\end{table}
+The Recycler Ring has 104 FODO cells distributed into 3 main groups around its 3319.4-meter circumference \cite{rr0}. The first group of cells are composed of two permanent magnet quadrupoles arranged in such a way that each cell has a phase advance of 90$^{\circ}$. There are 18 cells of this first group throughout the Recycler. The second group is defined by a cell with two combined function magnets in order to bend and focus the beam at the same time. This type of cell also has a phase advance of 90$^{\circ}$, with 54 cells of this type in the RR. Ultimately, the configuration of these cells will dictate the Twiss parameters around the ring. Figure \ref{fig:rrbetas} shows the beta functions $\beta_u(s)$ around the Recycler Ring tuned to some particular set of tunes. Some horizontal BPMs are marked in the upper horizontal axis as reference to note the corresponding section in the tunnel.    
+
+Before describing the third group, it is worth clarifying to the reader that the transverse motion inside any circular accelerator is dictated by:
+\begin{equation}
+   \label{eq:utotal}
+   u(s) = u_{\beta}(s) + D_u(s) \delta,
+\end{equation}
+where $u$ is either the $x$ or $y$ plane, $u_{\beta}(s)$ is the betatron motion as described by Eq. \ref{eq:betatron}, $D_u(s)$ is known as the dispersion function and $\delta=\Delta p/p_0$ is the fractional momentum deviation of an individual particle with respect to reference longitudinal momentum $p_0$. In Ch. \ref{sec:ch2}, specifically in Sec. \ref{sec:lie}, an assumption was made that the transverse coordinates were not going to be influenced by any longitudinal property, focusing on on-momentum particles, i.e., $\delta =0$. Nevertheless, for this section it is relevant to introduce the dispersion function $D_u(s)$ in order to describe the Recycler Ring in all its glory and detail. The dispersion function is dictated by the distribution of quadrupole and dipole component throughout the ring \cite{sylee}. Even so, the scope of this work regarding resonance compensation will not take into account any longitudinal-transverse coupling.   
+
+With all this said, the third group of cells is composed of special dispersion suppressor cells, $D_x(s)=0$ for these regions, each one having two combined function magnets and globally having a betatron phase advance of again 90$^{\circ}$. This type of cells will allow having dispersion-free regions which are necessary for injection, extraction and other special subsystems in the Recycler. There are 32 cells of this type. Figure \ref{fig:rrdisps} shows the dispersion functions for the Recycler Ring. The horizontal dispersion function $D_x(s)$ has regions of close-to-zero values thanks to this third type of FODO cells. The vertical dispersion is effectively negligible, i.e., $D_y(s)\approx 0$.
 
 \begin{figure}[H]
    \centering
@@ -83,11 +62,6 @@ Booster Frequency           & 15                                         & Hz   
    \label{fig:rrbetas}
 \end{figure}
 
-\begin{equation}
-   \label{eq:utotal}
-   u(s) = u_{\beta}(s) + D_u(s) \delta
-\end{equation}
-
 \begin{figure}[H]
    \centering
    \includegraphics[width=\columnwidth]{chapter3/disps.png}
@@ -95,7 +69,44 @@ Booster Frequency           & 15                                         & Hz   
    \label{fig:rrdisps}
 \end{figure}
 
+The ultimate role of the Recycler Ring is to smooth the way for high-intensity proton beam injection into the Main Injector. In particular, for the high-intensity beam that gets delivered to the neutrino experiments, the Recycler performs a beam manipulation known as slip-stacking.   \cite{pipII1} \cite{rr2} \cite{fermi_rookie}
+
+\begin{table}[H]
+   \centering
+   \caption{Typical Recycler Ring properties for beam sent to NuMI}
+   \label{tab:rrparams}
+   \begin{tabular}{@{}ccc@{}}
+   \toprule
+   \textbf{Parameter}          & \textbf{Value}                             & \textbf{Unit} \\ \midrule
+   Circumference               & 3319.4                                     & m             \\
+   Momentum                    & 8.835                                      & GeV/c         \\
+   Revolution Period           & 11.1                                       & $\mu$s        \\
+   Revolution Frequency        & 90.1                                       & kHz        \\
+   RF Frequency                & 52.8                                       & MHz           \\
+   RF Voltage                  & 80                                         & kV            \\
+   Harmonic Number             & 588                                        &               \\
+   Synchrotron Tune            & 0.0028                                     &               \\
+   Slip Factor                 & -8.6 $\times$ 10$^{-3}$                    &               \\
+   Superperiodicity            & 2                                          &               \\
+   Horizontal Tune             & 25.43                                      &               \\
+   Vertical Tune               & 24.445                                     &               \\
+   Horizontal Chromaticity     & -6                                         &               \\
+   Vertical Chromaticity       & -7                                         &               \\
+   95\% Normalized Emittance   & 15                                         & $\pi$ mm mrad \\
+   95\% Longitudinal Emittance & 0.08                                       & eV s          \\
+   Intensity                   & $5\times10^{10}$                           & ppb           \\
+                               & $8\times10^{10}$ (PIP-II)                  & ppb           \\
+   MI Ramp Time                & 1.2                                        & s             \\
+                               & 1.133                                      & s             \\
+                               & 1.067                                      & s             \\
+   Booster Frequency           & 15                                         & Hz            \\
+                               & 20 (PIP-II)                                & Hz            \\ \bottomrule
+   \end{tabular}
+   \end{table}
+
 \section{Tune Diagram and Resonances}
+
+The resonance lines that are relevant to the Recycler Ring are plotted in Fig. \ref{fig:rrtd}. Specifically, this study looks at normal sextupole lines $3 Q_x=76$ and $Q_x+2Q_y=74$, plus skew sextupole lines $3 Q_y=73$ and $2 Q_x+Q_y=75$.
 
 \begin{figure}[H]
    \centering
@@ -105,6 +116,8 @@ Booster Frequency           & 15                                         & Hz   
 \end{figure}
 
 \section{High Intensity and Tune Footprint}
+
+In order to achieve the PIP-II beam power objective, the Recycler will be required to store and accumulate 50\% more beam than current operations \cite{pipII1}. Figure \ref{fig:rrtdhigh} shows how for typical operation to the neutrino experiments under future PIP-II specifications, there is a space charge tune shift of around 0.1 in both planes. At nominal tunes, it is clear that for high intensity operation the particles in the core of the beam will start to operate on top of third order resonances.
 
 \begin{figure}[H]
    \centering
