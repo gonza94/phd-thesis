@@ -69,11 +69,11 @@ With all this said, the third group of cells is composed of special dispersion s
    \label{fig:rrdisps}
 \end{figure}
 
-The ultimate role of the Recycler Ring is to smooth the way for high-intensity proton beam injection into the Main Injector. In particular, for the high-intensity beam that gets delivered to the neutrino experiments, the Recycler performs a beam manipulation known as slip-stacking.   \cite{pipII1} \cite{rr2} \cite{fermi_rookie}
+The ultimate role of the Recycler Ring is to smooth the way for high-intensity proton beam injection into the Main Injector. In particular, for the high-intensity beam that gets delivered to the neutrino experiments, the Recycler performs a beam manipulation known as slip-stacking. Although this longitudinal manipulation is out of the main scope of this thesis, it is relevant to briefly explain this procedure since this is the Recycler Ring's main feature. Slip-stacking is the process through which a pair of bunches are manipulated in longitudinal phase space in order to merge them into one higher-intensity bunch \cite{fermi_rookie}. In particular, the RR utilizes two RF stations to decelerate and accelerate trains of bunches. The Recycler can fit 7 Booster Rings, hence 6+6 beam batches are injected and slip-stacked, while 1 batch space is left as a gap for the kickers to fire. Each batch is composed of 81 bunches in accordance to the harmonic number of the Recycler. A more detailed explanation of the Recycler Ring's slip-stacking procedure can be found in Refs. \cite{rr1,rr2,fermi_rookie}. Ultimately, this slip-stacking process is relevant because it doubles the particles per bunch intensity (ppb) which has important consequences for the transverse dynamics, as explained in Sec. \ref{sec:sc1}. Furthermore, Table \ref{tab:rrparams} summarizes some important parameters for the RR slip-stacking and for the general operation of neutrino-bound beam.     
 
 \begin{table}[H]
    \centering
-   \caption{Typical Recycler Ring properties for beam sent to NuMI}
+   \caption{Typical Recycler Ring properties for beam sent to NuMI, with some PIP-II nominal parameters.}
    \label{tab:rrparams}
    \begin{tabular}{@{}ccc@{}}
    \toprule
@@ -106,7 +106,7 @@ The ultimate role of the Recycler Ring is to smooth the way for high-intensity p
 
 \section{Tune Diagram and Resonances}
 
-The resonance lines that are relevant to the Recycler Ring are plotted in Fig. \ref{fig:rrtd}. Specifically, this study looks at normal sextupole lines $3 Q_x=76$ and $Q_x+2Q_y=74$, plus skew sextupole lines $3 Q_y=73$ and $2 Q_x+Q_y=75$.
+Table \ref{tab:rrparams} specifies nominal horizontal and vertical tunes for the operation of the Recycler Ring. While this pair of tunes can be switched around during operation in order to reduce losses, they will always stay clear of the surrounding transverse betatron resonances, as introduced in Sec. \ref{sec:resonances}. The resonance lines that are relevant to the Recycler Ring operation are plotted in Fig. \ref{fig:rrtd}, with their corresponding order in the multipole expansion. Specifically, this study looks at normal sextupole lines $3 Q_x=76$ and $Q_x+2Q_y=74$, plus skew sextupole lines $3 Q_y=73$ and $2 Q_x+Q_y=75$.
 
 \begin{figure}[H]
    \centering
@@ -115,9 +115,15 @@ The resonance lines that are relevant to the Recycler Ring are plotted in Fig. \
    \label{fig:rrtd}
 \end{figure}
 
+Starting from the lowest order resonance line, Fig. \ref{fig:rrtd} shows the second-order linear coupling line $Q_x-Q_y = 1$. This resonance line comes from skew-quadrupole component accumulated all around the ring. While operating on top of this resonance line won't lead to chaotic motion, the dynamics are characterized by action-exchange between the betatron modes \cite{sylee}. This exchange can cause emittance growth, eventually leading up to beam loss. Due to this fact, the Recycler Ring has two families of skew quadrupoles in order to correct this resonance line. Consequently, operating close to this resonance line is feasible with this correction.
+
+The third order resonance lines are the main focus of this thesis. They are driven by normal and skew sextupole component distributed all around the ring. In particular, it is known that the combined function magnets are the main drivers of these resonance lines. Even though these magnets were designed to be quadrupole and dipole only, they can still have sextupole component from construction errors. Nevertheless, since they are permanent magnets little can be done about the magnets themselves. As a result of this, the following work explores a compensation technique aimed towards bringing down the lattice RDTs that drive these resonance lines. This involves the usage of additional compensation sextupoles, elements which will be described in Sec. \ref{sec:css}. Chapter \ref{sec:ch4} goes into a deep dive explaining this approach from a theoretical and experimental point of view. 
+
+Finally, there are also fourth order resonance lines close to the nominal operation of the Recycler. These lines are driven by octupole components around the ring. In practice, $-Q_x+3Q_y = 48$ and $3Q_x-Q_y = 52$ are not particularly concerning to the operation of the RR. Their corresponding lattice RDTs are not large enough to consider them dangerous during the RR cycle, i.e., beam is stored for approximately 1 second. Nevertheless, these lines are interesting because fourth order resonance lines are susceptible to be amplified by the space charge potential through the SCRDTs, as described in Sec. \ref{sec:sc1}.    
+
 \section{High Intensity and Tune Footprint}
 
-In order to achieve the PIP-II beam power objective, the Recycler will be required to store and accumulate 50\% more beam than current operations \cite{pipII1}. Figure \ref{fig:rrtdhigh} shows how for typical operation to the neutrino experiments under future PIP-II specifications, there is a space charge tune shift of around 0.1 in both planes. At nominal tunes, it is clear that for high intensity operation the particles in the core of the beam will start to operate on top of third order resonances.
+In order to achieve the PIP-II beam power objective, the Recycler will be required to store and accumulate 50\% more beam than current operations \cite{pipII1}. As it was explained in Sec. \ref{sec:sc1}, larger beam intensities lead to larger space charge tune spread. Figure \ref{fig:rrtdhigh} shows how for typical operation to the neutrino experiments under future PIP-II specifications, there is a space charge tune spread of around 0.1 in both planes. At nominal tunes, it is clear that for high intensity operation the particles in the core of the beam will start to operate on top of third order resonances. One thing complicates this picture further, which is that particles will undergo synchrotron oscillations within the diamond shape region. This means that particles will go from the core of the beam to its outskirts, and its incoherent space charge tune shift will fluctuate accordingly. Therefore, particles will be crossing in and out of these third order resonances at a synchrotron period. Ultimately, Fig. \ref{fig:rrtdhigh} just tries to summarize the region of these excursions.  
 
 \begin{figure}[H]
    \centering
@@ -126,11 +132,13 @@ In order to achieve the PIP-II beam power objective, the Recycler will be requir
    \label{fig:rrtdhigh}
 \end{figure}
 
-\section{Diagnostic Devices}
+Figure \ref{fig:rrtdhigh} and the latter discussion motivate the need for mitigating the deleterious effects of $3 Q_x=76$ and $Q_x+2Q_y=74$, and a weaker effect for $3 Q_y=73$ and $2 Q_x+Q_y=75$. If the RDT of each resonance line is reduced, then their strength becomes less, losses in those regions become less, and ultimately there will be a larger area in the tune diagram for operation. This is desirable for PIP-II. Nevertheless, as it will be explored in Ch. \ref{sec:ch4}, compensating one resonance line might make another one worse and vice versa. Here lies the difficulty of this approach. Additionally, before going to PIP-II intensities, these third order resonance lines need to be characterized properly at low intensities. Experimentally, at high intensities, everything starts to blend together in the tune diagram due to the space charge tune shift. This motivates the fact to have a distinction between Ch. \ref{sec:ch4} and \ref{sec:ch6}.    
+
+\section{\label{sec:diagnostic}Diagnostic Devices}
 
 The Recycler Ring has two main diagnostic devices that fall under the scope of this work: the Beam Position Monitors (BPMs) and the Ion Profile Monitors (IPMs). Although both systems are used to quantify properties of the beam, each one gives different information about the beam distribution. In particular, BPMs are used to probe the first moment of the transverse distribution, i.e., the mean position or beam centroid of the bunch. This is done either in one plane or in both planes simultaneously, depending on the BPM system. On the other hand, IPMs go one order higher and give information about the second order moment of the transverse beam distribution---information about the variance and spread of the bunch. Specifically for the Recycler case, there is one IPM for the horizontal direction and another one for the vertical case.
 
-There 208 BPMs in the Recycler Ring in total. Specifically, there are 104 horizontal BPMs and 104 vertical BPMs. Each class is oriented in order to measure the corresponding plane. The BPMs are labelled according to their position around the ring as it was described in Sec. \ref{sec:rrgen} and in Fig. \ref{fig:rrschematic}. One BPM consists of two parallel pick-up electrodes that produce electric signal once the beam passes through. The beam position is determined from the relative amplitude between the signals of the opposing channels \cite{rrbpms}---also known as the $(A-B)/(A+B)$ signal. This signal is digitized and calibrated to include the scaling factors and offsets, ultimately, in order to represent the transverse beam position. The digitized signal from all 208 BPMs is interfaced to ACNET, in order to be used for accelerator applications. The resulting data is digitized every turn, hence known as turn-by-turn (TbT) data. Figure \ref{fig:bpmkick} shows an example of this TbT BPM data for a beam that was pinged in the horizontal direction recorded for 2048 turns.      
+There are 208 BPMs in the Recycler Ring in total. Specifically, there are 104 horizontal BPMs and 104 vertical BPMs. Each class is oriented in order to measure the corresponding plane. The BPMs are labelled according to their position around the ring as it was described in Sec. \ref{sec:rrgen} and in Fig. \ref{fig:rrschematic}. One BPM consists of two parallel pick-up electrodes that produce electric signal once the beam passes through. The beam position is determined from the relative amplitude between the signals of the opposing channels \cite{rrbpms}---also known as the $(A-B)/(A+B)$ signal. This signal is digitized and calibrated to include the scaling factors and offsets, ultimately, in order to represent the transverse beam position. The digitized signal from all 208 BPMs is interfaced to ACNET, in order to be used for accelerator applications. The resulting data is digitized every turn, hence known as turn-by-turn (TbT) data. Figure \ref{fig:bpmkick} shows an example of this TbT BPM data for a beam that was pinged in the horizontal direction and recorded for 2048 turns.      
 
 \begin{figure}[H]
    \centering
@@ -139,7 +147,7 @@ There 208 BPMs in the Recycler Ring in total. Specifically, there are 104 horizo
    \label{fig:bpmkick}
 \end{figure}
 
-One important example of using TbT data is using it in order to perform tune measurements. As mentioned in Sec. \ref{sec:basic}, specifically in Eq. \ref{eq:betatron}, the motion inside the Recycler Ring will exhibit betatron oscillations. In particular, the main harmonic of these oscillations will be dictated by the tune frequency. Say a particular set of BPM TbT data has been recorded for $N$ number of turns. Therefore, a Fast-Fourier Transform (FFT) will help uncover and measure to FFT accuracy---$\sigma_Q\approx 1/N $---the main frequency of these oscillations. Figure \ref{fig:bpmfft} shows how the main peak of the FFT can be identified in order to measure the horizontal tune $Q_x$ of the circular accelerator. Furthermore, Ch. \ref{sec:ch4} will explore how a more involved Fourier Transform algorithm, such as NAFF (Numerical Analysis of Fundamental Frequencies) will help analyze the spectrum of TbT data and measure higher order harmonics, ultimately, leading to the measurement of RDTs in the RR.     
+One important example of using TbT data is using it in order to perform tune measurements. As mentioned in Sec. \ref{sec:basic}, specifically in Eq. \ref{eq:betatron}, the motion inside the Recycler Ring will exhibit betatron oscillations. In particular, the main harmonic of these oscillations will be dictated by the tune frequency. Say a particular set of BPM TbT data has been recorded for $N$ number of turns. Therefore, a Fast-Fourier Transform (FFT) will help uncover and measure to FFT accuracy---$\sigma_Q\approx 1/N $---the main frequency of these oscillations. Figure \ref{fig:bpmfft} shows how the main peak of the FFT can be identified in order to measure the horizontal tune $Q_x$ of the circular accelerator. Furthermore, Ch. \ref{sec:ch4} will explore how a more involved Fourier Transform algorithm, such as NAFF (Numerical Analysis of Fundamental Frequencies) \cite{naff}, will help analyze the spectrum of TbT data and measure higher order harmonics, ultimately, leading to the measurement of RDTs in the RR.     
 
 \begin{figure}[H]
    \centering
@@ -148,11 +156,22 @@ One important example of using TbT data is using it in order to perform tune mea
    \label{fig:bpmfft}
 \end{figure}
 
-\section{Elements for Resonance Compensation}
+The second type of diagnostics relevant to this work are the Ion Profile Monitors (IPMs). As mentioned before, this device is used to measure the beam size in the Recycler Ring. The RR has two IPM systems: one for the horizontal plane and another one for the vertical. One special characteristic of IPMs relies on their non-destructive nature. The working principle of this system is to collect ions created in the interaction between the proton beam and residual molecules in the vacuum. The secondary ions are detected with micro-channel plates (MCP), which biased at an arbitrary high voltage \cite{betiay}. The counts at each MCP are logged in and digitized in order to be compatible with ACNET. Similar to the BPM systems, an application was developed to control and use the IPM system.     
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=\columnwidth]{chapter3/ipm.png}
+   \caption{Reconstructed beam profile for the horizontal plane assuming Gaussian distributions along 1024 turns for an arbitrary beam in the Recycler Ring.}
+   \label{fig:ipm0}
+\end{figure}
+
+Figure \ref{fig:ipm0} shows the reconstruction of the horizontal beam profile from the raw data of the IPM micro-channel plates. At every turn, the raw count data from each of the 96 MCP is fit to Gaussian beam distribution resulting in some variance $\sigma$. The color map shows the evolution of this beam profile along 1024 turns. The IPM system can record up to 64000 turns. Nevertheless, it batches the data in such a way that it can fit into a $1024 \times 96$ array. In particular, Fig. \ref{fig:ipm0} shows how for this arbitrary experimental conditions the size of the beam grows with the number of turns---this is pointing at emittance growth. Other distributions different from a Gaussian can be used to fit the raw data in order to extract more information about the skewness or tail population of the beam, e.g., a q-Gaussian or a Skew-Gaussian distribution.
+
+\section{\label{sec:css}Elements for Resonance Compensation}
 
 \begin{figure}[H]
    \centering
    \includegraphics[width=\columnwidth]{chapter3/sextupoles.png}
-   \caption{Picture of compensation sextupoles (yellow magnets on top) installed in the Recycler Ring.}
+   \caption{Picture of compensation sextupoles (yellow magnets on top) installed in the Recycler Ring. Picture provided by Dr. Robert Ainsworth.}
    \label{fig:sextupoles}
 \end{figure}

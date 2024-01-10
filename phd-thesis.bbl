@@ -2547,6 +2547,88 @@
       \verb https://doi.org/10.1063/1.1831147
       \endverb
     \endentry
+    \entry{naff}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d9ee141863afa4620992317f8a96dcff}{%
+           family={Laskar},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9ee141863afa4620992317f8a96dcff}
+      \strng{fullhash}{d9ee141863afa4620992317f8a96dcff}
+      \strng{bibnamehash}{d9ee141863afa4620992317f8a96dcff}
+      \strng{authorbibnamehash}{d9ee141863afa4620992317f8a96dcff}
+      \strng{authornamehash}{d9ee141863afa4620992317f8a96dcff}
+      \strng{authorfullhash}{d9ee141863afa4620992317f8a96dcff}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0019-1035}
+      \field{journaltitle}{Icarus}
+      \field{number}{2}
+      \field{title}{The chaotic motion of the solar system: A numerical estimate of the size of the chaotic zones}
+      \field{volume}{88}
+      \field{year}{1990}
+      \field{pages}{266\bibrangedash 291}
+      \range{pages}{26}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0019-1035(90)90084-M
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/001910359090084M
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/001910359090084M
+      \endverb
+    \endentry
+    \entry{betiay}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=f75791c526c8552abd3dfeee096bb095}{%
+           family={Babacan},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2a4b746cf9ad7657b14c9391bcfdc7be}{%
+           family={Hazelwood},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=cf6d8cbdd37c222c4ed82f97f36d975f}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=763df4ffb7a13e2ad71076e18d834a5f}{%
+           family={Snopok},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd0b12cf1df607aecd681ba58ef8f087}
+      \strng{fullhash}{3966d6ee3b36f4cc83eb48b8a53bef7f}
+      \strng{bibnamehash}{fd0b12cf1df607aecd681ba58ef8f087}
+      \strng{authorbibnamehash}{fd0b12cf1df607aecd681ba58ef8f087}
+      \strng{authornamehash}{fd0b12cf1df607aecd681ba58ef8f087}
+      \strng{authorfullhash}{3966d6ee3b36f4cc83eb48b8a53bef7f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.acc-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{The Ionization Profile Monitors in the Recycler Ring}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2307.07017
+      \endverb
+    \endentry
     \entry{cernplot}{misc}{}
       \name{author}{1}{}{%
         {{hash=22552363b818ea97be8a85cefdee8725}{%
@@ -2707,8 +2789,8 @@
       \strng{authorbibnamehash}{809f6beb3a09aa4da5de8855377170e1}
       \strng{authornamehash}{809f6beb3a09aa4da5de8855377170e1}
       \strng{authorfullhash}{969b08b0060531d5cff3e703ab90ab23}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{The new injection region of the CERN PS Booster}}
@@ -2785,8 +2867,8 @@
       \strng{authornamehash}{d767829ebe264b87c8ebdce7d89a5537}
       \strng{authorfullhash}{03d34e21a5698fc048e03844b07077c0}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{JACoW HB}
