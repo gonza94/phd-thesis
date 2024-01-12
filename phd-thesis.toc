@@ -20,24 +20,24 @@
 \contentsline {section}{\numberline {3.3}Tune Diagram and Resonances}{43}{section.3.3}%
 \contentsline {section}{\numberline {3.4}High Intensity and Tune Footprint}{44}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Diagnostic Devices}{46}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Elements for Resonance Compensation}{50}{section.3.6}%
-\contentsline {chapter}{\chapternumberline {4}Compensation of Third-Order Resonances at Low Intensities}{51}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Global RDTs and Lattice Model}{51}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Measurement of Third Order RDTs}{52}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Compensation of RDTs}{54}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Optimization of Compensation Currents}{56}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Experimental Verification of Compensation}{56}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Dynamic Loss Maps}{56}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Static Tune Scans}{56}{subsection.4.5.2}%
-\contentsline {chapter}{\chapternumberline {5}Resonance Compensation Studies at the CERN Proton Synchrotron Booster}{57}{chapter.5}%
-\contentsline {section}{\numberline {5.1}General Description}{57}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Tune Diagram and Operation}{58}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Optimization Algorithms for Resonance Compensation}{58}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Experimental Verification of Compensation}{58}{section.5.4}%
-\contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{59}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{59}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{59}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Measurement of Tune Shift}{59}{section.6.3}%
+\contentsline {section}{\numberline {3.6}Sextupoles for Resonance Compensation}{50}{section.3.6}%
+\contentsline {chapter}{\chapternumberline {4}Compensation of Third-Order Resonances at Low Intensities}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Global RDTs and Lattice Model}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Measurement of Third Order RDTs}{54}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Compensation of RDTs}{56}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Optimization of Compensation Currents}{58}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Experimental Verification of Compensation}{58}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Dynamic Loss Maps}{58}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Static Tune Scans}{58}{subsection.4.5.2}%
+\contentsline {chapter}{\chapternumberline {5}Resonance Compensation Studies at the CERN Proton Synchrotron Booster}{59}{chapter.5}%
+\contentsline {section}{\numberline {5.1}General Description}{59}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tune Diagram and Operation}{60}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Optimization Algorithms for Resonance Compensation}{60}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Experimental Verification of Compensation}{60}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{61}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{61}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Measurement of Tune Shift}{61}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{61}{section.6.4}%
 \contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{62}{chapter.7}%
 \cftinsert {BIB}

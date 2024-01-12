@@ -35,7 +35,7 @@ The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835
 
 Figure \ref{fig:rrtunnel} reminds the reader that the Main Injector and the Recycler Ring share the same tunnel. This tunnel is divided into six sections with labels: 100, 200, 300, 400, 500 and 600. Injection from the Booster Ring into the Recycler takes place just after the beginning of section 100. Specifically, this happens at a Lambertson magnet labelled as LAM102. This is just an example of how every element in the RR or MI will be labelled according to their position in one of these sections. Figure \ref{fig:rrschematic} shows a schematic of the Recycler Ring section with some labels for important subsystems inside them. In particular, it shows the location close to 232 where beam is transferred from the Recycler Ring to the Main Injector. Figure \ref{fig:rrschematic} also presents the location in section 500 where beam is transferred from RR to the Muon Campus, as well as the location after 401 where beam is dumped towards the abort line \cite{rr1,fermi_rookie}.
 
-An important subsystem as highlighted in Fig. \ref{fig:rrschematic} is the tune trombone. The RR has two of them, one located in sections 601-609 and another one in 301-309. A tune trombone or phase trombone is a linear insert composed of quadrupoles used to introduce local phase advances. These quadrupoles are powered in such a way that they add a controlled phase advance, while leaving the Twiss parameters unchanged at the end of the insert and matched to the start of the trombone \cite{trombone,rr0}. Ultimately, these subsystems introduce local tune changes that allow to control both tunes in a range of $\pm 0.5$, i.e., $\Delta Q_u = \pm 0.5$. The Recycler Ring has accelerator applications that allow to control these tune trombones and set the tunes to some desired values. Furthermore, this application allows introducing tune ramps, continuous linear changes in the tunes. This feature is crucial for building dynamic loss maps---an important tool to probe resonance lines as will be described in Sec. \ref{sec:lossmaps}.    
+An important subsystem as highlighted in Fig. \ref{fig:rrschematic} is the tune trombone. The RR has two of them, one located in sections 601-609 and another one in 301-309. A tune trombone or phase trombone is a linear insert composed of quadrupoles used to introduce local phase advances. These quadrupoles are powered in such a way that they add a controlled phase advance, while leaving the Twiss parameters unchanged at the end of the insert and matched to the start of the trombone \cite{trombone,rr0}. Ultimately, these subsystems introduce local tune changes that allow to control both tunes in a range of $\pm 0.5$, i.e., $\Delta Q_u = \pm 0.5$. The Recycler Ring has accelerator applications through ACNET that allow to control these tune trombones and set the tunes to some desired values. Furthermore, this application allows introducing tune ramps, continuous linear changes in the tunes. This feature is crucial for building dynamic loss maps---an important tool to probe resonance lines as will be described in Sec. \ref{sec:lossmaps}.    
 
 \begin{figure}[H]
    \centering
@@ -132,7 +132,7 @@ In order to achieve the PIP-II beam power objective, the Recycler will be requir
    \label{fig:rrtdhigh}
 \end{figure}
 
-Figure \ref{fig:rrtdhigh} and the latter discussion motivate the need for mitigating the deleterious effects of $3 Q_x=76$ and $Q_x+2Q_y=74$, and a weaker effect for $3 Q_y=73$ and $2 Q_x+Q_y=75$. If the RDT of each resonance line is reduced, then their strength becomes less, losses in those regions become less, and ultimately there will be a larger area in the tune diagram for operation. This is desirable for PIP-II. Nevertheless, as it will be explored in Ch. \ref{sec:ch4}, compensating one resonance line might make another one worse and vice versa. Here lies the difficulty of this approach. Additionally, before going to PIP-II intensities, these third order resonance lines need to be characterized properly at low intensities. Experimentally, at high intensities, everything starts to blend together in the tune diagram due to the space charge tune shift. This motivates the fact to have a distinction between Ch. \ref{sec:ch4} and \ref{sec:ch6}.    
+Figure \ref{fig:rrtdhigh} and the latter discussion motivate the need for mitigating the deleterious effects of $3 Q_x=76$ and $Q_x+2Q_y=74$, and weaker effects from $3 Q_y=73$ and $2 Q_x+Q_y=75$. If the RDT of each resonance line is reduced, then their strength becomes less, losses in those regions become less, and ultimately there will be a larger area in the tune diagram for operation. This is desirable for PIP-II. Nevertheless, as it will be explored in Ch. \ref{sec:ch4}, compensating one resonance line might make another one worse and vice versa. Here lies the difficulty of this approach. Additionally, before going to PIP-II intensities, these third order resonance lines need to be characterized properly at low intensities. Experimentally, at high intensities, everything starts to blend together in the tune diagram due to the space charge tune shift. This motivates the fact to have a distinction between Ch. \ref{sec:ch4} and \ref{sec:ch6}.    
 
 \section{\label{sec:diagnostic}Diagnostic Devices}
 
@@ -156,7 +156,7 @@ One important example of using TbT data is using it in order to perform tune mea
    \label{fig:bpmfft}
 \end{figure}
 
-The second type of diagnostics relevant to this work are the Ion Profile Monitors (IPMs). As mentioned before, this device is used to measure the beam size in the Recycler Ring. The RR has two IPM systems: one for the horizontal plane and another one for the vertical. One special characteristic of IPMs relies on their non-destructive nature. The working principle of this system is to collect ions created in the interaction between the proton beam and residual molecules in the vacuum. The secondary ions are detected with micro-channel plates (MCP), which biased at an arbitrary high voltage \cite{betiay}. The counts at each MCP are logged in and digitized in order to be compatible with ACNET. Similar to the BPM systems, an application was developed to control and use the IPM system.     
+The second type of diagnostics relevant to this work are the Ion Profile Monitors (IPMs). As mentioned before, this device is used to measure the beam size in the Recycler Ring. The RR has two IPM systems: one for the horizontal plane and another one for the vertical. One special characteristic of IPMs relies on their non-destructive nature. The working principle of this system is to collect ions created in the interaction between the proton beam and residual molecules in the vacuum. The secondary ions are detected with micro-channel plates (MCP), which are biased at an arbitrary high voltage \cite{betiay}. The counts at each MCP are logged in and digitized in order to be compatible with ACNET. Similar to the BPM systems, an application was developed to control and use the IPM system.     
 
 \begin{figure}[H]
    \centering
@@ -167,7 +167,39 @@ The second type of diagnostics relevant to this work are the Ion Profile Monitor
 
 Figure \ref{fig:ipm0} shows the reconstruction of the horizontal beam profile from the raw data of the IPM micro-channel plates. At every turn, the raw count data from each of the 96 MCP is fit to Gaussian beam distribution resulting in some variance $\sigma$. The color map shows the evolution of this beam profile along 1024 turns. The IPM system can record up to 64000 turns. Nevertheless, it batches the data in such a way that it can fit into a $1024 \times 96$ array. In particular, Fig. \ref{fig:ipm0} shows how for this arbitrary experimental conditions, the size of the beam grows with the number of turns---this is pointing at emittance growth. Other distributions different from a Gaussian can be used to fit the raw data in order to extract more information about the skewness or tail population of the beam, e.g., a q-Gaussian or a Skew-Gaussian distribution.
 
-\section{\label{sec:css}Elements for Resonance Compensation}
+\section{\label{sec:css}Sextupoles for Resonance Compensation}
+
+The ideal linear lattice of a circular accelerator would be composed only of dipoles and quadrupoles---assuming the beam is composed of mono-energetic particles. Nevertheless, this is a strong assumption given that a bunch of particles will always have an energy spread. Particles orbiting at different energies will feel different quadrupole fields resulting in  betatron detuning. This is the definition of chromaticity, and therefore its mathematical definition reads:
+\begin{equation}
+   \label{eq:chrom}
+   C_u=\frac{d \left( \Delta Q_u \right)}{d \delta}.
+\end{equation}    
+
+Every real ring will have a non-zero chromaticity. Sextupoles are crucial elements to control and correct chromaticity \cite{sylee}, therefore, they are indispensable in any lattice. Nevertheless, as it was explained in Ch. \ref{sec:ch2}, introducing non-linear elements inevitably leads to driving betatron resonances, e.g., sextupoles will drive third order resonances. In this sense, and dramatically speaking, sextupoles are double-edged swords. They are essential for chromaticity correction but deleterious by inducing resonances in the accelerator.
+
+The Recycler Ring has 76 sextupoles, including normal and skew sextupoles. Additionally, each gradient magnet, as described in Sec. \ref{sec:rrgen}, has end shims on both ends and are used to correct the field shape \cite{meiqin2}. These end shims can also induce sextupole field on the beam. It is also worth reminding the reader that the gradient magnets, themselves, also have sextupole components in their permanent fields. All of these builds up to the fact that the chromaticity of the Recycler Ring can be controlled in a range of -2 to -20, in both planes, i.e., $Q_u\in (-2, -20)$.    
+
+\begin{table}[H]
+   \centering
+   \caption{List of sextupoles used for the purpose of compensating third-order resonances in the Recycler Ring.}
+   \label{tab:sextscomp}
+   \begin{tabular}{|c|c|}
+   \hline
+   \textbf{Name} & \textbf{Type}    \\ \hline
+   SC220(a/b)    & Normal Sextupole \\ \hline
+   SC222(a/b)    & Normal Sextupole \\ \hline
+   SC319(a/b)    & Normal Sextupole \\ \hline
+   SC321(a/b)    & Normal Sextupole \\ \hline
+   SS222(a/b)    & Skew Sextupole   \\ \hline
+   SS319(a/b)    & Skew Sextupole   \\ \hline
+   SS321(a/b)    & Skew Sextupole   \\ \hline
+   SS323(a/b)    & Skew Sextupole   \\ \hline
+   \end{tabular}
+   \end{table}
+
+In particular, out of all the sextupoles in the Recycler Ring, this thesis work is interested in the ones listed in Table \ref{tab:sextscomp}. These elements have been placed in the Recycler Ring with the sole objective of mitigating the harmful effect of the third order resonances \cite{rr2}. The elements listed in Table \ref{tab:sextscomp} are in regions of close-to-zero dispersion, $D_x \approx 0$, in order to cancel out any additional chromaticity due to their inclusion. In principle, normal sextupoles are used to correct $3Q_x=76$ and $Q_x+2Q_y=74$, while skew sextupoles are used to correct $3Q_y=73$ and $2Q_x+Q_y=75$. Nevertheless, normal sextupoles can have small tilts around the magnetic axis, which introduces skew sextupole field, and vice versa.
+
+Figure \ref{fig:sextupoles} shows an example of these sextupoles installed in the Recycler Ring. As it can be seen, there are two yellow-coated elements installed in the top ring. While there are two elements close together, they are powered by the same power supply. Hence, the notation in Table \ref{tab:sextscomp} alluding to a and b elements, e.g., normal sextupoles SC220(a/b). The numbers in the name allude to their location in the RR/MI tunnel, as illustrated in Fig. \ref{fig:rrschematic}. Given that each pair of elements, a and b, are connected to the same power supply, these two elements effectively become one knob. The currents for the power supply are controlled through ACNET. This is important for the reader to remember, given that in Ch. \ref{sec:ch4}, the currents of the sextupoles listed in Table \ref{tab:sextscomp} will be the main knobs turned in order to mitigate the strength of these resonances.    
 
 \begin{figure}[H]
    \centering

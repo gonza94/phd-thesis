@@ -2389,6 +2389,7 @@
       \strng{authorbibnamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
       \strng{authornamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
       \strng{authorfullhash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \field{extraname}{1}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -2629,6 +2630,33 @@
       \verb 2307.07017
       \endverb
     \endentry
+    \entry{meiqin2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6e6ede3c9de6f73699c90cb2ea78f784}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{fullhash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{bibnamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{authorbibnamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{authornamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \strng{authorfullhash}{6e6ede3c9de6f73699c90cb2ea78f784}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.acc-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Recycler Chromaticities and End Shims for NOvA at Fermilab}
+      \field{year}{2013}
+      \verb{eprint}
+      \verb 1301.6666
+      \endverb
+    \endentry
     \entry{cernplot}{misc}{}
       \name{author}{1}{}{%
         {{hash=22552363b818ea97be8a85cefdee8725}{%
@@ -2643,8 +2671,8 @@
       \strng{authorbibnamehash}{22552363b818ea97be8a85cefdee8725}
       \strng{authornamehash}{22552363b818ea97be8a85cefdee8725}
       \strng{authorfullhash}{22552363b818ea97be8a85cefdee8725}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A graphic overview of all accelerators in operation at CERN.}
@@ -2734,8 +2762,8 @@
       \strng{authorbibnamehash}{91480137c09092dea171a84c35e8fd06}
       \strng{authornamehash}{91480137c09092dea171a84c35e8fd06}
       \strng{authorfullhash}{85a5635d96ff8eaa3543ba3c3aae61ab}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{LHC Injectors Upgrade, Technical Design Report}}
@@ -3127,8 +3155,8 @@
       \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
       \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'23}

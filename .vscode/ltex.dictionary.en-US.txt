@@ -67,3 +67,6 @@ FODO
 IPMs
 ACNET
 TbT
+NOvA
+acc-ph
+Sextupoles
