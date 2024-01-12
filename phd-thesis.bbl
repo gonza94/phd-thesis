@@ -2657,6 +2657,12 @@
       \verb 1301.6666
       \endverb
     \endentry
+    \entry{sussix}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{SUSSIX: A Computer Code for Frequency Analysis of Nonlinear Betatron Motion}
+    \endentry
     \entry{cernplot}{misc}{}
       \name{author}{1}{}{%
         {{hash=22552363b818ea97be8a85cefdee8725}{%
@@ -3038,8 +3044,8 @@
       \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}
@@ -3097,8 +3103,8 @@
       \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
       \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}

@@ -35,9 +35,47 @@
 
 \section{Measurement of Third Order RDTs}
 
+\begin{equation}
+    \label{eq:hxspect}
+    h_x^{-}(N)= \hat{x} \pm \hat{p}_x = \sum_{jklm}HSL_{jklm}e^{2\pi i N \left[ \left( 1-j+k\right)Q_x+\left( m-l \right)Q_y\right]}
+\end{equation}
+
+\begin{equation}
+    \label{eq:hyspect}
+    h_y^{-}(N)= \hat{y} \pm \hat{p}_y = \sum_{jklm}VSL_{jklm}e^{2\pi i N \left[ \left( k-j\right)Q_x+\left(1-l+m \right)Q_y\right]}
+\end{equation}
+
+\begin{multline}
+    \label{eq:hxpsi2}
+    h_x^{-}(N)=\sqrt{2I_x}e^{i\left( \psi_x+\psi_{x_0}\right)} \\
+    -2i \sum_{jklm} j f_{jklm} \left( 2I_x \right)^{\frac{j+k-1}{2}}\left( 2I_y \right)^{\frac{l+m}{2}}
+    e^{i \left[ \left( 1-j+k\right)\left( \psi_x + \psi_{x_0} \right) +\left( m-l\right)\left( \psi_y + \psi_{y_0} \right)\right]}.
+\end{multline}
+
+\begin{multline}
+    \label{eq:hypsi2}
+    h_y^{-}(N)=\sqrt{2I_y}e^{i\left( \psi_y+\psi_{y_0}\right)} \\
+    -2i \sum_{jklm} l f_{jklm} \left( 2I_x \right)^{\frac{j+k}{2}}\left( 2I_y \right)^{\frac{l+m-1}{2}}
+    e^{i \left[ \left( k-j\right)\left( \psi_x + \psi_{x_0} \right) +\left( 1-l+m\right)\left( \psi_y + \psi_{y_0} \right)\right]}.
+\end{multline}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/hxspect.png}
+    \caption{Spectral lines of $h_x^{-}$ calculated with SUSSIX \cite{sussix}. The $h_x^{-}$ signal was reconstructed for the 104 Horizontal BPMs. The spectrum for all BPMs is superimposed in this plot.}
+    \label{fig:hxspect1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/hyspect.png}
+    \caption{Spectral lines of $h_y^{-}$ calculated with SUSSIX \cite{sussix}. The $h_y^{-}$ signal was reconstructed for the 104 Vertical BPMs. The spectrum for all BPMs is superimposed in this plot.}
+    \label{fig:hyspect1}
+\end{figure}
+
 \begin{table}[H]
     \centering
-    \caption{Corresponding RDTs and spectral lines for each resonance line.}
+    \caption{Corresponding RDTs and location of spectral lines for each resonance line.}
     \begin{tabular}{lcccc}
         \toprule
         \textbf{Resonance Line} & \textbf{Source} & \textbf{RDT} & \textbf{Hor. Spect.} & \textbf{Vert. Spect.} \\
