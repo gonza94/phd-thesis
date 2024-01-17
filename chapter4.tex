@@ -203,4 +203,65 @@
 
 \subsection{\label{sec:lossmaps}Dynamic Loss Maps}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/bare.png}
+    \caption{Dynamic loss map from ramping the tunes with an interval of $\Delta Q_u=0.005$ in both directions. The directions of scan are from left to right and top to bottom. The results are superimposed in this plot.}
+    \label{fig:bare_nocomments}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/bare_comments.png}
+    \caption{Dynamic loss map with the corresponding lines from Fig. \ref{fig:rrtd} drawn on top.}
+    \label{fig:bare_comments}
+\end{figure}
+
+
+\newpage
+\begin{figure}[H]
+
+    \centering
+    \begin{subfigure}{.49\textwidth}
+      \includegraphics[width=0.98\linewidth]{chapter4/bare.png}
+      \caption{Bare machine}
+      \label{fig:sfig1}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}{.49\textwidth}
+      \includegraphics[width=0.98\linewidth]{chapter4/3qx.png}
+      \caption{$3Q_x$ Compensation}
+      \label{fig:sfig2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.49\textwidth}
+      \includegraphics[width=0.98\linewidth]{chapter4/3qy.png}
+      \caption{$3Q_y$ Compensation}
+      \label{fig:sfig3}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.49\textwidth}
+      \includegraphics[width=0.98\linewidth]{chapter4/3qx_3qy.png}
+      \caption{$3Q_x$ and $3Q_y$ Compensation}
+      \label{fig:sfig4}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}{.49\textwidth}
+      \includegraphics[width=0.98\linewidth]{chapter4/3qx_2qxqy.png}
+      \caption{$3Q_x$ and $2Q_x+Q_y$ Compensation}
+      \label{fig:sfig5}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.49\textwidth}
+      \includegraphics[width=0.98\linewidth]{chapter4/3qy_qx2qy.png}
+      \caption{$3Q_y$ and $Q_x+2Q_y$ Compensation}
+      \label{fig:sfig6}
+    \end{subfigure}
+    
+    \caption{Dynamic loss maps for several configurations of compensation sextupoles}
+    \label{fig:lossmaps}
+    \end{figure} 
+\newpage
+
+
 \subsection{Static Tune Scans}
