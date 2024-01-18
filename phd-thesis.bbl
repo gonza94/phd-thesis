@@ -3014,6 +3014,14 @@
       \endverb
       \keyw{resonance,injection,operation,proton,ISOL}
     \endentry
+    \entry{geoff}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CERN}
+      \field{note}{https://gitlab.cern.ch/geoff/geoff-app}
+      \field{title}{Generic Optimization Frontend and Framework (GeOFF)}
+    \endentry
     \entry{mionrr}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=24e4d90a8046dcd2087c70be0bc6ba83}{%
