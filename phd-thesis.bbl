@@ -3022,6 +3022,65 @@
       \field{note}{https://gitlab.cern.ch/geoff/geoff-app}
       \field{title}{Generic Optimization Frontend and Framework (GeOFF)}
     \endentry
+    \entry{albright}{article}{}
+      \name{author}{6}{}{%
+        {{hash=519b438e0c11467f07bc0a9492dd6e98}{%
+           family={Albright},
+           familyi={A\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b13b33607e70e16db4d173778ca2946}{%
+           family={Antoniou},
+           familyi={A\bibinitperiod},
+           given={Fanouria},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fc6e3f8425ade0b83d750635365ea0e0}{%
+           family={Asvesta},
+           familyi={A\bibinitperiod},
+           given={Foteini},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d51147d5c76437aa3f78031ccc04a72e}{%
+           family={Bartosik},
+           familyi={B\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+        {{hash=641a811ec1518208aabb1f4ec412e24d}{%
+           family={Bracco},
+           familyi={B\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ab30157d2f2910f9f3bfb4291e7ce38a}{%
+           family={Renner},
+           familyi={R\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{454e58abfc7736f65c846b964c37a282}
+      \strng{fullhash}{52ceb08da4d6ed27504ef45831d3821c}
+      \strng{bibnamehash}{454e58abfc7736f65c846b964c37a282}
+      \strng{authorbibnamehash}{454e58abfc7736f65c846b964c37a282}
+      \strng{authornamehash}{454e58abfc7736f65c846b964c37a282}
+      \strng{authorfullhash}{52ceb08da4d6ed27504ef45831d3821c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JACoW IPAC}
+      \field{title}{{New Longitudinal Beam Production Methods in the CERN Proton Synchrotron Booster.}}
+      \field{volume}{'21}
+      \field{year}{2021}
+      \field{pages}{4130\bibrangedash 4133}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.18429/JACoW-IPAC2021-THPAB183
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2811646
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2811646
+      \endverb
+    \endentry
     \entry{mionrr}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=24e4d90a8046dcd2087c70be0bc6ba83}{%
