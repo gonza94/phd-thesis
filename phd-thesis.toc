@@ -39,14 +39,15 @@
 \contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{75}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{75}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{75}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Measurement of Tune Shift}{75}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{75}{section.6.4}%
-\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{76}{chapter.7}%
+\contentsline {section}{\numberline {6.3}Measurement of Tune Spread}{75}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{76}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Effect of Transverse Dampers}{76}{section.6.5}%
+\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{77}{chapter.7}%
 \cftinsert {BIB}
 \changetocdepth {1}
-\contentsline {chapter}{Bibliography}{77}{section*.56}%
+\contentsline {chapter}{Bibliography}{78}{section*.59}%
 \cftinsert {BIB}
 \cftinsert {APP}
 \changetocdepth {0}
-\contentsline {appendix}{\chapternumberline {A}Lie Algebra Methods for Accelerator Physics in 2D using MATHEMATICA}{82}{chapter.11}%
-\contentsline {appendix}{\chapternumberline {B}Lie Algebra Methods for Accelerator Physics in 4D using MATHEMATICA}{86}{chapter.12}%
+\contentsline {appendix}{\chapternumberline {A}Lie Algebra Methods for Accelerator Physics in 2D using MATHEMATICA}{83}{chapter.11}%
+\contentsline {appendix}{\chapternumberline {B}Lie Algebra Methods for Accelerator Physics in 4D using MATHEMATICA}{87}{chapter.12}%
