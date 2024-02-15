@@ -2921,6 +2921,38 @@
       \verb https://cds.cern.ch/record/2841816
       \endverb
     \endentry
+    \entry{tirsithesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d5d75cb64fafa9287c74ef15c00bc684}{%
+           family={Prebibaj},
+           familyi={P\bibinitperiod},
+           given={Tirsi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {2023-06-22}%
+      }
+      \list{location}{1}{%
+        {Frankfurt am Main, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Goethe University Frankfurt}%
+      }
+      \strng{namehash}{d5d75cb64fafa9287c74ef15c00bc684}
+      \strng{fullhash}{d5d75cb64fafa9287c74ef15c00bc684}
+      \strng{bibnamehash}{d5d75cb64fafa9287c74ef15c00bc684}
+      \strng{authorbibnamehash}{d5d75cb64fafa9287c74ef15c00bc684}
+      \strng{authornamehash}{d5d75cb64fafa9287c74ef15c00bc684}
+      \strng{authorfullhash}{d5d75cb64fafa9287c74ef15c00bc684}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{{Optimization of the High Brightness Beam Performance of the CERN PSB with H- Injection}}
+      \field{type}{phdthesis}
+      \field{year}{2023}
+    \endentry
     \entry{foteini2}{inproceedings}{}
       \name{author}{10}{}{%
         {{hash=3f7eb129dd5661c4d43d030980c59888}{%
@@ -2987,8 +3019,8 @@
       \strng{authornamehash}{ea37cc1fe0c64b30ac6eae4d61047cbb}
       \strng{authorfullhash}{0944d11ce02669a08c75141b1578502f}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}
@@ -3013,14 +3045,6 @@
       \verb https://jacow.org/ipac2022/papers/wepotk011.pdf
       \endverb
       \keyw{resonance,injection,operation,proton,ISOL}
-    \endentry
-    \entry{geoff}{misc}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{CERN}
-      \field{note}{https://gitlab.cern.ch/geoff/geoff-app}
-      \field{title}{Generic Optimization Frontend and Framework (GeOFF)}
     \endentry
     \entry{albright}{article}{}
       \name{author}{6}{}{%
@@ -3080,6 +3104,14 @@
       \verb{url}
       \verb https://cds.cern.ch/record/2811646
       \endverb
+    \endentry
+    \entry{geoff}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CERN}
+      \field{note}{https://gitlab.cern.ch/geoff/geoff-app}
+      \field{title}{Generic Optimization Frontend and Framework (GeOFF)}
     \endentry
     \entry{mionrr}{inproceedings}{}
       \name{author}{3}{}{%

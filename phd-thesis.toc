@@ -31,23 +31,23 @@
 \contentsline {subsection}{\numberline {4.5.2}Static Tune Scans}{64}{subsection.4.5.2}%
 \contentsline {chapter}{\chapternumberline {5}Resonance Compensation Studies at the CERN Proton Synchrotron Booster}{66}{chapter.5}%
 \contentsline {section}{\numberline {5.1}General Description}{66}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Tune Diagram and Operation}{68}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Optimization Algorithms for Resonance Compensation}{69}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Bayesian Optimization}{72}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}BOBYQA (Bound Optimization BY Quadratic Approximation)}{73}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Experimental Verification of Compensation}{74}{section.5.4}%
-\contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{75}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{75}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{75}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Measurement of Tune Spread}{75}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{76}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Effect of Transverse Dampers}{77}{section.6.5}%
-\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{78}{chapter.7}%
+\contentsline {section}{\numberline {5.2}Tune Diagram and Operation}{67}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Optimization Algorithms for Resonance Compensation}{70}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Bayesian Optimization}{73}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}BOBYQA (Bound Optimization BY Quadratic Approximation)}{74}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Experimental Verification of Compensation}{76}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{77}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{77}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{77}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Measurement of Tune Spread}{77}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{78}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Effect of Transverse Dampers}{79}{section.6.5}%
+\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{80}{chapter.7}%
 \cftinsert {BIB}
 \changetocdepth {1}
-\contentsline {chapter}{Bibliography}{79}{section*.60}%
+\contentsline {chapter}{Bibliography}{81}{section*.62}%
 \cftinsert {BIB}
 \cftinsert {APP}
 \changetocdepth {0}
-\contentsline {appendix}{\chapternumberline {A}Lie Algebra Methods for Accelerator Physics in 2D using MATHEMATICA}{84}{chapter.11}%
-\contentsline {appendix}{\chapternumberline {B}Lie Algebra Methods for Accelerator Physics in 4D using MATHEMATICA}{88}{chapter.12}%
+\contentsline {appendix}{\chapternumberline {A}Lie Algebra Methods for Accelerator Physics in 2D using MATHEMATICA}{86}{chapter.11}%
+\contentsline {appendix}{\chapternumberline {B}Lie Algebra Methods for Accelerator Physics in 4D using MATHEMATICA}{90}{chapter.12}%

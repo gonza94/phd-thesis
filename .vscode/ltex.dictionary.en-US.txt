@@ -76,3 +76,6 @@ BOBYQA
 Octupole
 GeOFF
 SYNCHROTRON
+superperiodicity
+Kain
+Madysa
