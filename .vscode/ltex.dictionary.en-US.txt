@@ -79,3 +79,5 @@ SYNCHROTRON
 superperiodicity
 Kain
 Madysa
+Proton-Synchrotron
+octupoles
