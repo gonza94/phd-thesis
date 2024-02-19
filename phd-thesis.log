@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  16 FEB 2024 12:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  19 FEB 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1420,13 +1420,13 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 14.
  [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [3]
-<chapter1/fermilab.jpeg, id=223, 724.6272pt x 472.164pt>
+<chapter1/fermilab.jpeg, id=225, 724.6272pt x 472.164pt>
 File: chapter1/fermilab.jpeg Graphic file (type jpg)
 <use chapter1/fermilab.jpeg>
 Package pdftex.def Info: chapter1/fermilab.jpeg  used on input line 41.
 (pdftex.def)             Requested size: 469.75499pt x 306.08884pt.
  [4 <./chapter1/fermilab.jpeg>]
-<chapter1/complex.png, id=238, 753.5653pt x 396.7322pt>
+<chapter1/complex.png, id=240, 753.5653pt x 396.7322pt>
 File: chapter1/complex.png Graphic file (type png)
 <use chapter1/complex.png>
 Package pdftex.def Info: chapter1/complex.png  used on input line 52.
@@ -1440,7 +1440,7 @@ Package pdftex.def Info: chapter1/complex.png  used on input line 52.
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] [8] [9] [10]
-<chapter2/ellipses.png, id=316, 3687.9381pt x 1475.0307pt>
+<chapter2/ellipses.png, id=318, 3687.9381pt x 1475.0307pt>
 File: chapter2/ellipses.png Graphic file (type png)
 <use chapter2/ellipses.png>
 Package pdftex.def Info: chapter2/ellipses.png  used on input line 110.
@@ -1454,19 +1454,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--190
  []
 
 [14]
-<chapter2/oneturn.png, id=363, 603.6954pt x 580.0872pt>
+<chapter2/oneturn.png, id=365, 603.6954pt x 580.0872pt>
 File: chapter2/oneturn.png Graphic file (type png)
 <use chapter2/oneturn.png>
 Package pdftex.def Info: chapter2/oneturn.png  used on input line 202.
 (pdftex.def)             Requested size: 328.82706pt x 315.96866pt.
  [15] [16 <./chapter2/oneturn.png>] [17] [18]
-<chapter2/tunediagram.png, id=422, 569.4876pt x 530.4618pt>
+<chapter2/tunediagram.png, id=424, 569.4876pt x 530.4618pt>
 File: chapter2/tunediagram.png Graphic file (type png)
 <use chapter2/tunediagram.png>
 Package pdftex.def Info: chapter2/tunediagram.png  used on input line 287.
 (pdftex.def)             Requested size: 375.80542pt x 350.0573pt.
  [19] [20 <./chapter2/tunediagram.png>]
-<chapter2/rrtdlow.png, id=444, 680.7834pt x 477.4638pt>
+<chapter2/rrtdlow.png, id=446, 680.7834pt x 477.4638pt>
 File: chapter2/rrtdlow.png Graphic file (type png)
 <use chapter2/rrtdlow.png>
 Package pdftex.def Info: chapter2/rrtdlow.png  used on input line 297.
@@ -1477,7 +1477,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.6pt on input line 532.
  [30] [31] [32]
-<chapter2/rrtdmid.png, id=634, 661.5114pt x 473.1276pt>
+<chapter2/rrtdmid.png, id=636, 661.5114pt x 473.1276pt>
 File: chapter2/rrtdmid.png Graphic file (type png)
 <use chapter2/rrtdmid.png>
 Package pdftex.def Info: chapter2/rrtdmid.png  used on input line 621.
@@ -1486,7 +1486,7 @@ Package pdftex.def Info: chapter2/rrtdmid.png  used on input line 621.
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
-<chapter3/complex_noTev.png, id=655, 737.75626pt x 351.56343pt>
+<chapter3/complex_noTev.png, id=657, 737.75626pt x 351.56343pt>
 File: chapter3/complex_noTev.png Graphic file (type png)
 <use chapter3/complex_noTev.png>
 Package pdftex.def Info: chapter3/complex_noTev.png  used on input line 11.
@@ -1497,66 +1497,66 @@ Package pdftex.def Info: chapter3/complex_noTev.png  used on input line 11.
 
 
 ]
-<chapter3/complexPIPII.png, id=673, 737.75626pt x 364.36125pt>
+<chapter3/complexPIPII.png, id=675, 737.75626pt x 364.36125pt>
 File: chapter3/complexPIPII.png Graphic file (type png)
 <use chapter3/complexPIPII.png>
 Package pdftex.def Info: chapter3/complexPIPII.png  used on input line 20.
 (pdftex.def)             Requested size: 469.75499pt x 232.00063pt.
  [36 <./chapter3/complex_noTev.png>]
-<chapter3/tunnel.jpg, id=689, 2215.97888pt x 1478.52374pt>
+<chapter3/tunnel.jpg, id=691, 2215.97888pt x 1478.52374pt>
 File: chapter3/tunnel.jpg Graphic file (type jpg)
 <use chapter3/tunnel.jpg>
 Package pdftex.def Info: chapter3/tunnel.jpg  used on input line 31.
 (pdftex.def)             Requested size: 469.75499pt x 313.40944pt.
  [37 <./chapter3/complexPIPII.png>] [38 <./chapter3/tunnel.jpg>]
-<chapter3/RRschematic.png, id=711, 1143.52219pt x 750.55406pt>
+<chapter3/RRschematic.png, id=713, 1143.52219pt x 750.55406pt>
 File: chapter3/RRschematic.png Graphic file (type png)
 <use chapter3/RRschematic.png>
 Package pdftex.def Info: chapter3/RRschematic.png  used on input line 42.
 (pdftex.def)             Requested size: 469.75499pt x 308.32469pt.
  [39 <./chapter3/RRschematic.png>]
-<chapter3/betas.png, id=728, 1799.0412pt x 715.473pt>
+<chapter3/betas.png, id=730, 1799.0412pt x 715.473pt>
 File: chapter3/betas.png Graphic file (type png)
 <use chapter3/betas.png>
 Package pdftex.def Info: chapter3/betas.png  used on input line 60.
 (pdftex.def)             Requested size: 469.75499pt x 186.81555pt.
  [40]
-<chapter3/disps.png, id=736, 1769.1696pt x 715.473pt>
+<chapter3/disps.png, id=738, 1769.1696pt x 715.473pt>
 File: chapter3/disps.png Graphic file (type png)
 <use chapter3/disps.png>
 Package pdftex.def Info: chapter3/disps.png  used on input line 67.
 (pdftex.def)             Requested size: 469.75499pt x 189.97063pt.
  [41 <./chapter3/betas.png> <./chapter3/disps.png>] [42]
-<chapter3/rrtd.png, id=758, 557.4426pt x 522.2712pt>
+<chapter3/rrtd.png, id=760, 557.4426pt x 522.2712pt>
 File: chapter3/rrtd.png Graphic file (type png)
 <use chapter3/rrtd.png>
 Package pdftex.def Info: chapter3/rrtd.png  used on input line 113.
 (pdftex.def)             Requested size: 469.75499pt x 440.11536pt.
  [43 <./chapter3/rrtd.png>] [44]
-<chapter3/rrtdhigh.png, id=778, 661.5114pt x 473.1276pt>
+<chapter3/rrtdhigh.png, id=780, 661.5114pt x 473.1276pt>
 File: chapter3/rrtdhigh.png Graphic file (type png)
 <use chapter3/rrtdhigh.png>
 Package pdftex.def Info: chapter3/rrtdhigh.png  used on input line 130.
 (pdftex.def)             Requested size: 469.75499pt x 335.9807pt.
  [45 <./chapter3/rrtdhigh.png>] [46]
-<chapter3/bpm_kick.png, id=799, 734.2632pt x 450.2421pt>
+<chapter3/bpm_kick.png, id=801, 734.2632pt x 450.2421pt>
 File: chapter3/bpm_kick.png Graphic file (type png)
 <use chapter3/bpm_kick.png>
 Package pdftex.def Info: chapter3/bpm_kick.png  used on input line 145.
 (pdftex.def)             Requested size: 469.75499pt x 288.05089pt.
-<chapter3/bpm_fft.png, id=805, 786.2976pt x 476.2593pt>
+<chapter3/bpm_fft.png, id=807, 786.2976pt x 476.2593pt>
 File: chapter3/bpm_fft.png Graphic file (type png)
 <use chapter3/bpm_fft.png>
 Package pdftex.def Info: chapter3/bpm_fft.png  used on input line 154.
 (pdftex.def)             Requested size: 469.75499pt x 284.52963pt.
  [47 <./chapter3/bpm_kick.png>]
-<chapter3/ipm.png, id=817, 475.0548pt x 328.5876pt>
+<chapter3/ipm.png, id=819, 475.0548pt x 328.5876pt>
 File: chapter3/ipm.png Graphic file (type png)
 <use chapter3/ipm.png>
 Package pdftex.def Info: chapter3/ipm.png  used on input line 163.
 (pdftex.def)             Requested size: 469.75499pt x 324.9367pt.
  [48 <./chapter3/bpm_fft.png>] [49 <./chapter3/ipm.png>] [50]
-<chapter3/sextupoles.png, id=852, 719.3274pt x 472.6458pt>
+<chapter3/sextupoles.png, id=854, 719.3274pt x 472.6458pt>
 File: chapter3/sextupoles.png Graphic file (type png)
 <use chapter3/sextupoles.png>
 Package pdftex.def Info: chapter3/sextupoles.png  used on input line 206.
@@ -1565,12 +1565,12 @@ Package pdftex.def Info: chapter3/sextupoles.png  used on input line 206.
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
-<chapter4/h3000_bare.png, id=863, 859.2903pt x 570.933pt>
+<chapter4/h3000_bare.png, id=865, 859.2903pt x 570.933pt>
 File: chapter4/h3000_bare.png Graphic file (type png)
 <use chapter4/h3000_bare.png>
 Package pdftex.def Info: chapter4/h3000_bare.png  used on input line 24.
 (pdftex.def)             Requested size: 469.75499pt x 312.11496pt.
-<chapter4/h1020_bare.png, id=864, 859.2903pt x 570.933pt>
+<chapter4/h1020_bare.png, id=866, 859.2903pt x 570.933pt>
 File: chapter4/h1020_bare.png Graphic file (type png)
 <use chapter4/h1020_bare.png>
 Package pdftex.def Info: chapter4/h1020_bare.png  used on input line 31.
@@ -1581,214 +1581,214 @@ Package pdftex.def Info: chapter4/h1020_bare.png  used on input line 31.
 
 
  <./chapter4/h3000_bare.png>] [54 <./chapter4/h1020_bare.png>]
-<chapter4/hxspect.png, id=883, 1004.03679pt x 498.14679pt>
+<chapter4/hxspect.png, id=885, 1004.03679pt x 498.14679pt>
 File: chapter4/hxspect.png Graphic file (type png)
 <use chapter4/hxspect.png>
 Package pdftex.def Info: chapter4/hxspect.png  used on input line 64.
 (pdftex.def)             Requested size: 469.75499pt x 233.06487pt.
-<chapter4/hyspect.png, id=886, 1004.03679pt x 498.14679pt>
+<chapter4/hyspect.png, id=888, 1004.03679pt x 498.14679pt>
 File: chapter4/hyspect.png Graphic file (type png)
 <use chapter4/hyspect.png>
 Package pdftex.def Info: chapter4/hyspect.png  used on input line 71.
 (pdftex.def)             Requested size: 469.75499pt x 233.06487pt.
  [55 <./chapter4/hxspect.png>]
-<chapter4/bpm_kick.png, id=897, 755.2215pt x 450.2421pt>
+<chapter4/bpm_kick.png, id=899, 755.2215pt x 450.2421pt>
 File: chapter4/bpm_kick.png Graphic file (type png)
 <use chapter4/bpm_kick.png>
 Package pdftex.def Info: chapter4/bpm_kick.png  used on input line 94.
 (pdftex.def)             Requested size: 469.75499pt x 280.05406pt.
  [56 <./chapter4/hyspect.png>]
-<chapter4/ellipse_data.png, id=905, 1076.1003pt x 497.9403pt>
+<chapter4/ellipse_data.png, id=907, 1076.1003pt x 497.9403pt>
 File: chapter4/ellipse_data.png Graphic file (type png)
 <use chapter4/ellipse_data.png>
 Package pdftex.def Info: chapter4/ellipse_data.png  used on input line 101.
 (pdftex.def)             Requested size: 469.75499pt x 217.36208pt.
  [57 <./chapter4/bpm_kick.png> <./chapter4/ellipse_data.png>]
-<chapter4/h3000_3qxcomp.png, id=914, 859.2903pt x 570.933pt>
+<chapter4/h3000_3qxcomp.png, id=916, 859.2903pt x 570.933pt>
 File: chapter4/h3000_3qxcomp.png Graphic file (type png)
 <use chapter4/h3000_3qxcomp.png>
-Package pdftex.def Info: chapter4/h3000_3qxcomp.png  used on input line 188.
+Package pdftex.def Info: chapter4/h3000_3qxcomp.png  used on input line 152.
 (pdftex.def)             Requested size: 469.75499pt x 312.11496pt.
  [58]
 <chapter4/h1020_3qxcomp.png, id=924, 859.2903pt x 570.933pt>
 File: chapter4/h1020_3qxcomp.png Graphic file (type png)
 <use chapter4/h1020_3qxcomp.png>
-Package pdftex.def Info: chapter4/h1020_3qxcomp.png  used on input line 195.
+Package pdftex.def Info: chapter4/h1020_3qxcomp.png  used on input line 159.
 (pdftex.def)             Requested size: 469.75499pt x 312.11496pt.
- [59 <./chapter4/h3000_3qxcomp.png>]
-<chapter4/bare.png, id=931, 1764.8334pt x 1380.357pt>
+ [59 <./chapter4/h3000_3qxcomp.png>] [60 <./chapter4/h1020_3qxcomp.png>] [61]
+<chapter4/bare.png, id=968, 1764.8334pt x 1380.357pt>
 File: chapter4/bare.png Graphic file (type png)
 <use chapter4/bare.png>
-Package pdftex.def Info: chapter4/bare.png  used on input line 208.
+Package pdftex.def Info: chapter4/bare.png  used on input line 182.
 (pdftex.def)             Requested size: 469.75499pt x 367.41467pt.
- [60 <./chapter4/h1020_3qxcomp.png>]
-<chapter4/bare_comments.png, id=940, 1764.8334pt x 1380.357pt>
+ [62]
+<chapter4/bare_comments.png, id=973, 1764.8334pt x 1380.357pt>
 File: chapter4/bare_comments.png Graphic file (type png)
 <use chapter4/bare_comments.png>
-Package pdftex.def Info: chapter4/bare_comments.png  used on input line 215.
+Package pdftex.def Info: chapter4/bare_comments.png  used on input line 189.
 (pdftex.def)             Requested size: 469.75499pt x 367.41467pt.
- [61 <./chapter4/bare.png>] [62 <./chapter4/bare_comments.png>]
+ [63 <./chapter4/bare.png>] [64 <./chapter4/bare_comments.png>]
 File: chapter4/bare.png Graphic file (type png)
 <use chapter4/bare.png>
-Package pdftex.def Info: chapter4/bare.png  used on input line 226.
+Package pdftex.def Info: chapter4/bare.png  used on input line 200.
 (pdftex.def)             Requested size: 225.21533pt x 176.14589pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 227.
-<chapter4/3qx.png, id=955, 1764.8334pt x 1380.357pt>
+(Font)              scaled to size 10.95pt on input line 201.
+<chapter4/3qx.png, id=986, 1764.8334pt x 1380.357pt>
 File: chapter4/3qx.png Graphic file (type png)
 <use chapter4/3qx.png>
-Package pdftex.def Info: chapter4/3qx.png  used on input line 232.
+Package pdftex.def Info: chapter4/3qx.png  used on input line 206.
 (pdftex.def)             Requested size: 225.21533pt x 176.14589pt.
-<chapter4/3qy.png, id=956, 1764.8334pt x 1380.357pt>
+<chapter4/3qy.png, id=987, 1764.8334pt x 1380.357pt>
 File: chapter4/3qy.png Graphic file (type png)
 <use chapter4/3qy.png>
-Package pdftex.def Info: chapter4/3qy.png  used on input line 238.
+Package pdftex.def Info: chapter4/3qy.png  used on input line 212.
 (pdftex.def)             Requested size: 225.21533pt x 176.14589pt.
-<chapter4/3qx_3qy.png, id=957, 1764.8334pt x 1380.357pt>
+<chapter4/3qx_3qy.png, id=988, 1764.8334pt x 1380.357pt>
 File: chapter4/3qx_3qy.png Graphic file (type png)
 <use chapter4/3qx_3qy.png>
-Package pdftex.def Info: chapter4/3qx_3qy.png  used on input line 244.
+Package pdftex.def Info: chapter4/3qx_3qy.png  used on input line 218.
 (pdftex.def)             Requested size: 225.21533pt x 176.14589pt.
-<chapter4/3qx_2qxqy.png, id=958, 1764.8334pt x 1380.357pt>
+<chapter4/3qx_2qxqy.png, id=989, 1764.8334pt x 1380.357pt>
 File: chapter4/3qx_2qxqy.png Graphic file (type png)
 <use chapter4/3qx_2qxqy.png>
-Package pdftex.def Info: chapter4/3qx_2qxqy.png  used on input line 250.
+Package pdftex.def Info: chapter4/3qx_2qxqy.png  used on input line 224.
 (pdftex.def)             Requested size: 225.21533pt x 176.14589pt.
-<chapter4/3qy_qx2qy.png, id=959, 1764.8334pt x 1380.357pt>
+<chapter4/3qy_qx2qy.png, id=990, 1764.8334pt x 1380.357pt>
 File: chapter4/3qy_qx2qy.png Graphic file (type png)
 <use chapter4/3qy_qx2qy.png>
-Package pdftex.def Info: chapter4/3qy_qx2qy.png  used on input line 256.
+Package pdftex.def Info: chapter4/3qy_qx2qy.png  used on input line 230.
 (pdftex.def)             Requested size: 225.21533pt x 176.14589pt.
- [63 <./chapter4/3qx.png> <./chapter4/3qy.png> <./chapter4/3qx_3qy.png> <./chapter4/3qx_2qxqy.png> <./chapter4/3qy_qx2qy.png>]
-<chapter4/static2turns.png, id=970, 522.5121pt x 428.5611pt>
+ [65 <./chapter4/3qx.png> <./chapter4/3qy.png> <./chapter4/3qx_3qy.png> <./chapter4/3qx_2qxqy.png> <./chapter4/3qy_qx2qy.png>]
+<chapter4/static2turns.png, id=1000, 522.5121pt x 428.5611pt>
 File: chapter4/static2turns.png Graphic file (type png)
 <use chapter4/static2turns.png>
-Package pdftex.def Info: chapter4/static2turns.png  used on input line 271.
+Package pdftex.def Info: chapter4/static2turns.png  used on input line 247.
 (pdftex.def)             Requested size: 469.75499pt x 385.29597pt.
-<chapter4/static2turns_ipm.png, id=971, 1060.2009pt x 531.9072pt>
+<chapter4/static2turns_ipm.png, id=1001, 1060.2009pt x 531.9072pt>
 File: chapter4/static2turns_ipm.png Graphic file (type png)
 <use chapter4/static2turns_ipm.png>
-Package pdftex.def Info: chapter4/static2turns_ipm.png  used on input line 285.
+Package pdftex.def Info: chapter4/static2turns_ipm.png  used on input line 261.
 (pdftex.def)             Requested size: 469.75499pt x 235.67937pt.
- [64 <./chapter4/static2turns.png>]
-<chapter4/static2turns_comp_ipm_dampersOFF.png, id=979, 1073.2095pt x 540.5796pt>
+ [66 <./chapter4/static2turns.png>]
+<chapter4/static2turns_comp_ipm_dampersOFF.png, id=1010, 1073.2095pt x 540.5796pt>
 File: chapter4/static2turns_comp_ipm_dampersOFF.png Graphic file (type png)
 <use chapter4/static2turns_comp_ipm_dampersOFF.png>
-Package pdftex.def Info: chapter4/static2turns_comp_ipm_dampersOFF.png  used on input line 292.
+Package pdftex.def Info: chapter4/static2turns_comp_ipm_dampersOFF.png  used on input line 268.
 (pdftex.def)             Requested size: 469.75499pt x 236.61847pt.
-) [65 <./chapter4/static2turns_ipm.png> <./chapter4/static2turns_comp_ipm_dampersOFF.png>]
+) [67 <./chapter4/static2turns_ipm.png> <./chapter4/static2turns_comp_ipm_dampersOFF.png>]
 \openout2 = `chapter5.aux'.
 
  (./chapter5.tex
-<chapter5/CERN_AC.png, id=994, 873.9852pt x 506.8536pt>
+<chapter5/CERN_AC.png, id=1025, 873.9852pt x 506.8536pt>
 File: chapter5/CERN_AC.png Graphic file (type png)
 <use chapter5/CERN_AC.png>
 Package pdftex.def Info: chapter5/CERN_AC.png  used on input line 11.
 (pdftex.def)             Requested size: 469.75499pt x 272.4285pt.
- [66
+ [68
 
 
 
 
 ]
-<chapter5/operational.png, id=1014, 749.6808pt x 491.9178pt>
+<chapter5/operational.png, id=1044, 749.6808pt x 491.9178pt>
 File: chapter5/operational.png Graphic file (type png)
 <use chapter5/operational.png>
 Package pdftex.def Info: chapter5/operational.png  used on input line 22.
 (pdftex.def)             Requested size: 469.75499pt x 308.2435pt.
- [67 <./chapter5/CERN_AC.png>]
-<chapter5/psb_td.png, id=1026, 698.61pt x 696.6828pt>
+ [69 <./chapter5/CERN_AC.png>]
+<chapter5/psb_td.png, id=1056, 698.61pt x 696.6828pt>
 File: chapter5/psb_td.png Graphic file (type png)
 <use chapter5/psb_td.png>
 Package pdftex.def Info: chapter5/psb_td.png  used on input line 31.
 (pdftex.def)             Requested size: 469.75499pt x 468.4653pt.
- [68 <./chapter5/operational.png>] [69 <./chapter5/psb_td.png>]
-<chapter5/bare.png, id=1043, 541.42274pt x 403.5075pt>
+ [70 <./chapter5/operational.png>] [71 <./chapter5/psb_td.png>]
+<chapter5/bare.png, id=1073, 541.42274pt x 403.5075pt>
 File: chapter5/bare.png Graphic file (type png)
 <use chapter5/bare.png>
 Package pdftex.def Info: chapter5/bare.png  used on input line 40.
 (pdftex.def)             Requested size: 469.75499pt x 350.10051pt.
- [70 <./chapter5/bare.png>]
-<chapter5/experiment.png, id=1053, 637.4214pt x 479.391pt>
+ [72 <./chapter5/bare.png>]
+<chapter5/experiment.png, id=1084, 637.4214pt x 479.391pt>
 File: chapter5/experiment.png Graphic file (type png)
 <use chapter5/experiment.png>
 Package pdftex.def Info: chapter5/experiment.png  used on input line 53.
 (pdftex.def)             Requested size: 469.75499pt x 353.29544pt.
- [71 <./chapter5/experiment.png>] [72]
-<chapter5/actor_currents.png, id=1072, 653.44125pt x 429.40425pt>
+ [73 <./chapter5/experiment.png>] [74]
+<chapter5/actor_currents.png, id=1104, 653.44125pt x 429.40425pt>
 File: chapter5/actor_currents.png Graphic file (type png)
 <use chapter5/actor_currents.png>
 Package pdftex.def Info: chapter5/actor_currents.png  used on input line 87.
 (pdftex.def)             Requested size: 469.75499pt x 308.6925pt.
- [73 <./chapter5/actor_currents.png>]
-<chapter5/i1_bo_commented.png, id=1078, 642.60075pt x 428.802pt>
+ [75 <./chapter5/actor_currents.png>] [76]
+<chapter5/i1_bo_commented.png, id=1122, 642.60075pt x 428.802pt>
 File: chapter5/i1_bo_commented.png Graphic file (type png)
 <use chapter5/i1_bo_commented.png>
-Package pdftex.def Info: chapter5/i1_bo_commented.png  used on input line 98.
+Package pdftex.def Info: chapter5/i1_bo_commented.png  used on input line 102.
 (pdftex.def)             Requested size: 469.75499pt x 313.46123pt.
-<chapter5/2023_05_02_R2_LHCramp_BayesOpt.png, id=1079, 1086.459pt x 520.344pt>
+<chapter5/2023_05_02_R2_LHCramp_BayesOpt.png, id=1123, 1086.459pt x 520.344pt>
 File: chapter5/2023_05_02_R2_LHCramp_BayesOpt.png Graphic file (type png)
 <use chapter5/2023_05_02_R2_LHCramp_BayesOpt.png>
-Package pdftex.def Info: chapter5/2023_05_02_R2_LHCramp_BayesOpt.png  used on input line 105.
+Package pdftex.def Info: chapter5/2023_05_02_R2_LHCramp_BayesOpt.png  used on input line 109.
 (pdftex.def)             Requested size: 469.75499pt x 224.98216pt.
- [74 <./chapter5/i1_bo_commented.png>]
-<chapter5/2023_05_02_R3_LHCramp_BayesOpt.png, id=1087, 1086.459pt x 520.344pt>
+ [77 <./chapter5/i1_bo_commented.png>]
+<chapter5/2023_05_02_R3_LHCramp_BayesOpt.png, id=1129, 1086.459pt x 520.344pt>
 File: chapter5/2023_05_02_R3_LHCramp_BayesOpt.png Graphic file (type png)
 <use chapter5/2023_05_02_R3_LHCramp_BayesOpt.png>
-Package pdftex.def Info: chapter5/2023_05_02_R3_LHCramp_BayesOpt.png  used on input line 112.
+Package pdftex.def Info: chapter5/2023_05_02_R3_LHCramp_BayesOpt.png  used on input line 116.
 (pdftex.def)             Requested size: 469.75499pt x 224.98216pt.
- [75 <./chapter5/2023_05_02_R2_LHCramp_BayesOpt.png> <./chapter5/2023_05_02_R3_LHCramp_BayesOpt.png>]
-<chapter5/i2_bobyqa_commented.png, id=1098, 642.60075pt x 428.802pt>
+ [78 <./chapter5/2023_05_02_R2_LHCramp_BayesOpt.png> <./chapter5/2023_05_02_R3_LHCramp_BayesOpt.png>]
+<chapter5/i2_bobyqa_commented.png, id=1142, 642.60075pt x 428.802pt>
 File: chapter5/i2_bobyqa_commented.png Graphic file (type png)
 <use chapter5/i2_bobyqa_commented.png>
-Package pdftex.def Info: chapter5/i2_bobyqa_commented.png  used on input line 123.
+Package pdftex.def Info: chapter5/i2_bobyqa_commented.png  used on input line 127.
 (pdftex.def)             Requested size: 469.75499pt x 313.46123pt.
-<chapter5/2023_05_04_R3_BCMS_bobyqa.png, id=1099, 1086.459pt x 520.344pt>
+<chapter5/2023_05_04_R3_BCMS_bobyqa.png, id=1143, 1086.459pt x 520.344pt>
 File: chapter5/2023_05_04_R3_BCMS_bobyqa.png Graphic file (type png)
 <use chapter5/2023_05_04_R3_BCMS_bobyqa.png>
-Package pdftex.def Info: chapter5/2023_05_04_R3_BCMS_bobyqa.png  used on input line 130.
+Package pdftex.def Info: chapter5/2023_05_04_R3_BCMS_bobyqa.png  used on input line 134.
 (pdftex.def)             Requested size: 469.75499pt x 224.98216pt.
- [76 <./chapter5/i2_bobyqa_commented.png>]
-<chapter5/bocomp.png, id=1106, 542.62724pt x 404.10976pt>
+ [79 <./chapter5/i2_bobyqa_commented.png>]
+<chapter5/bocomp.png, id=1150, 542.62724pt x 404.10976pt>
 File: chapter5/bocomp.png Graphic file (type png)
 <use chapter5/bocomp.png>
-Package pdftex.def Info: chapter5/bocomp.png  used on input line 139.
+Package pdftex.def Info: chapter5/bocomp.png  used on input line 143.
 (pdftex.def)             Requested size: 469.75499pt x 349.83994pt.
-) [77 <./chapter5/2023_05_04_R3_BCMS_bobyqa.png>] [78 <./chapter5/bocomp.png>]
+) [80 <./chapter5/2023_05_04_R3_BCMS_bobyqa.png>] [81 <./chapter5/bocomp.png>]
 \openout2 = `chapter6.aux'.
 
  (./chapter6.tex
-<chapter6/tune_spread.png, id=1120, 607.068pt x 455.301pt>
+<chapter6/tune_spread.png, id=1163, 607.068pt x 455.301pt>
 File: chapter6/tune_spread.png Graphic file (type png)
 <use chapter6/tune_spread.png>
 Package pdftex.def Info: chapter6/tune_spread.png  used on input line 25.
 (pdftex.def)             Requested size: 469.75499pt x 352.31273pt.
-<chapter6/25370_scatter.png, id=1121, 826.0461pt x 564.4287pt>
+<chapter6/25370_scatter.png, id=1164, 826.0461pt x 564.4287pt>
 File: chapter6/25370_scatter.png Graphic file (type png)
 <use chapter6/25370_scatter.png>
 Package pdftex.def Info: chapter6/25370_scatter.png  used on input line 34.
 (pdftex.def)             Requested size: 469.75499pt x 320.97841pt.
- [79
+ [82
 
 
 
 
  <./chapter6/tune_spread.png>]
-<chapter6/static2turns_ipm_dampersON.png, id=1131, 1040.688pt x 531.9072pt>
+<chapter6/static2turns_ipm_dampersON.png, id=1174, 1040.688pt x 531.9072pt>
 File: chapter6/static2turns_ipm_dampersON.png Graphic file (type png)
 <use chapter6/static2turns_ipm_dampersON.png>
 Package pdftex.def Info: chapter6/static2turns_ipm_dampersON.png  used on input line 44.
 (pdftex.def)             Requested size: 469.75499pt x 240.1027pt.
- [80 <./chapter6/25370_scatter.png>]
-<chapter6/static2turns_ipm_dampersOFF.png, id=1138, 1040.688pt x 531.9072pt>
+ [83 <./chapter6/25370_scatter.png>]
+<chapter6/static2turns_ipm_dampersOFF.png, id=1181, 1040.688pt x 531.9072pt>
 File: chapter6/static2turns_ipm_dampersOFF.png Graphic file (type png)
 <use chapter6/static2turns_ipm_dampersOFF.png>
 Package pdftex.def Info: chapter6/static2turns_ipm_dampersOFF.png  used on input line 51.
 (pdftex.def)             Requested size: 469.75499pt x 240.1027pt.
-) [81 <./chapter6/static2turns_ipm_dampersON.png> <./chapter6/static2turns_ipm_dampersOFF.png>]
+ [84 <./chapter6/static2turns_ipm_dampersON.png> <./chapter6/static2turns_ipm_dampersOFF.png>]) [85]
 \openout2 = `chapter7.aux'.
 
- (./chapter7.tex) [82
+ (./chapter7.tex) [86
 
 
 
@@ -1812,7 +1812,7 @@ Overfull \hbox (34.6107pt too wide) in paragraph at lines 199--199
 []\T1/ntxtlf/m/n/12 Reidar Hahn. \T1/ntxtlf/m/it/12 Fer-mi-lab\T1/ntxtlf/m/n/12 . File: https://upload.wikimedia.org/wikipedia/commons/3/3f/Fermilab.jpg.
  []
 
-[83
+[87
 
 
 
@@ -1821,7 +1821,7 @@ Overfull \hbox (8.36835pt too wide) in paragraph at lines 199--199
 []\T1/ntxtlf/m/n/12 T. Sato-gata. \T1/ntxtlf/m/it/12 Lec-ture Notes on Pois-son Brack-ets and Lie Op-er-a-tors\T1/ntxtlf/m/n/12 . []$\T1/ntxtt/m/n/12 https : / / toddsatogata .
  []
 
-[84]
+[88]
 Overfull \hbox (23.06998pt too wide) in paragraph at lines 199--199
 \T1/ntxtt/m/n/12 worldscientific . com / doi / pdf / 10 . 1142 / p250$[]\T1/ntxtlf/m/n/12 . \T1/ntxtlf/m/sc/12 url\T1/ntxtlf/m/n/12 : []$\T1/ntxtt/m/n/12 https : / / www . worldscientific .
  []
@@ -1831,11 +1831,11 @@ Overfull \hbox (20.9144pt too wide) in paragraph at lines 199--199
 []\T1/ntxtlf/m/n/12 Gabriel Tellez Acosta. \T1/ntxtlf/m/it/12 Meto-dos Matemeti-cos\T1/ntxtlf/m/n/12 . Edi-ciones Unian-des, 2022. \T1/ntxtlf/m/sc/12 isbn\T1/ntxtlf/m/n/12 : 9789587981827. 
  []
 
-[85] [86] [87]
+[89] [90] [91]
 \openout2 = `appendix1.aux'.
 
  (./appendix1.tex
-<lie2D.pdf, id=1295, 614.295pt x 794.97pt>
+<lie2D.pdf, id=1347, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf>
 Package pdftex.def Info: lie2D.pdf  used on input line 2.
@@ -1844,7 +1844,7 @@ File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf>
 Package pdftex.def Info: lie2D.pdf  used on input line 2.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<lie2D.pdf, id=1298, page=1, 614.295pt x 794.97pt>
+<lie2D.pdf, id=1350, page=1, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 1>
 Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
@@ -1852,76 +1852,76 @@ Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 1>
 Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [88
-
-
-]
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 1>
-Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 1>
-Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 1>
-Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [89 <./lie2D.pdf>]
-<lie2D.pdf, id=1393, page=2, 614.295pt x 794.97pt>
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 2>
-Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 2>
-Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 2>
-Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [90 <./lie2D.pdf>]
-<lie2D.pdf, id=1438, page=3, 614.295pt x 794.97pt>
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 3>
-Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 3>
-Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie2D.pdf Graphic file (type pdf)
-<use lie2D.pdf, page 3>
-Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [91 <./lie2D.pdf>])
-\openout2 = `appendix2.aux'.
-
- (./appendix2.tex
-<lie4D.pdf, id=1453, 614.295pt x 794.97pt>
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf>
-Package pdftex.def Info: lie4D.pdf  used on input line 2.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf>
-Package pdftex.def Info: lie4D.pdf  used on input line 2.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<lie4D.pdf, id=1456, page=1, 614.295pt x 794.97pt>
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 1>
-Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 1>
-Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [92
 
 
+]
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 1>
+Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 1>
+Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 1>
+Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [93 <./lie2D.pdf>]
+<lie2D.pdf, id=1446, page=2, 614.295pt x 794.97pt>
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 2>
+Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 2>
+Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 2>
+Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [94 <./lie2D.pdf>]
+<lie2D.pdf, id=1489, page=3, 614.295pt x 794.97pt>
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 3>
+Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 3>
+Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie2D.pdf Graphic file (type pdf)
+<use lie2D.pdf, page 3>
+Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [95 <./lie2D.pdf>])
+\openout2 = `appendix2.aux'.
+
+ (./appendix2.tex
+<lie4D.pdf, id=1504, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf>
+Package pdftex.def Info: lie4D.pdf  used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf>
+Package pdftex.def Info: lie4D.pdf  used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<lie4D.pdf, id=1507, page=1, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 1>
+Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 1>
+Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [96
+
+
 
 
 ]
@@ -1937,64 +1937,64 @@ File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 1>
 Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [93 <./lie4D.pdf>]
-<lie4D.pdf, id=1551, page=2, 614.295pt x 794.97pt>
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 2>
-Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 2>
-Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 2>
-Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [94 <./lie4D.pdf>]
-<lie4D.pdf, id=1595, page=3, 614.295pt x 794.97pt>
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 3>
-Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 3>
-Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 3>
-Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [95 <./lie4D.pdf>]
-<lie4D.pdf, id=1601, page=4, 614.295pt x 794.97pt>
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 4>
-Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 4>
-Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 4>
-Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [96 <./lie4D.pdf>]
-<lie4D.pdf, id=1610, page=5, 614.295pt x 794.97pt>
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 5>
-Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 5>
-Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 5>
-Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [97 <./lie4D.pdf>]
-<lie4D.pdf, id=1627, page=6, 614.295pt x 794.97pt>
+<lie4D.pdf, id=1604, page=2, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [98 <./lie4D.pdf>]
+<lie4D.pdf, id=1647, page=3, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [99 <./lie4D.pdf>]
+<lie4D.pdf, id=1653, page=4, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [100 <./lie4D.pdf>]
+<lie4D.pdf, id=1661, page=5, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [101 <./lie4D.pdf>]
+<lie4D.pdf, id=1678, page=6, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 6>
 Package pdftex.def Info: lie4D.pdf , page6 used on input line 2.
@@ -2007,7 +2007,7 @@ File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 6>
 Package pdftex.def Info: lie4D.pdf , page6 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [98 <./lie4D.pdf>])
+ [102 <./lie4D.pdf>])
 \tf@toc=\write7
 \openout7 = `phd-thesis.toc'.
 
@@ -2022,18 +2022,18 @@ Package logreq Info: Writing requests to 'phd-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39837 strings out of 476025
- 739585 string characters out of 5790017
+ 39851 strings out of 476025
+ 739907 string characters out of 5790017
  1877388 words of memory out of 5000000
- 59184 multiletter control sequences out of 15000+600000
+ 59191 multiletter control sequences out of 15000+600000
  582809 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,23n,103p,1700b,1620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on phd-thesis.pdf (105 pages, 26039548 bytes).
+Output written on phd-thesis.pdf (109 pages, 26048889 bytes).
 PDF statistics:
- 1780 PDF objects out of 2073 (max. 8388607)
- 1416 compressed objects within 15 object streams
- 373 named destinations out of 1000 (max. 500000)
+ 1834 PDF objects out of 2073 (max. 8388607)
+ 1466 compressed objects within 15 object streams
+ 380 named destinations out of 1000 (max. 500000)
  441 words of extra memory for PDF output out of 10000 (max. 10000000)
 

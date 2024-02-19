@@ -3113,6 +3113,57 @@
       \field{note}{https://gitlab.cern.ch/geoff/geoff-app}
       \field{title}{Generic Optimization Frontend and Framework (GeOFF)}
     \endentry
+    \entry{bayesian}{book}{}
+      \name{author}{1}{}{%
+        {{hash=eaf84e3fe4f887967dc3d793d28b9e94}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{fullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{bibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorbibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authornamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorfullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Optimization}
+      \field{year}{2023}
+    \endentry
+    \entry{bobyqa}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=15643444aed9bbb3d150d9895b848437}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi J.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{15643444aed9bbb3d150d9895b848437}
+      \strng{fullhash}{15643444aed9bbb3d150d9895b848437}
+      \strng{bibnamehash}{15643444aed9bbb3d150d9895b848437}
+      \strng{authorbibnamehash}{15643444aed9bbb3d150d9895b848437}
+      \strng{authornamehash}{15643444aed9bbb3d150d9895b848437}
+      \strng{authorfullhash}{15643444aed9bbb3d150d9895b848437}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The BOBYQA algorithm for bound constrained optimization without derivatives}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:2488733
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:2488733
+      \endverb
+    \endentry
     \entry{mionrr}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=24e4d90a8046dcd2087c70be0bc6ba83}{%
