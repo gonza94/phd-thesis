@@ -38,7 +38,7 @@ Similar to the plots shown in Fig. \ref{fig:bare_nocomments} and Fig. \ref{fig:b
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter5/bare.png}
-    \caption{Dynamic loss maps for the bare machine of the 4 rings (R1, R2, R3 and R4) in the PS Booster. The plots are an average of scanning in 4 directions.}
+    \caption{Dynamic loss maps for the bare machine of the 4 rings (R1, R2, R3 and R4) in the PS Booster. The plots are an average of scanning in 4 directions. Plot provided by F. Asvesta.}
     \label{fig:bare_psb}
 \end{figure}
 
@@ -85,7 +85,7 @@ The two optimization algorithms used were Bayesian Optimization and BOBYQA (Boun
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{chapter5/actor_currents.png}
-    \caption{Waveform for the currents fed to the correctors (actors) as a function of time in the study cycle}
+    \caption{Waveform for the currents fed to the correctors (actors) as a function of time in the study cycle, for one particular iteration of an arbitrary optimization instance.}
     \label{fig:actorcurrents}
 \end{figure}
 
@@ -95,9 +95,7 @@ Bayesian optimization is a well-established technique used in machine learning a
 
 At the heart of Bayesian optimization, are Gaussian processes. A Gaussian process (GP) is a statistical model, that represents a collection of random variables, any finite subset of which has a joint Gaussian distribution \cite{bayesian}. GPs are defined by a mean function and a covariance function, which capture the prior beliefs about the underlying function being modeled and the correlations between different points in the input space, respectively. These special type of statistical models are key to estimate the underlying function that wants to be optimized. Through Bayesian inference, GPs can be updated with observed data, yielding posterior distributions that can inform predictions and lead to an optimized sampling for the Bayesian optimization algorithm. 
 
-Figure \ref{fig:ibo} shows an example for the evolution of the objective function during a Bayesian optimization procedure. In this case, the objective function is the normalized beam loss after the tune ramp illustrated by Fig. \ref{fig:experimentPSB}. It can be seen how the Bayesian optimizer finds solutions that effectively cancel out the beam loss from crossing the resonances. Nevertheless, given that this optimizer is built to find a global minimum, it will keep sampling other regions to make sure the best solution is not a local minimum. The color map of Fig. \ref{fig:ibo}, shows how for some of these cases, the optimizer prioritizes exploration and drifts to some unknown region where the losses are high. For these cases, the underlying Gaussian process will learn that there is no worth in exploring these regions. Ultimately, the configuration with the least amount of relative beam loss---the best configuration---is saved and kept as the optimum solution.
-
-The bottom plot of Fig. \ref{fig:bo1} shows the explicit steps of each actor versus the number of iterations. Additionally, the top plot shows the trend of the objective function (relative beam loss) as the number of iterations increases. There are significant oscillations in the relative beam loss values, especially at the beginning, but a general trend towards minimization as the algorithm progresses through iterations. The early iterations reflect the exploration phase. BO is sampling points that give a broad understanding of the objective function's landscape. As iterations progress, there is a trend toward certain regions in the parameter space. This indicates a shift from exploration to exploitation, where the algorithm starts to sample more from areas it believes to be near the optimum. The narrowing of actor current variability suggests a reduction in uncertainty about the location of the minimum beam loss, as the GP model becomes more informed. At the end of the optimization instance, such as the one shown in Fig. \ref{fig:bo1}, the configuration that gave the smallest relative beam loss is saved. GeOFF sets the default configuration of the correctors to these best values. 
+Figure \ref{fig:ibo} shows an example for the evolution of the objective function during a Bayesian optimization procedure. In this case, the objective function is the normalized beam loss after the tune ramp illustrated by Fig. \ref{fig:experimentPSB}. It can be seen how the Bayesian optimizer finds solutions that effectively cancel out the beam loss from crossing the resonances. Nevertheless, given that this optimizer is built to find a global minimum, it will keep sampling other regions to make sure the best solution is not a local minimum. The color map of Fig. \ref{fig:ibo} shows how for some of these cases, the optimizer prioritizes exploration and drifts to some unknown region where the losses are high. For these cases, the underlying Gaussian process will learn that there is no worth in exploring these regions. Ultimately, the configuration with the least amount of relative beam loss---the best configuration---is saved and kept as the optimum solution.
 
 \begin{figure}[H]
     \centering
@@ -105,6 +103,10 @@ The bottom plot of Fig. \ref{fig:bo1} shows the explicit steps of each actor ver
     \caption{Normalized beam current plots for the Bayesian Optimization method done at Ring 1.}
     \label{fig:ibo}
 \end{figure}
+
+The bottom plot of Fig. \ref{fig:bo1} shows the explicit steps of each actor versus the number of iterations. Additionally, the top plot shows the trend of the objective function (relative beam loss) as the number of iterations increases. There are significant oscillations in the relative beam loss values, especially at the beginning, but a general trend towards minimization as the algorithm progresses through iterations. The early iterations reflect the exploration phase. BO is sampling points that give a broad understanding of the objective function's landscape. As iterations progress, there is a trend toward certain regions in the parameter space. This indicates a shift from exploration to exploitation, where the algorithm starts to sample more from areas it believes to be near the optimum. The narrowing of actor current variability suggests a reduction in uncertainty about the location of the minimum beam loss, as the GP model becomes more informed. At the end of the optimization instance, such as the one shown in Fig. \ref{fig:bo1}, the configuration that gave the smallest relative beam loss is saved. GeOFF sets the default configuration of the correctors to these best values. 
+
+One important thing to discuss from Fig. \ref{fig:bo1} are the corrector values for the best configurations. It can be seen from Fig. \ref{fig:bo1} some correctors land on the limit values, e.g., the limits for the normal sextupoles (XNO magnets) were [-50,50]. This is specially apparent for the octupole correctors (ONO magnets) which have limits from -60 to 60, e.g., the magnet ONO816L1 is maxed out. Nevertheless, this was expected given that only 2 octupole correctors were used to correct 4 fourth order lines, where to fully cancel out all the fourth order RDTs one would need 8 correctors. It is important to remind the reader that in order to efficiently implement these type of algorithms with several actors, the currents need to be normalized between [0,1], in order to ensure that all the data is on the same scale and improve the model performance. This is done by GeOFF internally.    
 
 \begin{figure}[H]
     \centering
@@ -125,7 +127,7 @@ While Fig. \ref{fig:bo1} shows a relatively smooth Bayesian optimization instanc
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{chapter5/2023_05_02_R3_LHCramp_BayesOpt_itrtn2.png}
-    \caption{Summary for the second instance of Bayesian optimization of resonance compensation applied to Ring 3 in the CERN PSB. This second instance of optimization was trained with the data }
+    \caption{Summary for the second instance of Bayesian optimization of resonance compensation applied to Ring 3 in the CERN PSB. This second instance of optimization was trained with the data from the first instance.}
     \label{fig:bo22}
 \end{figure}
 
@@ -135,16 +137,14 @@ BOBYQA, which stands for Bound Optimization BY Quadratic Approximation, is an op
 
 Similar to the exercise done in Fig. \ref{fig:ibo}, Fig. \ref{fig:ibobyqa} shows the relative beam loss profiles for an instance of the  BOBYQA optimization done on Ring 1. As the iterations progress (transitioning from blue to yellow), the spread in beam current values starts to decrease. This suggests that the algorithm is refining its search based on the feedback from the objective function and moving towards regions of the parameter space that yield better optimization results. The later iterations, indicated by yellow lines, show beam current trajectories that are closer together. This pattern of convergence signifies that the algorithm has likely identified a promising region in the parameter space and is now fine-tuning the parameters. It is minimizing the variance between iterations, suggesting an approach toward a stable solution.
 
-The trend of the objective function (top plot) shows a general decrease in relative beam loss as the number of iterations increases, which indicates that the optimization is successful in finding parameters that result in less beam loss.
-
-Comparing this Bayesian Optimization result with the BOBYQA result could be insightful, as each algorithm has different strengths. Bayesian Optimization is often more suitable for problems with expensive evaluations, as it tends to require fewer samples to converge.
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{chapter5/i2_bobyqa_commented.png}
     \caption{Normalized beam current plots for the BOBYQA method done at Ring 1.}
     \label{fig:ibobyqa}
 \end{figure}
+
+Similar to the exercise done for the Bayesian optimization, Fig. \ref{fig:bobyqa1} shows the evolution of the objective function and actor currents for a BOBYQA optimization instance on BCMS beam. The initial values were set from the Bayesian optimization results for each ring, as discussed in the last section. The trend of the objective function (top plot) shows a general decrease in relative beam loss as the number of iterations increases, which indicates that the optimization is successful in finding parameters that result in less beam loss. The bottom graph illustrates the variation of the actor currents in arbitrary units across iterations. Each actor is distinguished by a unique line pattern and color. Some correctors are kept at 0 given that they were not available for Ring 3. The implementation of BOBYQA through GeOFF ensures the algorithm doesn't fall to a local minimum by bumping the settings to new configuration once it falls to some stable configuration. That can be seen from the sudden oscillations found in the objective function plot from Fig. \ref{fig:bobyqa1}.  
 
 \begin{figure}[H]
     \centering
@@ -153,11 +153,17 @@ Comparing this Bayesian Optimization result with the BOBYQA result could be insi
     \label{fig:bobyqa1}
 \end{figure}
 
+Comparing this BOBYQA instance with the Bayesian optimization results, one can see that the exploration phase is much shorter and less broad for the BOBYQA instance. Similarly, the variation steps from BOBYQA in the actor currents are smaller than BO. This is true because of the underlying mechanism used to estimate the objective function and its uncertainty. BOBYQA uses deterministic local quadratic models, while Bayesian Optimization uses probabilistic models which provide a measure of uncertainty. BOBYQA is generally considered a local search technique, meaning it may be more prone to finding a local minimum rather than the global minimum. Hence, the initial point for BOBYQA holds more importance. Bayesian optimization is generally used for global optimization and is particularly strong in high-dimensional spaces or when function evaluations are very expensive. In summary, while both algorithms are powerful tools for optimization in an accelerator physics problems, the choice between BOBYQA and Bayesian optimization will depend on the specific characteristics of the problem at hand, including the nature of the objective function, the presence of constraints, the dimensionality of the problem, practical considerations like the availability of computational and experimental resources, and, ultimately, availability of study/machine development time.  
+
 \section{Experimental Verification of Compensation}
+
+The whole point of the optimization algorithms explained in the last sections were to reduce the losses that show up in the loss map from Fig. \ref{fig:bare_psb}. Figure \ref{fig:bocomp_psb} shows a new loss map with the best configurations found for each ring using the Bayesian optimization procedure on LHC-type beam. When comparing both loss maps, it is clear that with these new configurations, the loss maps have been cleared out of losses in the region of interest. The immediate losses are decreased by nearly one order of magnitude in the region of occupied by the tune ramp. In particular, the third order resonances that dominated the losses in Fig \ref{fig:bare_psb} are largely suppressed with these new configurations. Nevertheless, there are still some resonance lines visible in the loss maps on Fig. \ref{fig:bocomp_psb}, e.g., $Q_x - 2 Q_y = -4$. Given that these lines are not in the region of PSB operation, they are not of particular concern. 
+
+This chapter has shown a different approach to resonance compensation from the one presented on Ch. \ref{sec:ch4}. Chapter \ref{sec:ch4} showed a physics-informed approach by minimizing the Recycler's RDTs, and, ultimately, leading to the reduction of beam loss. On the other hand, the previous sections of this chapter, showed an optimization-based approach, which can be considered a brute-force line of action. In this approach, all the actors are thrown to an optimization algorithm, which finds a numerical solution that minimizes the objective function. No physics involved just numerical optimization. In particular, BOBYQA's deterministic approach can quickly home in on a solution when the accelerator is already operating near a resonance compensation optimum. Bayesian Optimization, with its probabilistic nature, is better suited for exploring unknown or poorly understood operational regimes. All the previous approaches have been proven to work and yield satisfactory results in the context of resonance compensation. The choice between optimization-based and physics-informed approaches—--or a combination thereof—--depends on the specific context of the particle accelerator's operational goals, the available data, and the accuracy of the model.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter5/bocomp.png}
-    \caption{Dynamic loss maps for the 4 rings in the PS Booster with the best configuration from the Bayesian optimization of the resonance compensation. The plots are an average of scanning in 4 directions.}
+    \caption{Dynamic loss maps for the 4 rings in the PS Booster with the best configuration from the Bayesian optimization of the resonance compensation. The plots are an average of scanning in 4 directions. Plot provided by F. Asvesta.}
     \label{fig:bocomp_psb}
 \end{figure}
