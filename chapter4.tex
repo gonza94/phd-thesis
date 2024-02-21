@@ -105,23 +105,9 @@
 
 \section{Compensation of RDTs}
 
-\begin{equation}
-    \begin{bmatrix}
-        -|{h_{3000}}|  \cos (\psi_{3000})\\
-        -|{h_{3000}}|  \sin (\psi_{3000})\\
-        -|{h_{1020}}|  \cos (\psi_{1020})\\
-        -|{h_{1020}}|  \sin (\psi_{1020})\\
-      \end{bmatrix}_{(Bare)}
-    =
-      \boldsymbol{M}
-    \begin{bmatrix}
-        I_{sc220} \\
-        I_{sc222} \\
-        I_{sc319} \\
-        I_{sc321} \\
-      \end{bmatrix}
-\end{equation}
+For resonance compensation we have four dedicated normal sextupoles with currents that can be set to ($I_{sc220},I_{sc222},I_{sc319},I_{sc321}$) and four dedicated skew sextupoles with currents that can be set to ($I_{ss323},I_{ss323},I_{ss319},I_{ss321}$). As shown in the previous section one RDT can be cancelled out with the right kick from the correction elements, which means the resonances are corrected to first order. 
 
+Nevertheless, by compensating one resonance line, other resonances  might become worse. This is why for simultaneous compensation, compensation currents will vary depending on the subsets of resonances to compensate. In principle, the currents $I_x$ needed in each correction element in order to cancel out the four bare machine RDTs, are given by the solution to this linear system of equations: 
 \begin{equation}
     \begin{bmatrix}
         -|{h_{3000}}|  \cos (\psi_{3000})\\
@@ -145,8 +131,37 @@
         I_{ss319} \\
         I_{ss321} \\
       \end{bmatrix}
+    \label{eq:system}
 \end{equation}
- 
+where $M_{ij}$ is the response matrix for the RDTs with respect to the currents, and includes any roll that can happen for the correction sextupoles. This response matrix $M_{ij}$ can be calculated by scanning the currents in each correction element and looking at the response from the real and imaginary part of the RDTs, i.e., $h_{jklm}=|h_{jklm}|e^{i\psi_{jklm}}$. 
+
+In reality, there are limitations to solving equation \ref{eq:system}. The first one is that all the RDTs ($h_{jklm}$) may not be accessible for measurement, given that they may not show up as a spectral line.  Another limitation is that the solution for the currents may be outside the maximum limits for the correction elements. 
+
+One can also try to cancel out a subset of RDTs from equation \ref{eq:system}, including only one RDT. For example, in order to compensate $3 Q_x=76$, the system of equations to be solved is:
+
+\begin{equation}
+    \begin{bmatrix}
+        -|{h_{3000}}|  \cos (\psi_{3000})\\
+        -|{h_{3000}}|  \sin (\psi_{3000})\\
+        0\\
+        0\\
+      \end{bmatrix}_{(Bare)}
+    =
+    \begin{bmatrix}
+        M_{11} & M_{12} & M_{13} & M_{14} \\
+        M_{21} & M_{22} & M_{23} & M_{24} \\
+        1 & 1 & 0 & 0 \\
+        0 & 0 & 1 & 1 \\
+    \end{bmatrix}
+    \begin{bmatrix}
+        I_{sc220} \\
+        I_{sc222} \\
+        I_{sc319} \\
+        I_{sc321} \\
+      \end{bmatrix}
+    \label{eq:system1}
+\end{equation}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/h3000_3qxcomp.png}
@@ -287,10 +302,23 @@ Another method for visualizing resonance compensation involves static tune scans
         k_2^{(sc222)}\\
         k_2^{(sc319)} \\
         k_2^{(sc321)}\\
-        k_2^{(1)} \\
-        k_2^{(2)}\\
         \end{bmatrix}
+        \label{eq:systemk2s}        
 \end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/old_config_h3000.png}
+    \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with existing sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
+    \label{fig:h3000oldconfig}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/old_config_h1020.png}
+    \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with existing sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
+    \label{fig:h1020oldconfig}
+\end{figure}
 
 \begin{equation}
     \begin{bmatrix}
@@ -306,5 +334,29 @@ Another method for visualizing resonance compensation involves static tune scans
         k_2^{(sc222)}\\
         k_2^{(sc319)} \\
         k_2^{(sc321)}\\
-        \end{bmatrix}        
+        k_2^{(1)} \\
+        k_2^{(2)}\\
+        \end{bmatrix}
+        \label{eq:systemadd}
 \end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/new_sexts_dx.png}
+    \caption{Dispersion function of the Recycler Ring with possible new locations to introduce a pair of sextupole magnets that cancel out $h_{3000}$ and $h_{1020}$ simultaneously. The right y-axis shows the maximum compensation current needed with these new candidates.}
+    \label{fig:dxnewsexts}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/new_sexts_h3000.png}
+    \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with the new 620 sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
+    \label{fig:h3000newsexts}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/new_sexts_h1020.png}
+    \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with the new 620 sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
+    \label{fig:h1020newsexts}
+\end{figure}
