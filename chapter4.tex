@@ -57,16 +57,30 @@ The following subsections will explore in more detail the steps outlined in the 
 
 \subsection{Dipole Kick and BPM data}
 
+The first step towards measuring RDTs is to kick (or ping) the beam in one or both transverse direction(s) in order to excite betatron oscillations. Betatron oscillations are the natural oscillations of particles around their equilibrium orbit in a circular accelerator. This kick is done with the help of horizontal and vertical dipole kickers. In particular, the devices used for this were the kicker devices with ACNET names R:K4XXX and R:KVXXX, horizontally and vertically, respectively. In principle, these are the Recycler abort kickers---devices used to send beam to the abort line in Recycler. Nevertheless, the high-voltage settings and timings of these pingers can be changed to give a small kick to the beam. A ping that is small enough not to steer the beam to the abort line, but large enough to excite betatron oscillations in one or both transverse directions. The beam was kicked exclusively in the horizontal direction in order to measure purely horizontal RDTs, e.g., $h_{3000}$, solely in the vertical direction for vertical RDTs, e.g., $h_{0030}$, or pinged in both directions for all of them, including coupling RDTs, e.g., $h_{1020}$ and $h_{2010}$.
+
+Once the kickers are set correctly, the next step is to take BPM data. As mentioned in Sec. \ref{sec:diagnostic}, there are ACNET applications that allow to gather and save BPM data for offline analysis. The BPM data from all 208 BPMs (104 horizontal and 104 vertical) can be saved in one file. Figure \ref{fig:bpm_kick0} shows an instance of kicking the beam in the horizontal direction and recording beam centroid data for 2048 turns at an arbitrary BPM. The amount of turns recorded is also a customizable quantity. The ping shown in Fig. \ref{fig:bpm_kick0} happens early in the cycle, at around 50 turns. The next hundred of turns holds information about the betatron oscillations. This is the data used to extract the tunes $Q_u$ and RDTs of the machine.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/bpm_kick.png}
-    \caption{}
+    \caption{BPM data of an arbitrary horizontal kick in the beam at horizontal BPM R:HP620.}
     \label{fig:bpm_kick0}
 \end{figure}
 
-\subsection{Estimation of Momentum Coordinates}
+The physics of a kicked beam is well explained in Refs. \cite{decoherence1,decoherence2}. Once the beam is pinged, the centroid response will oscillate at betatron tunes $Q_u$. The envelope of these oscillations will be dictated by nonlinearities and chromaticity of the machine. How fast this envelope decays is a measure of the decoherence of the beam. Decoherence of a particle beam in accelerator physics refers to the process by which a beam that initially has particles oscillating in phase—--meaning they have similar amplitudes and frequencies—--gradually becomes out of phase over time. This results in a spread in the particles' positions and momenta, leading to a more diffuse beam. This decoherence is caused by nonlinearities in the machine and the transverse chromaticities that will detune the beam out of coherence, as explained by Eqs. \ref{eq:detune} and \ref{eq:chrom}. Ultimately, this process will diffuse and maim the signal recorded by the BPMs. 
+
+Therefore, when BPM data of kicked beam is taken, special care needs to be taken in order to sustain coherent oscillations. This is done by manipulating the chromaticities of the machine by means of specialized sextupoles. Table \ref{tab:rrparams} showed the nominal chromaticities at which the Recycler Ring operates. In general, for these RDT measurements, the vertical chromaticity was changed between the range of -7 and -3, in order to find sustained vertical oscillations. For the horizontal case, a chromaticity of -5 would be usually enough for 1 mm oscillations. The other system that affects decoherence are the transverse dampers. As per its name, these devices dampen out any oscillation in the beam. Therefore, they were turned off for these particular studies. Taking these factors into account, one could get consequential oscillations in both transverse planes, as a first step to measure Resonance Driving Terms.      
+
+\subsection{Estimation of Momentum Coordinate}
+
+At the most fundamental level, BPM data holds only information about the centroid position of the beam. Nevertheless, in a particle accelerator it is of interest to look at the whole phase space picture ($\hat{u},\hat{p}_u$)---including the momentum coordinate. Therefore, it is of relevance to explain how the momentum coordinate is calculated from the TbT position from every BPM. The approach used involves a model-based perspective. Therefore, the lattice model plays a crucial role in the momentum estimation. 
+
+With model-based approaches, it is important to be confident that the model is as close to the real accelerator as possible. The beta-beating is a measure of how well the beta functions of the model describe the beta functions from the real-world accelerator. In particular, M. Xiao has showed that the beta-beating along the Recycler is below 10\% \cite{rr3}---an acceptable quantity for modern accelerators. Therefore, this proves that the model used is reliable up to some significance level. The beta-beating quantity is ultimately limited by how truly linear the accelerator is and any ripple noise from the power supplies feeding the quadrupole and dipoles.   
 
 \subsection{Twiss Parameters and Normalized Data}
+
+
 
 \begin{figure}[H]
     \centering
@@ -75,7 +89,7 @@ The following subsections will explore in more detail the steps outlined in the 
     \label{fig:ellipse}
 \end{figure}
 
-\subsection{Resonance basis and Spectral Decomposition}
+\subsection{Resonance Basis and Spectral Decomposition}
 
 \begin{equation}
     \label{eq:hxspect}

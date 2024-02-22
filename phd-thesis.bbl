@@ -36,6 +36,7 @@
       \strng{authorbibnamehash}{42af251ae29dd645326679fff7ed7a17}
       \strng{authornamehash}{42af251ae29dd645326679fff7ed7a17}
       \strng{authorfullhash}{42af251ae29dd645326679fff7ed7a17}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -2663,6 +2664,159 @@
       \field{labeltitlesource}{title}
       \field{title}{SUSSIX: A Computer Code for Frequency Analysis of Nonlinear Betatron Motion}
     \endentry
+    \entry{decoherence1}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9c85b829d978a93f8e205dd54879296d}{%
+           family={Meller},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cdcf559c5763c40879c70b77c2c852ee}{%
+           family={Chao},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8cb27dce3da0ed3e07c2a2fdbb6a2785}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=75f860cb3d9e968e442de836b1e90914}{%
+           family={Peggs},
+           familyi={P\bibinitperiod},
+           given={Stephen\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=fc202eb8b2a62828c95138329938742d}{%
+           family={Furman},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8af3030697ac4f79328f5bb2df8cda73}
+      \strng{fullhash}{9dd86c694ec1522beaf225fa3fb10974}
+      \strng{bibnamehash}{8af3030697ac4f79328f5bb2df8cda73}
+      \strng{authorbibnamehash}{8af3030697ac4f79328f5bb2df8cda73}
+      \strng{authornamehash}{8af3030697ac4f79328f5bb2df8cda73}
+      \strng{authorfullhash}{9dd86c694ec1522beaf225fa3fb10974}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Decoherence of Kicked Beams}}
+      \field{year}{1987}
+    \endentry
+    \entry{decoherence2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=42af251ae29dd645326679fff7ed7a17}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{fullhash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{bibnamehash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{authorbibnamehash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{authornamehash}{42af251ae29dd645326679fff7ed7a17}
+      \strng{authorfullhash}{42af251ae29dd645326679fff7ed7a17}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{Decoherence of the Kicked Beams II}}
+      \field{year}{1991}
+    \endentry
+    \entry{rr3}{article}{}
+      \name{author}{12}{}{%
+        {{hash=75ec45882dee92c37b5d6307081f82f2}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=391d31de27b9e847b1cf2d3f45c600dd}{%
+           family={Adamson},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f3f5433af2b0d99b80d5fe125536bdc2}{%
+           family={Capista},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dd3039194dc333184e93a262524650f8}{%
+           family={Chelidze},
+           familyi={C\bibinitperiod},
+           given={Nino},
+           giveni={N\bibinitperiod}}}%
+        {{hash=99454fd3942be6fd924bbf4ed15ec745}{%
+           family={Gonzalez-Ortiz},
+           familyi={G\bibinithyphendelim O\bibinitperiod},
+           given={Cristhian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=59da48c3d4aa93b2814f0921ff7a2764}{%
+           family={Hazelwood},
+           familyi={H\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=305f1a2989f8e4ea1effe8274740795f}{%
+           family={Kourbanis},
+           familyi={K\bibinitperiod},
+           given={Ioanis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b207d1b34350a3062ad412d916f073f1}{%
+           family={Mohsen},
+           familyi={M\bibinitperiod},
+           given={Osama},
+           giveni={O\bibinitperiod}}}%
+        {{hash=f3e84563ade360958726038f145d9d34}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Denton},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4f2995761cf94fb1792a203c05a82c43}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e858bf9dbb469b686ce1a9b12c7cc851}{%
+           family={Wren},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7177c54bd109a4d31d12325f327cdd9d}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Meiqin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3af9fda5149171598e0d21b44d793836}
+      \strng{fullhash}{4561cc7d1a9d4c95195d64dc36cfce52}
+      \strng{bibnamehash}{3af9fda5149171598e0d21b44d793836}
+      \strng{authorbibnamehash}{3af9fda5149171598e0d21b44d793836}
+      \strng{authornamehash}{3af9fda5149171598e0d21b44d793836}
+      \strng{authorfullhash}{4561cc7d1a9d4c95195d64dc36cfce52}
+      \field{extraname}{3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JACoW}
+      \field{month}{10}
+      \field{title}{Improvements to the Recycler/Main Injector to Deliver 850 kW+}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.18429/JACoW-NAPAC2022-WEYE3
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/1909888
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/1909888
+      \endverb
+    \endentry
     \entry{cernplot}{misc}{}
       \name{author}{1}{}{%
         {{hash=22552363b818ea97be8a85cefdee8725}{%
@@ -2677,8 +2831,8 @@
       \strng{authorbibnamehash}{22552363b818ea97be8a85cefdee8725}
       \strng{authornamehash}{22552363b818ea97be8a85cefdee8725}
       \strng{authorfullhash}{22552363b818ea97be8a85cefdee8725}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A graphic overview of all accelerators in operation at CERN.}
@@ -3130,8 +3284,8 @@
       \strng{authorbibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{authornamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{authorfullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Bayesian Optimization}
