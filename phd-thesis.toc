@@ -24,6 +24,13 @@
 \contentsline {chapter}{\chapternumberline {4}Compensation of Third-Order Resonances at Low Intensities}{53}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Global RDTs and Lattice Model}{53}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Measurement of Third Order RDTs}{56}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Dipole Kick and BPM data}{57}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Estimation of Momentum Coordinates}{57}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Twiss Parameters and Normalized Data}{57}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Resonance basis and Spectral Decomposition}{58}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Resonance Basis Spectrum}{58}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Spectral Lines and RDT calculation}{59}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Third Order RDTs at every BPM location}{59}{subsection.4.2.7}%
 \contentsline {section}{\numberline {4.3}Compensation of RDTs}{59}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Optimization of Compensation Currents}{62}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Experimental Verification of Compensation}{62}{section.4.5}%

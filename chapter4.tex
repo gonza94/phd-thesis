@@ -29,19 +29,53 @@ As mentioned in Ch. \ref{sec:ch3}, the Recycler Ring is made up of permanent gra
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\columnwidth]{chapter4/h3000_bare.png}
+    \includegraphics[width=0.88\columnwidth]{chapter4/h3000_bare.png}
     \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point.}
     \label{fig:h3000bare}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\columnwidth]{chapter4/h1020_bare.png}
+    \includegraphics[width=0.88\columnwidth]{chapter4/h1020_bare.png}
     \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point.}
     \label{fig:h1020bare}
 \end{figure}
 
 \section{Measurement of Third Order RDTs}
+
+Calculating the theoretical RDTs from the lattice model is a matter of calculating the sums outlined in Table \ref{tab:rdts}. Nevertheless, the measurement of the third order RDTs requires following a long and involved recipe. This recipe is based on previous work from Refs. \cite{cernthesis2,bartolini}, but with a lot of original steps specifically developed for the Recycler Ring. In summary, these are the steps used in order to measure RDTs at the Recycler:
+\begin{enumerate}
+    \item Kick the beam with dipole kickers and save turn-by-turn BPM data for offline analysis.
+    \item Go through data and estimate momentum coordinate with previously calculated transfer matrices from lattice model.
+    \item Estimate Twiss parameters and normalized coordinates ($\hat{u}$,$\hat{p}_u$) at every BPM location.
+    \item Create resonance basis $h_u^{\pm}$ (see Eq. \ref{eq:hbasis}).
+    \item Get spectrum of resonance basis using NAFF (Numerical Analysis of Fundamental Frequencies) through the SUSSIX software \cite{sussix}.
+    \item Identify resonance lines from the spectrum that correspond to the RDT of interest.
+    \item Calculate the RDT at each BPM location from the equivalence relation of spectral lines and RDT expansion (see Eq. \ref{eq:hx-}). 
+\end{enumerate}
+The following subsections will explore in more detail the steps outlined in the previous list.
+
+\subsection{Dipole Kick and BPM data}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/bpm_kick.png}
+    \caption{}
+    \label{fig:bpm_kick0}
+\end{figure}
+
+\subsection{Estimation of Momentum Coordinates}
+
+\subsection{Twiss Parameters and Normalized Data}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/ellipse_data.png}
+    \caption{}
+    \label{fig:ellipse}
+\end{figure}
+
+\subsection{Resonance basis and Spectral Decomposition}
 
 \begin{equation}
     \label{eq:hxspect}
@@ -67,6 +101,8 @@ As mentioned in Ch. \ref{sec:ch3}, the Recycler Ring is made up of permanent gra
     e^{i \left[ \left( k-j\right)\left( \psi_x + \psi_{x_0} \right) +\left( 1-l+m\right)\left( \psi_y + \psi_{y_0} \right)\right]}.
 \end{multline}
 
+\subsection{Resonance Basis Spectrum}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/hxspect.png}
@@ -80,6 +116,8 @@ As mentioned in Ch. \ref{sec:ch3}, the Recycler Ring is made up of permanent gra
     \caption{Spectral lines of $h_y^{-}$ calculated with SUSSIX \cite{sussix}. The $h_y^{-}$ signal was reconstructed for the 104 Vertical BPMs. The spectrum for all BPMs is superimposed in this plot.}
     \label{fig:hyspect1}
 \end{figure}
+
+\subsection{Spectral Lines and RDT calculation}
 
 \begin{table}[H]
     \centering
@@ -97,19 +135,7 @@ As mentioned in Ch. \ref{sec:ch3}, the Recycler Ring is made up of permanent gra
     \label{tab:rdtlines}
 \end{table}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{chapter4/bpm_kick.png}
-    \caption{}
-    \label{fig:bpm_kick0}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{chapter4/ellipse_data.png}
-    \caption{}
-    \label{fig:ellipse}
-\end{figure}
+\subsection{Third Order RDTs at every BPM location}
 
 \section{Compensation of RDTs}
 

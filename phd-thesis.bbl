@@ -2768,8 +2768,8 @@
       \strng{authorbibnamehash}{91480137c09092dea171a84c35e8fd06}
       \strng{authornamehash}{91480137c09092dea171a84c35e8fd06}
       \strng{authorfullhash}{85a5635d96ff8eaa3543ba3c3aae61ab}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{LHC Injectors Upgrade, Technical Design Report}}
@@ -2823,8 +2823,8 @@
       \strng{authorbibnamehash}{809f6beb3a09aa4da5de8855377170e1}
       \strng{authornamehash}{809f6beb3a09aa4da5de8855377170e1}
       \strng{authorfullhash}{969b08b0060531d5cff3e703ab90ab23}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{The new injection region of the CERN PS Booster}}
@@ -3151,8 +3151,8 @@
       \strng{authorbibnamehash}{15643444aed9bbb3d150d9895b848437}
       \strng{authornamehash}{15643444aed9bbb3d150d9895b848437}
       \strng{authorfullhash}{15643444aed9bbb3d150d9895b848437}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The BOBYQA algorithm for bound constrained optimization without derivatives}
@@ -3194,8 +3194,8 @@
       \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
       \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}
