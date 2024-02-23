@@ -74,9 +74,125 @@ Therefore, when BPM data of kicked beam is taken, special care needs to be taken
 
 \subsection{Estimation of Momentum Coordinate}
 
-At the most fundamental level, BPM data holds only information about the centroid position of the beam. Nevertheless, in a particle accelerator it is of interest to look at the whole phase space picture ($\hat{u},\hat{p}_u$)---including the momentum coordinate. Therefore, it is of relevance to explain how the momentum coordinate is calculated from the TbT position from every BPM. The approach used involves a model-based perspective. Therefore, the lattice model plays a crucial role in the momentum estimation. 
+At the most fundamental level, BPM data holds only information about the centroid position of the beam. Nevertheless, in a particle accelerator it is of interest to look at the whole phase space picture ($\hat{u},\hat{p}_u$)---including the momentum coordinate. Therefore, it is of relevance to explain how the momentum coordinate is calculated from the TbT position from every BPM. The approach used involves a model-based perspective. Therefore, the lattice model plays a crucial role in the momentum estimation.    
 
-With model-based approaches, it is important to be confident that the model is as close to the real accelerator as possible. The beta-beating is a measure of how well the beta functions of the model describe the beta functions from the real-world accelerator. In particular, M. Xiao has showed that the beta-beating along the Recycler is below 10\% \cite{rr3}---an acceptable quantity for modern accelerators. Therefore, this proves that the model used is reliable up to some significance level. The beta-beating quantity is ultimately limited by how truly linear the accelerator is and any ripple noise from the power supplies feeding the quadrupole and dipoles.   
+The approach to estimate the momentum coordinate involves solving a least-squares problem. The first step is to calculate the model's transfer matrices (linear approximation) from one fixed point in the accelerator to all the horizontal and vertical BPM locations---in total there should be 208 transfer matrices. For these studies, the fixed point chosen was the location for the vertical BPM R:VP601. As an example, let the following paragraphs show how to calculate the horizontal phase space coordinates, including the relative momentum deviation $\delta$. In particular, the main objective is to calculate the $X_0$ matrix with dimensions $3\times2048$, which corresponds to the phase space coordinates $\left( \vec{x}_0, \vec{x}_0', \vec{\delta}_0 \right)$ at the location of R:VP601. The $X_0$ array will have the following definition:
+\begin{equation}
+    \label{eq:x0vec}
+    X_0= 
+    \begin{pmatrix}
+        \vec{x_0} \\
+        \vec{x}_0' \\
+        \vec{\delta_0}
+    \end{pmatrix} = 
+    \begin{pmatrix}
+        \left[ x_0(N=1), x_0(N=2), ...,x_0(N=2048) \right] \\
+        \left[ x_0'(N=1), x_0'(N=2), ..., x_0'(N=2048) \right] \\
+        \left[ \delta_0 (N=1), \delta_0 (N=2), ..., \delta_0 (N=2048) \right]
+    \end{pmatrix},
+\end{equation}  
+and holds the information over the 2048 turns. The least squares problem is defined as the solution to the following system:
+\begin{equation}
+    \label{eq:lsq}
+    A X_0 = B,
+\end{equation}
+where $A$ is the matrix made from the horizontal coefficients of the model's transfer matrices, and it reads: 
+\begin{equation}
+\label{eq:alsq}
+    A =
+    \begin{pmatrix}
+    \left( M_{11} \qquad M_{12} \qquad M_{13} \right)_{BPM(i-10)} \\
+    \vdots \\
+    \left( M_{11} \qquad M_{12} \qquad M_{13} \right)_{BPM(i)}  \\
+    \vdots \\
+    \left( M_{11} \qquad M_{12} \qquad M_{13} \right)_{BPM(i+10)} 
+    \end{pmatrix}.
+\end{equation}
+The notation $(...)_{BPM(j)}$ means that all the matrix coefficients inside the parenthesis are indexed by the BPM(j), and should be copied from that particular transfer matrix correlating the fixed point to BPM(j). For this case, the BPM(i) corresponds to the particular BPM location where the phase space coordinates $X_{BPM(i)}$ want to be calculated, after calculating $X_0$. It can be noted, that only the 10 upstream BPMs and 10 downstream BPMs of BPM(i) are included in this calculation. This number is easily customizable in this estimation, but should not be too large, i.e., no larger than 30 to preserve some sense of locality. 
+
+The $B$ matrix is defined from the BPM observations, and its transpose is just the BPM responses stacked horizontally. This reads explicitly:
+\begin{equation}
+    \label{eq:balsq}
+    B^T =
+    \begin{pmatrix}
+    \vdots & & \vdots & & \vdots \\
+    \Bigl< x_{BPM(i-10)} \Bigr> & ... &  \Bigl< x_{BPM(i)} \Bigr> &  ... & \Bigl< x_{BPM(i+10)} \Bigr> \\
+    \vdots & & \vdots & & \vdots \\
+    \end{pmatrix}. 
+\end{equation}
+Again, in order to use least-squares approximation, this calculation should take the 10 BPMs upstream and the 10 BPMs downstream of the BPM(i), whose phase space coordinates are being calculated. 
+
+The least-squares solution $\hat{X}_0$ to this problem is given by:
+\begin{equation}
+    \label{eq:x0hat}
+    \hat{X}_0 = (A^T A)^{-1} A^T B.
+\end{equation}
+Once $\hat{X}_0$ is calculated from the data of 10 BPMs upstream and downstream of BPM(i). The phase space coordinates $X_{BPM(i)}$ at BPM(i) can be calculated from:
+\begin{equation}
+    \label{eq:xbpmi}
+    X_{BPM(i)} = \begin{pmatrix}
+        \vec{x} \\
+        \vec{x}' \\
+        \vec{\delta}
+    \end{pmatrix}_{BPM(i)}=
+    \begin{pmatrix}
+        \left[ x(N=1),...,x(N=2048) \right] \\
+        \left[ x'(N=1),..., x'(N=2048) \right] \\
+        \left[ \delta (N=1),..., \delta (N=2048) \right]
+    \end{pmatrix}
+    = \left[ M_{11} \quad M_{12} \quad M_{13} \right]_{BPM(i)} \hat{X}_0.  
+\end{equation}
+
+
+\begin{equation}
+    \label{eq:y0vec}
+    Y_0= 
+    \begin{pmatrix}
+        \vec{y_0} \\
+        \vec{y}_0'
+    \end{pmatrix} = 
+    \begin{pmatrix}
+        \left[ y_0(N=1), y_0(N=2), ...,y_0(N=2048) \right] \\
+        \left[ y_0'(N=1), y_0'(N=2), ..., y_0'(N=2048) \right]
+    \end{pmatrix},
+\end{equation} 
+
+\begin{equation}
+    \label{eq:alsqy}
+        A =
+        \begin{pmatrix}
+        \left( M_{21} \qquad M_{22} \right)_{BPM(i-10)} \\
+        \vdots \\
+        \left( M_{21} \qquad M_{22} \right)_{BPM(i)}  \\
+        \vdots \\
+        \left( M_{21} \qquad M_{22} \right)_{BPM(i+10)} 
+        \end{pmatrix}.
+\end{equation}
+
+\begin{equation}
+    \label{eq:balsqy}
+    B^T =
+    \begin{pmatrix}
+    \vdots & & \vdots & & \vdots \\
+    \Bigl< y_{BPM(i-10)} \Bigr> & ... &  \Bigl< y_{BPM(i)} \Bigr> &  ... & \Bigl< y_{BPM(i+10)} \Bigr> \\
+    \vdots & & \vdots & & \vdots \\
+    \end{pmatrix}. 
+\end{equation}
+
+\begin{equation}
+    \label{eq:ybpmi}
+    Y_{BPM(i)} = \begin{pmatrix}
+        \vec{y} \\
+        \vec{y}' \\
+    \end{pmatrix}_{BPM(i)}=
+    \begin{pmatrix}
+        \left[ y(N=1),...,y(N=2048) \right] \\
+        \left[ y'(N=1),..., y'(N=2048) \right] 
+    \end{pmatrix}
+    = \left[ M_{21} \quad M_{22} \right]_{BPM(i)} \hat{Y}_0  
+\end{equation}
+
+With model-based approaches, it is important to be confident that the model is as close to the real accelerator as possible. The beta-beating is a measure of how well the beta functions of the model describe the beta functions from the real-world accelerator. In particular, M. Xiao has showed that the beta-beating along the Recycler is below 10\% \cite{rr3}---an acceptable quantity for modern accelerators. Therefore, this proves that the model used is reliable up to some significance level. The beta-beating quantity is ultimately limited by how truly linear the accelerator is and any ripple noise from the power supplies feeding the quadrupole and dipoles.
 
 \subsection{Twiss Parameters and Normalized Data}
 
