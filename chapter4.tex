@@ -76,7 +76,7 @@ Therefore, when BPM data of kicked beam is taken, special care needs to be taken
 
 At the most fundamental level, BPM data holds only information about the centroid position of the beam. Nevertheless, in a particle accelerator it is of interest to look at the whole phase space picture ($\hat{u},\hat{p}_u$)---including the momentum coordinate. Therefore, it is of relevance to explain how the momentum coordinate is calculated from the TbT position from every BPM. The approach used involves a model-based perspective. Therefore, the lattice model plays a crucial role in the momentum estimation.    
 
-The approach to estimate the momentum coordinate involves solving a least-squares problem. This is the approach used in Ref. \cite{yang}. The first step is to calculate the model's transfer matrices (linear approximation) from one fixed point in the accelerator to all the horizontal and vertical BPM locations---in total there should be 208 transfer matrices. For these studies, the fixed point chosen was the starting point of the turn count which is the location for the vertical BPM R:VP601. As an example, let the following paragraphs show how to calculate the horizontal phase space coordinates, including the relative momentum deviation $\delta$. In particular, the main objective is to calculate the $X_0$ matrix with dimensions $3\times2048$, which corresponds to the phase space coordinates $\left( \vec{x}_0, \vec{x}_0', \vec{\delta}_0 \right)$ at the location of R:VP601. The $X_0$ array will have the following definition:
+The approach to estimate the momentum coordinate involves solving a least-squares problem. This is the approach developed in Ref. \cite{yang}. The first step is to calculate the model's transfer matrices (linear approximation) from one fixed point in the accelerator to all the horizontal and vertical BPM locations---in total there should be 208 transfer matrices. For these studies, the fixed point chosen was the starting point of the turn count which is the location for the vertical BPM R:VP601. As an example, let the following paragraphs show how to calculate the horizontal phase space coordinates, including the relative momentum deviation $\delta$. In particular, the main objective is to calculate the $X_0$ matrix with dimensions $3\times2048$, which corresponds to the phase space coordinates $\left( \vec{x}_0, \vec{x}_0', \vec{\delta}_0 \right)$ at the location of R:VP601. The $X_0$ array will have the following definition:
 \begin{equation}
     \label{eq:x0vec}
     X_0= 
@@ -198,46 +198,61 @@ Once, $\hat{Y}_0$ is calculated, it can be transferred to the location of BPM(i)
     = \left[ M_{21} \quad M_{22} \right]_{BPM(i)} \hat{Y}_0.  
 \end{equation}
 
-It is worth pointing out that for the vertical case, the appropriate elements of the transfer matrices are picked out, i.e., $M_{21}$ and $M_{22}$ instead of the horizontal coefficients $M_{11}$, $M_{12}$ and $M_{13}$. The other thing to note is that for the vertical case any momentum dependence is dropped given that the vertical dispersion is negligible in the Recycler Ring, as shown in Fig. \ref{fig:rrdisps}. The previous procedure of calculating $\hat{U}_{BPM(i)}$ is done and saved for each of the 104 horizontal and 104 vertical BPMs---$\hat{X}_{BPM(i)}$ or $\hat{Y}_{BPM(i)}$, accordingly.
+It is worth pointing out that for the vertical case, the appropriate elements of the transfer matrices are picked out, i.e., $M_{21}$ and $M_{22}$ instead of the horizontal coefficients $M_{11}$, $M_{12}$ and $M_{13}$. The other thing to note is that for the vertical case any momentum dependence is dropped given that the vertical dispersion is negligible in the Recycler Ring, as shown in Fig. \ref{fig:rrdisps}. The previous procedure of calculating $\hat{U}_{BPM(i)}$ is done and saved for each of the 104 horizontal and 104 vertical BPMs---$\hat{X}_{BPM(i)}$ or $\hat{Y}_{BPM(i)}$, accordingly. Figure \ref{fig:momentum} shows an application of this momentum reconstruction technique for a horizontal BPM R:HP620 and its vertical neighbor R:VP621. 
 
 With model-based approaches, it is important to be confident that the model is as close to the real accelerator as possible. The beta-beating is a measure of how well the beta functions of the model describe the beta functions from the real-world accelerator. In particular, M. Xiao has showed that the beta-beating along the Recycler is below 10\% \cite{rr3}---an acceptable quantity for modern accelerators. Therefore, this proves that the model used is reliable up to some significance level. The beta-beating quantity is ultimately limited by how truly linear the accelerator is and any ripple noise from the power supplies feeding the quadrupole and dipoles.
 
-\subsection{Twiss Parameters and Normalized Data}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/momentum.png}
+    \caption{Phase space coordinates reconstruction for two neighboring BPMs---one horizontal R:HP620 and one vertical R:VP621---windowed for 300 turns.}
+    \label{fig:momentum}
+\end{figure}
 
+\subsection{Twiss Parameters and Normalized Phase Space}
 
+The next step to measure RDTs, once the phase space coordinates have been reconstructed for every BPM, is to build the normal phase space coordinates ($\hat{u}$,$\hat{p}_u$). This is done by using Eqs. \ref{eq:ellipse} and \ref{eq:floquet}, and the information provided in Fig. \ref{fig:ellipses}. In order to build the normalized phase space, first the Twiss parameters have to be estimated. This is done by performing a least-squares fit in order to estimate the ellipse parameters of reconstructed phase space, such as the one shown in Fig. \ref{fig:momentum}. Therefore, an ellipse is being fit to the data, and after that, the Twiss parameters are retrieved from the fit, including the centroid action $2 \pi \langle J_u \rangle =\varepsilon_x $ (see Eq. \ref{eq:ellipse}). 
+
+Figure \ref{fig:ellipse} shows an example of this procedure. The left plot shows reconstructed phase space data with the best ellipse fit. The parameters indicated on the inset provide detailed characteristics of this particular fit: (a) $\beta_x$ (beta function) describes the spatial spread of the beam, (b) $\alpha_x$ (alpha function) relates to the angle the beam particles make with the reference orbit, and it is a measure of the beam divergence, and (c) $\varepsilon_x$ (centroid emittance) quantifies the area of the phase space that the beam centroid occupies. In particular, the centroid action can be calculated from $2 \pi \langle J_u \rangle =\varepsilon_x $.
+
+The right plot of Fig. \ref{fig:ellipse} shows the reconstructed normalized phase space using the Twiss parameters, as estimated from the ellipse fit. This normalization process involves scaling by the square root of the Twiss parameter $\beta_u$ at that particular location, in accordance to Floquet's transformation as defined in Eq. \ref{eq:floquet}. This procedure is done for the reconstructed data of every BPM, and, finally ($\hat{u}$,$\hat{p}_u$) is recorded.  
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/ellipse_data.png}
-    \caption{}
+    \caption{Reconstructed phase space data with the best ellipse fit (left plot). The right plot shows the reconstructed normalized phase space from using Eq. \ref{eq:floquet} with the Twiss parameters, as estimated from the ellipse fit. This data corresponds to the horizontal data shown in Fig. \ref{fig:momentum} for the R:HP620 BPM.}
     \label{fig:ellipse}
 \end{figure}
 
 \subsection{Resonance Basis and Spectral Decomposition}
 
+Once the normalized phase space coordinates are reconstructed for every BPM, the next step is to build the resonance basis $h_u^{\pm}(N)$, as defined in Eq. \ref{eq:hbasis}, i.e., $h_u^{\pm}=\hat{u}\pm \hat{p}_u$. This resonance basis is a function of the number of the turns $N$ that have elapsed. As shown in Eq. \ref{eq:hx-}, this quantity can have a spectral decomposition as a Fourier series. In general, this spectral decomposition in the horizontal dimension reads: 
 \begin{equation}
     \label{eq:hxspect}
-    h_x^{-}(N)= \hat{x} \pm \hat{p}_x = \sum_{jklm}HSL_{jklm}e^{2\pi i N \left[ \left( 1-j+k\right)Q_x+\left( m-l \right)Q_y\right]}
+    h_x^{-}(N)= \hat{x} \pm \hat{p}_x = \sum_{jklm}HSL_{jklm}e^{2\pi i N \left[ \left( 1-j+k\right)Q_x+\left( m-l \right)Q_y\right]},
 \end{equation}
-
+and in the vertical dimension:
 \begin{equation}
     \label{eq:hyspect}
-    h_y^{-}(N)= \hat{y} \pm \hat{p}_y = \sum_{jklm}VSL_{jklm}e^{2\pi i N \left[ \left( k-j\right)Q_x+\left(1-l+m \right)Q_y\right]}
+    h_y^{-}(N)= \hat{y} \pm \hat{p}_y = \sum_{jklm}VSL_{jklm}e^{2\pi i N \left[ \left( k-j\right)Q_x+\left(1-l+m \right)Q_y\right]}.
 \end{equation}
+These sums run over the $(j,k,l,m)$ indices. In principle, they run all the way to infinity, but can be truncated. The $HSL_{jklm}$ term corresponds to the complex amplitude defining the horizontal spectral line at location $(1-j+k)Q_x+(m-l)Q_y$. The $VSL_{jklm}$ term corresponds to the complex amplitude defining the vertical spectral line at location $(k-j)Q_x+(1-l+m)Q_y$. And as always $Q_u$ corresponds to the betatron tunes. These definitions help to understand the experimental data in order to measure RDTs.
 
+Nevertheless, from the theoretical point of view, the spectral decomposition can be calculated with the Lie algebra gymnastics shown in Sec. \ref{sec:rdts}. These spectral decompositions read for the horizontal plane:
 \begin{multline}
     \label{eq:hxpsi2}
     h_x^{-}(N)=\sqrt{2I_x}e^{i\left( \psi_x+\psi_{x_0}\right)} \\
     -2i \sum_{jklm} j f_{jklm} \left( 2I_x \right)^{\frac{j+k-1}{2}}\left( 2I_y \right)^{\frac{l+m}{2}}
-    e^{i \left[ \left( 1-j+k\right)\left( \psi_x + \psi_{x_0} \right) +\left( m-l\right)\left( \psi_y + \psi_{y_0} \right)\right]}.
+    e^{i \left[ \left( 1-j+k\right)\left( \psi_x + \psi_{x_0} \right) +\left( m-l\right)\left( \psi_y + \psi_{y_0} \right)\right]},
 \end{multline}
-
+and for the vertical case:
 \begin{multline}
     \label{eq:hypsi2}
     h_y^{-}(N)=\sqrt{2I_y}e^{i\left( \psi_y+\psi_{y_0}\right)} \\
     -2i \sum_{jklm} l f_{jklm} \left( 2I_x \right)^{\frac{j+k}{2}}\left( 2I_y \right)^{\frac{l+m-1}{2}}
     e^{i \left[ \left( k-j\right)\left( \psi_x + \psi_{x_0} \right) +\left( 1-l+m\right)\left( \psi_y + \psi_{y_0} \right)\right]}.
 \end{multline}
+The RDT calculation exploits the equivalence between Eqs. \ref{eq:hxspect} and \ref{eq:hyspect} to Eqs. \ref{eq:hxpsi2} and \ref{eq:hypsi2}. Therefore, the generating function coefficients ($f_{jklm}$) can be related to the horizontal and spectral line coefficients ($HSL_{jklm}$ and $VSL_{jklm}$). Ultimately, the $f_{jklm}$ terms can be related to Resonance Driving Terms $h_{jklm}$.
 
 \subsection{Resonance Basis Spectrum}
 
@@ -277,7 +292,7 @@ With model-based approaches, it is important to be confident that the model is a
 
 \section{Compensation of RDTs}
 
-For resonance compensation we have four dedicated normal sextupoles with currents that can be set to ($I_{sc220},I_{sc222},I_{sc319},I_{sc321}$) and four dedicated skew sextupoles with currents that can be set to ($I_{ss323},I_{ss323},I_{ss319},I_{ss321}$). As shown in the previous section one RDT can be cancelled out with the right kick from the correction elements, which means the resonances are corrected to first order. 
+For resonance compensation there are four dedicated normal sextupoles with currents that can be set to ($I_{sc220},I_{sc222},I_{sc319},I_{sc321}$) and four dedicated skew sextupoles with currents that can be set to ($I_{ss323},I_{ss323},I_{ss319},I_{ss321}$). As shown in the previous section one RDT can be cancelled out with the right kick from the correction elements, which means the resonances are corrected to first order. 
 
 Nevertheless, by compensating one resonance line, other resonances  might become worse. This is why for simultaneous compensation, compensation currents will vary depending on the subsets of resonances to compensate. In principle, the currents $I_x$ needed in each correction element in order to cancel out the four bare machine RDTs, are given by the solution to this linear system of equations: 
 \begin{equation}
