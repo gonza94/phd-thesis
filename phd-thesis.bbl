@@ -2729,6 +2729,37 @@
       \field{title}{{Decoherence of the Kicked Beams II}}
       \field{year}{1991}
     \endentry
+    \entry{yang}{report}{}
+      \name{author}{1}{}{%
+        {{hash=ec20afc71167704fd53ef78512fe0ad6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ming-Jen},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fermilab}%
+      }
+      \strng{namehash}{ec20afc71167704fd53ef78512fe0ad6}
+      \strng{fullhash}{ec20afc71167704fd53ef78512fe0ad6}
+      \strng{bibnamehash}{ec20afc71167704fd53ef78512fe0ad6}
+      \strng{authorbibnamehash}{ec20afc71167704fd53ef78512fe0ad6}
+      \strng{authornamehash}{ec20afc71167704fd53ef78512fe0ad6}
+      \strng{authorfullhash}{ec20afc71167704fd53ef78512fe0ad6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Lattice function measurement with TBT BPM data}}
+      \field{type}{techreport}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb https://lss.fnal.gov/archive/test-tm/1000/fermilab-tm-1922.pdf
+      \endverb
+      \verb{url}
+      \verb https://lss.fnal.gov/archive/test-tm/1000/fermilab-tm-1922.pdf
+      \endverb
+    \endentry
     \entry{rr3}{article}{}
       \name{author}{12}{}{%
         {{hash=75ec45882dee92c37b5d6307081f82f2}{%
@@ -3260,8 +3291,8 @@
       \endverb
     \endentry
     \entry{geoff}{misc}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{journaltitle}{CERN}
       \field{note}{https://gitlab.cern.ch/geoff/geoff-app}

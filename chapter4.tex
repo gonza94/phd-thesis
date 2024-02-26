@@ -21,9 +21,9 @@ The following chapter explores how to mitigate the effect of third order resonan
     \label{tab:rdts}
 \end{table}
 
-Figure \ref{fig:h3000bare} shows a visual representation for the calculation of the $h_{3000}$ RDT. This plot shows the amplitude of the complex cumulative sum as it goes around the ring (thick solid orange line). Additionally, this plot also shows the amplitude of each individual contribution for every $i$-th element in the lattice with sextupole component (thin purple line). This particular quantity can be used to visualize where on how the sextupole component is distributed around the ring. Ultimately, after doing this sum around the ring, the final result is a complex number with some amplitude and phase which corresponds to the $h_{3000}$ RDT, as calculated from some arbitrary location in the lattice. The amplitude of the $h_{3000}$ term is plotted in Fig. \ref{fig:h3000bare} with a red dashed line. Figure \ref{fig:h1020bare} shows a similar exercise for the $h_{1020}$ term. All of these calculations are done with a lattice model that has a list of components and magnet coefficients, that, in principle, should be very close to what's inside the tunnel. The particular RR model used was the RR2020V0922FLAT lattice model, provided by R. Ainsworth and M. Xiao.
+Figure \ref{fig:h3000bare} shows a visual representation for the calculation of the $h_{3000}$ RDT. This plot shows the amplitude of the complex cumulative sum as it goes around the ring (thick solid orange line). Additionally, this plot also shows the amplitude of each individual contribution for every $i$-th element in the lattice with sextupole component (thin purple line). This particular quantity can be used to visualize where and how the sextupole component is distributed around the ring. Ultimately, after doing this sum around the ring, the final result is a complex number with some amplitude and phase which corresponds to the $h_{3000}$ RDT, as calculated from some arbitrary location in the lattice. The amplitude of the $h_{3000}$ term is plotted in Fig. \ref{fig:h3000bare} with a red dashed line. Figure \ref{fig:h1020bare} shows a similar exercise for the $h_{1020}$ term. All of these calculations are done with a lattice model that has a list of components and magnet coefficients, that, in principle, should be very close to what's inside the tunnel. The particular RR model used was the RR2020V0922FLAT lattice model, provided by R. Ainsworth and M. Xiao.
 
-A question that promptly arises is: does the arbitrary starting position for the sum of Eq. \ref{eq:rdt1} change the RDT result? The short answer is yes, the RDT will change depending on the initial position for the sum. Reference \cite{cernthesis2}, specifically in its Ch. 5, goes into depth as to how to correlate the RDT calculated from a starting point $s_1$ to one measured at starting point $s_2$. The difference in this case relates to the amount of multipole component between both calculation points, e.g., the amount of elements that have sextupole component between an $s_1$ and $s_2$ observation point. Nevertheless, given that there is an infinite amount of $s_1$ and $s_2$ observation points, and only so much real state in this thesis, I am plotting for an arbitrary observation point in the lattice. Additionally, given that the sextupole components are evenly distributed around the ring, the RDT values will not oscillate much.
+A question that promptly arises is: does the arbitrary starting position for the sum of Eq. \ref{eq:rdt1} change the RDT result? The short answer is yes, the RDT will change depending on the initial position for the sum. Reference \cite{cernthesis2}, specifically in its Ch. 5, goes into depth as to how to correlate the RDT calculated from a starting point $s_1$ to one measured at starting point $s_2$. The difference in this case relates to the amount of multipole component between both calculation points, e.g., the amount of elements that have sextupole component between an $s_1$ and $s_2$ observation point. Nevertheless, given that there is an infinite amount of $s_1$ and $s_2$ observation points, and only so much real state in this thesis, the plots are for an arbitrary observation point in the lattice. Additionally, given that the sextupole components are evenly distributed around the ring, the RDT values will not oscillate much.
 
 As mentioned in Ch. \ref{sec:ch3}, the Recycler Ring is made up of permanent gradient magnets. From looking at Figs. \ref{fig:h3000bare} and \ref{fig:h1020bare}, one can see that the sextupole component is evenly distributed around some sections of the ring. If one were to plot the distribution of permanent gradient on these plots, the location of them would coincide with the peaks of the individual contributions to the RDT of Figs. \ref{fig:h3000bare} and \ref{fig:h1020bare}. Therefore, the sources that drive the Recycler Ring's normal sextupole resonances come from the permanent magnets themselves---this is known as a systematic-driven resonance as opposed to a random-error-driven resonance. Highly periodic machines and highly linear machines use the fluctuations between RDT measurements from BPMs to locate any sextupole errors in the lattice and try to fix them \cite{cernthesis2}. Nevertheless, this is not the case for the Recycler given its low superperiodicity of 2 and its uniform sextupole component distribution.
 
@@ -76,7 +76,7 @@ Therefore, when BPM data of kicked beam is taken, special care needs to be taken
 
 At the most fundamental level, BPM data holds only information about the centroid position of the beam. Nevertheless, in a particle accelerator it is of interest to look at the whole phase space picture ($\hat{u},\hat{p}_u$)---including the momentum coordinate. Therefore, it is of relevance to explain how the momentum coordinate is calculated from the TbT position from every BPM. The approach used involves a model-based perspective. Therefore, the lattice model plays a crucial role in the momentum estimation.    
 
-The approach to estimate the momentum coordinate involves solving a least-squares problem. The first step is to calculate the model's transfer matrices (linear approximation) from one fixed point in the accelerator to all the horizontal and vertical BPM locations---in total there should be 208 transfer matrices. For these studies, the fixed point chosen was the location for the vertical BPM R:VP601. As an example, let the following paragraphs show how to calculate the horizontal phase space coordinates, including the relative momentum deviation $\delta$. In particular, the main objective is to calculate the $X_0$ matrix with dimensions $3\times2048$, which corresponds to the phase space coordinates $\left( \vec{x}_0, \vec{x}_0', \vec{\delta}_0 \right)$ at the location of R:VP601. The $X_0$ array will have the following definition:
+The approach to estimate the momentum coordinate involves solving a least-squares problem. This is the approach used in Ref. \cite{yang}. The first step is to calculate the model's transfer matrices (linear approximation) from one fixed point in the accelerator to all the horizontal and vertical BPM locations---in total there should be 208 transfer matrices. For these studies, the fixed point chosen was the starting point of the turn count which is the location for the vertical BPM R:VP601. As an example, let the following paragraphs show how to calculate the horizontal phase space coordinates, including the relative momentum deviation $\delta$. In particular, the main objective is to calculate the $X_0$ matrix with dimensions $3\times2048$, which corresponds to the phase space coordinates $\left( \vec{x}_0, \vec{x}_0', \vec{\delta}_0 \right)$ at the location of R:VP601. The $X_0$ array will have the following definition:
 \begin{equation}
     \label{eq:x0vec}
     X_0= 
@@ -120,17 +120,17 @@ The $B$ matrix is defined from the BPM observations, and its transpose is just t
     \vdots & & \vdots & & \vdots \\
     \end{pmatrix}. 
 \end{equation}
-Again, in order to use least-squares approximation, this calculation should take the 10 BPMs upstream and the 10 BPMs downstream of the BPM(i), whose phase space coordinates are being calculated. 
+For Eq. \ref{eq:balsq}, the triangular bracket notation $\langle ... \rangle$ is used to specify that the BPM data inside the brackets has already been averaged out---the oscillations recorded in the BPM data is centered around 0. Again, in order to use least-squares approximation, this calculation should take the 10 BPMs upstream and the 10 BPMs downstream of the BPM(i), whose phase space coordinates are being calculated. 
 
 The least-squares solution $\hat{X}_0$ to this problem is given by:
 \begin{equation}
     \label{eq:x0hat}
     \hat{X}_0 = (A^T A)^{-1} A^T B.
 \end{equation}
-Once $\hat{X}_0$ is calculated from the data of 10 BPMs upstream and downstream of BPM(i). The phase space coordinates $X_{BPM(i)}$ at BPM(i) can be calculated from:
+Once $\hat{X}_0$ is calculated from the data of 10 BPMs upstream and downstream of BPM(i). The phase space coordinates $\hat{X}_{BPM(i)}$ at BPM(i) can be calculated from:
 \begin{equation}
     \label{eq:xbpmi}
-    X_{BPM(i)} = \begin{pmatrix}
+    \hat{X}_{BPM(i)} = \begin{pmatrix}
         \vec{x} \\
         \vec{x}' \\
         \vec{\delta}
@@ -142,8 +142,9 @@ Once $\hat{X}_0$ is calculated from the data of 10 BPMs upstream and downstream 
     \end{pmatrix}
     = \left[ M_{11} \quad M_{12} \quad M_{13} \right]_{BPM(i)} \hat{X}_0.  
 \end{equation}
+The hat notation $\hat{X}$ is to symbolize that this is data estimated based on the least-squares solution to Eq. \ref{eq:x0hat}. 
 
-
+Similar to the horizontal case, for the vertical case, the phase space coordinates at each BPM location can be estimated by first estimating the phase space coordinates $Y_0$ at an arbitrary location in the lattice---vertical BPM R:VP601 for this case. At this location, the $Y_0$ array will be defined as:
 \begin{equation}
     \label{eq:y0vec}
     Y_0= 
@@ -154,34 +155,39 @@ Once $\hat{X}_0$ is calculated from the data of 10 BPMs upstream and downstream 
     \begin{pmatrix}
         \left[ y_0(N=1), y_0(N=2), ...,y_0(N=2048) \right] \\
         \left[ y_0'(N=1), y_0'(N=2), ..., y_0'(N=2048) \right]
-    \end{pmatrix},
+    \end{pmatrix}.
 \end{equation} 
-
+The least-squares estimate $\hat{Y}_0$ for the array in Eq. \ref{eq:y0vec} from the recorded BPM data will be given by:
+\begin{equation}
+    \label{eq:y0hat}
+    \hat{Y}_0 = (A_y^T A_y)^{-1} A_y^T B_y,
+\end{equation}
+where similar to the horizontal case, the matrix $A_y$ is defined by:
 \begin{equation}
     \label{eq:alsqy}
-        A =
+        A_y =
         \begin{pmatrix}
         \left( M_{21} \qquad M_{22} \right)_{BPM(i-10)} \\
         \vdots \\
         \left( M_{21} \qquad M_{22} \right)_{BPM(i)}  \\
         \vdots \\
         \left( M_{21} \qquad M_{22} \right)_{BPM(i+10)} 
-        \end{pmatrix}.
+        \end{pmatrix},
 \end{equation}
-
+and $B_y$ is defined by
 \begin{equation}
     \label{eq:balsqy}
-    B^T =
+    B_y^T =
     \begin{pmatrix}
     \vdots & & \vdots & & \vdots \\
     \Bigl< y_{BPM(i-10)} \Bigr> & ... &  \Bigl< y_{BPM(i)} \Bigr> &  ... & \Bigl< y_{BPM(i+10)} \Bigr> \\
     \vdots & & \vdots & & \vdots \\
     \end{pmatrix}. 
 \end{equation}
-
+Once, $\hat{Y}_0$ is calculated, it can be transferred to the location of BPM(i) by means of the transfer matrices. This is the way of calculating $\hat{Y}_{BPM(i)}$, which reads
 \begin{equation}
     \label{eq:ybpmi}
-    Y_{BPM(i)} = \begin{pmatrix}
+    \hat{Y}_{BPM(i)} = \begin{pmatrix}
         \vec{y} \\
         \vec{y}' \\
     \end{pmatrix}_{BPM(i)}=
@@ -189,8 +195,10 @@ Once $\hat{X}_0$ is calculated from the data of 10 BPMs upstream and downstream 
         \left[ y(N=1),...,y(N=2048) \right] \\
         \left[ y'(N=1),..., y'(N=2048) \right] 
     \end{pmatrix}
-    = \left[ M_{21} \quad M_{22} \right]_{BPM(i)} \hat{Y}_0  
+    = \left[ M_{21} \quad M_{22} \right]_{BPM(i)} \hat{Y}_0.  
 \end{equation}
+
+It is worth pointing out that for the vertical case, the appropriate elements of the transfer matrices are picked out, i.e., $M_{21}$ and $M_{22}$ instead of the horizontal coefficients $M_{11}$, $M_{12}$ and $M_{13}$. The other thing to note is that for the vertical case any momentum dependence is dropped given that the vertical dispersion is negligible in the Recycler Ring, as shown in Fig. \ref{fig:rrdisps}. The previous procedure of calculating $\hat{U}_{BPM(i)}$ is done and saved for each of the 104 horizontal and 104 vertical BPMs---$\hat{X}_{BPM(i)}$ or $\hat{Y}_{BPM(i)}$, accordingly.
 
 With model-based approaches, it is important to be confident that the model is as close to the real accelerator as possible. The beta-beating is a measure of how well the beta functions of the model describe the beta functions from the real-world accelerator. In particular, M. Xiao has showed that the beta-beating along the Recycler is below 10\% \cite{rr3}---an acceptable quantity for modern accelerators. Therefore, this proves that the model used is reliable up to some significance level. The beta-beating quantity is ultimately limited by how truly linear the accelerator is and any ripple noise from the power supplies feeding the quadrupole and dipoles.
 
