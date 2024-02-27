@@ -3204,8 +3204,8 @@
       \strng{authornamehash}{ea37cc1fe0c64b30ac6eae4d61047cbb}
       \strng{authorfullhash}{0944d11ce02669a08c75141b1578502f}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}
@@ -3270,8 +3270,8 @@
       \strng{authorbibnamehash}{454e58abfc7736f65c846b964c37a282}
       \strng{authornamehash}{454e58abfc7736f65c846b964c37a282}
       \strng{authorfullhash}{52ceb08da4d6ed27504ef45831d3821c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{JACoW IPAC}

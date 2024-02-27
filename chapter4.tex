@@ -236,23 +236,50 @@ and in the vertical dimension:
     \label{eq:hyspect}
     h_y^{-}(N)= \hat{y} \pm \hat{p}_y = \sum_{jklm}VSL_{jklm}e^{2\pi i N \left[ \left( k-j\right)Q_x+\left(1-l+m \right)Q_y\right]}.
 \end{equation}
-These sums run over the $(j,k,l,m)$ indices. In principle, they run all the way to infinity, but can be truncated. The $HSL_{jklm}$ term corresponds to the complex amplitude defining the horizontal spectral line at location $(1-j+k)Q_x+(m-l)Q_y$. The $VSL_{jklm}$ term corresponds to the complex amplitude defining the vertical spectral line at location $(k-j)Q_x+(1-l+m)Q_y$. And as always $Q_u$ corresponds to the betatron tunes. These definitions help to understand the experimental data in order to measure RDTs.
+These sums run over the $(j,k,l,m)$ indices. In principle, they run all the way to infinity, but can be truncated. The $HSL_{jklm}$ term corresponds to the complex amplitude defining the horizontal spectral line at frequency location $(1-j+k)Q_x+(m-l)Q_y$. The $VSL_{jklm}$ term corresponds to the complex amplitude defining the vertical spectral line at location $(k-j)Q_x+(1-l+m)Q_y$. And, as always, $Q_u$ corresponds to the betatron tunes. These definitions help to understand the experimental data in order to measure RDTs.
 
 Nevertheless, from the theoretical point of view, the spectral decomposition can be calculated with the Lie algebra gymnastics shown in Sec. \ref{sec:rdts}. These spectral decompositions read for the horizontal plane:
 \begin{multline}
     \label{eq:hxpsi2}
-    h_x^{-}(N)=\sqrt{2I_x}e^{i\left( \psi_x+\psi_{x_0}\right)} \\
+    h_x^{-}(N)=\sqrt{2I_x}e^{i\left( 2 \pi Q_x N+\psi_{x_0}\right)} \\
     -2i \sum_{jklm} j f_{jklm} \left( 2I_x \right)^{\frac{j+k-1}{2}}\left( 2I_y \right)^{\frac{l+m}{2}}
-    e^{i \left[ \left( 1-j+k\right)\left( \psi_x + \psi_{x_0} \right) +\left( m-l\right)\left( \psi_y + \psi_{y_0} \right)\right]},
+    e^{i \left[ \left( 1-j+k\right)\left( 2 \pi Q_x N + \psi_{x_0} \right) +\left( m-l\right)\left( 2 \pi Q_y N + \psi_{y_0} \right)\right]},
 \end{multline}
 and for the vertical case:
 \begin{multline}
     \label{eq:hypsi2}
-    h_y^{-}(N)=\sqrt{2I_y}e^{i\left( \psi_y+\psi_{y_0}\right)} \\
+    h_y^{-}(N)=\sqrt{2I_y}e^{i\left( 2 \pi Q_y N+\psi_{y_0}\right)} \\
     -2i \sum_{jklm} l f_{jklm} \left( 2I_x \right)^{\frac{j+k}{2}}\left( 2I_y \right)^{\frac{l+m-1}{2}}
-    e^{i \left[ \left( k-j\right)\left( \psi_x + \psi_{x_0} \right) +\left( 1-l+m\right)\left( \psi_y + \psi_{y_0} \right)\right]}.
+    e^{i \left[ \left( k-j\right)\left( 2 \pi Q_x N + \psi_{x_0} \right) +\left( 1-l+m\right)\left( 2 \pi Q_y N + \psi_{y_0} \right)\right]}.
 \end{multline}
-The RDT calculation exploits the equivalence between Eqs. \ref{eq:hxspect} and \ref{eq:hyspect} to Eqs. \ref{eq:hxpsi2} and \ref{eq:hypsi2}. Therefore, the generating function coefficients ($f_{jklm}$) can be related to the horizontal and spectral line coefficients ($HSL_{jklm}$ and $VSL_{jklm}$). Ultimately, the $f_{jklm}$ terms can be related to Resonance Driving Terms $h_{jklm}$.
+The RDT calculation exploits the equivalence between Eqs. \ref{eq:hxspect} and \ref{eq:hyspect} to Eqs. \ref{eq:hxpsi2} and \ref{eq:hypsi2}. Therefore, the generating function coefficients ($f_{jklm}$) can be related to the horizontal and spectral line coefficients ($HSL_{jklm}$ and $VSL_{jklm}$). Ultimately, the $f_{jklm}$ terms can be related to Resonance Driving Terms $h_{jklm}$ through Eq. \ref{eq:handf}.
+
+A quick comparison between Eqs. \ref{eq:hxspect} and \ref{eq:hxpsi2} allows to build an equivalence table between the generating function coefficients and the spectral lines. This table can be originally found in Refs. \cite{sussix,bartolini}.
+
+\begin{table}[H]
+    \centering
+    \caption{}
+    \label{tab:my-table}
+    \begin{tabular}{c|c|c|}
+    \cline{2-3}
+     & \textbf{\begin{tabular}[c]{@{}c@{}}Generating Function\\ Coefficient\end{tabular}} & \textbf{Spectral Line} \\ \hline
+    \multicolumn{1}{|c|}{} &  &  \\
+    \multicolumn{1}{|c|}{\textbf{Amplitude}} & $\left| f_{jklm}\right|$ & $\left| HSL_{jklm} \right|=2 \; j \; \left( 2I_x \right)^{\frac{j+k-1}{2}}\left( 2I_y \right)^{\frac{l+m}{2}} \left| f_{jklm}\right|$ \\
+    \multicolumn{1}{|c|}{} &  &  \\
+    \multicolumn{1}{|c|}{} &  & $\left| VSL_{jklm} \right|=2 \; l \; \left( 2I_x \right)^{\frac{j+k}{2}}\left( 2I_y \right)^{\frac{l+m-1}{2}} \left| f_{jklm}\right|$ \\
+    \multicolumn{1}{|c|}{} &  &  \\ \hline
+    \multicolumn{1}{|c|}{\textbf{}} &  &  \\
+    \multicolumn{1}{|c|}{\textbf{Phase}} & $\phi_{jklm}= \arg{(f_{jklm})}$ & $\arg{(HSL_{jklm})} = \phi_{jklm}+\psi_{x_0}-\frac{\pi}{2}$ \\
+    \multicolumn{1}{|c|}{} &  &  \\
+    \multicolumn{1}{|c|}{} &  & $\arg{(VSL_{jklm})} = \phi_{jklm}+\psi_{y_0}-\frac{\pi}{2}$ \\
+    \multicolumn{1}{|c|}{\textbf{}} &  &  \\ \hline
+    \multicolumn{1}{|c|}{\textbf{}} &  &  \\
+    \multicolumn{1}{|c|}{\textbf{Spectral}} & N/A & $Q\left( HSL_{jklm} \right) = (1-j+k)Q_x+(m-l)Q_y$ \\
+    \multicolumn{1}{|c|}{\textbf{Harmonic}} &  &  \\
+    \multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{} & $Q\left( VSL_{jklm} \right) = (k-j)Q_x+(1-l+m)Q_y$ \\
+    \multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \hline
+    \end{tabular}
+\end{table}
 
 \subsection{Resonance Basis Spectrum}
 
