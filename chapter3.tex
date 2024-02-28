@@ -117,7 +117,23 @@ Table \ref{tab:rrparams} specifies nominal horizontal and vertical tunes for the
 
 Starting from the lowest order resonance line, Fig. \ref{fig:rrtd} shows the second-order linear coupling line $Q_x-Q_y = 1$. This resonance line comes from skew-quadrupole component accumulated all around the ring. While operating on top of this resonance line won't lead to chaotic motion, the dynamics are characterized by action-exchange between the betatron modes \cite{sylee}. This exchange can cause emittance growth, eventually leading up to beam loss. Due to this fact, the Recycler Ring has two families of skew quadrupoles in order to correct this resonance line. Consequently, operating close to this resonance line is feasible with this correction.
 
-The third order resonance lines are the main focus of this thesis. They are driven by normal and skew sextupole component distributed all around the ring. In particular, it is known that the combined function magnets are the main drivers of these resonance lines. Even though these magnets were designed to be quadrupole and dipole only, they can still have sextupole component from construction errors. Nevertheless, since they are permanent magnets little can be done about the magnets themselves. As a result of this, the following work explores a compensation technique aimed towards bringing down the lattice RDTs that drive these resonance lines. This involves the usage of additional compensation sextupoles, elements which will be described in Sec. \ref{sec:css}. Chapter \ref{sec:ch4} goes into a deep dive explaining this approach from a theoretical and experimental point of view. 
+The third order resonance lines are the main focus of this thesis. They are driven by normal and skew sextupole component distributed all around the ring. In particular, it is known that the combined function magnets are the main drivers of these resonance lines. Even though these magnets were designed to be quadrupole and dipole only, they can still have sextupole component from construction errors. Nevertheless, since they are permanent magnets little can be done about the magnets themselves. As a result of this, the following work explores a compensation technique aimed towards bringing down the lattice RDTs that drive these resonance lines. A summary of the RDTs, its corresponding resonance line, and the frequency position of their spectral lines are summarized in Table \ref{tab:rdtlines}. The spectral lines are a concept critical to the measurement of RDTs, and it is introduced in the next chapter. The compensation of these RDTs involves the usage of additional compensation sextupoles, elements which will be described in Sec. \ref{sec:css}. Chapter \ref{sec:ch4} goes into a deep dive explaining this approach from a theoretical and experimental point of view. 
+
+\begin{table}[H]
+   \centering
+   \caption{Corresponding RDTs and location of spectral lines for each resonance line.}
+   \begin{tabular}{lcccc}
+       \toprule
+       \textbf{Resonance Line} & \textbf{Source} & \textbf{RDT} & \textbf{Hor. Spect.} & \textbf{Vert. Spect.} \\
+       \midrule
+           $3Q_x=76$     & Normal Sextupole    & $h_{3000}$           &  (-2,0)  & -       \\ %[3pt]
+          $Q_x+2Q_y=74$   & Normal Sextupole    & $h_{1020}$            & (0,-2) & (-1,-1)       \\ %[3pt]
+           $3Q_y=73$     & Skew Sextupole   & $h_{0030}$           & - & (0,-2)        \\ %[3pt]
+           $2Q_x+Q_y=75$   & Skew Sextupole    & $h_{2010}$     & (-1,-1) & (-2,0)       \\
+       \bottomrule
+   \end{tabular}
+   \label{tab:rdtlines}
+\end{table}
 
 Finally, there are also fourth order resonance lines close to the nominal operation of the Recycler. These lines are driven by octupole components around the ring. In practice, $-Q_x+3Q_y = 48$ and $3Q_x-Q_y = 52$ are not particularly concerning to the operation of the RR. Their corresponding lattice RDTs are not large enough to consider them dangerous during the RR cycle, i.e., beam is stored for approximately 1 second. Nevertheless, these lines are interesting because fourth order resonance lines are susceptible to be amplified by the space charge potential through the SCRDTs, as described in Sec. \ref{sec:sc1}.    
 

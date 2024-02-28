@@ -254,12 +254,12 @@ and for the vertical case:
 \end{multline}
 The RDT calculation exploits the equivalence between Eqs. \ref{eq:hxspect} and \ref{eq:hyspect} to Eqs. \ref{eq:hxpsi2} and \ref{eq:hypsi2}. Therefore, the generating function coefficients ($f_{jklm}$) can be related to the horizontal and spectral line coefficients ($HSL_{jklm}$ and $VSL_{jklm}$). Ultimately, the $f_{jklm}$ terms can be related to Resonance Driving Terms $h_{jklm}$ through Eq. \ref{eq:handf}.
 
-A quick comparison between Eqs. \ref{eq:hxspect} and \ref{eq:hxpsi2} allows to build an equivalence table between the generating function coefficients and the spectral lines. This table can be originally found in Refs. \cite{sussix,bartolini}.
+A quick comparison between Eqs. \ref{eq:hxspect} and \ref{eq:hxpsi2} allows to build an equivalence table between the generating function coefficients (GFCs) and the spectral lines. Table \ref{tab:sls} is the result of this. This table can be originally found in Refs. \cite{sussix,bartolini}. Table \ref{tab:sls} shows how to calculate the GFCs from its corresponding spectral line. In particular, the amplitude and phase of a spectral line will be given by $|USL_{jklm}|$ and $\arg(USL_{jklm})$, while its location in its corresponding frequency space will be given by $Q(USL_{jklm})$. It is worth pointing out that in this notation $U$ can be either the horizontal or vertical plane.
 
 \begin{table}[H]
     \centering
-    \caption{}
-    \label{tab:my-table}
+    \caption{Equivalence table between the generating function coefficients and the spectral lines.}
+    \label{tab:sls}
     \begin{tabular}{c|c|c|}
     \cline{2-3}
      & \textbf{\begin{tabular}[c]{@{}c@{}}Generating Function\\ Coefficient\end{tabular}} & \textbf{Spectral Line} \\ \hline
@@ -283,6 +283,10 @@ A quick comparison between Eqs. \ref{eq:hxspect} and \ref{eq:hxpsi2} allows to b
 
 \subsection{Resonance Basis Spectrum}
 
+As mentioned in the last section, the spectral lines of the resonance basis hold enough information in order to reconstruct the generating function coefficients (GFCs) and, ultimately, the resonance driving terms (RDTs). Therefore, it is of interest to have a program that reconstructs the spectral lines from $h_u^{\pm}(N)$ data. This is exactly what SUSSIX \cite{sussix} does. This is a software developed at CERN, and it utilizes the Numerical Analysis of Fundamental Frequencies (NAFF) algorithm to identify and calculate the resonance lines up to an arbitrary order. SUSSIX can calculate spectral lines either for the horizontal, the vertical plane, or both planes.   
+
+Figure \ref{fig:hxspect1} shows an example of spectrum data calculated using SUSSIX. The horizontal axis represents the frequency (or tune) of the spectral lines, while the vertical axis shows the amplitude of the lines, i.e., $|HSL_{jklm}|$. All the lines that show up in Fig. \ref{fig:hxspect1} represent the harmonics present in $h_x^{-}(N)$. The largest peak corresponds to the horizontal tune $Q_x$. In this case, the second-largest tune corresponds to the vertical tune $Q_y$, indicating some residual coupling. The lines $HSL_{2010}$, $HSL_{3000}$ and $HSL_{1020}$ are also marked with their location at the plot. These are the lines from which the relevant GFCs and RDTs are calculated from. Other unmarked spectral lines show up illustrating how there might be higher order harmonics and RDTs present in the oscillations. Specially, it is worth highlighting, how several RDTs can feed to the line located at $Q_x=0$. Figure \ref{fig:hyspect1} shows this exercise done but for the vertical resonance basis $h_y^{-}(N)$. In this case, the largest peak corresponds to the vertical tune $Q_y$, while the second-largest one corresponds to the horizontal tune $Q_x$. The lines $VSL_{2010}$, $VSL_{3000}$ and $VSL_{1020}$ also show up, but at different locations than their horizontal counterparts, as expected. The amplitudes of these spectral lines are at least three orders of magnitude less, than the main harmonic of the oscillations.  
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/hxspect.png}
@@ -299,21 +303,43 @@ A quick comparison between Eqs. \ref{eq:hxspect} and \ref{eq:hxpsi2} allows to b
 
 \subsection{Spectral Lines and RDT calculation}
 
+The spectral lines $HSL_{3000}$, $HSL_{2010}$, and $HSL_{1020}$ identified in Fig. \ref{fig:hxspect1} are the necessary lines to calculate the $h_{3000}$, $h_{2010}$ and $h_{1020}$ RDTs. In combination with the $VSL_{0030}$ spectral line and its corresponding $h_{0030}$ RDT, these are all the spectral lines needed to calculate the RDTs for each resonance line shown in Fig. \ref{fig:rrtd} and specified in Table \ref{tab:rdtlines}. Table \ref{tab:rdts2} shows the explicit expressions for resonance line RDT as a function of its GFC. In essence, once the $f_{jklm}$ is calculated using the expressions in Table \ref{tab:sls}, the RDT is just one multiplication away.
+
 \begin{table}[H]
     \centering
-    \caption{Corresponding RDTs and location of spectral lines for each resonance line.}
-    \begin{tabular}{lcccc}
-        \toprule
-        \textbf{Resonance Line} & \textbf{Source} & \textbf{RDT} & \textbf{Hor. Spect.} & \textbf{Vert. Spect.} \\
-        \midrule
-            $3Q_x=76$     & Normal Sextupole    & $h_{3000}$           &  (-2,0)  & -       \\ %[3pt]
-           $Q_x+2Q_y=74$   & Normal Sextupole    & $h_{1020}$            & (0,-2) & (-1,-1)       \\ %[3pt]
-            $3Q_y=73$     & Skew Sextupole   & $h_{0030}$           & - & (0,-2)        \\ %[3pt]
-            $2Q_x+Q_y=75$   & Skew Sextupole    & $h_{2010}$     & (-1,-1) & (-2,0)       \\
-        \bottomrule
+    \caption{Corresponding RDTs from GFCs for each resonance line.}
+    \label{tab:rdts2}
+    \begin{tabular}{cc}
+    \textbf{Resonance Line} & \textbf{RDT} \\ \hline
+     &  \\
+    $3Q_x=76$ & $h_{3000}= f_{3000}\left( 1-e^{6\pi i  Q_x  } \right)$ \\
+     &  \\
+    $Q_x+2Q_y=74$ & $h_{1020}=f_{1020} \left( 1-e^{2\pi i \left[Q_x + 2 Q_y \right] }\right) $ \\
+     &  \\
+    $3Q_y=73$ & $h_{0030}= f_{0030}\left( 1-e^{6\pi i  Q_y  } \right)$ \\
+     &  \\
+    $2Q_x+Q_y=75$ & $h_{2010}=f_{2010} \left( 1-e^{2\pi i \left[2Q_x + Q_y \right] }\right) $ \\
+     &  \\ \hline
     \end{tabular}
-    \label{tab:rdtlines}
 \end{table}
+
+% \begin{table}[H]
+%     \centering
+%     \caption{Corresponding RDTs from GFCs and location of spectral lines for each resonance line.}
+%     \label{tab:rdts_sls}
+%     \begin{tabular}{cccccc}
+%     \textbf{Resonance Line} & \textbf{RDT} & \textbf{$HSL_{jklm}$} & \textbf{$Q_(HSL_{jklm})$} & \textbf{$VSL_{jklm}$} & \textbf{$Q_(VSL_{jklm})$} \\ \hline
+%      &  &  &  &  &  \\
+%     $3Q_x=76$ & $h_{3000}= f_{3000}\left( 1-e^{6\pi i  Q_x  } \right)$ & $HSL_{3000}$ & $-2Q_x$ & - & - \\
+%      &  &  &  &  &  \\
+%     $Q_x+2Q_y=74$ & $h_{1020}=f_{1020} \left( 1-e^{2\pi i \left[Q_x + 2 Q_y \right] }\right) $ & $HSL_{1020}$ & $-2Q_y$ & $VSL_{1020}$ & $-Q_x-Q_y$ \\
+%      &  &  &  &  &  \\
+%     $3Q_y=73$ & $h_{0030}= f_{0030}\left( 1-e^{6\pi i  Q_y  } \right)$ & - & - & $VSL_{0030}$ & $-2Q_y$ \\
+%      &  &  &  &  &  \\
+%     $2Q_x+Q_y=75$ & $h_{2010}=f_{2010} \left( 1-e^{2\pi i \left[2Q_x + Q_y \right] }\right) $ & $HSL_{2010}$ & $-Q_x-Q_y$ & $VSL_{2010}$ & $-2Q_x$ \\
+%      &  &  &  &  &  \\ \hline
+%     \end{tabular}
+%     \end{table}
 
 \subsection{Third Order RDTs at every BPM location}
 
