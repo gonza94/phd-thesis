@@ -343,7 +343,43 @@ The spectral lines $HSL_{3000}$, $HSL_{2010}$, and $HSL_{1020}$ identified in Fi
 
 \subsection{Third Order RDTs at every BPM location}
 
+Once the data from spectral lines is transformed to GFCs $f_{jklm}$, it is just a matter of using the expressions in Table \ref{tab:rdts2} to calculate the RDTs $h_{jklm}$. Figure \ref{fig:h3000_620} shows several measurements of the $h_{3000}$ term for the Recycler Ring from one particular BPM, i.e., R:HP620. This is a polar plot to indicate the amplitude and phase of this complex quantity. The left plot displays a set of 36 vectors representing individual measurements of the $h_{3000}$ term at a specific Beam Position Monitor (BPM) located at R:HP620. From this plot, one can see that there is some spread in the data from each measurement. This is due to changes in the beam coming from Booster for every injection and due to noise in BPM data. The right plot shows the average vector of the measurements, with its spread indicated by the shaded area. This spread signifies the variance in the data from measurement to measurement. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/h3000_RHP620.png}
+    \caption{Polar plot for the measurement of $h_{3000}$ for 36 measurements at horizontal BPM R:HP620.}
+    \label{fig:h3000_620}
+\end{figure}
+
+Measurements such as the one presented for Fig. \ref{fig:h3000_620} are done for every BPM. In the case of the $h_{3000}$, the 104 horizontal BPMs are used. For the case of the $h_{0030}$ term, the 104 vertical BPMs are used. Figure \ref{fig:h3000_bpms} shows a plot of the amplitude of the measured $h_{3000}$ as a function of the BPM used. Each label (e.g., R:HP100, R:HP106,..., R:HP638) corresponds to a different BPM in the accelerator. The labels are ordered according to their physical positions along the Recycler Ring. Each point represents the amplitude of $h_{3000}$ measured at the corresponding BPM. The error bars on each data point indicate the uncertainty in the measurement, coming from the statistical variance as shown in Fig. \ref{fig:h3000_620}. The shaded background of Fig. \ref{fig:h3000_bpms} serves to visually emphasize the spread and distribution of the data points around the average. While there is a global spread, the local variations of $h_{3000}$ from BPM to BPM correspond to the amount of sextupole between them. Nevertheless, the large discontinuity at the 600 region---before R:HP602---comes from the momentum-estimation method which calculates the coordinates at R:VP601. Following all the previous steps in this recipe will allow to measure the RDTs at the Recycler Ring.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/h3000_bpms.png}
+    \caption{Measurements of $h_{3000}$ at all horizontal BPMs around the ring. The average (dashed line) corresponds to the average $h_{3000}$ from all the measurements.}
+    \label{fig:h3000_bpms}
+\end{figure}
+
 \section{Compensation of RDTs}
+
+\subsection{Theoretical Approach}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/h3000_3qxcomp.png}
+    \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point when correction elements are set to compensate $3Q_x=76$, i.e., $h_{3000}=0$.}
+    \label{fig:h3000_3qxcomp}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/h1020_3qxcomp.png}
+    \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point when correction elements are set to compensate $3Q_x=76$, i.e., $h_{3000}=0$.}
+    \label{fig:h1020_3qxcomp}
+\end{figure}
+
+\subsection{Response Matrix Approach}
 
 For resonance compensation there are four dedicated normal sextupoles with currents that can be set to ($I_{sc220},I_{sc222},I_{sc319},I_{sc321}$) and four dedicated skew sextupoles with currents that can be set to ($I_{ss323},I_{ss323},I_{ss319},I_{ss321}$). As shown in the previous section one RDT can be cancelled out with the right kick from the correction elements, which means the resonances are corrected to first order. 
 
@@ -401,20 +437,6 @@ One can also try to cancel out a subset of RDTs from equation \ref{eq:system}, i
       \end{bmatrix}
     \label{eq:system1}
 \end{equation}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{chapter4/h3000_3qxcomp.png}
-    \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point when correction elements are set to compensate $3Q_x=76$, i.e., $h_{3000}=0$.}
-    \label{fig:h3000_3qxcomp}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{chapter4/h1020_3qxcomp.png}
-    \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point when correction elements are set to compensate $3Q_x=76$, i.e., $h_{3000}=0$.}
-    \label{fig:h1020_3qxcomp}
-\end{figure}
 
 \section{Optimization of Compensation Currents}
 
