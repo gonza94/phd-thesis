@@ -1,7 +1,7 @@
 \chapter{Compensation of Third-Order Resonances at Low Intensities}
 \label{sec:ch4}
 
-\section{Global RDTs and Lattice Model}
+\section{\label{sec:rdtslattice}Global RDTs and Lattice Model}
 
 The following chapter explores how to mitigate the effect of third order resonances from the Recycler Ring by means of minimizing the Resonance Driving Terms (RDTs) that drive each resonance. The resonances in question are introduced in Figs. \ref{fig:rrtd} and \ref{fig:rrtdhigh}, and are summarized in Table \ref{tab:rdts}. The RDTs for each of these third order resonance lines can be calculated from Eqs. \ref{eq:rdt1} and \ref{eq:rdt2}. Table \ref{tab:rdts} shows the explicit expression for each third-order RDT of relevance to this work. The sum over $i$, goes through each element of the lattice beam line and asks if it has some sort of sextupole component in its definition---it can be normal $K_{2,i}$ or skew $K_{2,i}^{(s)}$ sextupole component. If it has this multipole, it will add it to the RDT sum by weighting it with the beta functions $\beta_{u,i}$ and phase advances $\phi_{u,i}$ from the linear approximation at those particular locations. Ultimately, the $h_{jklm}$ RDT will be a complex number whose amplitude $|h_{jklm}|$ should be minimized.
 
@@ -365,6 +365,100 @@ Measurements such as the one presented for Fig. \ref{fig:h3000_620} are done for
 
 \subsection{Theoretical Approach from Lattice Model}
 
+Once there is a way to measure and/or calculate RDTs, the next step is to find a way to cancel out the RDTs. As mentioned in Sec. \ref{sec:css}, there are 4 normal sextupoles and 4 skew sextupoles that have been installed previously for this particular purpose. They have also been included in the lattice model. This section focuses on how to cancel out the RDTs from a lattice model perspective---just from theoretical considerations. The RDTs calculated from the lattice model as shown in Sec. \ref{sec:rdtslattice}.
+
+The first step is to understand how to cancel out a single RDT---a single resonance line. For example, in order to compensate the $3Q_x$ line, the $h_{3000}$ would need to be cancelled. In order to cancel this term, the appropriate $K_2$ coefficients need to be set to the sextupoles. In practice, this is equivalent to setting the appropriate currents in the sextupoles. The appropriate $K_2$ coefficients are calculated from the following equation:
+\begin{equation}
+    \begin{bmatrix}
+        -|h_{3000}| \cos \psi_{3000} \\
+        -|h_{3000}| \sin \psi_{3000} \\
+        0 \\
+        0 \\
+        \end{bmatrix}_{(Bare)}
+         =
+        \boldsymbol{M}
+        \begin{bmatrix}
+        K_2^{(sc220)} \\
+        K_2^{(sc222)}\\
+        K_2^{(sc319)} \\
+        K_2^{(sc321)}\\
+        \end{bmatrix},
+        \label{eq:model1}
+\end{equation}
+where the $h_{3000}$ RDT is complex quantity with a real and imaginary part, i.e., $h_{3000}= \left| h_{3000}\right|e^{i \psi_{3000}} = |h_{3000}| \cos \psi_{3000} + i |h_{3000}| \sin \psi_{3000}$. The $\boldsymbol{M}$ term corresponds to the RDT response matrix. And finally, the $K_2^{(i)}$ corresponds to the coefficient in the $i$-th compensation sextupole. The response matrix for compensating only $3Q_x$ and arbitrarily setting two sextupole currents to the negative of each other reads:
+\begin{equation}
+    \boldsymbol{M} = 
+\begin{bmatrix}
+
+M_{11} && M_{12} && M_{13} && M_{14}  \\ 
+
+M_{21} && M_{22} && M_{23} && M_{24} \\ 
+
+1 && 1 && 0 && 0 \\ 
+
+0 && 0 && 1 && 1 \\
+
+\end{bmatrix},
+\label{eq:rm1}
+\end{equation}
+where the theoretical matrix coefficients are calculated from the derivatives of the expressions in Table \ref{tab:rdts} with respect to $K_2^{(i)}$, and they read: 
+\begin{equation}
+    M_{11}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc220)} \: \cos 3\psi_{x(sc220)},
+    \label{eq:M11}
+\end{equation}
+\begin{equation}
+    M_{12}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc222)} \: \cos 3\psi_{x(sc222)},
+    \label{eq:M12}
+\end{equation}
+\begin{equation}
+    M_{13}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc319)} \: \cos 3\psi_{x(sc319)},
+    \label{eq:M13}
+\end{equation}
+\begin{equation}
+    M_{14}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc321)} \: \cos 3\psi_{x(sc321)},
+    \label{eq:M14}
+\end{equation}
+\begin{equation}
+    M_{21}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc220)} \: \sin 3\psi_{x(sc220)},
+    \label{eq:M21}
+\end{equation}
+\begin{equation}
+    M_{22}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc222)} \: \sin 3\psi_{x(sc222)},
+    \label{eq:M22}
+\end{equation}
+\begin{equation}
+    M_{23}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc319)} \: \sin 3\psi_{x(sc319)},
+    \label{eq:M23}
+\end{equation}
+\begin{equation}
+    M_{24}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc321)} \: \sin 3\psi_{x(sc321)},
+    \label{eq:M24}
+\end{equation}
+where each beta function $\beta_{u(i)}$ and phase evaluation $\psi_{u(i)}$ in the $u$ plane---horizontal or vertical---is taken at the location of the $i$-th compensation element. Every compensation magnet has the same length of $l_{sc}$.
+
+Once the response matrix is calculated, the solution can be found by calculating the inverse and operating on the bare machine RDT vector. This RDT vector is a known quantity that can be calculated from the lattice model. The solution for compensation thus reads:
+\begin{equation}
+    \label{eq:model1sol}
+    \begin{bmatrix}
+        K_2^{(sc220)} \\
+        K_2^{(sc222)}\\
+        K_2^{(sc319)} \\
+        K_2^{(sc321)}\\
+    \end{bmatrix}_{(Comp)}
+    =
+    \boldsymbol{M}^{-1} 
+    \begin{bmatrix}
+        -|h_{3000}| \cos \psi_{3000} \\
+        -|h_{3000}| \sin \psi_{3000} \\
+        0 \\
+        0 \\
+    \end{bmatrix}_{(Bare)}.
+\end{equation}
+
+It is worth pointing out that the RDT response matrix, as defined in Eq. \ref{eq:rm1}, should have an inverse. Nevertheless, the problem constraints can be relaxed by dropping the two last rows of Eq. \ref{eq:rm1}. For this case, the corresponding equation to Eq. \ref{eq:model1sol} would involve calculating the pseudo-inverse by means of a least-squares approach. For this case, in principle, every sextupole should have different values for the $K_2$ coefficients that compensate $h_{3000}$.
+
+Figure \ref{fig:h3000_3qxcomp} shows the calculation of the $h_{3000}$ RDT, once the $K_2$ coefficients in the sextupoles have been set to compensate the resonance. For this case, as opposed to the bare machine calculation from Fig. \ref{fig:h3000bare}, the cumulative sum of $h_{3000}$ goes to 0 at the end of the sum. This means that the global RDT has been cancelled. Furthermore, if Fig. \ref{fig:h3000bare} is compared to Fig. \ref{fig:h3000_3qxcomp}, one can see the big spikes in the middle of the lattice that correspond to the individual contributions from the compensation sextupoles. These kicks are what ultimately brings down the $h_{3000}$ term to zero. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/h3000_3qxcomp.png}
@@ -372,11 +466,100 @@ Measurements such as the one presented for Fig. \ref{fig:h3000_620} are done for
     \label{fig:h3000_3qxcomp}
 \end{figure}
 
+On the other hand, there is the $h_{1020}$ term. This one also gets affected if normal sextupole component are changed in the lattice, as explained by the expressions in Table \ref{tab:rdts}. Therefore, it is of interest to look at how $h_{1020}$ changes as $h_{3000}$ is compensated. Figure \ref{fig:h1020_3qxcomp} shows the calculation for this term as $3Q_x$ is being compensated. Again, four additional spikes show up in the individual contribution plot exactly where the compensation sextupoles are placed. If this plot is compared to Fig. \ref{fig:h1020bare}, it can also be seen that the total sum of the $h_{1020}$ term increases from 1.739 to 1.988 m$^{-1/2}$. This shows that by compensating the $h_{3000}$ RDT, the $h_{1020}$ increases. This means that by compensating one resonance line, other lines get might get worse. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/h1020_3qxcomp.png}
     \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point when correction elements are set to compensate $3Q_x=76$, i.e., $h_{3000}=0$.}
     \label{fig:h1020_3qxcomp}
+\end{figure}
+
+An effort can be done to extend Eq. \ref{eq:model1} to include the cancellation of $h_{1020}$. The simultaneous compensation of the $h_{3000}$ and the $h_{1020}$ term is given by the following equation:
+\begin{equation}
+    \begin{bmatrix}
+        -|h_{3000}| \cos \psi_{3000} \\
+        -|h_{3000}| \sin \psi_{3000} \\
+        -|h_{1020}| \cos \psi_{1020} \\
+        -|h_{1020}| \sin \psi_{1020} \\
+        \end{bmatrix}_{(Bare)}
+         =
+        \boldsymbol{M}
+        \begin{bmatrix}
+        K_2^{(sc220)} \\
+        K_2^{(sc222)}\\
+        K_2^{(sc319)} \\
+        K_2^{(sc321)}\\
+        \end{bmatrix}.
+        \label{eq:model2}
+\end{equation}
+For this case, the response matrix $\boldsymbol{M}$ needs to be modified. This new response matrix reads:
+\begin{equation}
+    \boldsymbol{M} = 
+\begin{bmatrix}
+
+M_{11} && M_{12} && M_{13} && M_{14}  \\ 
+
+M_{21} && M_{22} && M_{23} && M_{24} \\ 
+
+M_{31} && M_{32} && M_{33} && M_{34}  \\ 
+
+M_{41} && M_{42} && M_{43} && M_{44} \\ 
+
+\end{bmatrix},
+\label{eq:rm2}
+\end{equation}
+where the first two rows are defined the same as before by Eqs. \ref{eq:M12}-\ref{eq:M24}. Similarly, the coefficients in the last two rows are defined by:
+\begin{equation}
+    M_{31}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc220)} \beta_{y(sc220)} \: \cos \left( \psi_{x(sc220)} + 2\psi_{y(sc220)} \right),
+    \label{eq:M31}
+\end{equation}
+\begin{equation}
+    M_{32}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc222)} \beta_{y(sc222)} \: \cos \left( \psi_{x(sc222)} + 2\psi_{y(sc222)} \right),
+    \label{eq:M32}
+\end{equation}
+\begin{equation}
+    M_{33}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc319)} \beta_{y(sc319)} \: \cos \left( \psi_{x(sc319)} + 2\psi_{y(sc319)} \right),
+    \label{eq:M33}
+\end{equation}
+\begin{equation}
+    M_{34}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc321)} \beta_{y(sc321)} \: \cos \left( \psi_{x(sc321)} + 2\psi_{y(sc321)} \right),
+    \label{eq:M34}
+\end{equation}
+\begin{equation}
+    M_{41}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc220)} \beta_{y(sc220)} \: \sin \left( \psi_{x(sc220)} + 2\psi_{y(sc220)} \right),
+    \label{eq:M41}
+\end{equation}
+\begin{equation}
+    M_{42}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc222)} \beta_{y(sc222)} \: \sin \left( \psi_{x(sc222)} + 2\psi_{y(sc222)} \right),
+    \label{eq:M42}
+\end{equation}
+\begin{equation}
+    M_{43}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc319)} \beta_{y(sc319)} \: \sin \left( \psi_{x(sc319)} + 2\psi_{y(sc319)} \right),
+    \label{eq:M43}
+\end{equation}
+\begin{equation}
+    M_{44}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc321)} \beta_{y(sc321)} \: \sin \left( \psi_{x(sc321)} + 2\psi_{y(sc321)} \right),
+    \label{eq:M44}
+\end{equation}
+as calculated by the derivative of $h_{1020}$ with respect to $K_2^{(i)}$, with the explicit expression in Table \ref{tab:rdts}.
+
+The solution to Eq. \ref{eq:model2} is just given by the inverse of the response matrix applied to the bare machine RDT vector. This is equivalent to the approach in Eq. \ref{eq:model1sol}. The result of this approach is the calculation of the $K_2$ coefficients in the compensation sextupoles that cancel out, both, the $h_{3000}$ and the $h_{1020}$ term. Once these magnet coefficients are input into the lattice model, the RDT calculations can be done to verify that the terms effectively go to 0. Figures \ref{fig:h3000oldconfig} and \ref{fig:h1020oldconfig} show these calculations. And, indeed, one can see how the RDT sums add up to 0. Nevertheless, it can be seen from these plots how the spikes are now very large compared to the previous cases and compared to the individual contributions from around the lattice. Effectively, this means that the sextupole component will be localized in the compensation sextupoles' locations. This is an unwanted effect, given that these large sextupole kicks will result in overfocusing of the beam in these locations. In particular, the sextupole component will no longer be perturbative in these locations. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/old_config_h3000.png}
+    \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with existing sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
+    \label{fig:h3000oldconfig}
+\end{figure}
+
+The results from solving Eq. \ref{eq:model2} indicate that the $K_2$ coefficients are very large compared to the case where there was only $h_{3000}$ compensation. Experimentally, what is observed is that the currents in the sextupoles that compensate both $h_{3000}$ and $h_{1020}$ are too large, and they exceed the range of operational limits. While there are no limits for $K_2$ in the sextupoles from the lattice model, the solutions are very large. If one were to translate the operational current limits of the sextupoles to the lattice model $K_2$ coefficients, it can be shown that the solutions lie out of this range. Therefore, this solution does not work for the operational beam. Section \ref{sec:addsexts} shows how to circumvent this by adding two additional sextupoles in the lattice at optimized locations in order to bring down the compensation $K_2$ coefficients---effectively, the compensation currents.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/old_config_h1020.png}
+    \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with existing sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
+    \label{fig:h1020oldconfig}
 \end{figure}
 
 \subsection{Response Matrix Approach}
@@ -467,6 +650,20 @@ One can also try to cancel out a subset of RDTs from equation \ref{eq:system}, i
 \end{figure}
 
 \section{Optimization of Compensation Currents}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/nelder_mead.png}
+    \caption{.}
+    \label{fig:neldermead}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/bo.png}
+    \caption{.}
+    \label{fig:boRR}
+\end{figure}
 
 \section{Experimental Verification of Compensation}
 
@@ -595,20 +792,6 @@ Another method for visualizing resonance compensation involves static tune scans
         \end{bmatrix}
         \label{eq:systemk2s}        
 \end{equation}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{chapter4/old_config_h3000.png}
-    \caption{Distribution of the $h_{3000}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with existing sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
-    \label{fig:h3000oldconfig}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{chapter4/old_config_h1020.png}
-    \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with existing sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
-    \label{fig:h1020oldconfig}
-\end{figure}
 
 \begin{equation}
     \begin{bmatrix}
