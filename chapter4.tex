@@ -41,7 +41,7 @@ As mentioned in Ch. \ref{sec:ch3}, the Recycler Ring is made up of permanent gra
     \label{fig:h1020bare}
 \end{figure}
 
-\section{Measurement of Third Order RDTs}
+\section{\label{sec:rdtmeasure}Measurement of Third Order RDTs}
 
 Calculating the theoretical RDTs from the lattice model is a matter of calculating the sums outlined in Table \ref{tab:rdts}. Nevertheless, the measurement of the third order RDTs requires following a long and involved recipe. This recipe is based on previous work from Refs. \cite{cernthesis2,bartolini}, but with a lot of original steps specifically developed for the Recycler Ring. In summary, these are the steps used in order to measure RDTs at the Recycler:
 \begin{enumerate}
@@ -310,6 +310,7 @@ The spectral lines $HSL_{3000}$, $HSL_{2010}$, and $HSL_{1020}$ identified in Fi
     \caption{Corresponding RDTs from GFCs for each resonance line.}
     \label{tab:rdts2}
     \begin{tabular}{cc}
+    \toprule
     \textbf{Resonance Line} & \textbf{RDT} \\ \hline
      &  \\
     $3Q_x=76$ & $h_{3000}= f_{3000}\left( 1-e^{6\pi i  Q_x  } \right)$ \\
@@ -385,7 +386,7 @@ The first step is to understand how to cancel out a single RDT---a single resona
         \end{bmatrix},
         \label{eq:model1}
 \end{equation}
-where the $h_{3000}$ RDT is complex quantity with a real and imaginary part, i.e., $h_{3000}= \left| h_{3000}\right|e^{i \psi_{3000}} = |h_{3000}| \cos \psi_{3000} + i |h_{3000}| \sin \psi_{3000}$. The $\boldsymbol{M}$ term corresponds to the RDT response matrix. And finally, the $K_2^{(i)}$ corresponds to the coefficient in the $i$-th compensation sextupole. The response matrix for compensating only $3Q_x$ and arbitrarily setting two sextupole currents to the negative of each other reads:
+where the $h_{3000}$ RDT is a complex quantity with a real and imaginary part, i.e., $h_{3000}= \left| h_{3000}\right|e^{i \psi_{3000}} = |h_{3000}| \cos \psi_{3000} + i |h_{3000}| \sin \psi_{3000}$. The $\boldsymbol{M}$ term corresponds to the RDT response matrix. And finally, the $K_2^{(i)}$ corresponds to the coefficient in the $i$-th compensation sextupole. The response matrix for compensating only $3Q_x$ and arbitrarily setting two sextupole currents to the negative of each other reads:
 \begin{equation}
     \boldsymbol{M} = 
 \begin{bmatrix}
@@ -455,9 +456,28 @@ Once the response matrix is calculated, the solution can be found by calculating
     \end{bmatrix}_{(Bare)}.
 \end{equation}
 
-It is worth pointing out that the RDT response matrix, as defined in Eq. \ref{eq:rm1}, should have an inverse. Nevertheless, the problem constraints can be relaxed by dropping the two last rows of Eq. \ref{eq:rm1}. For this case, the corresponding equation to Eq. \ref{eq:model1sol} would involve calculating the pseudo-inverse by means of a least-squares approach. For this case, in principle, every sextupole should have different values for the $K_2$ coefficients that compensate $h_{3000}$.
+Table \ref{tab:k2sh3000} shows the solution to this equation for arbitrary tunes in the lattice. It is worth pointing out that the RDT response matrix, as defined in Eq. \ref{eq:rm1}, should have an inverse. Nevertheless, the problem constraints can be relaxed by dropping the two last rows of Eq. \ref{eq:rm1}. For this case, the corresponding equation to Eq. \ref{eq:model1sol} would involve calculating the pseudo-inverse by means of a least-squares approach. For this case, in principle, every sextupole should have different values for the $K_2$ coefficients that compensate $h_{3000}$. 
 
-Figure \ref{fig:h3000_3qxcomp} shows the calculation of the $h_{3000}$ RDT, once the $K_2$ coefficients in the sextupoles have been set to compensate the resonance. For this case, as opposed to the bare machine calculation from Fig. \ref{fig:h3000bare}, the cumulative sum of $h_{3000}$ goes to 0 at the end of the sum. This means that the global RDT has been cancelled. Furthermore, if Fig. \ref{fig:h3000bare} is compared to Fig. \ref{fig:h3000_3qxcomp}, one can see the big spikes in the middle of the lattice that correspond to the individual contributions from the compensation sextupoles. These kicks are what ultimately brings down the $h_{3000}$ term to zero. 
+\begin{table}[H]
+    \centering
+    \caption{$K_2$ coefficients that cancel out the $h_{3000}$ term. These values were calculated for a Recycler lattice tuned to $Q_x=25.4422$ and $Q_y=24.3915$.}
+    \label{tab:k2sh3000}
+    \begin{tabular}{cc}
+    \toprule
+    \textbf{Sextupole} & $K_2$ [m$^{-3}$] \\ \midrule
+     &  \\
+    SC220 & -0.594702 \\
+     &  \\
+    SC222 & 0.594702 \\
+     &  \\
+    SC319 & 0.930019 \\
+     &  \\
+    SC321 & -0.930019 \\
+     &  \\ \hline
+    \end{tabular}
+    \end{table}
+
+Figure \ref{fig:h3000_3qxcomp} shows the calculation of the $h_{3000}$ RDT, once the $K_2$ coefficients in the sextupoles have been set to the values in Table \ref{tab:k2sh3000}. For this case, as opposed to the bare machine calculation from Fig. \ref{fig:h3000bare}, the cumulative sum of $h_{3000}$ goes to 0 at the end of the sum. This means that the global RDT has been cancelled. Furthermore, if Fig. \ref{fig:h3000bare} is compared to Fig. \ref{fig:h3000_3qxcomp}, one can see the big spikes in the middle of the lattice that correspond to the individual contributions from the compensation sextupoles. These kicks are what ultimately brings down the $h_{3000}$ term to zero. 
 
 \begin{figure}[H]
     \centering
@@ -542,9 +562,30 @@ where the first two rows are defined the same as before by Eqs. \ref{eq:M12}-\re
     M_{44}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc321)} \beta_{y(sc321)} \: \sin \left( \psi_{x(sc321)} + 2\psi_{y(sc321)} \right),
     \label{eq:M44}
 \end{equation}
-as calculated by the derivative of $h_{1020}$ with respect to $K_2^{(i)}$, with the explicit expression in Table \ref{tab:rdts}.
+as calculated from the derivative of $h_{1020}$ with respect to $K_2^{(i)}$, with the explicit expression in Table \ref{tab:rdts}.
 
-The solution to Eq. \ref{eq:model2} is just given by the inverse of the response matrix applied to the bare machine RDT vector. This is equivalent to the approach in Eq. \ref{eq:model1sol}. The result of this approach is the calculation of the $K_2$ coefficients in the compensation sextupoles that cancel out, both, the $h_{3000}$ and the $h_{1020}$ term. Once these magnet coefficients are input into the lattice model, the RDT calculations can be done to verify that the terms effectively go to 0. Figures \ref{fig:h3000oldconfig} and \ref{fig:h1020oldconfig} show these calculations. And, indeed, one can see how the RDT sums add up to 0. Nevertheless, it can be seen from these plots how the spikes are now very large compared to the previous cases and compared to the individual contributions from around the lattice. Effectively, this means that the sextupole component will be localized in the compensation sextupoles' locations. This is an unwanted effect, given that these large sextupole kicks will result in overfocusing of the beam in these locations. In particular, the sextupole component will no longer be perturbative in these locations. 
+The solution to Eq. \ref{eq:model2} is just given by the inverse of the response matrix applied to the bare machine RDT vector. This is equivalent to the approach in Eq. \ref{eq:model1sol}. The result of this approach is the calculation of the $K_2$ coefficients in the compensation sextupoles that cancel out, both, the $h_{3000}$ and the $h_{1020}$ term. The solution to Eq. \ref{eq:model2} is given in Table \ref{tab:k2sboth} for an arbitrarily tuned lattice. One thing to note is that these values are almost one order of magnitude larger than those in Table \ref{tab:k2sh3000}. 
+
+\begin{table}[H]
+    \centering
+    \caption{$K_2$ coefficients that cancel out the $h_{3000}$ and $h_{1020}$ term. These values were calculated for a Recycler lattice tuned to $Q_x=25.4422$ and $Q_y=24.3915$.}
+    \label{tab:k2sboth}
+    \begin{tabular}{cc}
+    \toprule
+    \textbf{Sextupole} & $K_2$ [m$^{-3}$] \\ \midrule
+     &  \\
+    SC220 & 6.039888 \\
+     &  \\
+    SC222 & 4.826964 \\
+     &  \\
+    SC319 & -4.529674 \\
+     &  \\
+    SC321 & -6.167827 \\
+     &  \\ \hline
+    \end{tabular}
+    \end{table}
+
+Once the magnet coefficients from Table \ref{tab:k2sboth} are input into the lattice model, the RDT calculations can be done to verify that the terms effectively go to 0. Figures \ref{fig:h3000oldconfig} and \ref{fig:h1020oldconfig} show these calculations. And, indeed, one can see how the RDT sums add up to 0. Nevertheless, it can be seen from these plots how the spikes are now very large compared to the previous cases and compared to the individual contributions from around the lattice. Effectively, this means that the sextupole component will be localized in the compensation sextupoles' locations. This is an unwanted effect, given that these large sextupole kicks will result in overfocusing of the beam in these locations. In particular, the sextupole component will no longer be perturbative in these locations. 
 
 \begin{figure}[H]
     \centering
@@ -553,7 +594,7 @@ The solution to Eq. \ref{eq:model2} is just given by the inverse of the response
     \label{fig:h3000oldconfig}
 \end{figure}
 
-The results from solving Eq. \ref{eq:model2} indicate that the $K_2$ coefficients are very large compared to the case where there was only $h_{3000}$ compensation. Experimentally, what is observed is that the currents in the sextupoles that compensate both $h_{3000}$ and $h_{1020}$ are too large, and they exceed the range of operational limits. While there are no limits for $K_2$ in the sextupoles from the lattice model, the solutions are very large. If one were to translate the operational current limits of the sextupoles to the lattice model $K_2$ coefficients, it can be shown that the solutions lie out of this range. Therefore, this solution does not work for the operational beam. Section \ref{sec:addsexts} shows how to circumvent this by adding two additional sextupoles in the lattice at optimized locations in order to bring down the compensation $K_2$ coefficients---effectively, the compensation currents.
+The results from solving Eq. \ref{eq:model2}, as specified in Table \ref{tab:k2sboth}, indicate that the $K_2$ coefficients are very large compared to the case where there was only $h_{3000}$ compensation. Experimentally, what is observed is that the currents in the sextupoles that compensate both $h_{3000}$ and $h_{1020}$ are too large, and they exceed the range of operational limits. While there are no limits for $K_2$ in the sextupoles from the lattice model, the solutions are very large. If one were to translate the operational current limits of the sextupoles to the lattice model $K_2$ coefficients, it can be shown that the solutions lie out of this range, i.e., the maximum $K_2$ coefficients are around 1 m$^{-3}$. Therefore, this solution does not work for the operational beam. Section \ref{sec:addsexts} shows how to circumvent this by adding two additional sextupoles in the lattice at optimized locations in order to bring down the compensation $K_2$ coefficients---effectively, the compensation currents.
 
 \begin{figure}[H]
     \centering
@@ -564,9 +605,9 @@ The results from solving Eq. \ref{eq:model2} indicate that the $K_2$ coefficient
 
 \subsection{Response Matrix Approach}
 
-For resonance compensation there are four dedicated normal sextupoles with currents that can be set to ($I_{sc220},I_{sc222},I_{sc319},I_{sc321}$) and four dedicated skew sextupoles with currents that can be set to ($I_{ss323},I_{ss323},I_{ss319},I_{ss321}$). As shown in the previous section one RDT can be cancelled out with the right kick from the correction elements, which means the resonances are corrected to first order. 
+The next step is to look at how to translate the procedure from the previous section to the real machine. This is done by means of measuring the response matrix. As mentioned before, for resonance compensation there are four dedicated normal sextupoles with currents that can be set to ($I_{sc220},I_{sc222},I_{sc319},I_{sc321}$) and four dedicated skew sextupoles with currents that can be set to ($I_{ss323},I_{ss323},I_{ss319},I_{ss321}$). As shown in the previous section one RDT can be cancelled out with the right kick from the correction elements, which means the resonances are corrected to first order. 
 
-Nevertheless, by compensating one resonance line, other resonances  might become worse. This is why for simultaneous compensation, compensation currents will vary depending on the subsets of resonances to compensate. In principle, the currents $I_x$ needed in each correction element in order to cancel out the four bare machine RDTs, are given by the solution to this linear system of equations: 
+Nevertheless, by compensating one resonance line, other resonances might become worse. This is why for simultaneous compensation, compensation currents will vary depending on the subsets of resonances to compensate. In principle, the currents $I_x$ needed in each correction element in order to cancel out the four bare machine RDTs, are given by the solution to this linear system of equations: 
 \begin{equation}
     \begin{bmatrix}
         -|{h_{3000}}|  \cos (\psi_{3000})\\
@@ -592,7 +633,7 @@ Nevertheless, by compensating one resonance line, other resonances  might become
       \end{bmatrix}
     \label{eq:system}
 \end{equation}
-where $M_{ij}$ is the response matrix for the RDTs with respect to the currents, and includes any roll that can happen for the correction sextupoles. This response matrix $M_{ij}$ can be calculated by scanning the currents in each correction element and looking at the response from the real and imaginary part of the RDTs, i.e., $h_{jklm}=|h_{jklm}|e^{i\psi_{jklm}}$. 
+where $M_{ij}$ is the response matrix for the RDTs with respect to the currents, and includes any roll that can happen for the correction sextupoles. It is worth to emphasize that for this approach, the response matrix is being calculated from measurements as opposed to calculated from the model. This response matrix $M_{ij}$ can be calculated by scanning the currents in each correction element and looking at the response from the real and imaginary part of the RDTs, i.e., $h_{jklm}=|h_{jklm}|e^{i\psi_{jklm}}$. 
 
 In reality, there are limitations to solving equation \ref{eq:system}. The first one is that all the RDTs ($h_{jklm}$) may not be accessible for measurement, given that they may not show up as a spectral line.  Another limitation is that the solution for the currents may be outside the maximum limits for the correction elements. 
 
@@ -617,35 +658,56 @@ One can also try to cancel out a subset of RDTs from equation \ref{eq:system}, i
         I_{sc222} \\
         I_{sc319} \\
         I_{sc321} \\
-      \end{bmatrix}
+      \end{bmatrix},
     \label{eq:system1}
 \end{equation}
+which is analogous to Eq. \ref{eq:model1}, only now the sextupole currents are the knobs. Nevertheless, in this case, the RDT is measured from the procedure shown in Sec. \ref{sec:rdtmeasure} for the bare machine---no compensation sextupoles turned on. In order to measure the response matrix $\boldsymbol{M}$, the $h_{3000}$ RDT has to be measured as a function of the compensation currents in the sextupoles. The procedure summarizing all of this is the following:
+\begin{enumerate}
+    \item Measure the bare machine RDT vector for several shots, e.g, measure $h_{3000}$ for 20 instances.
+    \item Choose a compensation sextupole for the first scan.
+    \item Set the compensation sextupole to the lower limit of the scan range, e.g., -10 Amps.
+    \item Measure the $h_{3000}$ RDT (or arbitrary RDT) by means of following the recipe in Sec. \ref{sec:rdtmeasure}.
+    \item Increase the current in the compensation sextupole by some step size, e.g., by 2 Amps, and repeat the RDT measurement.
+    \item Repeat steps 2-4 until the upper limit of the scan range, e.g., 10 Amps.
+    \item For every measurement, decompose the RDT into its real and imaginary part, e.g., $h_{3000}= |h_{3000}| \cos \psi_{3000} + i |h_{3000}| \sin \psi_{3000}$. 
+    \item Plot the real and imaginary part of the RDT as a function of sextupole current and perform a linear fit. The slopes of these fits are the corresponding $M_{ij}$ response matrix coefficients.
+    \item Repeat steps 2-8 for the other compensation sextupoles, until the response matrix is fully calculated. This procedure can be done for a subset of correctors reducing the dimension of the response matrix. 
+    \item Once the response matrix is specified, calculate its inverse (or pseudo-inverse) and operate on to the bare machine RDT vector in order to get the compensation currents on every BPM (see Fig. \ref{fig:icomp}).
+\end{enumerate}
+
+Figures \ref{fig:h3000_sc222} and \ref{fig:h3000_sc319} shows an example of performing two of these scans for the $h_{3000}$ term. On Fig. \ref{fig:h3000_sc222} it can be seen how the relationship between the real part and imaginary part follow a linear relation within the shaded region. The fit for these plots was done only for this region given that prior empirical data showed that the currents should not exceed the absolute value of 7 Amps. The response matrix coefficients were extracted for the slope values provided from the fit.  
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/h3000_sc222.png}
-    \caption{.}
+    \caption{Real and imaginary part of $h_{3000}$ as a function of current fed to compensation sextupole SC222. Measurement is shown for R:HP126 data.}
     \label{fig:h3000_sc222}
 \end{figure}
 
+Figures \ref{fig:h3000_sc222} and \ref{fig:h3000_sc319} are taken at two different BPMs, i.e., horizontal BPMs R:HP126 and R:HP612. Comparing both plots, shows that the RDT sensitivity of $h_{3000}$ changes depending on the sextupole used. Furthermore, at high currents it can be seen that some non-linear behavior starts to kick in. This was present in mostly all BPMs. Nevertheless, this only happened at high currents far from the region of interest, which was capped at an absolute value of 6 Amps. 
+
+After performing all this process, the result is an array of compensating currents predicted by every BPM. Figure \ref{fig:icomp} shows an example of these results. The bars at each BPM represent the predicted compensation current for a particular sextupole. While each BPM will give a local approximation of what currents minimize the $h_{3000}$ RDT, the sextupoles can only take one input. This is why all these currents need to be averaged in order to get a global compensation current that minimizes the RDT at every location. Nevertheless, given that there is some uncertainty on the bare machine RDTs and the response matrix coefficients, this need to be included in order come up with this global solution. 
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\columnwidth]{chapter4/h3000_sc222.png}
-    \caption{.}
+    \includegraphics[width=\columnwidth]{chapter4/h3000_sc319.png}
+    \caption{Real and imaginary part of $h_{3000}$ as a function of current fed to compensation sextupole SC319. Measurement is shown for R:HP612 data.}
     \label{fig:h3000_sc319}
 \end{figure}
+
+In order to build a final setting for the compensation currents, not all BPMs are necessarily used. For this prediction, the BPMs that showed the most linear fits from the RDT scan as a function of current were used. The R-squared statistics and the reduced $\chi^2$ were used to quantify this linearity. Once the best BPMs were selected, the compensation currents were selected. This is why not all BPMs are plotted on Fig. \ref{fig:icomp}. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/comp_currents.png}
-    \caption{.}
+    \caption{Compensation currents calculated from BPMs that showed the best R-square statistic from performing the RDT scans.}
     \label{fig:icomp}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/comp_interval.png}
-    \caption{.}
+    \caption{Prediction function built from the best R-squared statistics BPMs, in order to predict the best global currents for $h_{3000}$ compensation.}
     \label{fig:icomp_int}
 \end{figure}
 
@@ -812,6 +874,29 @@ Another method for visualizing resonance compensation involves static tune scans
         \end{bmatrix}
         \label{eq:systemadd}
 \end{equation}
+
+\begin{table}[H]
+    \centering
+    \caption{$K_2$ coefficients that cancel out the $h_{3000}$ and $h_{1020}$ term when the two new 620 sextupoles are introduced. These values were calculated for a Recycler lattice tuned to $Q_x=25.4422$ and $Q_y=24.3915$.}
+    \label{tab:k2s620}
+    \begin{tabular}{cc}
+    \toprule
+    \textbf{Sextupole} & $K_2$ [m$^{-3}$] \\ \midrule
+     &  \\
+    SC220 & -0.263835 \\
+     &  \\
+    SC222 & 0.463129 \\
+     &  \\
+    SC319 & 0.480173 \\
+     &  \\
+    SC321 & -0.407482 \\
+     &  \\
+    SC620a & 0.581187 \\
+     &  \\ 
+    SC620b & 0.511139 \\
+     &  \\ \bottomrule
+    \end{tabular}
+    \end{table}
 
 \begin{figure}[H]
     \centering
