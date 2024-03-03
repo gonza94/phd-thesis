@@ -404,40 +404,40 @@ M_{21} && M_{22} && M_{23} && M_{24} \\
 \end{equation}
 where the theoretical matrix coefficients are calculated from the derivatives of the expressions in Table \ref{tab:rdts} with respect to $K_2^{(i)}$, and they read: 
 \begin{equation}
-    M_{11}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc220)} \: \cos 3\psi_{x(sc220)},
+    M_{11}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc220)} \: \cos 3\phi_{x(sc220)},
     \label{eq:M11}
 \end{equation}
 \begin{equation}
-    M_{12}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc222)} \: \cos 3\psi_{x(sc222)},
+    M_{12}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc222)} \: \cos 3\phi_{x(sc222)},
     \label{eq:M12}
 \end{equation}
 \begin{equation}
-    M_{13}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc319)} \: \cos 3\psi_{x(sc319)},
+    M_{13}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc319)} \: \cos 3\phi_{x(sc319)},
     \label{eq:M13}
 \end{equation}
 \begin{equation}
-    M_{14}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc321)} \: \cos 3\psi_{x(sc321)},
+    M_{14}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc321)} \: \cos 3\phi_{x(sc321)},
     \label{eq:M14}
 \end{equation}
 \begin{equation}
-    M_{21}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc220)} \: \sin 3\psi_{x(sc220)},
+    M_{21}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc220)} \: \sin 3\phi_{x(sc220)},
     \label{eq:M21}
 \end{equation}
 \begin{equation}
-    M_{22}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc222)} \: \sin 3\psi_{x(sc222)},
+    M_{22}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc222)} \: \sin 3\phi_{x(sc222)},
     \label{eq:M22}
 \end{equation}
 \begin{equation}
-    M_{23}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc319)} \: \sin 3\psi_{x(sc319)},
+    M_{23}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc319)} \: \sin 3\phi_{x(sc319)},
     \label{eq:M23}
 \end{equation}
 \begin{equation}
-    M_{24}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc321)} \: \sin 3\psi_{x(sc321)},
+    M_{24}=\frac{1}{48} l_{sc} \: \beta^{3/2}_{x(sc321)} \: \sin 3\phi_{x(sc321)},
     \label{eq:M24}
 \end{equation}
-where each beta function $\beta_{u(i)}$ and phase evaluation $\psi_{u(i)}$ in the $u$ plane---horizontal or vertical---is taken at the location of the $i$-th compensation element. Every compensation magnet has the same length of $l_{sc}$.
+where each beta function $\beta_{u(i)}$ and phase evaluation $\phi_{u(i)}$ in the $u$ plane---horizontal or vertical---is taken at the location of the $i$-th compensation element. Every compensation magnet has the same length of $l_{sc}$.
 
-Once the response matrix is calculated, the solution can be found by calculating the inverse and operating on the bare machine RDT vector. This RDT vector is a known quantity that can be calculated from the lattice model. The solution for compensation thus reads:
+Once the response matrix is calculated, the solution can be found by calculating its inverse and operating on the bare machine RDT vector. This RDT vector is a known quantity that can be calculated from the lattice model. The solution for compensation thus reads:
 \begin{equation}
     \label{eq:model1sol}
     \begin{bmatrix}
@@ -486,7 +486,7 @@ Figure \ref{fig:h3000_3qxcomp} shows the calculation of the $h_{3000}$ RDT, once
     \label{fig:h3000_3qxcomp}
 \end{figure}
 
-On the other hand, there is the $h_{1020}$ term. This one also gets affected if normal sextupole component are changed in the lattice, as explained by the expressions in Table \ref{tab:rdts}. Therefore, it is of interest to look at how $h_{1020}$ changes as $h_{3000}$ is compensated. Figure \ref{fig:h1020_3qxcomp} shows the calculation for this term as $3Q_x$ is being compensated. Again, four additional spikes show up in the individual contribution plot exactly where the compensation sextupoles are placed. If this plot is compared to Fig. \ref{fig:h1020bare}, it can also be seen that the total sum of the $h_{1020}$ term increases from 1.739 to 1.988 m$^{-1/2}$. This shows that by compensating the $h_{3000}$ RDT, the $h_{1020}$ increases. This means that by compensating one resonance line, other lines get might get worse. 
+On the other hand, there is the $h_{1020}$ term. This one also gets affected if normal sextupole component are changed in the lattice, as explained by the expressions in Table \ref{tab:rdts}. Therefore, it is of interest to look at how $h_{1020}$ changes as $h_{3000}$ is compensated. Figure \ref{fig:h1020_3qxcomp} shows the calculation for this term as $3Q_x$ is being compensated. Again, four additional spikes show up in the individual contribution plot exactly where the compensation sextupoles are placed. If this plot is compared to Fig. \ref{fig:h1020bare}, it can also be seen that the total sum of the $h_{1020}$ term increases from 1.739 to 1.988 m$^{-1/2}$. This shows that by compensating the $h_{3000}$ RDT, the $h_{1020}$ increases. This means that by compensating one resonance line, other lines might get worse. 
 
 \begin{figure}[H]
     \centering
@@ -531,35 +531,35 @@ M_{41} && M_{42} && M_{43} && M_{44} \\
 \end{equation}
 where the first two rows are defined the same as before by Eqs. \ref{eq:M12}-\ref{eq:M24}. Similarly, the coefficients in the last two rows are defined by:
 \begin{equation}
-    M_{31}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc220)} \beta_{y(sc220)} \: \cos \left( \psi_{x(sc220)} + 2\psi_{y(sc220)} \right),
+    M_{31}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc220)} \beta_{y(sc220)} \: \cos \left( \phi_{x(sc220)} + 2\phi_{y(sc220)} \right),
     \label{eq:M31}
 \end{equation}
 \begin{equation}
-    M_{32}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc222)} \beta_{y(sc222)} \: \cos \left( \psi_{x(sc222)} + 2\psi_{y(sc222)} \right),
+    M_{32}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc222)} \beta_{y(sc222)} \: \cos \left( \phi_{x(sc222)} + 2\phi_{y(sc222)} \right),
     \label{eq:M32}
 \end{equation}
 \begin{equation}
-    M_{33}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc319)} \beta_{y(sc319)} \: \cos \left( \psi_{x(sc319)} + 2\psi_{y(sc319)} \right),
+    M_{33}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc319)} \beta_{y(sc319)} \: \cos \left( \phi_{x(sc319)} + 2\phi_{y(sc319)} \right),
     \label{eq:M33}
 \end{equation}
 \begin{equation}
-    M_{34}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc321)} \beta_{y(sc321)} \: \cos \left( \psi_{x(sc321)} + 2\psi_{y(sc321)} \right),
+    M_{34}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc321)} \beta_{y(sc321)} \: \cos \left( \phi_{x(sc321)} + 2\phi_{y(sc321)} \right),
     \label{eq:M34}
 \end{equation}
 \begin{equation}
-    M_{41}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc220)} \beta_{y(sc220)} \: \sin \left( \psi_{x(sc220)} + 2\psi_{y(sc220)} \right),
+    M_{41}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc220)} \beta_{y(sc220)} \: \sin \left( \phi_{x(sc220)} + 2\phi_{y(sc220)} \right),
     \label{eq:M41}
 \end{equation}
 \begin{equation}
-    M_{42}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc222)} \beta_{y(sc222)} \: \sin \left( \psi_{x(sc222)} + 2\psi_{y(sc222)} \right),
+    M_{42}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc222)} \beta_{y(sc222)} \: \sin \left( \phi_{x(sc222)} + 2\phi_{y(sc222)} \right),
     \label{eq:M42}
 \end{equation}
 \begin{equation}
-    M_{43}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc319)} \beta_{y(sc319)} \: \sin \left( \psi_{x(sc319)} + 2\psi_{y(sc319)} \right),
+    M_{43}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc319)} \beta_{y(sc319)} \: \sin \left( \phi_{x(sc319)} + 2\phi_{y(sc319)} \right),
     \label{eq:M43}
 \end{equation}
 \begin{equation}
-    M_{44}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc321)} \beta_{y(sc321)} \: \sin \left( \psi_{x(sc321)} + 2\psi_{y(sc321)} \right),
+    M_{44}=\frac{1}{16} l_{sc} \: \beta^{1/2}_{x(sc321)} \beta_{y(sc321)} \: \sin \left( \phi_{x(sc321)} + 2\phi_{y(sc321)} \right),
     \label{eq:M44}
 \end{equation}
 as calculated from the derivative of $h_{1020}$ with respect to $K_2^{(i)}$, with the explicit expression in Table \ref{tab:rdts}.
@@ -602,6 +602,8 @@ The results from solving Eq. \ref{eq:model2}, as specified in Table \ref{tab:k2s
     \caption{Distribution of the $h_{1020}$ term around the ring with individual contributions from each relevant element and the cumulative sum from an arbitrary starting point. This is with existing sextupoles powered at the correct currents to cancel out $h_{3000}$ and $h_{1020}$ simultaneously.}
     \label{fig:h1020oldconfig}
 \end{figure}
+
+While the previous section, focused only on the normal sextupole RDTs, all of this can easily be extended to the skew sextupole RDTs, i.e., $h_{0030}$ and $h_{2010}$. This is assuming the lattice model has a good approximation of the skew sextupole distribution around the ring. For the Recycler Ring, the skew sextupole resonances are not as strong as the normal sextupole resonance $3Q_x=76$. This resonance dominates the losses in this region. Therefore, special attention has been paid to the $3Q_x=76$ resonance and its $h_{3000}$ resonance driving term. Nevertheless, this procedure works for $3Q_y=73$ and $2Q_x+Q_y=75$---and its corresponding RDTs---using the skew sextupole correctors.
 
 \subsection{Response Matrix Approach}
 
@@ -686,7 +688,7 @@ Figures \ref{fig:h3000_sc222} and \ref{fig:h3000_sc319} shows an example of perf
 
 Figures \ref{fig:h3000_sc222} and \ref{fig:h3000_sc319} are taken at two different BPMs, i.e., horizontal BPMs R:HP126 and R:HP612. Comparing both plots, shows that the RDT sensitivity of $h_{3000}$ changes depending on the sextupole used. Furthermore, at high currents it can be seen that some non-linear behavior starts to kick in. This was present in mostly all BPMs. Nevertheless, this only happened at high currents far from the region of interest, which was capped at an absolute value of 6 Amps. 
 
-After performing all this process, the result is an array of compensating currents predicted by every BPM. Figure \ref{fig:icomp} shows an example of these results. The bars at each BPM represent the predicted compensation current for a particular sextupole. While each BPM will give a local approximation of what currents minimize the $h_{3000}$ RDT, the sextupoles can only take one input. This is why all these currents need to be averaged in order to get a global compensation current that minimizes the RDT at every location. Nevertheless, given that there is some uncertainty on the bare machine RDTs and the response matrix coefficients, this need to be included in order come up with this global solution. 
+After performing all this process, the result is an array of compensating currents predicted by every BPM. Figure \ref{fig:icomp} shows an example of these results. The bars at each BPM represent the predicted compensation current for a particular sextupole. While each BPM will give a local approximation of what currents minimize the $h_{3000}$ RDT, the sextupoles can only take one input. This is why all these currents need to be averaged in order to get a global compensation current that minimizes the RDT at every location. Nevertheless, given that there is some uncertainty on the bare machine RDTs and the response matrix coefficients, this needs to be included in order to come up with this global solution. 
 
 \begin{figure}[H]
     \centering
@@ -695,7 +697,7 @@ After performing all this process, the result is an array of compensating curren
     \label{fig:h3000_sc319}
 \end{figure}
 
-In order to build a final setting for the compensation currents, not all BPMs are necessarily used. For this prediction, the BPMs that showed the most linear fits from the RDT scan as a function of current were used. The R-squared statistics and the reduced $\chi^2$ were used to quantify this linearity. Once the best BPMs were selected, the compensation currents were selected. This is why not all BPMs are plotted on Fig. \ref{fig:icomp}. 
+In order to build a final setting for the compensation currents, not all BPMs are necessarily used. For this prediction, the BPMs that showed the most linear fits from the RDT scan as a function of current were used. The R-squared statistics and the reduced $\chi^2$ were used to quantify this linearity. Once the best BPMs were selected, the compensation currents were selected. This is why not all BPMs are plotted on Fig. \ref{fig:icomp}. Assuming that the currents predictions shown in Fig. \ref{fig:icomp} follow a bi-Gaussian distribution centered at the mean values with a variance equal to the uncertainty in the error bar, a prediction function can be built. The prediction function is just the sum of all the bi-Gaussian distributions. A contour plot example of such prediction function is shown in Fig. \ref{fig:icomp_int}. Ultimately, this prediction function will specify a region in the currents space of each sextupole where the best setting lies.
 
 \begin{figure}[H]
     \centering
@@ -711,35 +713,46 @@ In order to build a final setting for the compensation currents, not all BPMs ar
     \label{fig:icomp_int}
 \end{figure}
 
+The prediction function in Fig. \ref{fig:icomp_int} can be used to predict an optimal setting for the currents in the compensation sextupoles. Specifically, the centroid of this prediction distribution can be calculated and used as the optimum setting. This corresponds to the cyan cross in Fig. \ref{fig:icomp_int}. Later in this chapter, there is a whole section dedicated to verify the compensation of resonances, see Sec. \ref{sec:verify}. Nevertheless, a quick way to verify resonance compensation is to use a dynamic tune ramp that crosses the $3Q_x=76$. Uncorrected for, around 95\% of the beam is lost once this resonance is crossed. One can use the interval where the prediction function thinks it is best to operate, and scan the parameter space (currents) while recording beam transmission across the $3Q_x$ resonance. The fuchsia X in Fig. \ref{fig:icomp_int} shows the setting with the best transmission---the best transmission now corresponds to less than 5\% losses. The centroid of the prediction function is around 2.4\% (relative distance) away from this experimental value. This shows that the predicted value from the response matrix approach does indeed reduce the losses from the $3Q_x=76$ line---meaning the $h_{3000}$ RDT is minimized in this region.
+
 \section{Optimization of Compensation Currents}
+
+The last section showed how to predict the optimum setting for the sextupoles by measuring the response matrix. Nevertheless, this procedure takes a couple of hours of study time and might not be accessible for routine operations. Therefore, this procedure might be done once or twice per run. Consequently, it is of interest to explore optimization algorithms that can help predict the optimum setting that minimizes losses from the resonance lines.   
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/nelder_mead.png}
-    \caption{.}
+    \caption{Nelder-Mead optimization from an instance were the response matrix prediction was used as the initial point. The contour plot shows the transmission through $3Q_x$ as a function of the currents.}
     \label{fig:neldermead}
 \end{figure}
+
+Figure \ref{fig:neldermead} shows an example of using a Simplex (Nelder-Mead) optimization procedure to find the optimum setting in the compensation sextupoles. In the background of this plot, the contour plot corresponds to the experimentally-measured transmission through $3Q_x$. This Nelder-Mead instance was started with the currents predicted from the response matrix approach. After 45 iterations, the optimization algorithm converged to the value specified in the legend of Fig. \ref{fig:neldermead}. This value is fairly close to the value predicted by the response matrix approach. The maximum transmission from the contour plot (red cross in Fig. \ref{fig:neldermead}) agrees up to some significance with the currents from the optimization procedure and the response matrix approach. They're all fairly close within a region. Therefore, by taking the response-matrix predicted currents as an initial point, one can fine-tune this configuration using this type of optimization algorithms. In principle, any type of numerical optimization algorithms should converge to the answer given that the underlying function is not specially difficult---in the context of numerical optimization. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/mo_opti.png}
+    \caption{Multiobjective Nelder-Mead optimization of the transmission through $3Q_x$ and $3Q_y$. The objective function to be minimized was defined as an equally-weighted sum of both one minus transmissions---corresponding to the fractional losses through the resonance lines.}
+    \label{fig:MO_neldermead}
+\end{figure}
+
+Figure \ref{fig:MO_neldermead} take this a step further by performing multiobjective optimization on two resonance lines, i.e., $3Q_x$ and $3Q_y$. The 8 compensation sextupoles (see Table \ref{tab:sextscomp}), including normal and skew, were used for this optimization. While in principle, powering up the normal compensation sextupoles should have no effect on the $3Q_y$ line, it was observed that the losses due to this line increased when $3Q_x$ was corrected. This motivated the multiobjective optimization of both lines. Figure \ref{fig:MO_neldermead} shows how by trying to correct one line the other one got worse. Ultimately, the best configuration would lie on the Pareto front of these functions. The axis in Fig. \ref{fig:MO_neldermead} represent the fractional beam loss when crossing the resonance lines. The objective function to be minimized by a Nelder-Mead algorithm was defined as an equally-weighted sum of both fractional losses. Ultimately, Fig. \ref{fig:MO_neldermead} shows how the algorithm slowly drifts toward the best solution to this problem. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/bo.png}
-    \caption{.}
+    \caption{Bayesian optimization of the compensation currents for $3Q_x$ transmission. The contour plot shows the Gaussian Process Posterior function trained by the sampled data (orange dots).}
     \label{fig:boRR}
 \end{figure}
 
-\section{Experimental Verification of Compensation}
+More advanced optimization algorithms can be used in order to fine-tune the best optimization currents in the compensation sextupoles. Figure \ref{fig:boRR} shows an instance were Bayesian optimization was used for this purpose. A summary of Bayesian optimization can be found in Ref. \cite{bayesian}. It is worth clarifying that the optimum currents from Fig. \ref{fig:boRR} differ from the ones in \ref{fig:neldermead} given that the first plot was generated from data taken in the 2022-2023 run and the other one from the 2021-2022 run. The tuning of the machine changes from year to year---even from week to week. The background contour plot of Fig. \ref{fig:boRR} corresponds to the Gaussian Process posterior trained from the Bayesian-guided sampling of the transmission through $3Q_x$. Ultimately, the cluster of points around the maximum show how the algorithm converged and found the best configuration to feed the sextupoles. These currents are close to the ones shown in Fig. \ref{fig:icomp_int}. Chapter \ref{sec:ch5} shows some studies done at the Proton-Synchrotron Booster (PSB) at CERN, where this optimization approach is fully embraced to compensate resonance lines.
+
+\section{\label{sec:verify}Experimental Verification of Compensation}
 
 \subsection{\label{sec:lossmaps}Dynamic Loss Maps}
 
 One effective method for visualizing resonance compensation involves constructing dynamic loss maps. To generate these representations, specialized quadrupoles responsible for controlling the tune of the Recycler are gradually adjusted to map out the desired tune area. Throughout this process, the beam loss rate is meticulously measured and interpolated across the specified region. This is done in the horizontal and vertical direction. The initial horizontal scan is generated by maintaining a constant vertical tune while implementing a horizontal tune ramp ranging from $Q_x=25.47$ to $Q_x=25.31$. Subsequently, the vertical tune, initially set as \textit{constant} at $Q_y=24.47$, is adjusted incrementally to $Q_y=24.31$ in steps of 0.005, with intensity data recorded at each step. Conversely, for the vertical scan, the roles are reversed: the horizontal tune remains constant while a vertical tune ramp progresses from $Q_y=24.47$ to $Q_y=24.31$. Then, the \textit{constant} horizontal tune is varied from $Q_x=25.47$ to $Q_y=25.31$ in steps of 0.005. The resulting intensity data from both scans can be differentiated, normalized by the instantaneous intensity, and interpolated within a two-dimensional grid to construct plots akin to those depicted in Figs. \ref{fig:bare_nocomments} and \ref{fig:bare_comments}. Figure \ref{fig:bare_nocomments} demonstrates the initial machine scan without any compensation. If plotted alongside the theoretical positions of the lines as in Fig. \ref{fig:bare_comments}, the beam loss bands align with the resonance lines. 
 
 Figure \ref{fig:bare_comments} illustrates the correspondence between the loss patterns and the theoretical positions of resonance lines. A slight deviation exists between the set tune and the actual tune due to calibration adjustments from the tune trombone program. However, despite this variance, the resonance line configuration within the loss pattern facilitates the visualization of each resonance's strength. Specifically, a higher normalized loss at a particular tune location indicates a stronger Resonance Driving Term (RDT) for the corresponding resonance line. Within Figs. \ref{fig:bare_nocomments} and \ref{fig:bare_comments}, third, fourth, and even traces of fifth-order resonance lines are discernible, with third-order resonance lines exhibiting the greatest prominence.
-
-Figure \ref{fig:lossmaps} depicts dynamic loss maps representing various configurations of the compensation sextupoles. Specifically, Fig. \ref{fig:sfig1} illustrates the loss map for the bare machine, where no compensation sextupoles are activated, while Fig. \ref{fig:sfig2} and Fig. \ref{fig:sfig3} demonstrate compensation for a single resonance line each. In the case of $3Q_x$ compensation, the four normal sextupoles are adjusted to the calculated compensation currents using the RDT response matrix method. Moreover, a comparison between Fig. \ref{fig:sfig2} and Fig. \ref{fig:sfig1} clearly indicates a reduction of normalized losses by two orders of magnitude at the $3Q_x$ line with compensation. This observation holds true for the $3Q_y$ compensation as well, as shown in Fig. \ref{fig:sfig3}.
-
-Figures \ref{fig:sfig4}, \ref{fig:sfig5}, and \ref{fig:sfig6} showcase the optimal configurations of compensation sextupoles designed to address multiple resonance lines simultaneously. It's important to note that while attempting to compensate for one or multiple resonance lines, there's a possibility that other resonance lines may strengthen. This is evident in the explicit case depicted in Fig. \ref{fig:sfig6}, where compensating for $3Q_y$ and $Q_x+2Q_y$ leads to the amplification of the $2Q_x+Q_y$ resonance. Such occurrences pose a limitation when aiming to compensate for more than two resonance lines, as the compensation currents tend to increase. There exists a constraint on the currents supplied to the compensation sextupoles. For instance, in compensating both normal sextupole lines, $3Q_x$ and $Q_x+2Q_y$, the required currents exceed the current limit. Ongoing efforts are focused on reducing the compensation currents in this specific scenario. Section \ref{sec:addsexts} summarizes some of these efforts, where additional sextupoles have been installed in order to decrease the currents that cancel out both the $h_{3000}$ and $h_{1020}$ RDTs.
-
-Another notable detail evident in Figs. \ref{fig:sfig1}-\ref{fig:sfig6} is the presence of white areas within the loss maps, indicating regions where there was insufficient beam to accurately map out the losses. In certain configurations of the compensation sextupoles, the combined weakening of the third-order resonance lines occurs in a manner that leaves some beam remaining beyond these lines. It could be argued that conducting two additional scans, injecting from the left and bottom, could effectively map out these inaccessible regions. Such an enhancement could be considered as a future upgrade to these dynamic loss maps. Ultimately, all the plots presented in Fig. \ref{fig:lossmaps} demonstrate various potential configurations that open up regions of tune space for utilization during operations, enabling the accommodation of high-intensity beams.
 
 \begin{figure}[H]
     \centering
@@ -748,6 +761,8 @@ Another notable detail evident in Figs. \ref{fig:sfig1}-\ref{fig:sfig6} is the p
     \label{fig:bare_nocomments}
 \end{figure}
 
+Figure \ref{fig:lossmaps} depicts dynamic loss maps representing various configurations of the compensation sextupoles. Specifically, Fig. \ref{fig:sfig1} illustrates the loss map for the bare machine, where no compensation sextupoles are activated, while Fig. \ref{fig:sfig2} and Fig. \ref{fig:sfig3} demonstrate compensation for a single resonance line each. In the case of $3Q_x$ compensation, the four normal sextupoles are adjusted to the calculated compensation currents using the RDT response matrix method. Moreover, a comparison between Fig. \ref{fig:sfig2} and Fig. \ref{fig:sfig1} clearly indicates a reduction of normalized losses by two orders of magnitude at the $3Q_x$ line with compensation. This observation holds true for the $3Q_y$ compensation as well, as shown in Fig. \ref{fig:sfig3}.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/bare_comments.png}
@@ -755,6 +770,9 @@ Another notable detail evident in Figs. \ref{fig:sfig1}-\ref{fig:sfig6} is the p
     \label{fig:bare_comments}
 \end{figure}
 
+Figures \ref{fig:sfig4}, \ref{fig:sfig5}, and \ref{fig:sfig6} showcase the optimal configurations of compensation sextupoles designed to address multiple resonance lines simultaneously. It's important to note that while attempting to compensate for one or multiple resonance lines, there's a possibility that other resonance lines may strengthen. This is evident in the explicit case depicted in Fig. \ref{fig:sfig6}, where compensating for $3Q_y$ and $Q_x+2Q_y$ leads to the amplification of the $2Q_x+Q_y$ resonance. Such occurrences pose a limitation when aiming to compensate for more than two resonance lines, as the compensation currents tend to increase. There exists a constraint on the currents supplied to the compensation sextupoles. For instance, in compensating both normal sextupole lines, $3Q_x$ and $Q_x+2Q_y$, the required currents exceed the current limit. Ongoing efforts are focused on reducing the compensation currents in this specific scenario. Section \ref{sec:addsexts} summarizes some of these efforts, where additional sextupoles have been installed in order to decrease the currents that cancel out both the $h_{3000}$ and $h_{1020}$ RDTs.
+
+Another notable detail evident in Figs. \ref{fig:sfig1}-\ref{fig:sfig6} is the presence of white areas within the loss maps, indicating regions where there was insufficient beam to accurately map out the losses. In certain configurations of the compensation sextupoles, the combined weakening of the third-order resonance lines occurs in a manner that leaves some beam remaining beyond these lines. It could be argued that conducting two additional scans, injecting from the left and bottom, could effectively map out these inaccessible regions. Such an enhancement could be considered as a future upgrade to these dynamic loss maps. Ultimately, all the plots presented in Fig. \ref{fig:lossmaps} demonstrate various potential configurations that open up regions of tune space for utilization during operations, enabling the accommodation of high-intensity beams.
 
 \newpage
 \begin{figure}[H]
@@ -804,14 +822,16 @@ Another notable detail evident in Figs. \ref{fig:sfig1}-\ref{fig:sfig6} is the p
 
 \subsection{Static Tune Scans}
 
-Another method for visualizing resonance compensation involves static tune scans. While the loss maps detailed earlier illustrate the dynamic crossing of resonance, an alternative method entails setting the tune to a specific value and assessing the beam survival ratio alongside the beam size over a defined time interval. The beam size is quantified using the Ion Profile Monitor System (IPM) within the ring, and the results are expressed in arbitrary units to indicate a relative effect.
+Another method for visualizing resonance compensation involves static tune scans. While the loss maps detailed earlier illustrate the dynamic crossing of resonance, an alternative method entails setting the tune to a specific value and assessing the beam survival ratio alongside the beam size over a defined time interval. This time interval was around 0.8 seconds equivalent to around 72800 turns. The beam size is quantified using the Ion Profile Monitor System (IPM) within the ring, as introduced in Sec. \ref{sec:diagnostic}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/static2turns.png}
-    \caption{Static tune scan for bare machine with comparisons between experimental data and SYNERGIA simulations.}
+    \caption{Static tune scan for bare machine with comparisons between experimental data and SYNERGIA simulations at a low intensity of 0.5e10 particles per bunch (2 Booster Turns of equivalent intensity).}
     \label{fig:static2}
 \end{figure}
+
+Figure \ref{fig:static2} shows a static tune scan only including beam survival ratio data. This plot includes data from experiments and data from SYNERGIA simulations done with no space charge. Given that these experiments were done at low intensities, no space-charge simulator was utilized. The simulations were done for 72800 turns, and the experimental data was partitioned to only this equivalent time window. Figure \ref{fig:static2} shows the resonance stop band corresponding to $3Q_x$ resonance. Effectively, no beam survives when beam is parked on top of the resonance line. There is a good agreement between the simulations and the experimental data. This hints at the fact that the model is capturing the sextupole component around the ring, even if it is not perfect. Nevertheless, left of the resonance the experimental starts deviating from the model, given that the Recycler Ring is not optimized to run in this region.
 
 % \begin{figure}[H]
 %     \centering
@@ -837,6 +857,7 @@ Another method for visualizing resonance compensation involves static tune scans
 \section{Additional Sextupoles for Resonance Compensation}
 \label{sec:addsexts}
 
+As mentioned before in the discussion of Figs. \ref{fig:h3000_3qxcomp}, \ref{fig:h1020_3qxcomp} and \ref{fig:lossmaps}, the currents in the compensation sextupoles that cancel out the $h_{3000}$ and $h_{1020}$ RDTs are too large. This section explores the idea of introducing two additional normal compensation sextupoles in order to bring down the $K_2$ coefficients that cancel out both of this RDTs---effectively, bring down the currents in all the sextupoles. Therefore, this section looks at finding the right location for these two new sextupoles. The introduction of two new sextupoles implies that the RDT equation from Eq. \ref{eq:model1} is modified and this reads:
 \begin{equation}
     \begin{bmatrix}
         -|h_{3000}| \cos \psi_{3000} \\
@@ -845,35 +866,53 @@ Another method for visualizing resonance compensation involves static tune scans
         -|h_{1020}| \sin \psi_{1020} \\
         \end{bmatrix}_{(Bare)}
          =
-        \boldsymbol{M}
+        \boldsymbol{M_A}
         \begin{bmatrix}
-        k_2^{(sc220)} \\
-        k_2^{(sc222)}\\
-        k_2^{(sc319)} \\
-        k_2^{(sc321)}\\
-        \end{bmatrix}
-        \label{eq:systemk2s}        
-\end{equation}
-
-\begin{equation}
-    \begin{bmatrix}
-        -|h_{3000}| \cos \psi_{3000} \\
-        -|h_{3000}| \sin \psi_{3000} \\
-        -|h_{1020}| \cos \psi_{1020} \\
-        -|h_{1020}| \sin \psi_{1020} \\
-        \end{bmatrix}_{(Bare)}
-         =
-        \boldsymbol{M}
-        \begin{bmatrix}
-        k_2^{(sc220)} \\
-        k_2^{(sc222)}\\
-        k_2^{(sc319)} \\
-        k_2^{(sc321)}\\
-        k_2^{(1)} \\
-        k_2^{(2)}\\
-        \end{bmatrix}
+        K_2^{(sc220)} \\
+        K_2^{(sc222)}\\
+        K_2^{(sc319)} \\
+        K_2^{(sc321)}\\
+        K_2^{(1)} \\
+        K_2^{(2)}\\
+        \end{bmatrix}.
         \label{eq:systemadd}
 \end{equation}
+In this case, the response matrix gets appended two new columns with the RDT sensitivity of the two new sextupoles. This reads:
+\begin{equation}
+    \boldsymbol{M_A} =
+\begin{bmatrix}
+\begin{pmatrix}  \boldsymbol{M} \\ \end{pmatrix} 
+& \begin{matrix} \frac{1}{48} l_{sc} \: \beta^{3/2}_{x(1)} \: \cos 3\phi_{x(1)} & \frac{1}{48} l_{sc} \: \beta^{3/2}_{x(2)} \: \cos 3\phi_{x(2)} \\ 
+ \frac{1}{48} l_{sc} \: \beta^{3/2}_{x(1)} \: \sin 3\phi_{x(1)} & \frac{1}{48} l_{sc} \: \beta^{3/2}_{x(2)} \: \sin 3\phi_{x(2)}  \\ 
+ \frac{1}{16} l_{sc} \: \beta^{1/2}_{x(1)} \beta_{y(1)} \: \cos \left( \phi_{x(1)} + 2\phi_{y(1)} \right) &  \frac{1}{16} l_{sc} \: \beta^{1/2}_{x(2)} \beta_{y(2)} \: \cos \left( \phi_{x(2)} + 2\phi_{y(2)} \right)\\ 
+ \frac{1}{16} l_{sc} \: \beta^{1/2}_{x(1)} \beta_{y(1)} \: \sin \left( \phi_{x(1)} + 2\phi_{y(1)} \right) &  \frac{1}{16} l_{sc} \: \beta^{1/2}_{x(2)} \beta_{y(2)} \: \sin \left( \phi_{x(2)} + 2\phi_{y(2)} \right)\\  
+\end{matrix}\\
+\end{bmatrix},
+\end{equation}
+where the beta functions and phases are evaluated at a lattice location still yet to be determined. The original matrix $\boldsymbol{M}$ is the one defined from Eq. \ref{eq:model2}. 
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/constrain1.png}
+    \caption{2D Histogram of optimum lattice locations where the compensating $K_2$ coefficients with the two new sextupoles are minimized.}
+    \label{fig:add2c1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/constrain1_avail.png}
+    \caption{2D Histogram of optimum lattice locations where the compensating $K_2$ coefficients with the two new sextupoles are minimized with available drift spaces candidates scattered on top of it.}
+    \label{fig:add2c2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{chapter4/new_sexts_dx.png}
+    \caption{Dispersion function of the Recycler Ring with possible new locations to introduce a pair of sextupole magnets that cancel out $h_{3000}$ and $h_{1020}$ simultaneously. The right y-axis shows the maximum compensation current needed with these new candidates.}
+    \label{fig:dxnewsexts}
+\end{figure}
+
 
 \begin{table}[H]
     \centering
@@ -897,13 +936,6 @@ Another method for visualizing resonance compensation involves static tune scans
      &  \\ \bottomrule
     \end{tabular}
     \end{table}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{chapter4/new_sexts_dx.png}
-    \caption{Dispersion function of the Recycler Ring with possible new locations to introduce a pair of sextupole magnets that cancel out $h_{3000}$ and $h_{1020}$ simultaneously. The right y-axis shows the maximum compensation current needed with these new candidates.}
-    \label{fig:dxnewsexts}
-\end{figure}
 
 \begin{figure}[H]
     \centering

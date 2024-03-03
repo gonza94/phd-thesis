@@ -91,3 +91,7 @@ nonlinearities
 decompositions
 KVXXX
 GFCs
+Nelder-Mead
+Multiobjective
+Multiobjective
+multiobjective

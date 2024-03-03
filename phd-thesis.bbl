@@ -2848,6 +2848,30 @@
       \verb https://www.osti.gov/biblio/1909888
       \endverb
     \endentry
+    \entry{bayesian}{book}{}
+      \name{author}{1}{}{%
+        {{hash=eaf84e3fe4f887967dc3d793d28b9e94}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{fullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{bibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorbibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authornamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorfullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Optimization}
+      \field{year}{2023}
+    \endentry
     \entry{cernplot}{misc}{}
       \name{author}{1}{}{%
         {{hash=22552363b818ea97be8a85cefdee8725}{%
@@ -3297,30 +3321,6 @@
       \field{journaltitle}{CERN}
       \field{note}{https://gitlab.cern.ch/geoff/geoff-app}
       \field{title}{Generic Optimization Frontend and Framework (GeOFF)}
-    \endentry
-    \entry{bayesian}{book}{}
-      \name{author}{1}{}{%
-        {{hash=eaf84e3fe4f887967dc3d793d28b9e94}{%
-           family={Garnett},
-           familyi={G\bibinitperiod},
-           given={Roman},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \strng{fullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \strng{bibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \strng{authorbibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \strng{authornamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \strng{authorfullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Bayesian Optimization}
-      \field{year}{2023}
     \endentry
     \entry{bobyqa}{inproceedings}{}
       \name{author}{1}{}{%
