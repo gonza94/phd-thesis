@@ -822,7 +822,7 @@ Another notable detail evident in Figs. \ref{fig:sfig1}-\ref{fig:sfig6} is the p
 
 \subsection{Static Tune Scans}
 
-Another method for visualizing resonance compensation involves static tune scans. While the loss maps detailed earlier illustrate the dynamic crossing of resonance, an alternative method entails setting the tune to a specific value and assessing the beam survival ratio alongside the beam size over a defined time interval. This time interval was around 0.8 seconds equivalent to around 72800 turns. The beam size is quantified using the Ion Profile Monitor System (IPM) within the ring, as introduced in Sec. \ref{sec:diagnostic}.
+Another method for visualizing resonance compensation involves static tune scans. While the loss maps detailed earlier illustrate the dynamic crossing of resonances, an alternative method entails setting the tune to a specific value and assessing the beam survival ratio alongside the beam size over a defined time interval. This time interval was around 0.8 seconds equivalent to around 72800 turns. The beam survival ratio was calculated from the beam intensity data captured from the DC Current Transformer (DCCT). The beam size is quantified using the Ion Profile Monitor System (IPM) within the ring, as introduced in Sec. \ref{sec:diagnostic}.
 
 \begin{figure}[H]
     \centering
@@ -891,11 +891,26 @@ In this case, the response matrix gets appended two new columns with the RDT sen
 \end{equation}
 where the beta functions and phases are evaluated at a lattice location still yet to be determined. The original matrix $\boldsymbol{M}$ is the one defined from Eq. \ref{eq:model2}. 
 
+The first step was to minimize the function
+\begin{equation}
+    \label{eq:fmax}
+    f\left(\beta_{x(i)},\beta_{y(i)}, \phi_{x(i)}, \phi_{y(i)}\right) = \max \left(
+    \begin{bmatrix}
+    K_2^{(sc220)} \\
+    K_2^{(sc222)}\\
+    K_2^{(sc319)} \\
+    K_2^{(sc321)}\\
+    K_2^{(1)} \\
+    K_2^{(2)}\\
+    \end{bmatrix}
+\right),
+\end{equation}
+where the $\max$ operator takes the absolute maximum of the vector. Therefore, it would correspond to the maximum $K_2$ coefficient in the vector. The minimization procedure was done using a Nelder-Mead algorithm, and ultimately, the result would be a set of $\beta_{x(i)},\beta_{y(i)}, \psi_{x(i)}, \psi_{y(i)}$, where $i$ runs from 1 to 2 (representing the two additional sextupoles), and this specifies the location where the maximum $K_2$ coefficient from all the sextupoles gets minimized. An instance of Nelder-Mead was launched for 10000 times, each time the starting point would be chosen randomly to make sure most of the parameter space was explored. Ultimately, all the results could be plotted in histograms in order to create constraints for locations depending on the beta and phase advance. Figure \ref{fig:add2c1} shows an example of such histograms. From this plot, one can see the relations and constraints that the new sextupoles have to comply in order to minimize the maximum $K_2$ coefficient. For example, Fig. \ref{fig:add2c1} shows that horizontal beta functions of both sextupoles should have a ratio of around 1. Additionally, it shows that the horizontal phase advances should lie close thirds of $\pi$, e.g., $\pi/3$, $2\pi/3$, $\pi$, etc\dots.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/constrain1.png}
-    \caption{2D Histogram of optimum lattice locations where the compensating $K_2$ coefficients with the two new sextupoles are minimized.}
+    \caption{2D Histogram of optimum lattice locations where the compensating $K_2$ coefficients with the two new sextupoles are minimized. Red dashed lines correspond to thirds of $\pi$.}
     \label{fig:add2c1}
 \end{figure}
 
