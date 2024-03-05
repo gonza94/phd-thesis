@@ -362,7 +362,7 @@ Measurements such as the one presented for Fig. \ref{fig:h3000_620} are done for
     \label{fig:h3000_bpms}
 \end{figure}
 
-\section{Compensation of RDTs}
+\section{\label{sec:compensate}Compensation of RDTs}
 
 \subsection{Theoretical Approach from Lattice Model}
 
@@ -822,7 +822,7 @@ Another notable detail evident in Figs. \ref{fig:sfig1}-\ref{fig:sfig6} is the p
 
 \subsection{Static Tune Scans}
 
-Another method for visualizing resonance compensation involves static tune scans. While the loss maps detailed earlier illustrate the dynamic crossing of resonances, an alternative method entails setting the tune to a specific value and assessing the beam survival ratio alongside the beam size over a defined time interval. This time interval was around 0.8 seconds equivalent to around 72800 turns. The beam survival ratio was calculated from the beam intensity data captured from the DC Current Transformer (DCCT). The beam size is quantified using the Ion Profile Monitor System (IPM) within the ring, as introduced in Sec. \ref{sec:diagnostic}.
+Another method for visualizing resonance compensation involves using static tune scans. While the loss maps detailed earlier illustrate the dynamic crossing of resonances, an alternative method entails setting the tune to a specific value and assessing the beam survival ratio alongside the beam size over a defined time interval. This time interval was around 0.8 seconds equivalent to approximately 72800 turns. The beam survival ratio was calculated from the beam intensity data captured from the DC Current Transformer (DCCT). The beam size is quantified using the Ion Profile Monitor System (IPM) within the ring, as introduced in Sec. \ref{sec:diagnostic}.
 
 \begin{figure}[H]
     \centering
@@ -831,7 +831,7 @@ Another method for visualizing resonance compensation involves static tune scans
     \label{fig:static2}
 \end{figure}
 
-Figure \ref{fig:static2} shows a static tune scan only including beam survival ratio data. This plot includes data from experiments and data from SYNERGIA simulations done with no space charge. Given that these experiments were done at low intensities, no space-charge simulator was utilized. The simulations were done for 72800 turns, and the experimental data was partitioned to only this equivalent time window. Figure \ref{fig:static2} shows the resonance stop band corresponding to $3Q_x$ resonance. Effectively, no beam survives when beam is parked on top of the resonance line. There is a good agreement between the simulations and the experimental data. This hints at the fact that the model is capturing the sextupole component around the ring, even if it is not perfect. Nevertheless, left of the resonance the experimental starts deviating from the model, given that the Recycler Ring is not optimized to run in this region.
+Figure \ref{fig:static2} shows a static tune scan only including beam survival ratio data. This plot includes data from experiments and data from SYNERGIA simulations done with no space charge. Given that these experiments were done at low intensities, no space-charge simulator was needed. The simulations were done for 72800 turns, and the experimental data was partitioned to only this equivalent time window. Figure \ref{fig:static2} shows the resonance stop band corresponding to $3Q_x$ resonance. Effectively, no beam survives when beam is parked on top of the resonance line. There is a good agreement between the simulations and the experimental data. This hints at the fact that the model is capturing the sextupole component around the ring, even if it is not perfect. Nevertheless, left of the resonance the experimental starts deviating from the model, given that the Recycler Ring is not optimized to run in this region.
 
 % \begin{figure}[H]
 %     \centering
@@ -857,7 +857,7 @@ Figure \ref{fig:static2} shows a static tune scan only including beam survival r
 \section{Additional Sextupoles for Resonance Compensation}
 \label{sec:addsexts}
 
-As mentioned before in the discussion of Figs. \ref{fig:h3000_3qxcomp}, \ref{fig:h1020_3qxcomp} and \ref{fig:lossmaps}, the currents in the compensation sextupoles that cancel out the $h_{3000}$ and $h_{1020}$ RDTs are too large. This section explores the idea of introducing two additional normal compensation sextupoles in order to bring down the $K_2$ coefficients that cancel out both of this RDTs---effectively, bring down the currents in all the sextupoles. Therefore, this section looks at finding the right location for these two new sextupoles. The introduction of two new sextupoles implies that the RDT equation from Eq. \ref{eq:model1} is modified and this reads:
+As mentioned before in the discussion of Figs. \ref{fig:h3000_3qxcomp}, \ref{fig:h1020_3qxcomp} and \ref{fig:lossmaps}, the currents in the compensation sextupoles that cancel out the $h_{3000}$ and $h_{1020}$ RDTs are too large. This section explores the idea of introducing two additional normal compensation sextupoles in order to bring down the $K_2$ coefficients that cancel out both of these RDTs---effectively, bring down the currents in all the sextupoles. Therefore, this section looks at finding the right location for these two new sextupoles. The introduction of two new sextupoles implies that the RDT equation from Eq. \ref{eq:model1} is modified and this reads:
 \begin{equation}
     \begin{bmatrix}
         -|h_{3000}| \cos \psi_{3000} \\
@@ -914,6 +914,8 @@ where the $\max$ operator takes the absolute maximum of the vector. Therefore, i
     \label{fig:add2c1}
 \end{figure}
 
+With the previous constraints already set up, the next step is to look into all the possible pair of drift spaces in the lattice where two sextupoles would fit. Therefore, all the possible combinations of two available drift spaces longer than 1 meter and horizontal dispersion less than 0.1 meters were explored. This last constraint came from the fact that these new sextupoles should not introduce any additional chromaticity into the Recycler. In total, the number of total possible combinations was 39340. From all of these possibilities, the first filter was to analyze only the combinations that complied with the constraints imposed by minimizing Eq. \ref{eq:fmax}. With this first filter, the resulting number of pair candidates narrowed down to 776. In all of these 776 pair of locations, the sextupoles were introduced and the resulting maximum $K_2$ coefficient was calculated. Figure \ref{fig:add2c2} shows these candidates with their corresponding metric for this particular constrain superimposed onto the 2D histogram of Fig. \ref{fig:add2c1}. The color bar of Fig. \ref{fig:add2c2} labels the candidates by their particular maximum $K_2$ coefficient, as defined in Eq. \ref{eq:fmax}.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/constrain1_avail.png}
@@ -921,13 +923,16 @@ where the $\max$ operator takes the absolute maximum of the vector. Therefore, i
     \label{fig:add2c2}
 \end{figure}
 
+With the number of candidates narrowed down, the next step is to select the idle pair of locations to introduce these new sextupoles. Figure \ref{fig:dxnewsexts} was used as a tool for this purpose. The left vertical axis shows the dispersion curve (golden solid continuous line) of the Recycler Ring in order to make sure that the new candidates are indeed in areas of low dispersion. The red crosses and the blue exes represent the pair of drift space candidates where the sextupoles could go. The right vertical axis specifies the maximum $K_2$ coefficients when the sextupoles are introduced in these locations. The minimum of this quantity is given by the pair of sextupoles that are both introduced in the region 620. By observing Fig. \ref{fig:dxnewsexts} and making sure the locations in 620 were viable in terms of space and logistics, the new locations for two new compensation sextupoles were chosen. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{chapter4/new_sexts_dx.png}
-    \caption{Dispersion function of the Recycler Ring with possible new locations to introduce a pair of sextupole magnets that cancel out $h_{3000}$ and $h_{1020}$ simultaneously. The right y-axis shows the maximum compensation current needed with these new candidates.}
+    \caption{Dispersion function of the Recycler Ring with possible new locations to introduce a pair of sextupole magnets that cancel out $h_{3000}$ and $h_{1020}$ simultaneously. The right y-axis shows the maximum compensation $K_2$ coefficient needed with these new candidates.}
     \label{fig:dxnewsexts}
 \end{figure}
 
+Once the new locations are pinned down, the compensation of $h_{3000}$ and $h_{1020}$ can be verified. Table \ref{tab:k2s620} shows the $K_2$ coefficients that need to go into the sextupoles for $3Q_x=76$ and $Q_x+ 2Q_y = 74$ compensation. These values can be compared to those in Table \ref{tab:k2sboth}, and they are one order of magnitude less. Furthermore, all the values in Table \ref{tab:k2s620} are less than 1.0 m$^{-3}$ which is the equivalent current limit for the $K_2$ coefficients. Ultimately, these two new sextupoles, SC620a and SC620b, have brought down the compensating sextupole coefficients by one order of magnitude. Their installation would enable a viable option to compensate both resonance lines simultaneously. 
 
 \begin{table}[H]
     \centering
@@ -950,7 +955,11 @@ where the $\max$ operator takes the absolute maximum of the vector. Therefore, i
     SC620b & 0.511139 \\
      &  \\ \bottomrule
     \end{tabular}
-    \end{table}
+\end{table}
+
+As it was previously done in Sec. \ref{sec:rdtslattice}, the $h_{3000}$ and $h_{1020}$ RDTs can be calculated after introducing the values of $K_2$ coefficients specified in Table \ref{tab:k2s620}. Figures \ref{fig:h3000newsexts} and \ref{fig:h1020newsexts} show the RDT calculations with these settings. Both plots show how the global RDTs go down to 0 at the end of the sum along the lattice. Nevertheless, more noteworthy is the fact that the RDT calculations do not show huge variations in the cumulative sum, as it did in Figs. \ref{fig:h3000oldconfig} and \ref{fig:h1020oldconfig}. This means that these two additional sextupoles will delocalize the amount of sextupole that has to be introduced into the ring in order to cancel out both RDTs. Therefore, the RDT variation around the ring will be small with these new setting compared to just using the 4 original compensation sextupoles.
+
+As of Spring 2024, these new 620 sextupoles have been installed in the Recycler Ring. Nevertheless, they have not been commissioned nor tested for operations. The next step would be to verify that with these 6 normal compensation sextupoles both lines can be compensated. This is still a work in progress.
 
 \begin{figure}[H]
     \centering
