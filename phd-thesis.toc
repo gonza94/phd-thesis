@@ -38,37 +38,37 @@
 \contentsline {section}{\numberline {4.5}Experimental Verification of Compensation}{89}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Dynamic Loss Maps}{89}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Static Tune Scans}{94}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Additional Sextupoles for Resonance Compensation}{96}{section.4.6}%
-\contentsline {chapter}{\chapternumberline {5}Resonance Compensation Studies at the CERN Proton Synchrotron Booster}{104}{chapter.5}%
-\contentsline {section}{\numberline {5.1}General Description}{104}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Tune Diagram and Operation}{105}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Optimization Algorithms for Resonance Compensation}{109}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Bayesian Optimization}{112}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}BOBYQA (Bound Optimization BY Quadratic Approximation)}{116}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Experimental Verification of Compensation}{119}{section.5.4}%
-\contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{121}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{121}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{121}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Measurement of Tune Spread}{122}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{123}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Effect of Transverse Dampers}{127}{section.6.5}%
-\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{128}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{128}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}RDTs and Resonance Compensation}{128}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Physics-Informed vs. Optimization-Based Compensation}{128}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}High-Intensity Resonance Compensation}{128}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Transverse Dampers and High-Intensity Compensation}{128}{subsection.7.1.4}%
-\contentsline {section}{\numberline {7.2}Future Work}{128}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Verification of Newly-Installed Sextupoles}{128}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Resonances and Transverse Dampers at High Intensities}{129}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Effect of MI Ramp on RDTs}{129}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4}Limits of Resonance Compensation}{130}{subsection.7.2.4}%
-\contentsline {subsection}{\numberline {7.2.5}Space Charge RDTs}{130}{subsection.7.2.5}%
+\contentsline {section}{\numberline {4.6}Additional Sextupoles for Resonance Compensation}{99}{section.4.6}%
+\contentsline {chapter}{\chapternumberline {5}Resonance Compensation Studies at the CERN Proton Synchrotron Booster}{107}{chapter.5}%
+\contentsline {section}{\numberline {5.1}General Description}{107}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tune Diagram and Operation}{108}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Optimization Algorithms for Resonance Compensation}{112}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Bayesian Optimization}{115}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}BOBYQA (Bound Optimization BY Quadratic Approximation)}{119}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Experimental Verification of Compensation}{122}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {6}High Intensity Studies}{124}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Global RDTs and Intensity-Dependent Effects}{124}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Space Charge Tune Shift}{124}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Measurement of Tune Spread}{125}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Static Tune Scans at Different Intensities}{126}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Effect of Transverse Dampers}{130}{section.6.5}%
+\contentsline {chapter}{\chapternumberline {7}Conclusions and Future Work}{132}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{132}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}RDTs and Resonance Compensation}{132}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Physics-Informed vs. Optimization-Based Compensation}{132}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}High-Intensity Resonance Compensation}{132}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Transverse Dampers and High-Intensity Compensation}{132}{subsection.7.1.4}%
+\contentsline {section}{\numberline {7.2}Future Work}{132}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Verification of Newly-Installed Sextupoles}{132}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Resonances and Transverse Dampers at High Intensities}{133}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Effect of MI Ramp on RDTs}{133}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Limits of Resonance Compensation}{134}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Space Charge RDTs}{134}{subsection.7.2.5}%
 \cftinsert {BIB}
 \changetocdepth {1}
-\contentsline {chapter}{Bibliography}{131}{section*.89}%
+\contentsline {chapter}{Bibliography}{135}{section*.92}%
 \cftinsert {BIB}
 \cftinsert {APP}
 \changetocdepth {0}
-\contentsline {appendix}{\chapternumberline {A}Lie Algebra Methods for Accelerator Physics in 2D using MATHEMATICA}{137}{chapter.11}%
-\contentsline {appendix}{\chapternumberline {B}Lie Algebra Methods for Accelerator Physics in 4D using MATHEMATICA}{141}{chapter.12}%
+\contentsline {appendix}{\chapternumberline {A}Lie Algebra Methods for Accelerator Physics in 2D using MATHEMATICA}{141}{chapter.11}%
+\contentsline {appendix}{\chapternumberline {B}Lie Algebra Methods for Accelerator Physics in 4D using MATHEMATICA}{145}{chapter.12}%
