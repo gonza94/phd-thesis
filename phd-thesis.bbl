@@ -3349,63 +3349,62 @@
       \verb https://api.semanticscholar.org/CorpusID:2488733
       \endverb
     \endentry
-    \entry{mionrr}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=24e4d90a8046dcd2087c70be0bc6ba83}{%
-           family={Chelidze},
-           familyi={C\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
-           family={Ainsworth},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=2a4b746cf9ad7657b14c9391bcfdc7be}{%
-           family={Hazelwood},
-           familyi={H\bibinitperiod},
-           given={K.J.},
-           giveni={K\bibinitperiod}}}%
+    \entry{qgaussian}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
-      \list{publisher}{1}{%
-        {JACoW Publishing, Geneva, Switzerland}%
-      }
-      \strng{namehash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \strng{fullhash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \strng{bibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
-      \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}
-      \field{booktitle}{Proc. 5th Int. Particle Accel. Conf. (NAPAC'22)}
-      \field{eid}{MOPA19}
-      \field{isbn}{978-3-95450-232-5}
-      \field{issn}{2673-7000}
-      \field{month}{10}
-      \field{number}{5}
-      \field{series}{International Particle Accelerator Conference}
-      \field{title}{The Effect of the Main Injector Ramp on the Recycler}
-      \field{venue}{Albuquerque, NM, USA}
-      \field{year}{2022}
-      \field{pages}{90\bibrangedash 92}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.18429/JACoW-NAPAC2022-MOPA19
-      \endverb
+      \field{note}{[Online; accessed 19-March-2024]}
+      \field{title}{Q-Gaussian distribution --- Wikipedia, The Free Encyclopedia}
+      \field{year}{2023}
       \verb{urlraw}
-      \verb https://jacow.org/napac2022/papers/mopa19.pdf
+      \verb https://en.wikipedia.org/w/index.php?title=Q-Gaussian_distribution&oldid=1177637416
       \endverb
       \verb{url}
-      \verb https://jacow.org/napac2022/papers/mopa19.pdf
+      \verb https://en.wikipedia.org/w/index.php?title=Q-Gaussian_distribution&oldid=1177637416
       \endverb
-      \keyw{focusing,dipole,operation,shielding,quadrupole}
+    \endentry
+    \entry{zhang}{report}{}
+      \name{author}{1}{}{%
+        {{hash=82913876a7c6b784157a6a5447e78cac}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={S.Y.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Brookhaven National Laboratory}%
+      }
+      \strng{namehash}{82913876a7c6b784157a6a5447e78cac}
+      \strng{fullhash}{82913876a7c6b784157a6a5447e78cac}
+      \strng{bibnamehash}{82913876a7c6b784157a6a5447e78cac}
+      \strng{authorbibnamehash}{82913876a7c6b784157a6a5447e78cac}
+      \strng{authornamehash}{82913876a7c6b784157a6a5447e78cac}
+      \strng{authorfullhash}{82913876a7c6b784157a6a5447e78cac}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CALCULATION OF INCOHERENT SPACE CHARGE TUNE SPREAD}}
+      \field{type}{techreport}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb https://technotes.bnl.gov/PDF?publicationId=30778
+      \endverb
+      \verb{url}
+      \verb https://technotes.bnl.gov/PDF?publicationId=30778
+      \endverb
     \endentry
     \entry{cris1}{inproceedings}{}
       \name{author}{3}{}{%
@@ -3438,8 +3437,8 @@
       \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
       \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}
@@ -3520,6 +3519,109 @@
       \verb{url}
       \verb https://www.ipac23.org/preproc/pdf/WEPL112.pdf
       \endverb
+    \endentry
+    \entry{cris3}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=23c0c1332ac9fc25e758f5425ebe5ca9}{%
+           family={Gonzalez-Ortiz},
+           familyi={G\bibinithyphendelim O\bibinitperiod},
+           given={C.E.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=de9405b27e4b6580cd671ebc62923848}{%
+           family={Ostroumov},
+           familyi={O\bibinitperiod},
+           given={P.N.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JACoW Publishing, Geneva, Switzerland}%
+      }
+      \strng{namehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{fullhash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{bibnamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authorbibnamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authornamehash}{0a0582d01605721cde9cbc56a8b9db80}
+      \strng{authorfullhash}{0a0582d01605721cde9cbc56a8b9db80}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. HB'23}
+      \field{month}{10}
+      \field{series}{HB'23}
+      \field{title}{Compensation of Third-order Resonances in the High Intensity Regime}
+      \field{venue}{Geneva}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://hb2023.vrws.de/papers/wea2i1.pdf
+      \endverb
+      \verb{url}
+      \verb https://hb2023.vrws.de/papers/wea2i1.pdf
+      \endverb
+    \endentry
+    \entry{mionrr}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=24e4d90a8046dcd2087c70be0bc6ba83}{%
+           family={Chelidze},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2a4b746cf9ad7657b14c9391bcfdc7be}{%
+           family={Hazelwood},
+           familyi={H\bibinitperiod},
+           given={K.J.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {JACoW Publishing, Geneva, Switzerland}%
+      }
+      \strng{namehash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{fullhash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{bibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{authorbibnamehash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{authornamehash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \strng{authorfullhash}{1b9ccd3136a7399a510cfd96b509a25e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The Recycler and Main Injector are part of the Fermilab Accelerator complex used to deliver a high power proton beam. Both machines share the same enclosure with the Recycler mounted 6 ft above the Main Injector. The Main Injector accelerates beam from 8 GeV to 120 GeV. While the majority of the Recycler has mu metal shielding, the effect of the Main Injector ramp is still significant and can affect both the tunes and the orbit. In this paper, we detail the size of these effects.}}
+      \field{booktitle}{Proc. 5th Int. Particle Accel. Conf. (NAPAC'22)}
+      \field{eid}{MOPA19}
+      \field{isbn}{978-3-95450-232-5}
+      \field{issn}{2673-7000}
+      \field{month}{10}
+      \field{number}{5}
+      \field{series}{International Particle Accelerator Conference}
+      \field{title}{The Effect of the Main Injector Ramp on the Recycler}
+      \field{venue}{Albuquerque, NM, USA}
+      \field{year}{2022}
+      \field{pages}{90\bibrangedash 92}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.18429/JACoW-NAPAC2022-MOPA19
+      \endverb
+      \verb{urlraw}
+      \verb https://jacow.org/napac2022/papers/mopa19.pdf
+      \endverb
+      \verb{url}
+      \verb https://jacow.org/napac2022/papers/mopa19.pdf
+      \endverb
+      \keyw{focusing,dipole,operation,shielding,quadrupole}
     \endentry
   \enddatalist
 \endrefsection
