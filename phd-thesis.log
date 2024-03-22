@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  19 MAR 2024 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  21 MAR 2024 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1882,116 +1882,116 @@ Package pdftex.def Info: chapter5/bocomp.png  used on input line 166.
 ) [124 <./chapter5/bocomp.png>]
 \openout2 = `chapter6.aux'.
 
- (./chapter6.tex
-<chapter6/qgaussians.png, id=1691, 1320.73425pt x 529.98pt>
-File: chapter6/qgaussians.png Graphic file (type png)
-<use chapter6/qgaussians.png>
-Package pdftex.def Info: chapter6/qgaussians.png  used on input line 12.
-(pdftex.def)             Requested size: 469.0pt x 188.19676pt.
- [125
+ (./chapter6.tex [125
 
 
 
 
- <./chapter6/qgaussians.png>] [126]
-<chapter6/scts_measure.png, id=1718, 1464.73222pt x 2318.4216pt>
+] [126]
+<chapter6/scts_measure.png, id=1712, 1464.73222pt x 2318.4216pt>
 File: chapter6/scts_measure.png Graphic file (type png)
 <use chapter6/scts_measure.png>
-Package pdftex.def Info: chapter6/scts_measure.png  used on input line 37.
+Package pdftex.def Info: chapter6/scts_measure.png  used on input line 28.
 (pdftex.def)             Requested size: 390.11899pt x 617.49191pt.
 
 Overfull \vbox (3.7419pt too high) has occurred while \output is active []
 
  [127 <./chapter6/scts_measure.png>]
-<chapter6/tune_spread.png, id=1728, 607.068pt x 455.301pt>
+<chapter6/tune_spread.png, id=1726, 607.068pt x 455.301pt>
 File: chapter6/tune_spread.png Graphic file (type png)
 <use chapter6/tune_spread.png>
-Package pdftex.def Info: chapter6/tune_spread.png  used on input line 49.
+Package pdftex.def Info: chapter6/tune_spread.png  used on input line 40.
 (pdftex.def)             Requested size: 469.75499pt x 352.31273pt.
-<chapter6/static14turns_BARE_dampersON.png, id=1729, 1040.688pt x 531.9072pt>
+ [128] [129 <./chapter6/tune_spread.png>]
+<chapter6/qgaussians.png, id=1745, 1320.73425pt x 529.98pt>
+File: chapter6/qgaussians.png Graphic file (type png)
+<use chapter6/qgaussians.png>
+Package pdftex.def Info: chapter6/qgaussians.png  used on input line 69.
+(pdftex.def)             Requested size: 469.0pt x 188.19676pt.
+ [130 <./chapter6/qgaussians.png>]
+<chapter6/static14turns_BARE_dampersON.png, id=1760, 1040.688pt x 531.9072pt>
 File: chapter6/static14turns_BARE_dampersON.png Graphic file (type png)
 <use chapter6/static14turns_BARE_dampersON.png>
-Package pdftex.def Info: chapter6/static14turns_BARE_dampersON.png  used on input line 58.
+Package pdftex.def Info: chapter6/static14turns_BARE_dampersON.png  used on input line 81.
 (pdftex.def)             Requested size: 469.75499pt x 240.1027pt.
- [128 <./chapter6/tune_spread.png>]
-<chapter6/static2turns_dampersOFF.png, id=1736, 942.4008pt x 651.8754pt>
+ [131 <./chapter6/static14turns_BARE_dampersON.png>]
+<chapter6/static2turns_dampersOFF.png, id=1775, 942.4008pt x 651.8754pt>
 File: chapter6/static2turns_dampersOFF.png Graphic file (type png)
 <use chapter6/static2turns_dampersOFF.png>
-Package pdftex.def Info: chapter6/static2turns_dampersOFF.png  used on input line 65.
+Package pdftex.def Info: chapter6/static2turns_dampersOFF.png  used on input line 90.
 (pdftex.def)             Requested size: 469.75499pt x 324.94221pt.
- [129 <./chapter6/static14turns_BARE_dampersON.png>]
-<chapter6/static8turns_dampersOFF.png, id=1743, 942.4008pt x 651.8754pt>
+ [132 <./chapter6/static2turns_dampersOFF.png>]
+<chapter6/static8turns_dampersOFF.png, id=1786, 942.4008pt x 651.8754pt>
 File: chapter6/static8turns_dampersOFF.png Graphic file (type png)
 <use chapter6/static8turns_dampersOFF.png>
-Package pdftex.def Info: chapter6/static8turns_dampersOFF.png  used on input line 72.
+Package pdftex.def Info: chapter6/static8turns_dampersOFF.png  used on input line 99.
 (pdftex.def)             Requested size: 469.75499pt x 324.94221pt.
- [130 <./chapter6/static2turns_dampersOFF.png>]
-<chapter6/static14turns_dampersOFF.png, id=1750, 942.4008pt x 651.8754pt>
+ [133 <./chapter6/static8turns_dampersOFF.png>]
+<chapter6/static14turns_dampersOFF.png, id=1796, 942.4008pt x 651.8754pt>
 File: chapter6/static14turns_dampersOFF.png Graphic file (type png)
 <use chapter6/static14turns_dampersOFF.png>
-Package pdftex.def Info: chapter6/static14turns_dampersOFF.png  used on input line 79.
+Package pdftex.def Info: chapter6/static14turns_dampersOFF.png  used on input line 108.
 (pdftex.def)             Requested size: 469.75499pt x 324.94221pt.
- [131 <./chapter6/static8turns_dampersOFF.png>]
-<chapter6/25370_scatter.png, id=1757, 826.0461pt x 564.4287pt>
+<chapter6/25370_scatter.png, id=1802, 826.0461pt x 564.4287pt>
 File: chapter6/25370_scatter.png Graphic file (type png)
 <use chapter6/25370_scatter.png>
-Package pdftex.def Info: chapter6/25370_scatter.png  used on input line 86.
+Package pdftex.def Info: chapter6/25370_scatter.png  used on input line 117.
 (pdftex.def)             Requested size: 469.75499pt x 320.97841pt.
- [132 <./chapter6/static14turns_dampersOFF.png>]
-<chapter6/static2turns_emittance_dampersOFF.png, id=1765, 1138.9752pt x 651.8754pt>
+ [134 <./chapter6/static14turns_dampersOFF.png>]
+<chapter6/static2turns_emittance_dampersOFF.png, id=1810, 1138.9752pt x 651.8754pt>
 File: chapter6/static2turns_emittance_dampersOFF.png Graphic file (type png)
 <use chapter6/static2turns_emittance_dampersOFF.png>
-Package pdftex.def Info: chapter6/static2turns_emittance_dampersOFF.png  used on input line 93.
+Package pdftex.def Info: chapter6/static2turns_emittance_dampersOFF.png  used on input line 126.
 (pdftex.def)             Requested size: 469.75499pt x 268.85217pt.
- [133 <./chapter6/25370_scatter.png>]
-<chapter6/static8turns_emittance_dampersOFF.png, id=1772, 1138.9752pt x 651.8754pt>
+ [135 <./chapter6/25370_scatter.png>]
+<chapter6/static8turns_emittance_dampersOFF.png, id=1821, 1138.9752pt x 651.8754pt>
 File: chapter6/static8turns_emittance_dampersOFF.png Graphic file (type png)
 <use chapter6/static8turns_emittance_dampersOFF.png>
-Package pdftex.def Info: chapter6/static8turns_emittance_dampersOFF.png  used on input line 100.
+Package pdftex.def Info: chapter6/static8turns_emittance_dampersOFF.png  used on input line 135.
 (pdftex.def)             Requested size: 469.75499pt x 268.85217pt.
-<chapter6/static14turns_emittance_dampersOFF.png, id=1773, 1138.9752pt x 651.8754pt>
+ [136 <./chapter6/static2turns_emittance_dampersOFF.png>]
+<chapter6/static14turns_emittance_dampersOFF.png, id=1830, 1138.9752pt x 651.8754pt>
 File: chapter6/static14turns_emittance_dampersOFF.png Graphic file (type png)
 <use chapter6/static14turns_emittance_dampersOFF.png>
-Package pdftex.def Info: chapter6/static14turns_emittance_dampersOFF.png  used on input line 107.
+Package pdftex.def Info: chapter6/static14turns_emittance_dampersOFF.png  used on input line 142.
 (pdftex.def)             Requested size: 469.75499pt x 268.85217pt.
- [134 <./chapter6/static2turns_emittance_dampersOFF.png> <./chapter6/static8turns_emittance_dampersOFF.png>]
-<chapter6/static2turns_ipm_dampersON.png, id=1782, 1040.688pt x 531.9072pt>
+<chapter6/static2turns_ipm_dampersON.png, id=1831, 1040.688pt x 531.9072pt>
 File: chapter6/static2turns_ipm_dampersON.png Graphic file (type png)
 <use chapter6/static2turns_ipm_dampersON.png>
-Package pdftex.def Info: chapter6/static2turns_ipm_dampersON.png  used on input line 116.
+Package pdftex.def Info: chapter6/static2turns_ipm_dampersON.png  used on input line 151.
 (pdftex.def)             Requested size: 469.75499pt x 240.1027pt.
-<chapter6/static2turns_ipm_dampersOFF.png, id=1783, 1040.688pt x 531.9072pt>
+ [137 <./chapter6/static8turns_emittance_dampersOFF.png> <./chapter6/static14turns_emittance_dampersOFF.png>]
+<chapter6/static2turns_ipm_dampersOFF.png, id=1838, 1040.688pt x 531.9072pt>
 File: chapter6/static2turns_ipm_dampersOFF.png Graphic file (type png)
 <use chapter6/static2turns_ipm_dampersOFF.png>
-Package pdftex.def Info: chapter6/static2turns_ipm_dampersOFF.png  used on input line 123.
+Package pdftex.def Info: chapter6/static2turns_ipm_dampersOFF.png  used on input line 158.
 (pdftex.def)             Requested size: 469.75499pt x 240.1027pt.
- [135 <./chapter6/static14turns_emittance_dampersOFF.png> <./chapter6/static2turns_ipm_dampersON.png>]
-<chapter6/static2turns_dampersON.png, id=1792, 961.9137pt x 651.8754pt>
+<chapter6/static2turns_dampersON.png, id=1839, 961.9137pt x 651.8754pt>
 File: chapter6/static2turns_dampersON.png Graphic file (type png)
 <use chapter6/static2turns_dampersON.png>
-Package pdftex.def Info: chapter6/static2turns_dampersON.png  used on input line 130.
+Package pdftex.def Info: chapter6/static2turns_dampersON.png  used on input line 165.
 (pdftex.def)             Requested size: 469.75499pt x 318.34747pt.
-) [136 <./chapter6/static2turns_ipm_dampersOFF.png>] [137 <./chapter6/static2turns_dampersON.png>]
+) [138 <./chapter6/static2turns_ipm_dampersON.png> <./chapter6/static2turns_ipm_dampersOFF.png>] [139 <./chapter6/static2turns_dampersON.png>]
 \openout2 = `chapter7.aux'.
 
  (./chapter7.tex
-<chapter7/dampers_config.png, id=1811, 1329.768pt x 425.6703pt>
+<chapter7/dampers_config.png, id=1862, 1329.768pt x 425.6703pt>
 File: chapter7/dampers_config.png Graphic file (type png)
 <use chapter7/dampers_config.png>
 Package pdftex.def Info: chapter7/dampers_config.png  used on input line 22.
 (pdftex.def)             Requested size: 469.75499pt x 150.3703pt.
- [138
+ [140
 
 
 
 
  <./chapter7/dampers_config.png>]
-<chapter7/620_sext.jpg, id=1830, 4047.12pt x 3035.34pt>
+<chapter7/620_sext.jpg, id=1880, 4047.12pt x 3035.34pt>
 File: chapter7/620_sext.jpg Graphic file (type jpg)
 <use chapter7/620_sext.jpg>
 Package pdftex.def Info: chapter7/620_sext.jpg  used on input line 35.
 (pdftex.def)             Requested size: 469.75499pt x 352.27568pt.
- [139 <./chapter7/620_sext.jpg>]) [140]
+ [141 <./chapter7/620_sext.jpg>]) [142]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 176.
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 176.
@@ -2010,7 +2010,7 @@ Overfull \hbox (34.6107pt too wide) in paragraph at lines 206--206
 []\T1/ntxtlf/m/n/12 Reidar Hahn. \T1/ntxtlf/m/it/12 Fer-mi-lab\T1/ntxtlf/m/n/12 . File: https://upload.wikimedia.org/wikipedia/commons/3/3f/Fermilab.jpg.
  []
 
-[141
+[143
 
 
 
@@ -2019,7 +2019,7 @@ Overfull \hbox (8.36835pt too wide) in paragraph at lines 206--206
 []\T1/ntxtlf/m/n/12 T. Sato-gata. \T1/ntxtlf/m/it/12 Lec-ture Notes on Pois-son Brack-ets and Lie Op-er-a-tors\T1/ntxtlf/m/n/12 . []$\T1/ntxtt/m/n/12 https : / / toddsatogata .
  []
 
-[142]
+[144]
 Overfull \hbox (23.06998pt too wide) in paragraph at lines 206--206
 \T1/ntxtt/m/n/12 worldscientific . com / doi / pdf / 10 . 1142 / p250$[]\T1/ntxtlf/m/n/12 . \T1/ntxtlf/m/sc/12 url\T1/ntxtlf/m/n/12 : []$\T1/ntxtt/m/n/12 https : / / www . worldscientific .
  []
@@ -2029,11 +2029,11 @@ Overfull \hbox (20.9144pt too wide) in paragraph at lines 206--206
 []\T1/ntxtlf/m/n/12 Gabriel Tellez Acosta. \T1/ntxtlf/m/it/12 Meto-dos Matemeti-cos\T1/ntxtlf/m/n/12 . Edi-ciones Unian-des, 2022. \T1/ntxtlf/m/sc/12 isbn\T1/ntxtlf/m/n/12 : 9789587981827. 
  []
 
-[143] [144] [145] [146]
+[145] [146] [147] [148]
 \openout2 = `appendix1.aux'.
 
  (./appendix1.tex
-<lie2D.pdf, id=1995, 614.295pt x 794.97pt>
+<lie2D.pdf, id=2048, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf>
 Package pdftex.def Info: lie2D.pdf  used on input line 2.
@@ -2042,7 +2042,7 @@ File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf>
 Package pdftex.def Info: lie2D.pdf  used on input line 2.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<lie2D.pdf, id=1998, page=1, 614.295pt x 794.97pt>
+<lie2D.pdf, id=2051, page=1, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 1>
 Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
@@ -2051,7 +2051,7 @@ File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 1>
 Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [147
+ [149
 
 
 ]
@@ -2067,8 +2067,8 @@ File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 1>
 Package pdftex.def Info: lie2D.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [148 <./lie2D.pdf>]
-<lie2D.pdf, id=2094, page=2, 614.295pt x 794.97pt>
+ [150 <./lie2D.pdf>]
+<lie2D.pdf, id=2148, page=2, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 2>
 Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
@@ -2081,8 +2081,8 @@ File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 2>
 Package pdftex.def Info: lie2D.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [149 <./lie2D.pdf>]
-<lie2D.pdf, id=2137, page=3, 614.295pt x 794.97pt>
+ [151 <./lie2D.pdf>]
+<lie2D.pdf, id=2191, page=3, 614.295pt x 794.97pt>
 File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 3>
 Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
@@ -2095,11 +2095,11 @@ File: lie2D.pdf Graphic file (type pdf)
 <use lie2D.pdf, page 3>
 Package pdftex.def Info: lie2D.pdf , page3 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [150 <./lie2D.pdf>])
+ [152 <./lie2D.pdf>])
 \openout2 = `appendix2.aux'.
 
  (./appendix2.tex
-<lie4D.pdf, id=2153, 614.295pt x 794.97pt>
+<lie4D.pdf, id=2206, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf>
 Package pdftex.def Info: lie4D.pdf  used on input line 2.
@@ -2108,7 +2108,7 @@ File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf>
 Package pdftex.def Info: lie4D.pdf  used on input line 2.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<lie4D.pdf, id=2156, page=1, 614.295pt x 794.97pt>
+<lie4D.pdf, id=2209, page=1, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 1>
 Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
@@ -2117,7 +2117,7 @@ File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 1>
 Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [151
+ [153
 
 
 
@@ -2135,64 +2135,64 @@ File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 1>
 Package pdftex.def Info: lie4D.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [152 <./lie4D.pdf>]
-<lie4D.pdf, id=2252, page=2, 614.295pt x 794.97pt>
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 2>
-Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 2>
-Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 2>
-Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [153 <./lie4D.pdf>]
-<lie4D.pdf, id=2295, page=3, 614.295pt x 794.97pt>
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 3>
-Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 3>
-Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 3>
-Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [154 <./lie4D.pdf>]
-<lie4D.pdf, id=2301, page=4, 614.295pt x 794.97pt>
+<lie4D.pdf, id=2305, page=2, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 4>
-Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 4>
-Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 4>
-Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+<use lie4D.pdf, page 2>
+Package pdftex.def Info: lie4D.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [155 <./lie4D.pdf>]
-<lie4D.pdf, id=2309, page=5, 614.295pt x 794.97pt>
+<lie4D.pdf, id=2348, page=3, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 5>
-Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 5>
-Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: lie4D.pdf Graphic file (type pdf)
-<use lie4D.pdf, page 5>
-Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+<use lie4D.pdf, page 3>
+Package pdftex.def Info: lie4D.pdf , page3 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [156 <./lie4D.pdf>]
-<lie4D.pdf, id=2328, page=6, 614.295pt x 794.97pt>
+<lie4D.pdf, id=2355, page=4, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 4>
+Package pdftex.def Info: lie4D.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [157 <./lie4D.pdf>]
+<lie4D.pdf, id=2363, page=5, 614.295pt x 794.97pt>
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: lie4D.pdf Graphic file (type pdf)
+<use lie4D.pdf, page 5>
+Package pdftex.def Info: lie4D.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [158 <./lie4D.pdf>]
+<lie4D.pdf, id=2380, page=6, 614.295pt x 794.97pt>
 File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 6>
 Package pdftex.def Info: lie4D.pdf , page6 used on input line 2.
@@ -2205,7 +2205,7 @@ File: lie4D.pdf Graphic file (type pdf)
 <use lie4D.pdf, page 6>
 Package pdftex.def Info: lie4D.pdf , page6 used on input line 2.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [157 <./lie4D.pdf>])
+ [159 <./lie4D.pdf>])
 \tf@toc=\write7
 \openout7 = `phd-thesis.toc'.
 
@@ -2220,18 +2220,18 @@ Package logreq Info: Writing requests to 'phd-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40347 strings out of 476025
- 751292 string characters out of 5790017
+ 40360 strings out of 476025
+ 751575 string characters out of 5790017
  1877388 words of memory out of 5000000
- 59487 multiletter control sequences out of 15000+600000
+ 59495 multiletter control sequences out of 15000+600000
  583135 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,23n,103p,1700b,1620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on phd-thesis.pdf (164 pages, 34456737 bytes).
+Output written on phd-thesis.pdf (166 pages, 34468661 bytes).
 PDF statistics:
- 2517 PDF objects out of 2984 (max. 8388607)
- 2023 compressed objects within 21 object streams
- 546 named destinations out of 1000 (max. 500000)
+ 2570 PDF objects out of 2984 (max. 8388607)
+ 2074 compressed objects within 21 object streams
+ 551 named destinations out of 1000 (max. 500000)
  601 words of extra memory for PDF output out of 10000 (max. 10000000)
 

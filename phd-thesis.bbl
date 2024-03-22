@@ -3349,32 +3349,6 @@
       \verb https://api.semanticscholar.org/CorpusID:2488733
       \endverb
     \endentry
-    \entry{qgaussian}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
-           family={{Wikipedia contributors}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{[Online; accessed 19-March-2024]}
-      \field{title}{Q-Gaussian distribution --- Wikipedia, The Free Encyclopedia}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/w/index.php?title=Q-Gaussian_distribution&oldid=1177637416
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/w/index.php?title=Q-Gaussian_distribution&oldid=1177637416
-      \endverb
-    \endentry
     \entry{zhang}{report}{}
       \name{author}{1}{}{%
         {{hash=82913876a7c6b784157a6a5447e78cac}{%
@@ -3392,8 +3366,8 @@
       \strng{authorbibnamehash}{82913876a7c6b784157a6a5447e78cac}
       \strng{authornamehash}{82913876a7c6b784157a6a5447e78cac}
       \strng{authorfullhash}{82913876a7c6b784157a6a5447e78cac}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{CALCULATION OF INCOHERENT SPACE CHARGE TUNE SPREAD}}
@@ -3404,6 +3378,96 @@
       \endverb
       \verb{url}
       \verb https://technotes.bnl.gov/PDF?publicationId=30778
+      \endverb
+    \endentry
+    \entry{nongaussian}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b6571262ef63f71b673db7af88de374f}{%
+           family={Papadopoulou},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a7c1c608b4125ec6105de020ee93739a}{%
+           family={Antoniou},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=60b8ece82f39c528b554cd28fcf8e5c5}{%
+           family={Argyropoulos},
+           familyi={A\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72955fba8fe07ab2f0db2a2b00f6b1da}{%
+           family={Hostettler},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d44b2e35efb063777d24c58e1beaf33e}{%
+           family={Papaphilippou},
+           familyi={P\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3e90f92f008c5ca6a940fd2dd074777c}{%
+           family={Trad},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c5ec02bc356229ab51877ab75f0c2722}
+      \strng{fullhash}{e9d313f42276726c1bca829a5c42c47c}
+      \strng{bibnamehash}{c5ec02bc356229ab51877ab75f0c2722}
+      \strng{authorbibnamehash}{c5ec02bc356229ab51877ab75f0c2722}
+      \strng{authornamehash}{c5ec02bc356229ab51877ab75f0c2722}
+      \strng{authorfullhash}{e9d313f42276726c1bca829a5c42c47c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. Accel. Beams}
+      \field{month}{10}
+      \field{title}{Impact of non-Gaussian beam profiles in the performance of hadron colliders}
+      \field{volume}{23}
+      \field{year}{2020}
+      \field{pages}{101004}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevAccelBeams.23.101004
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.101004
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.101004
+      \endverb
+    \endentry
+    \entry{qgaussian}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 19-March-2024]}
+      \field{title}{Q-Gaussian distribution --- Wikipedia, The Free Encyclopedia}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Q-Gaussian_distribution&oldid=1177637416
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Q-Gaussian_distribution&oldid=1177637416
       \endverb
     \endentry
     \entry{cris1}{inproceedings}{}
