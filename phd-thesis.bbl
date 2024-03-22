@@ -1664,32 +1664,6 @@
       \field{type}{phdthesis}
       \field{year}{2003}
     \endentry
-    \entry{mathematica}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4335c832eb1c4b4955d641e61a666122}{%
-           family={Inc.},
-           familyi={I\bibinitperiod},
-           given={Wolfram\bibnamedelima Research{}},
-           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{4335c832eb1c4b4955d641e61a666122}
-      \strng{fullhash}{4335c832eb1c4b4955d641e61a666122}
-      \strng{bibnamehash}{4335c832eb1c4b4955d641e61a666122}
-      \strng{authorbibnamehash}{4335c832eb1c4b4955d641e61a666122}
-      \strng{authornamehash}{4335c832eb1c4b4955d641e61a666122}
-      \strng{authorfullhash}{4335c832eb1c4b4955d641e61a666122}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mathematica Online, {V}ersion 13.3}
-      \verb{urlraw}
-      \verb https://www.wolfram.com/mathematica
-      \endverb
-      \verb{url}
-      \verb https://www.wolfram.com/mathematica
-      \endverb
-    \endentry
     \entry{bch}{article}{}
       \name{author}{2}{}{%
         {{hash=ce532f4d06611242ab8929437ddc2c3b}{%
@@ -1788,8 +1762,8 @@
       \strng{authorbibnamehash}{3f7eb129dd5661c4d43d030980c59888}
       \strng{authornamehash}{3f7eb129dd5661c4d43d030980c59888}
       \strng{authorfullhash}{3f7eb129dd5661c4d43d030980c59888}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PySCRDT}
@@ -2340,8 +2314,8 @@
       \strng{authornamehash}{ab4656dc91407ddb7440ce45c3e65c15}
       \strng{authorfullhash}{ab4656dc91407ddb7440ce45c3e65c15}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Fermi National Accelerator Laboratory}
@@ -3153,8 +3127,8 @@
       \strng{authorbibnamehash}{d5d75cb64fafa9287c74ef15c00bc684}
       \strng{authornamehash}{d5d75cb64fafa9287c74ef15c00bc684}
       \strng{authorfullhash}{d5d75cb64fafa9287c74ef15c00bc684}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{6}
@@ -3468,6 +3442,99 @@
       \endverb
       \verb{url}
       \verb https://en.wikipedia.org/w/index.php?title=Q-Gaussian_distribution&oldid=1177637416
+      \endverb
+    \endentry
+    \entry{dampers1}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=6653300ca9fd569b8ec206fec1b0ce9e}{%
+           family={Prost},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi R.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e2c3a990400eaf10c4cc32f44f1dd078}{%
+           family={Burov},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=463ed5b8477c45a207764d09956c5170}{%
+           family={Shemyakin},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9de4679d12a0dd9c6a6234221393dbb0}{%
+           family={Bhat},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fff9264bfc530f5ff392bb762f77f7d8}{%
+           family={Crisp},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bd52aacd9d38924f352d3915c6087618}{%
+           family={Eddy},
+           familyi={E\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{455ebc42c42cad58beae44d4c60be0e5}
+      \strng{fullhash}{c12b3d87b8a25292d7194c53eef95e8b}
+      \strng{bibnamehash}{455ebc42c42cad58beae44d4c60be0e5}
+      \strng{authorbibnamehash}{455ebc42c42cad58beae44d4c60be0e5}
+      \strng{authornamehash}{455ebc42c42cad58beae44d4c60be0e5}
+      \strng{authorfullhash}{c12b3d87b8a25292d7194c53eef95e8b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.acc-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Transverse Instabilities in the FERMILAB Recycler}
+      \field{year}{2012}
+      \verb{eprint}
+      \verb 1201.4168
+      \endverb
+    \endentry
+    \entry{dampers2}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=26d72084936cf9d964785e16cf7c83bb}{%
+           family={Eddy},
+           familyi={E\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9cfb94184e13ed8cdc4c29604c8633df}{%
+           family={Fellenz},
+           familyi={F\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b6be5cc942bbed86a11228d60c7739bc}{%
+           family={Prieto},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=55ae40ce93e05222fd26a89c02b35b07}{%
+           family={Zorzetti},
+           familyi={Z\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{195cfc53d8257a29679fae87de231962}
+      \strng{fullhash}{2fe8bcef7f8dbfc84beb9c753aa275f9}
+      \strng{bibnamehash}{195cfc53d8257a29679fae87de231962}
+      \strng{authorbibnamehash}{195cfc53d8257a29679fae87de231962}
+      \strng{authornamehash}{195cfc53d8257a29679fae87de231962}
+      \strng{authorfullhash}{2fe8bcef7f8dbfc84beb9c753aa275f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{6th International Beam Instrumentation Conference}}
+      \field{title}{{Transverse Damper Using Diodes for Slip Stacking in the Fermilab Recycler}}
+      \field{year}{2018}
+      \field{pages}{TUPCF21}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.18429/JACoW-IBIC2017-TUPCF21
       \endverb
     \endentry
     \entry{cris1}{inproceedings}{}
