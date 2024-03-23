@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  22 MAR 2024 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  23 MAR 2024 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1955,82 +1955,82 @@ File: chapter6/static14turns_emittance_dampersOFF.png Graphic file (type png)
 <use chapter6/static14turns_emittance_dampersOFF.png>
 Package pdftex.def Info: chapter6/static14turns_emittance_dampersOFF.png  used on input line 146.
 (pdftex.def)             Requested size: 469.75499pt x 268.85217pt.
- [138 <./chapter6/static14turns_emittance_dampersOFF.png>]
-<chapter6/static2turns_ipm_dampersON.png, id=1946, 1040.688pt x 531.9072pt>
+ [138 <./chapter6/static14turns_emittance_dampersOFF.png>] [139]
+<chapter6/static2turns_ipm_dampersON.png, id=1954, 1040.688pt x 531.9072pt>
 File: chapter6/static2turns_ipm_dampersON.png Graphic file (type png)
 <use chapter6/static2turns_ipm_dampersON.png>
-Package pdftex.def Info: chapter6/static2turns_ipm_dampersON.png  used on input line 161.
+Package pdftex.def Info: chapter6/static2turns_ipm_dampersON.png  used on input line 162.
 (pdftex.def)             Requested size: 469.75499pt x 240.1027pt.
- [139]
 <chapter6/static2turns_ipm_dampersOFF.png, id=1955, 1040.688pt x 531.9072pt>
 File: chapter6/static2turns_ipm_dampersOFF.png Graphic file (type png)
 <use chapter6/static2turns_ipm_dampersOFF.png>
-Package pdftex.def Info: chapter6/static2turns_ipm_dampersOFF.png  used on input line 168.
+Package pdftex.def Info: chapter6/static2turns_ipm_dampersOFF.png  used on input line 169.
 (pdftex.def)             Requested size: 469.75499pt x 240.1027pt.
-<chapter6/static2turns_dampersON.png, id=1956, 961.9137pt x 651.8754pt>
-File: chapter6/static2turns_dampersON.png Graphic file (type png)
-<use chapter6/static2turns_dampersON.png>
-Package pdftex.def Info: chapter6/static2turns_dampersON.png  used on input line 175.
-(pdftex.def)             Requested size: 469.75499pt x 318.34747pt.
-) [140 <./chapter6/static2turns_ipm_dampersON.png> <./chapter6/static2turns_ipm_dampersOFF.png>] [141 <./chapter6/static2turns_dampersON.png>]
+ [140 <./chapter6/static2turns_ipm_dampersON.png> <./chapter6/static2turns_ipm_dampersOFF.png>]
+<chapter6/static2turns_emittance_dampersON.png, id=1967, 1138.9752pt x 651.8754pt>
+File: chapter6/static2turns_emittance_dampersON.png Graphic file (type png)
+<use chapter6/static2turns_emittance_dampersON.png>
+Package pdftex.def Info: chapter6/static2turns_emittance_dampersON.png  used on input line 179.
+(pdftex.def)             Requested size: 469.75499pt x 268.85217pt.
+) [141 <./chapter6/static2turns_emittance_dampersON.png>]
 \openout2 = `chapter7.aux'.
 
- (./chapter7.tex
-<chapter7/dampers_config.png, id=1975, 1329.768pt x 425.6703pt>
+ (./chapter7.tex [142
+
+
+
+
+]
+<chapter7/dampers_config.png, id=1994, 1329.768pt x 425.6703pt>
 File: chapter7/dampers_config.png Graphic file (type png)
 <use chapter7/dampers_config.png>
-Package pdftex.def Info: chapter7/dampers_config.png  used on input line 22.
+Package pdftex.def Info: chapter7/dampers_config.png  used on input line 26.
 (pdftex.def)             Requested size: 469.75499pt x 150.3703pt.
- [142
-
-
-
-
- <./chapter7/dampers_config.png>]
-<chapter7/620_sext.jpg, id=1993, 4047.12pt x 3035.34pt>
+ [143 <./chapter7/dampers_config.png>]
+<chapter7/620_sext.jpg, id=2008, 4047.12pt x 3035.34pt>
 File: chapter7/620_sext.jpg Graphic file (type jpg)
 <use chapter7/620_sext.jpg>
-Package pdftex.def Info: chapter7/620_sext.jpg  used on input line 35.
+Package pdftex.def Info: chapter7/620_sext.jpg  used on input line 39.
 (pdftex.def)             Requested size: 469.75499pt x 352.27568pt.
- [143 <./chapter7/620_sext.jpg>]) [144]
+ [144 <./chapter7/620_sext.jpg>]) [145]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 176.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 176.
+(Font)              scaled to size 12.0pt on input line 187.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 187.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 176.
+(Font)              scaled to size 12.0pt on input line 187.
 
-Overfull \hbox (0.43805pt too wide) in paragraph at lines 226--226
+Overfull \hbox (0.43805pt too wide) in paragraph at lines 237--237
 []$\T1/ntxtt/m/n/12 https : / / onlinelibrary . wiley . com / doi / pdf / 10 . 1002 / 9783527618460 . ch1$[]\T1/ntxtlf/m/n/12 . \T1/ntxtlf/m/sc/12 url\T1/ntxtlf/m/n/12 :
  []
 
 
-Overfull \hbox (34.6107pt too wide) in paragraph at lines 226--226
+Overfull \hbox (34.6107pt too wide) in paragraph at lines 237--237
 []\T1/ntxtlf/m/n/12 Reidar Hahn. \T1/ntxtlf/m/it/12 Fer-mi-lab\T1/ntxtlf/m/n/12 . File: https://upload.wikimedia.org/wikipedia/commons/3/3f/Fermilab.jpg.
  []
 
-[145
+[146
 
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}]
-Overfull \hbox (8.36835pt too wide) in paragraph at lines 226--226
+Overfull \hbox (8.36835pt too wide) in paragraph at lines 237--237
 []\T1/ntxtlf/m/n/12 T. Sato-gata. \T1/ntxtlf/m/it/12 Lec-ture Notes on Pois-son Brack-ets and Lie Op-er-a-tors\T1/ntxtlf/m/n/12 . []$\T1/ntxtt/m/n/12 https : / / toddsatogata .
  []
 
-[146]
-Overfull \hbox (23.06998pt too wide) in paragraph at lines 226--226
+[147]
+Overfull \hbox (23.06998pt too wide) in paragraph at lines 237--237
 \T1/ntxtt/m/n/12 worldscientific . com / doi / pdf / 10 . 1142 / p250$[]\T1/ntxtlf/m/n/12 . \T1/ntxtlf/m/sc/12 url\T1/ntxtlf/m/n/12 : []$\T1/ntxtt/m/n/12 https : / / www . worldscientific .
  []
 
 
-Overfull \hbox (20.9144pt too wide) in paragraph at lines 226--226
+Overfull \hbox (20.9144pt too wide) in paragraph at lines 237--237
 []\T1/ntxtlf/m/n/12 Gabriel Tellez Acosta. \T1/ntxtlf/m/it/12 Meto-dos Matemeti-cos\T1/ntxtlf/m/n/12 . Edi-ciones Unian-des, 2022. \T1/ntxtlf/m/sc/12 isbn\T1/ntxtlf/m/n/12 : 9789587981827. 
  []
 
-[147] [148] [149] [150]
+[148] [149] [150] [151]
 \tf@toc=\write7
 \openout7 = `phd-thesis.toc'.
 
@@ -2045,18 +2045,18 @@ Package logreq Info: Writing requests to 'phd-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40277 strings out of 476025
- 749406 string characters out of 5790017
+ 40278 strings out of 476025
+ 749484 string characters out of 5790017
  1877388 words of memory out of 5000000
  59442 multiletter control sequences out of 15000+600000
  583135 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,23n,103p,1700b,1620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on phd-thesis.pdf (157 pages, 33808482 bytes).
+Output written on phd-thesis.pdf (158 pages, 33939272 bytes).
 PDF statistics:
- 2351 PDF objects out of 2487 (max. 8388607)
- 1966 compressed objects within 20 object streams
- 539 named destinations out of 1000 (max. 500000)
+ 2366 PDF objects out of 2487 (max. 8388607)
+ 1980 compressed objects within 20 object streams
+ 540 named destinations out of 1000 (max. 500000)
  774 words of extra memory for PDF output out of 10000 (max. 10000000)
 
