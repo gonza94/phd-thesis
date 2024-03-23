@@ -2499,6 +2499,9 @@
     <bcf:citekey order="105" intorder="2">cris2</bcf:citekey>
     <bcf:citekey order="105" intorder="3">cris3</bcf:citekey>
     <bcf:citekey order="106" intorder="1">mionrr</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">rdtfluct</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">fixedlines1</bcf:citekey>
+    <bcf:citekey order="108" intorder="2">fixedlines2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

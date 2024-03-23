@@ -136,9 +136,6 @@
       \verb{doi}
       \verb https://doi.org/10.1002/9783527618460.ch1
       \endverb
-      \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/9783527618460.ch1
-      \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527618460.ch1
       \endverb
@@ -1530,9 +1527,6 @@
       \verb{doi}
       \verb 10.1142/13333
       \endverb
-      \verb{eprint}
-      \verb https://www.worldscientific.com/doi/pdf/10.1142/13333
-      \endverb
       \verb{urlraw}
       \verb https://www.worldscientific.com/doi/abs/10.1142/13333
       \endverb
@@ -1865,9 +1859,6 @@
       \field{year}{2001}
       \verb{doi}
       \verb 10.1142/p250
-      \endverb
-      \verb{eprint}
-      \verb https://www.worldscientific.com/doi/pdf/10.1142/p250
       \endverb
       \verb{urlraw}
       \verb https://www.worldscientific.com/doi/abs/10.1142/p250
@@ -2512,9 +2503,6 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1063/1.1831147
-      \endverb
-      \verb{eprint}
-      \verb https://pubs.aip.org/aip/acp/article-pdf/732/1/190/12009643/190\_1\_online.pdf
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1063/1.1831147
@@ -3753,6 +3741,132 @@
       \verb https://jacow.org/napac2022/papers/mopa19.pdf
       \endverb
       \keyw{focusing,dipole,operation,shielding,quadrupole}
+    \endentry
+    \entry{rdtfluct}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d7e9246e66e34ef44097ccab3cb60eaf}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Bingfeng},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f685aea5d0ab4058c1aa1a0cbad9a5af}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Zhenghe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=72a21da7f72a97997aaef23fa463b099}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Jiajie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90363e7455b37d0f07cd7e927b294868}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=01e6fd200b3a361a16bf53ca6dbbc061}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Guangyao},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f4da05bbeff0b0842476954b17eececc}
+      \strng{fullhash}{57475f14bb7c8832d0919bfa41aff3d7}
+      \strng{bibnamehash}{f4da05bbeff0b0842476954b17eececc}
+      \strng{authorbibnamehash}{f4da05bbeff0b0842476954b17eececc}
+      \strng{authornamehash}{f4da05bbeff0b0842476954b17eececc}
+      \strng{authorfullhash}{57475f14bb7c8832d0919bfa41aff3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. Accel. Beams}
+      \field{month}{8}
+      \field{title}{Minimizing the fluctuation of resonance driving terms in dynamic aperture optimization}
+      \field{volume}{26}
+      \field{year}{2023}
+      \field{pages}{084001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevAccelBeams.26.084001
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.26.084001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.26.084001
+      \endverb
+    \endentry
+    \entry{fixedlines1}{article}{}
+      \name{author}{3}{}{%
+        {{hash=caa843f9a14d34c52daf5f86b05f3d07}{%
+           family={Bartosik},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e9271f4874ca92959944e42debc6936a}{%
+           family={Franchetti},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0127454c0c43fce484064ba71e8f9bbd}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{777c20b20177b655220b27ab9561475e}
+      \strng{fullhash}{777c20b20177b655220b27ab9561475e}
+      \strng{bibnamehash}{777c20b20177b655220b27ab9561475e}
+      \strng{authorbibnamehash}{777c20b20177b655220b27ab9561475e}
+      \strng{authornamehash}{777c20b20177b655220b27ab9561475e}
+      \strng{authorfullhash}{777c20b20177b655220b27ab9561475e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Physics}
+      \field{title}{Observation of fixed lines induced by a nonlinear resonance in the CERN Super Proton Synchrotron}
+      \field{year}{2024}
+    \endentry
+    \entry{fixedlines2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0ba12153d4b6cd26303dff6b578ac345}{%
+           family={Todesco},
+           familyi={T\bibinitperiod},
+           given={Ezio},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ba12153d4b6cd26303dff6b578ac345}
+      \strng{fullhash}{0ba12153d4b6cd26303dff6b578ac345}
+      \strng{bibnamehash}{0ba12153d4b6cd26303dff6b578ac345}
+      \strng{authorbibnamehash}{0ba12153d4b6cd26303dff6b578ac345}
+      \strng{authornamehash}{0ba12153d4b6cd26303dff6b578ac345}
+      \strng{authorfullhash}{0ba12153d4b6cd26303dff6b578ac345}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{number}{6}
+      \field{title}{{Analysis of resonant structures of 4D symplectic mappings, using normal forms}}
+      \field{volume}{50}
+      \field{year}{1994}
+      \field{pages}{4298\bibrangedash 4301}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.50.R4298
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/262010
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/262010
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
