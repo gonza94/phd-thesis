@@ -161,6 +161,7 @@ The most basic element of a particle accelerator can be thought of as a LEGO® b
 \vec{X_f}=\mathcal{M}\vec{X_0}.
 \end{equation}
 Different from the previous section, $\mathcal{M}$ need not be a linear mapping. For a charged particle inside some accelerator element that can be described using Hamiltonian dynamics, the mapping $\mathcal{M}$ can be understood in terms of Poisson brackets and exponential Lie operators \cite{wolski,todd1,cernthesis1,cernthesis2,forest}.\\
+
 Let $\vec{X} = \left( q_1,p_1,\dots,q_{n},p_{n} \right)$ be a 2n dimensional vector, made from $n$ pairs of canonical coordinates $(q_i,p_i)$ that make up the 2$n$ dimensional phase space. And let two arbitrary functions $f\left( \vec{X};s\right)$ and $g\left( \vec{X};s\right)$ be functions of $\vec{X}$ and $s$, where $s$ plays the role of the independent "time" coordinate. The Poisson brackets $\left[ \bullet , \bullet \right]$ can be defined as:
 \begin{equation}
     \label{eq:ch2poisson}
@@ -343,7 +344,7 @@ where $F(\vec{\zeta})$ is the generating function written in terms of the basis 
 Writing out the generating function $F(\vec{\zeta})$ in a general polynomial form, this functions reads:
 \begin{equation}
     \label{eq:Fzeta}
-    F\left( \vec{\zeta} \right)=\sum_{jklm} f_{jklm} {\zeta_x^{+}}^{j} {\zeta_x^{-}}^k {\zeta_y^{+}}^l {\zeta_y^{-}}^m.
+    F\left( \vec{\zeta} \right)=\sum_{jklm} f_{jklm} \left({\zeta_x^{+}}\right)^{j} \left({\zeta_x^{-}}\right)^k \left({\zeta_y^{+}}\right)^l \left({\zeta_y^{-}}\right)^m.
 \end{equation}
 By inserting the definitions in Eq. \ref{eq:zeta} into Eq. \ref{eq:Fzeta}, the proposed definition in Eq. \ref{eq:F} can be recovered.
 
@@ -383,7 +384,7 @@ Therefore, the resonance basis can be built by getting the quantity $h_u^{\pm}=\
     -2i \sum_{jklm} j f_{jklm} \left( 2I_x \right)^{\frac{j+k-1}{2}}\left( 2I_y \right)^{\frac{l+m}{2}}
     e^{i \left[ \left( 1-j+k\right)\left( 2\pi Q_x N + \psi_{x_0} \right) +\left( m-l\right)\left( 2\pi Q_y N + \psi_{y_0} \right)\right]},
 \end{multline}
-where $Q_x$ and $Q_y$ are the horizontal and vertical uncoupled tune. Note that this analysis can be easily extended to calculate the other elements in $\vec{h}$. These calculations are left as an exercise for the reader.  
+where $Q_x$ and $Q_y$ are the horizontal and vertical uncoupled tune. Note that this analysis can be easily extended to calculate the other elements in $\vec{h}$.  
 
 \section{\label{sec:amp}Amplitude-Dependent Tune Shift}
 The RDT formalism allows to calculate an important quantity in accelerator physics called the amplitude-dependent tune shift. The Hamiltonian for a single particle in a linear circular lattice with perturbation elements reads: 
