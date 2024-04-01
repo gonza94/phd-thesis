@@ -229,12 +229,12 @@ The right plot of Fig. \ref{fig:ellipse} shows the reconstructed normalized phas
 Once the normalized phase space coordinates are reconstructed for every BPM, the next step is to build the resonance basis $h_u^{\pm}(N)$, as defined in Eq. \ref{eq:hbasis}, i.e., $h_u^{\pm}=\hat{u}\pm \hat{p}_u$. This resonance basis is a function of the number of the turns $N$ that have elapsed. As shown in Eq. \ref{eq:hx-}, this quantity can have a spectral decomposition as a Fourier series. In general, this spectral decomposition in the horizontal dimension reads: 
 \begin{equation}
     \label{eq:hxspect}
-    h_x^{-}(N)= \hat{x} \pm i\hat{p}_x = \sum_{jklm}HSL_{jklm}e^{2\pi i N \left[ \left( 1-j+k\right)Q_x+\left( m-l \right)Q_y\right]},
+    h_x^{-}(N)= \hat{x} - i\hat{p}_x = \sum_{jklm}HSL_{jklm}e^{2\pi i N \left[ \left( 1-j+k\right)Q_x+\left( m-l \right)Q_y\right]},
 \end{equation}
 and in the vertical dimension:
 \begin{equation}
     \label{eq:hyspect}
-    h_y^{-}(N)= \hat{y} \pm i\hat{p}_y = \sum_{jklm}VSL_{jklm}e^{2\pi i N \left[ \left( k-j\right)Q_x+\left(1-l+m \right)Q_y\right]}.
+    h_y^{-}(N)= \hat{y} - i\hat{p}_y = \sum_{jklm}VSL_{jklm}e^{2\pi i N \left[ \left( k-j\right)Q_x+\left(1-l+m \right)Q_y\right]}.
 \end{equation}
 These sums run over the $(j,k,l,m)$ indices. In principle, they run all the way to infinity, but can be truncated. The $HSL_{jklm}$ term corresponds to the complex amplitude defining the horizontal spectral line at frequency location $(1-j+k)Q_x+(m-l)Q_y$. The $VSL_{jklm}$ term corresponds to the complex amplitude defining the vertical spectral line at location $(k-j)Q_x+(1-l+m)Q_y$. And, as always, $Q_u$ corresponds to the betatron tunes. These definitions help to understand the experimental data in order to measure RDTs.
 
