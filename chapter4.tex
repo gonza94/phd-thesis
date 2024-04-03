@@ -7,7 +7,7 @@ The following chapter explores how to mitigate the effect of third order resonan
 
 \begin{table}[H]
     \centering
-    \caption{Corresponding RDTs and spectral lines for each resonance line.}
+    \caption{Corresponding RDTs for each resonance line.}
     \begin{tabular}{lc}
         \toprule
         \textbf{Resonance Line} & \textbf{RDT Expression} \\
@@ -637,9 +637,9 @@ Nevertheless, by compensating one resonance line, other resonances might become 
 \end{equation}
 where $M_{ij}$ is the response matrix for the RDTs with respect to the currents, and includes any roll that can happen for the correction sextupoles. It is worth to emphasize that for this approach, the response matrix is being calculated from measurements as opposed to calculated from the model. This response matrix $M_{ij}$ can be calculated by scanning the currents in each correction element and looking at the response from the real and imaginary part of the RDTs, i.e., $h_{jklm}=|h_{jklm}|e^{i\psi_{jklm}}$. 
 
-In reality, there are limitations to solving equation \ref{eq:system}. The first one is that all the RDTs ($h_{jklm}$) may not be accessible for measurement, given that they may not show up as a spectral line.  Another limitation is that the solution for the currents may be outside the maximum limits for the correction elements. 
+In reality, there are limitations to solving Eq. \ref{eq:system}. The first one is that all the RDTs ($h_{jklm}$) may not be accessible for measurement, given that they may not show up as a spectral line.  Another limitation is that the solution for the currents may be outside the maximum limits for the correction elements. 
 
-One can also try to cancel out a subset of RDTs from equation \ref{eq:system}, including only one RDT. For example, in order to compensate $3 Q_x=76$, the system of equations to be solved is:
+One can also try to cancel out a subset of RDTs from Eq. \ref{eq:system}, including only one RDT. For example, in order to compensate $3 Q_x=76$, the system of equations to be solved is:
 
 \begin{equation}
     \begin{bmatrix}
@@ -677,7 +677,7 @@ which is analogous to Eq. \ref{eq:model1}, only now the sextupole currents are t
     \item Once the response matrix is specified, calculate its inverse (or pseudo-inverse) and operate on to the bare machine RDT vector in order to get the compensation currents on every BPM (see Fig. \ref{fig:icomp}).
 \end{enumerate}
 
-Figures \ref{fig:h3000_sc222} and \ref{fig:h3000_sc319} shows an example of performing two of these scans for the $h_{3000}$ term. On Fig. \ref{fig:h3000_sc222} it can be seen how the relationship between the real part and imaginary part follow a linear relation within the shaded region. The fit for these plots was done only for this region given that prior empirical data showed that the currents should not exceed the absolute value of 7 Amps. The response matrix coefficients were extracted for the slope values provided from the fit.  
+Figures \ref{fig:h3000_sc222} and \ref{fig:h3000_sc319} show an example of performing two of these scans for the $h_{3000}$ term. On Fig. \ref{fig:h3000_sc222} it can be seen how the relationship between the real part and imaginary part follow a linear relation within the shaded region. The fit for these plots was done only for this region given that prior empirical data showed that the currents should not exceed the absolute value of 7 Amps. The response matrix coefficients were extracted for the slope values provided from the fit.  
 
 \begin{figure}[H]
     \centering
