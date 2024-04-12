@@ -104,3 +104,6 @@ anharmonic
 misalignments exist
 Sextupole-like
 octupole-like
+multipass
+skew-sextupole
+Nonlinearities
