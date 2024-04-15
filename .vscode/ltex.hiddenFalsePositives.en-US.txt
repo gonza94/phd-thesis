@@ -14,3 +14,4 @@
 {"rule":"EN_COMPOUNDS","sentence":"^\\QThere is a good agreement between the stop band width of the resonance from the simulations and the experimental data.\\E$"}
 {"rule":"COLLECTIVE_NOUN_VERB_AGREEMENT_VBP","sentence":"^\\QThe group of particles subject to this electromagnetic handling is called \"the beam\".\\E$"}
 {"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QInterestingly, the PSB is not just one ring but four identical synchrotron rings stacked on each other.\\E$"}
+{"rule":"CD_NN","sentence":"^\\QThe top slice corresponds to an intensity of 2 Booster Turns (BTs), i.e., approximately \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q particles per bunch for this experiment.\\E$"}
