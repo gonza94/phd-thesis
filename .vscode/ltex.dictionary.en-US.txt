@@ -108,3 +108,4 @@ multipass
 skew-sextupole
 Nonlinearities
 collimating
+solenoidal-like
