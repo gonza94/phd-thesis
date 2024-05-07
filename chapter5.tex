@@ -1,4 +1,4 @@
-\chapter{Resonance Compensation Studies at the CERN Proton Synchrotron Booster}
+\chapter{Resonance Compensation Studies at the CERN \\Proton Synchrotron Booster}
 \label{sec:ch5}
 
 \section{General Description}
@@ -11,6 +11,7 @@ One ring of the PS Booster has a total circumference of 157.08 meters. Multiplyi
     \includegraphics[width=\linewidth]{chapter5/CERN_AC.png}
     \caption{A graphic overview of all accelerators in operation at CERN as of 2022. Original image taken from Ref. \cite{cernplot}. This file is licensed under the Creative Commons Attribution 4.0 International license.}
     \label{fig:cernac}
+   \vspace{-1.25em}
 \end{figure}
 
 \section{Tune Diagram and Operation}
@@ -22,6 +23,7 @@ Figure \ref{fig:operational_psb} illustrates the tune diagram dynamics that the 
     \includegraphics[width=\linewidth,keepaspectratio]{chapter5/operational.png}
     \caption{Operational tune footprint for PSB beam at injection (cool color map) and footprint after the beam has been accelerated to 2 GeV (warm color map). During acceleration, there is a tune ramp illustrated with the fuchsia arrow.}
     \label{fig:operational_psb}
+   \vspace{-1.25em}
 \end{figure}
 
 As illustrated in Fig. \ref{fig:operational_psb} with the fuchsia arrow, the nominal tune ramp crosses several resonance lines. Uncorrected, these resonance lines will lead to beam loss during the tune ramping. These include four third-order resonance lines and four fourth-order lines. It is worth reminding the reader that the third-order lines are excited by sextupole-like components in the ring, while fourth-order lines are excited by octupole-like fields. The third order resonances include two normal sextupole lines, $3Q_x = 13$ and $Q_x+2Q_y = 13$, and two skew sextupole lines, $3Q_y = 13$ and $2Q_x+Q_y = 13$. For the octupole case, these include two normal octupole lines, $4Q_x = 17$ and $Q_x+3Q_y = 17$, two skew octupole lines, $4Q_y = 17$ and $3Q_x+Q_y = 17$, and the octupole coupling sum resonance, $2Q_x +2Q_y =17$. Figure \ref{fig:psbtd} shows all these resonance lines summarized in one tune diagram. All of these resonance lines have different strengths in each Booster ring. It is worth pointing out that the coupling resonance $Q_x - Q_y = 0$ is not strongly excited in the low-intensity operation of the PSB. At higher intensities, it has been demonstrated that this resonance line is driven in fourth-order by space charge \cite{foteinithesis}.
@@ -31,6 +33,7 @@ As illustrated in Fig. \ref{fig:operational_psb} with the fuchsia arrow, the nom
     \includegraphics[width=\linewidth]{chapter5/psb_td.png}
     \caption{Portion of the tune diagram enclosing the operational tunes of the PS Booster with relevant resonance lines labeled.}
     \label{fig:psbtd}
+   \vspace{-1.25em}
 \end{figure}
 
 Like the plots shown in Fig. \ref{fig:bare_nocomments} and Fig. \ref{fig:bare_comments}, loss maps can be used to visualize the strength of the resonance lines in the CERN PS Booster. Figure \ref{fig:bare_psb} shows loss maps for each of the four rings in the PSB. These plots are created slightly differently from the ones in the Recycler Ring. The plots shown in Fig. \ref{fig:bare_psb} are an average from four loss maps. One where losses are mapped from (a) left to right, i.e., fixing $Q_y$ and ramping from $Q_x \approx 4.49$ to $Q_x \approx 4.15$, (b) another one from right to left, (c) one from top to bottom, i.e., fixing $Q_x$ and ramping from $Q_y \approx 4.49$ to $Q_y \approx 4.15$, (d) and one from bottom to top. Therefore, these plots show an average from mapping the losses in four directions.    
@@ -40,6 +43,7 @@ Like the plots shown in Fig. \ref{fig:bare_nocomments} and Fig. \ref{fig:bare_co
     \includegraphics[width=\columnwidth]{chapter5/bare.png}
     \caption{Dynamic loss maps for the bare machine of the four rings (R1, R2, R3, and R4) in the PS Booster. The plots are an average of scanning in 4 directions. Plot provided by F. Asvesta.}
     \label{fig:bare_psb}
+   \vspace{-1.25em}
 \end{figure}
 
 Figure \ref{fig:bare_psb} shows how resonances are excited differently for each ring at the Proton-Synchrotron Booster. For example, third-order lines are more excited for Ring 2 than Ring 1. This feature hints that every ring will have different values for the corrector magnets used for resonance compensation. The fourth-order order skew resonances are not observed in this loss map. The work in the following sections looks to calculate the currents of the corrector magnets used for resonance compensation. This approach involves using two optimization procedures to find the values that clear out the losses from the plots in Fig. \ref{fig:bare_psb}.
@@ -53,6 +57,7 @@ The whole objective of the following work is to minimize the losses during the P
     \includegraphics[width=\linewidth]{chapter5/experiment.png}
     \caption{Experimental setup of the tune diagram dynamics for optimizing resonance compensation used in the PS Booster.}
     \label{fig:experimentPSB}
+   \vspace{-1.25em}
 \end{figure}
 
 The experimental setup introduced in the PS Booster involved several steps to find the optimal compensation currents. First, a low-brightness beam was injected into every ring at an energy of 160 MeV. Energy is not ramped up for this configuration, and the machine stays at a flat bottom. Second, a tune ramp was programmed into the quadrupoles in the ring in order to go from initial tunes of $Q_x = 4.40$ and $Q_y = 4.45$ to a final setting of $Q_x = 4.17$ and $Q_y = 4.23$. This particular setting was introduced to mimic the operational tune ramp of the LHC-type beam. The start of this tune ramp occurs within $t_0 = 300$ ms of the start of the cycle and ends at $t_f = 600$ ms, i.e., all of this occurs within a 300 ms time window. During this time window, the beam loss is measured by comparing the beam current at the end of the window to the initial value of the beam current. The currents fed to the corrector magnets remain constant during this measurement. Figures \ref{fig:experimentPSB} and \ref{fig:actorcurrents} summarize this experimental setup. 
@@ -87,6 +92,7 @@ The two optimization algorithms used were Bayesian Optimization and BOBYQA (Boun
     \includegraphics[width=\linewidth]{chapter5/actor_currents.png}
     \caption{Waveform for the currents fed to the correctors (actors) as a function of time in the study cycle for one particular iteration of an arbitrary optimization instance.}
     \label{fig:actorcurrents}
+   \vspace{-1.25em}
 \end{figure}
 
 \subsection{Bayesian Optimization}
@@ -102,6 +108,7 @@ Figure \ref{fig:ibo} shows an example of the evolution of the objective function
     \includegraphics[width=\linewidth]{chapter5/i1_bo_commented.png}
     \caption{Normalized beam current plots for the Bayesian Optimization method done at Ring 1.}
     \label{fig:ibo}
+   \vspace{-1.25em}
 \end{figure}
 
 The bottom plot of Fig. \ref{fig:bo1} shows the explicit steps of each actor versus the number of iterations. Additionally, the top plot shows the trend of the objective function (relative beam loss) as the number of iterations increases. There are significant oscillations in the relative beam loss values, especially at the beginning, but a general trend towards minimization as the algorithm progresses through iterations. The early iterations reflect the exploration phase. BO is sampling points that give a broad understanding of the objective function's landscape. As iterations progress, there is a trend toward certain regions in the parameter space. This trend indicates a shift from exploration to exploitation, where the algorithm samples more from areas it believes to be near the optimum. The narrowing of actor current variability suggests a reduction in uncertainty about the location of the minimum beam loss. The GP model is becoming more informed and better trained. At the end of the optimization instance, such as the one shown in Fig. \ref{fig:bo1}, the configuration that gave the smallest relative beam loss is saved. GeOFF sets the default configuration of the correctors to these best values. 
@@ -113,6 +120,7 @@ The corrector values for the best configurations are important to discuss from F
     \includegraphics[width=\linewidth]{chapter5/2023_05_02_R2_LHCramp_BayesOpt.png}
     \caption{Summary for Bayesian optimization of resonance compensation applied to Ring 2 in the CERN PSB.}
     \label{fig:bo1}
+   \vspace{-1.25em}
 \end{figure}
 
 While Fig. \ref{fig:bo1} shows a relatively smooth Bayesian optimization instance for Ring 2, Figs. \ref{fig:bo21} and \ref{fig:bo22} show a different story for Ring 3. This particular optimization instance failed to find a configuration yielding a relative beam loss of less than 5\% after 200 iterations---unacceptable for operation. This feature can be seen on the top plot of Fig. \ref{fig:bo21}, which follows the objective function across iterations. In order to find an acceptable configuration, the BO instance was performed again, but in this case, the initial Gaussian process was trained with the data from the previous incomplete run. The additional 350 iterations from this second instance are shown in Fig. \ref{fig:bo22}. This second instance yielded configurations that led to acceptable values for the relative beam loss. Possible explanations for this hurdle include inadequate exploration of the parameter space, poor choice of the kernel for the Gaussian Process, poor choice of hyperparameters for this BO, and noise in the measurements.
@@ -122,6 +130,7 @@ While Fig. \ref{fig:bo1} shows a relatively smooth Bayesian optimization instanc
     \includegraphics[width=\linewidth]{chapter5/2023_05_02_R3_LHCramp_BayesOpt.png}
     \caption{Summary for the first instance of Bayesian optimization towards resonance compensation applied to Ring 3 in the CERN PSB.}
     \label{fig:bo21}
+   \vspace{-1.25em}
 \end{figure}
 
 \begin{figure}[H]
@@ -129,6 +138,7 @@ While Fig. \ref{fig:bo1} shows a relatively smooth Bayesian optimization instanc
     \includegraphics[width=\linewidth]{chapter5/2023_05_02_R3_LHCramp_BayesOpt_itrtn2.png}
     \caption{Summary for the second instance of Bayesian optimization of resonance compensation applied to Ring 3 in the CERN PSB. This second optimization instance was trained with the data from the first instance.}
     \label{fig:bo22}
+   \vspace{-1.25em}
 \end{figure}
 
 \subsection{BOBYQA (Bound Optimization BY Quadratic Approximation)}
@@ -144,6 +154,7 @@ Similar to the exercise done in Fig. \ref{fig:ibo}, Fig. \ref{fig:ibobyqa} shows
     \includegraphics[width=\linewidth]{chapter5/i2_bobyqa_commented.png}
     \caption{Normalized beam current plots for the BOBYQA method done at Ring 1.}
     \label{fig:ibobyqa}
+   \vspace{-1.25em}
 \end{figure}
 
 Similar to the exercise done for the Bayesian optimization, Fig. \ref{fig:bobyqa1} shows the evolution of the objective function and actor currents for a BOBYQA optimization instance on a BCMS beam. The initial values were set from the Bayesian optimization results for each ring, as discussed in the last section. The trend of the objective function (top plot) shows a general decrease in relative beam loss as the number of iterations increases, indicating that the optimization successfully finds parameters that result in less beam loss. The bottom graph illustrates the variation of the actor currents in arbitrary units across iterations. A unique line pattern and color distinguish each actor. Some correctors are kept at 0, given that they were unavailable for Ring 3. Implementing BOBYQA through GeOFF ensures the algorithm does not fall to a local minimum by bumping the settings to a new configuration once it falls to a stable one. That can be seen from the sudden oscillations in the objective function plot from Fig. \ref{fig:bobyqa1}.  
@@ -153,6 +164,7 @@ Similar to the exercise done for the Bayesian optimization, Fig. \ref{fig:bobyqa
     \includegraphics[width=\linewidth]{chapter5/2023_05_04_R3_BCMS_bobyqa.png}
     \caption{Summary for BOBYQA optimization of resonance compensation applied to Ring 3 in the CERN PSB for BCMS (Bunch Compression Merging and Splitting) beam.}
     \label{fig:bobyqa1}
+   \vspace{-1.25em}
 \end{figure}
 
 Comparing this BOBYQA instance with the Bayesian optimization results, one can see that the exploration phase is much shorter and less broad for the BOBYQA instance. Similarly, the variation steps from BOBYQA in the actor currents are smaller than BO. This comparison is true because of the underlying mechanism used to estimate the objective function and its uncertainty. BOBYQA uses deterministic local quadratic models, while Bayesian Optimization uses probabilistic models that measure uncertainty. BOBYQA is generally considered a local search technique, meaning it may be more prone to finding a local minimum than a global minimum. Hence, the initial point for BOBYQA holds more importance. Bayesian optimization is generally used for global optimization and is particularly strong in high-dimensional spaces or when function evaluations are very expensive. In summary, while both algorithms are powerful tools for optimization in accelerator physics problems, the choice between BOBYQA and Bayesian optimization will depend on the specific characteristics of the problem at hand, including the nature of the objective function, the presence of constraints, the dimensionality of the problem, practical considerations like the availability of computational and experimental resources, and, ultimately, availability of study/machine development time.  
@@ -168,4 +180,5 @@ This chapter has shown a different approach to resonance compensation from the o
     \includegraphics[width=\columnwidth]{chapter5/bocomp.png}
     \caption{Dynamic loss maps for the four rings in the PS Booster with the best configuration from the Bayesian optimization of the resonance compensation. The plots are an average of scanning in 4 directions. Plot provided by F. Asvesta.}
     \label{fig:bocomp_psb}
+   \vspace{-1.25em}
 \end{figure}

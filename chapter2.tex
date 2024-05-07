@@ -30,7 +30,7 @@ In classic accelerator references, such as Refs. \cite{sylee,wolski,Wiedemann201
 
 \begin{table}[H]
     \centering
-    \caption{Transfer matrices for common accelerator elements in the high-energy regime and paraxial approximation}
+    \caption{Transfer matrices for common accelerator elements in the high-energy regime and paraxial approximation.}
     \label{tab:transfers}
     \begin{tabular}{|c|c|}
     \hline
@@ -110,7 +110,8 @@ Ultimately, Eq. \ref{eq:muC} can be used to calculate the particle's state vecto
     \includegraphics[width=\columnwidth]{chapter2/ellipses.png}
     \caption{Phase space ellipse in geometrical coordinates with Twiss parametrization and its counterpart transformation in normalized phase space.}
     \label{fig:ellipses}
- \end{figure}
+    \vspace{-1.25em}
+\end{figure}
 
 Figure \ref{fig:ellipses} also hints that one can do a linear transformation $T_u(s)$ to transform the phase space ellipse into a circle. This transformation is known as a Floquet transformation. Therefore, a change of coordinates from geometrical coordinates $(u,u')$ to normalized coordinates $(\hat{u},\hat{p}_u)$ can be achieved through the following linear transformation:
 \begin{equation}
@@ -187,9 +188,8 @@ For a Hamiltonian system, the mapping of coordinates from $\vec{X_0}$ to $\vec{X
     \label{eq:ch2liemap1}
     \vec{X_f}=e^{-\ell :H:}\vec{X}\bigg\rvert_{\vec{X}=\vec{X_0}},
 \end{equation}
-which is known as a Lie Map \cite{todd1}. In this case, $\ell$ corresponds to the integration length of the independent coordinate. For example, for a particle traversing a magnet with length $L$, the integration length is $\ell = L$. When looking at the one-turn map, the integration length corresponds to the circumference $C$ of the accelerator over an effective Hamiltonian $H_{eff}$. Furthermore, the integration length $\ell$ would be the phase advance $\mu$ if working with action-angle variables.\\ 
+which is known as a Lie Map \cite{todd1}. In this case, $\ell$ corresponds to the integration length of the independent coordinate. For example, for a particle traversing a magnet with length $L$, the integration length is $\ell = L$. When looking at the one-turn map, the integration length corresponds to the circumference $C$ of the accelerator over an effective Hamiltonian $H_{eff}$. Furthermore, the integration length $\ell$ would be the phase advance $\mu$ if working with action-angle variables. 
 % An implementation of exponential Lie operators using \textit{Mathematica} \cite{mathematica} in order to calculate 2D and 4D mappings is presented in Appendix \ref{sec:app1} and in Appendix \ref{sec:app2}, respectively.\\ 
-
 \section{\label{sec:oneturn}One-turn Map and Normal Form}
 
 LEGO® bricks can be stacked together to create complex structures. Analogously, one can assemble accelerator elements to create complex ring-shaped structures such as circular accelerators. In such structures, particles will experience the same one-turn mapping over thousands or millions of turns. The one-turn map $\mathcal{M}_1$ of a circular accelerator is the composition ($\circ$) of mappings from every LEGO® element in the ring. Choosing an arbitrary initial point at $s=0$ and going around the ring, the one-turn map describes the transformation of coordinates after one turn, i.e., $\vec{X}_{N=1}=\mathcal{M}_1 \vec{X_0}$. This map composition reads:
@@ -204,7 +204,8 @@ where $M_i$ is the matrix representation of a linear mapping that does not coupl
     \includegraphics[width=0.7\columnwidth]{chapter2/oneturn.png}
     \caption{Diagram of an arbitrary circular accelerator to illustrate the one-turn map.}
     \label{fig:oneturn}
- \end{figure}
+    \vspace{-1.25em}
+\end{figure}
 
 Through the use of the Baker-Campbell-Hausdorff formula \cite{bch}, Eq. \ref{eq:oneturnmap} can be collapsed to the expression 
 \begin{equation}
@@ -291,7 +292,8 @@ Nevertheless, in reality, two concepts complicate things. The first relates that
     \includegraphics[width=0.8\columnwidth]{chapter2/tunediagram.png}
     \caption{Tune diagram with resonance lines up to fifth order, enclosing the operation point of the Recycler Ring.}
     \label{fig:tunediagram}
- \end{figure}
+    \vspace{-1.25em}
+\end{figure}
 It is worth stopping here and asking what is the driving force behind each of these resonance lines. Classic accelerator references such as Refs. \cite{wolski,Wiedemann2015,sylee} will derive Eq. \ref{eq:resonances} by perturbing Hill's equation with different magnetic multipole orders. A closer look into each perturbation term reveals that half-integer resonances are caused by quadrupole-like terms around the accelerator, third-order resonances by sextupole-like terms, and fourth-order resonances by octupole-like terms, following the pattern to higher orders. Nevertheless, the story is complicated when one considers that pure multipole magnets can feed down or up to other order terms if installation misalignments exist, e.g., a misaligned sextupole feed to skew quadrupole-like terms.        
 
 Figure \ref{fig:rrtdlow} zooms into the region of interest for the Recycler Ring operation in the tune diagram, as shown in Fig. \ref{fig:tunediagram}. As mentioned before, the operation point of an accelerator in the tune diagram is not a singular point but a footprint. While the lattice can be tuned to a specific nominal point, the particles will interact with other particles through the Coulomb force. This Coulomb force acts as a defocusing force, and it depends on the particles position in the bunch. Consequently, each particle will feel a different tune shift depending on its position within the bunch of particles. This effect is called the incoherent space charge tune shift, and it will be the largest for particles in the core of the bunch, i.e., the beam core. At low particle intensities, such as the one used to produce Fig. \ref{fig:rrtdlow}, the tune spread of the particles in the bunch is small enough to approximate the physics to single-particle dynamics. For beams with low particle intensities and a minor tune spread, such as the one depicted in Fig. \ref{fig:rrtdlow}, operating clear from any low-order resonance lines is not generally a problem. Nevertheless, at high intensities, the situation changes.   
@@ -301,7 +303,8 @@ Figure \ref{fig:rrtdlow} zooms into the region of interest for the Recycler Ring
     \includegraphics[width=\columnwidth]{chapter2/rrtdlow.png}
     \caption{Approximate operational tune footprint at low intensities calculated with PySCRDT \cite{pyscrdt}, i.e., 1e10 particles per bunch.}
     \label{fig:rrtdlow}
- \end{figure}
+    \vspace{-1.25em}
+\end{figure}
 
 Figure \ref{fig:rrtdlow} plots all resonance lines up to fourth order in this region of interest. The half-integer line $Q_x-Q_y=1$, known as a difference coupling resonance, is usually driven by solenoidal- and skew-quadrupole-like fields in the lattice. Sextupole-like fields drive the third-order lines $3Q_x=76$ and $Q_x+2Q_y=74$. Skew sextupole-like terms drive the other third-order lines $3Q_y=73$ and $2Q_x+Q_y=75$. Moreover, finally, octupole-like fields drive the fourth order lines $-Q_x+3Q_y=48$ and $3Q_x-Q_y=52$. This assumes a rectangular multipole expansion notation of the magnetic field, such as the one presented in Eq. \ref{eq:ch2magnet}.      
 
@@ -583,7 +586,7 @@ The instantaneous driving terms $\tilde{V}_{jklm}$ from Eq. \ref{eq:potential4} 
 
 \begin{table}[H]
     \centering
-    \caption{Instantaneous driving terms and GSCRDTs for a uniform beam}
+    \caption{Instantaneous driving terms and GSCRDTs for a uniform beam.}
     \label{tab:vjklms}
     \begin{tabular}{|c|c|c|c|}
     \hline
@@ -628,7 +631,8 @@ This approach is the approach taken in Refs. \cite{pyscrdt, scrdt_report}. Speci
     \includegraphics[width=\columnwidth]{chapter2/rrtdmid.png}
     \caption{Tune footprint for a Gaussian beam in the Recycler Ring at an intensity of 5e10 particles per bunch created with PySCRDT.}
     \label{fig:rrtdmid}
- \end{figure}
+    \vspace{-1.25em}
+\end{figure}
 
 Up until now, the assumption $H_1=0$ has held for this section. Nevertheless, there will be an interplay between the nonlinear Hamiltonian and the space charge potential in high-intensity particle accelerators. Ultimately, the terms $h_{jklm}$ and $G_{jklm}$ will dictate the perturbation to the linear Hamiltonian by their effective detuning. Therefore, the following Hamiltonian will describe the perturbation due to nonlinear elements in the circular lattice and due to space charge forces:
  \begin{multline}

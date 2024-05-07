@@ -9,8 +9,9 @@ The MI/RR complex is fed protons by the Proton Source, which by itself consists 
 \begin{figure}[H]
    \centering
    \includegraphics[width=\columnwidth]{chapter3/complex_noTev.png}
-   \caption{Current operational layout of the Fermilab Accelerator Complex as of 2024. The original plot was provided by R. Ainsworth, first published on Ref. \cite{rr1}, but modified for this document.}
+   \caption{Current operational layout of the Fermilab Accelerator Complex as of 2024. The original plot was provided by R. Ainsworth, but modified for this document.}
    \label{fig:fnal}
+   \vspace{-1.25em}
 \end{figure}
 
 The Proton Improvement Plan II (PIP-II) is the first step in establishing the Fermilab Accelerator Complex as a multi-MW proton facility \cite{pipII1}. The near-future objective is to deliver a 1.2 MW proton beam to the Deep Underground Neutrino Experiment (DUNE) through the Long-Baseline Neutrino Facility (LBNF) \cite{dune}, still in construction. In order to meet this goal, Fermilab is planning several upgrades in the accelerator complex, including a new 800 MeV superconducting linear accelerator. The plan for the layout of the Fermilab Accelerator Complex is shown in Fig. \ref{fig:fnalpip2}. With minimal upgrades to the Main Injector and Recycler Ring but a substantial overhaul of the Booster Ring, this will allow for a 50\% increase in particles per pulse intensity. Table \ref{tab:rrparams} also specifies some upgrades that will happen for the PIP-II era. Some examples include an increase of the particle per bunch intensity, a shortening of the Main Injector acceleration ramp, and an increase in the Booster ramping rate. As the Recycler Ring starts to deal with higher intensities from the PIP-II upgrade, it is important to mitigate the effects of space charge, as discussed in Secs. \ref{sec:resonances} and \ref{sec:sc1}. Particles along the bunch will experience space charge forces leading to detuning in their betatron frequencies. Given the incoherent nature of this process, this leads to the beam having a larger tune spread in the tune diagram and having particles operate on top of resonances.
@@ -18,8 +19,9 @@ The Proton Improvement Plan II (PIP-II) is the first step in establishing the Fe
 \begin{figure}[H]
    \centering
    \includegraphics[width=\columnwidth]{chapter3/complexPIPII.png}
-   \caption{Future layout of the Fermilab Accelerator Complex for the Proton Improvement Plan II (PIP-II). The original plot was provided by R. Ainsworth, first published on Ref. \cite{rr1}, but modified for this document.}
+   \caption{Future layout of the Fermilab Accelerator Complex for the Proton Improvement Plan II (PIP-II). The original plot was provided by R. Ainsworth but modified for this document.}
    \label{fig:fnalpip2}
+   \vspace{-1.25em}
 \end{figure}
 
 \section{\label{sec:rrgen}General Description}
@@ -31,6 +33,7 @@ The RR is a permanent magnet storage ring operating at a fixed momentum of 8.835
    \includegraphics[width=\columnwidth]{chapter3/tunnel.jpg}
    \caption{Picture of the Main Injector (blue and red magnets in the bottom) and the Recycler Ring (green magnets up top) tunnel.}
    \label{fig:rrtunnel}
+   \vspace{-1.25em}
 \end{figure}
 
 Figure \ref{fig:rrtunnel} reminds the reader that the Main Injector and the Recycler Ring share the same tunnel. This tunnel is divided into six sections with labels: 100, 200, 300, 400, 500 and 600. Injection from the Booster Ring into the Recycler takes place just after the beginning of section 100. Specifically, this happens at a Lambertson magnet labeled as LAM102. This case is just an example of how every RR or MI element will be labeled according to its position in one of these sections. Figure \ref{fig:rrschematic} shows a schematic of the Recycler Ring section with some labels for critical subsystems inside them. In particular, it shows the location close to 232, where the beam is transferred from the Recycler Ring to the Main Injector. Figure \ref{fig:rrschematic} also presents the location in section 500 where the beam is transferred from RR to the Muon Campus, as well as the location after 401 where the beam is dumped towards the abort line \cite{rr1,fermi_rookie}.
@@ -42,6 +45,7 @@ As highlighted in Fig. \ref{fig:rrschematic}, a critical subsystem is the tune t
    \includegraphics[width=\columnwidth]{chapter3/RRschematic.png}
    \caption{Schematic layout of the Recycler Ring and its corresponding sections. Original plot provided by R. Ainsworth, first published on Ref. \cite{rr1}.}
    \label{fig:rrschematic}
+   \vspace{-1.25em}
 \end{figure}
 
 The Recycler Ring has 104 FODO cells distributed into three main groups around its 3319.4-meter circumference \cite{rr0}. The first group of cells comprises two permanent magnet quadrupoles arranged so that each cell has a phase advance of 90$^{\circ}$. There are 18 cells of this first group throughout the Recycler. The second group comprises a cell with two combined function magnets to simultaneously bend and focus the beam. This type of cell also has a phase advance of 90$^{\circ}$, with 54 cells of this type in the RR. Ultimately, the configuration of these cells will dictate the Twiss parameters around the ring. Figure \ref{fig:rrbetas} shows the beta functions $\beta_u(s)$ around the Recycler Ring tuned to some particular set of tunes. Some horizontal BPMs are marked in the upper horizontal axis to note the corresponding section in the tunnel.    
@@ -60,6 +64,7 @@ With all this said, the third group comprises special dispersion suppressor cell
    \includegraphics[width=\columnwidth]{chapter3/betas.png}
    \caption{Beta functions for the Recycler Ring lattice tuned to $Q_x=25.44$ and $Q_y=24.39$. Lattice functions are calculated from the lattice file using SYNERGIA.}
    \label{fig:rrbetas}
+   \vspace{-1.25em}
 \end{figure}
 
 \begin{figure}[H]
@@ -67,6 +72,7 @@ With all this said, the third group comprises special dispersion suppressor cell
    \includegraphics[width=\columnwidth]{chapter3/disps.png}
    \caption{Dispersion functions for the Recycler Ring lattice tuned to $Q_x=25.44$ and $Q_y=24.39$. Lattice functions are calculated from the lattice file using SYNERGIA.}
    \label{fig:rrdisps}
+   \vspace{-1.25em}
 \end{figure}
 
 The ultimate role of the Recycler Ring is to smooth the way for high-intensity proton beam injection into the Main Injector. In particular, for the high-intensity beam delivered to the neutrino experiments, the Recycler performs a beam manipulation known as slip-stacking. Although this longitudinal manipulation is out of the main scope of this thesis, it is relevant to briefly explain this procedure since this is the Recycler Ring's main feature. Slip-stacking is the process through which a pair of bunches are manipulated in longitudinal phase space to merge them into one higher-intensity bunch \cite{fermi_rookie}. In particular, the RR utilizes two RF stations to decelerate and accelerate trains of bunches. The Recycler can fit 7 Booster Rings. Hence, 6+6 beam batches are injected and slip-stacked, while 1 batch space is left as a gap for the kickers to fire. Each batch is composed of 81 bunches following the harmonic number of the Recycler. A more detailed explanation of the Recycler Ring's slip-stacking procedure can be found in Refs. \cite{rr1,rr2,fermi_rookie}. Ultimately, this slip-stacking process is relevant because it doubles the particles per bunch intensity (ppb), which has significant consequences for the transverse dynamics, as explained in Sec. \ref{sec:sc1}. Furthermore, Table \ref{tab:rrparams} summarizes some important parameters for the RR slip-stacking and the general operation of the neutrino-bound beam.     
@@ -113,6 +119,7 @@ Table \ref{tab:rrparams} specifies nominal horizontal and vertical tunes for the
    \includegraphics[width=\columnwidth]{chapter3/rrtd.png}
    \caption{Portion of the tune diagram enclosing the operational tunes of the Recycler Ring.}
    \label{fig:rrtd}
+   \vspace{-1.25em}
 \end{figure}
 
 Starting from the lowest order resonance line, Fig. \ref{fig:rrtd} shows the second-order linear coupling line $Q_x-Q_y = 1$. This resonance line comes from the skew-quadrupole component accumulated all around the ring. While operating on this resonance line will not lead to chaotic motion, the dynamics are characterized by action exchange between the betatron modes \cite{sylee}. This exchange can cause emittance growth, eventually leading to beam loss. Due to this fact, the Recycler Ring has two families of skew quadrupoles, which correct this resonance line. Consequently, operating close to this resonance line is feasible with this correction.
@@ -146,6 +153,7 @@ In order to achieve the PIP-II beam power objective, the Recycler will be requir
    \includegraphics[width=\columnwidth]{chapter3/rrtdhigh.png}
    \caption{Approximate operational tune footprint at high intensities, i.e., 1e11 particles per bunch.}
    \label{fig:rrtdhigh}
+   \vspace{-1.25em}
 \end{figure}
 
 Figure \ref{fig:rrtdhigh} and the latter discussion motivate the need for mitigating the deleterious effects of $3 Q_x=76$ and $Q_x+2Q_y=74$, and weaker effects from $3 Q_y=73$ and $2 Q_x+Q_y=75$. If one reduces the RDT of each resonance line, then their strength becomes less, losses in those regions are reduced, and ultimately there will be a larger area in the tune diagram for operation. This mechanism is desirable for PIP-II. Nevertheless, Ch. \ref{sec:ch4} describes compensating one resonance line might make another one worse and vice versa. Here lies the difficulty of this approach. Additionally, these third-order resonance lines must be adequately characterized at low intensities before going to PIP-II intensities. Experimentally, everything starts to blend together in the tune diagram at high intensities due to the space charge tune shift. This amalgam of phenomena motivates the fact to have a distinction between Ch. \ref{sec:ch4} and \ref{sec:ch6}.    
@@ -161,6 +169,7 @@ There are 208 BPMs in the Recycler Ring in total. Specifically, there are 104 ho
    \includegraphics[width=\columnwidth]{chapter3/bpm_kick.png}
    \caption{BPM turn-by-turn data for an arbitrary kick at horizontal BPM R:HP620.}
    \label{fig:bpmkick}
+   \vspace{-1.25em}
 \end{figure}
 
 One important example of using TbT data is using it to perform tune measurements. As mentioned in Sec. \ref{sec:basic}, specifically in Eq. \ref{eq:betatron}, the motion inside the Recycler Ring will exhibit betatron oscillations. In particular, the tune frequency dictates the main harmonic of these oscillations. Say a particular set of BPM TbT data has been recorded for $N$ number of turns. Therefore, a Fast-Fourier Transform (FFT) will help uncover and measure FFT accuracy---$\sigma_Q\approx 1/N $---the main frequency of these oscillations. Figure \ref{fig:bpmfft} shows how the prominent peak of the FFT can be identified to measure the horizontal tune $Q_x$ of the circular accelerator. Furthermore, Ch. \ref{sec:ch4} will explore how a more involved Fourier Transform algorithm, such as NAFF (Numerical Analysis of Fundamental Frequencies) \cite{naff}, will help analyze the spectrum of TbT data and measure higher order harmonics, ultimately, leading to the measurement of RDTs in the RR.     
@@ -170,6 +179,7 @@ One important example of using TbT data is using it to perform tune measurements
    \includegraphics[width=\columnwidth]{chapter3/bpm_fft.png}
    \caption{Fast Fourier Transform amplitude for the turn-by-turn data presented in Fig. \ref{fig:bpmkick}.}
    \label{fig:bpmfft}
+   \vspace{-1.25em}
 \end{figure}
 
 The second type of diagnostics relevant to this work are the Ion Profile Monitors (IPMs). As mentioned before, this device measures the beam size in the Recycler Ring. The RR has two IPM systems: one for the horizontal plane and another one for the vertical. One unique characteristic of IPMs relies on their non-destructive nature. The working principle of this system is to collect ions created in the interaction between the proton beam and residual molecules in the vacuum. Micro-channel plates (MCP) detect the secondary ions and are biased at an arbitrary high voltage \cite{betiay}. The counts at each MCP are logged in and digitized to be compatible with ACNET. Similar to the BPM systems, an application was developed to control and use the IPM system.     
@@ -179,6 +189,7 @@ The second type of diagnostics relevant to this work are the Ion Profile Monitor
    \includegraphics[width=\columnwidth]{chapter3/ipm.png}
    \caption{Reconstructed beam profile for the horizontal plane assuming Gaussian distributions along 1024 turns for an arbitrary beam in the Recycler Ring.}
    \label{fig:ipm0}
+   \vspace{-1.25em}
 \end{figure}
 
 Figure \ref{fig:ipm0} shows the reconstruction of the horizontal beam profile from the raw data of the IPM micro-channel plates. At every turn, the raw count data from each of the 96 MCP is fit to Gaussian beam distribution, resulting in some variance $\sigma$. The color map shows the evolution of this beam profile along 1024 turns. The IPM system can record up to 65000 turns. Nevertheless, it batches the data into a $1024 \times 96$ array. In particular, Fig. \ref{fig:ipm0} shows how, for these arbitrary experimental conditions, the size of the beam grows with the number of turns---this is pointing at emittance growth. Other distributions different from a Gaussian can be used to fit the raw data to extract more information about the skewness or tail population of the beam, e.g., a q-Gaussian or a Skew-Gaussian distribution. In particular, Ch. \ref{sec:ch6} shows how to use q-Gaussian distributions to quantify beam tail population.
@@ -222,4 +233,5 @@ Figure \ref{fig:sextupoles} shows an example of these sextupoles installed in th
    \includegraphics[width=\columnwidth]{chapter3/sextupoles.png}
    \caption{Picture of compensation sextupoles (yellow magnets on top) installed in the Recycler Ring. Picture provided by Dr. Robert Ainsworth.}
    \label{fig:sextupoles}
+   \vspace{-1.25em}
 \end{figure}

@@ -28,6 +28,7 @@ Figure \ref{fig:dynamictunespread} shows slices of loss maps at different intens
     \includegraphics[width=\textwidth,height=0.95\textheight,keepaspectratio]{chapter6/scts_measure.png}
     \caption{Dynamic loss strips at a fixed vertical set tune of $Q_y=24.45$ and on a range from $Q_x=25.39$ to $Q_x=25.32$ for different intensities.}
     \label{fig:dynamictunespread}
+   \vspace{-1.25em}
 \end{figure}
 \newpage
 
@@ -40,6 +41,7 @@ The maximum tune spread shown in Figs. \ref{fig:dynamictunespread} and \ref{fig:
     \includegraphics[width=\columnwidth]{chapter6/tune_spread.png}
     \caption{Tune spread measurements compared to tune spread calculations from horizontal emittances measured with multiwire data on first-turn abort beam.}
     \label{fig:tunespread}
+   \vspace{-1.25em}
 \end{figure}
 
 \section{\label{sec:qgaussian}Intensity-Dependent Effects and Non-Gaussian Beam Profiles}
@@ -69,6 +71,7 @@ where the usual Gaussian distribution is recovered when $q=1$. The distribution 
     \includegraphics[width=\textwidth,keepaspectratio]{chapter6/qgaussians.png}
     \caption{Several q-Gaussian distributions for different q parameters normalized to unit amplitude and with a scale parameter of $\sigma=1$. The left plot uses linear scaling, and the right plot uses logarithmic scaling for the y-axis.}
     \label{fig:qgaussians}
+   \vspace{-1.25em}
 \end{figure}
 
 
@@ -81,6 +84,7 @@ Section \ref{sec:static_low} showed how static tune scans are useful to verify i
     \includegraphics[width=\columnwidth]{chapter6/static14turns_BARE_dampersON.png}
     \caption{Static tune scan at an equivalent intensity of 14 Booster turns or approximately 4.5e10 ppb with no $3Q_x$ compensation and transverse dampers on.}
     \label{fig:static14_bare}
+   \vspace{-1.25em}
 \end{figure}
 
 In Ch. \ref{sec:ch4}, it was shown that when the $3Q_x$ compensation was introduced, this helped improve the beam survival ratio close to and on top of the resonance line. Figures \ref{fig:static2_scatter}, \ref{fig:static8_scatter} and \ref{fig:static14_scatter} show what happens to the beam survival ratio and the beam size at different intensities during these static tune scans. It is worth pointing out that the transverse dampers were turned off for these particular measurements. A deeper discussion into the effect of transverse dampers is done in Sec. \ref{sec:ch6dampers}. Additionally, the color map of the scatter plot utilized for these figures represents the decimated turn number of the data point. Blue means that the data point happened earlier in the cycle---closer to injection---and yellow means it happened later in the cycle. A decimated number of turns of 1024 corresponds to 65000 real turns in the machine.
@@ -90,6 +94,7 @@ In Ch. \ref{sec:ch4}, it was shown that when the $3Q_x$ compensation was introdu
     \includegraphics[width=\columnwidth]{chapter6/static2turns_dampersOFF.png}
     \caption{Static tune scan at an equivalent intensity of 2 Booster turns or approximately 0.5e10 ppb.}
     \label{fig:static2_scatter}
+   \vspace{-1.25em}
 \end{figure}
 
 The data for Fig. \ref{fig:static2_scatter} has already been shown in Figs. \ref{fig:static2_ipm_comp} and \ref{fig:static2_emit_comp}. Nevertheless, it is interesting to reference it again as the base case to compare against the high-intensity cases. In particular, Fig. \ref{fig:static2_scatter} shows the beam size and beam survival ratio as a function of horizontal tune and decimated turn number. When compensated for, more than 95\% of the beam survives on top of the $3Q_x$ resonance for 0.8 seconds. Nevertheless, beam size growth occurs when operating close to a set tune of $Q_x=25.345$, where the $3Q_x=76$ resonance lies. This beam size growth does not happen immediately but after many turns, as seen by the yellow color on large beam sizes. Nevertheless, out of this particular region, there is no noticeable growth in beam size for other tune values.
@@ -99,6 +104,7 @@ The data for Fig. \ref{fig:static2_scatter} has already been shown in Figs. \ref
     \includegraphics[width=\columnwidth]{chapter6/static8turns_dampersOFF.png}
     \caption{Static tune scan at an equivalent intensity of 8 Booster turns or approximately 3e10 ppb.}
     \label{fig:static8_scatter}
+   \vspace{-1.25em}
 \end{figure}
 
 Figure \ref{fig:static8_scatter} shows a static tune scan done at a higher intensity than the one in Fig. \ref{fig:static2_scatter}, i.e., 3e10 ppb, approximately six times larger. From Fig. \ref{fig:tunespread}, the corresponding space charge tune spread corresponds to approximately 0.015. Therefore, the beam size growth and losses should start earlier in the scan. This process can be seen in Fig. \ref{fig:static8_scatter} compared to the low-intensity case. The other feature is the beam size growth at every tune value for the scan. The beam is injected and undergoes some mechanism that leads to beam size growth. This mechanism is related to space charge, given that it is not present at low intensities. Furthermore, it can be seen that the beam size grows as a function of tune before leading to a big dip in the beam survival ratio. At this point, the beam size is large enough to hit the aperture of the Recycler. Ultimately, it is interesting to see the interplay between space charge, beam size growth, and the physical aperture of the machine.      
@@ -108,6 +114,7 @@ Figure \ref{fig:static8_scatter} shows a static tune scan done at a higher inten
     \includegraphics[width=\columnwidth]{chapter6/static14turns_dampersOFF.png}
     \caption{Static tune scan at an equivalent intensity of 14 Booster turns or approximately 4.5e10 ppb.}
     \label{fig:static14_scatter}
+   \vspace{-1.25em}
 \end{figure}
 
 Going almost to double the previous intensity, Fig. \ref{fig:static14_scatter} shows a static tune scan done for intensity of 5e10 ppb (particles per bunch). While the intensity is almost doubled, the tune spread only jumps to 0.02. This is because the emittance grows exponentially, and the tune spread saturates, as shown in Fig. \ref{fig:tunespread}. This small change in tune shift explains why Figs. \ref{fig:static8_scatter} and \ref{fig:static14_scatter} exhibit very similar behaviors. Nevertheless, a closer look shows that the injection beam size is slightly higher for this higher intensity, as expected from the emittance data shown in Fig. \ref{fig:tunespread}. Furthermore, the beam survival ratio also decreases slightly. 
@@ -117,6 +124,7 @@ Going almost to double the previous intensity, Fig. \ref{fig:static14_scatter} s
     \includegraphics[width=\columnwidth]{chapter6/25370_scatter.png}
     \caption{IPM data and multi-wire first turn abort data for $Q_x=25.370$ at different intensities.}
     \label{fig:25370_scatter}
+   \vspace{-1.25em}
 \end{figure}
 
 Figure \ref{fig:25370_scatter} compares emittance evolution data at these different intensities, as calculated from Eq. \ref{eq:emittance}. A set tune of $Q_x=25.37$ was used for comparison. On this plot, first-turn-abort emittances are also plotted as fuchsia triangles. Ideally, these emittances calculated from multiwire data should correspond to those calculated from the IPM data. At low intensities, the emittances from the IPM data are centered around the multiwire value. At higher intensities, the IPM data for the initial number of turns coincides with the first-turn-abort data. Nevertheless, once injected, the beam emittance grows as it circulates many turns around the ring. This growth can ultimately lead to beam loss. Ultimately, the IPM system is a useful tool to characterize the effects of space charge. The multi-wires could not survive such high intensities for many turns. 
@@ -126,6 +134,7 @@ Figure \ref{fig:25370_scatter} compares emittance evolution data at these differ
     \includegraphics[width=\columnwidth]{chapter6/static2turns_emittance_dampersOFF.png}
     \caption{Static tune scan with beam survival ratio (BSR), average q-factor for the q-Gaussian fits, and normalized emittance at an equivalent intensity of 2 Booster turns or approximately 0.5e10 ppb.}
     \label{fig:static2_q}
+   \vspace{-1.25em}
 \end{figure}
 
 Going further with IPM data, one can use q-Gaussian distributions to fit raw data from the beam profile. Using Eq. \ref{eq:qgaussian} to fit IPM data, the $q$ parameter can be extracted to characterize the beam tails. Figures \ref{fig:static2_q}, \ref{fig:static8_q}, and \ref{fig:static14_q} show a plot of the average $q$ values at each tune for the different intensities. These $q$ values should quantify how populated the tails are. A priori, one would not expect the tails to be underpopulated ---all $q$ values should be above 1, $q>1$. Figures \ref{fig:static2_q}, \ref{fig:static8_q}, and \ref{fig:static14_q} also plot the beam survival ratio and horizontal normalized emittance calculated from IPM data. Analyzing these quantities together helps one understand the loss mechanism that reduces the beam survival ratio. 
@@ -137,6 +146,7 @@ For low intensities, it has been shown that the beam survival ratio improves whe
     \includegraphics[width=\columnwidth]{chapter6/static8turns_emittance_dampersOFF.png}
     \caption{Static tune scan with beam survival ratio (BSR), average q-factor for the q-Gaussian fits, and normalized emittance at an equivalent intensity of 8 Booster turns or approximately 3e10 ppb.}
     \label{fig:static8_q}
+   \vspace{-1.25em}
 \end{figure}
 
 According to Ref. \cite{rr0}, the transverse acceptance of the Recycler Ring is 40 $\pi$ mm mrad. Taking a closer look into the emittance plot of Fig. \ref{fig:static2_q}, it can be seen that when the normalized emittance starts hitting this value, that is where losses start to appear. Figure \ref{fig:static8_q} shows how at injection---for the first couple of initial turns of 3e10 ppb beam---the emittance is well below 40 $\pi$ mm mrad. Nevertheless, as the beam circulates the Recycler Ring, the emittance grows close to the acceptance of the machine. Given that this is the 95\% emittance, there is still some beam outside this phase space region, particularly in the tails of the beam. This beam-tail population is why the beam survival ratio is not necessarily close to 1.0, even far from the resonance. This feature can also be seen at a higher intensity of 4.5e10 ppb beam through Fig. \ref{fig:static14_q}. While the injection emittance is slightly higher, the beam still grows to the machine's acceptance limit. While the beam emittance grows, the space charge tune spread in the Recycler is decreasing from its original value. Close to the remnants of the resonance, there is a small dip in the beam survival ratio caused by the increase in beam emittance. As long as the emittance comes close to the acceptance of the machine, there will be losses from beam tail particles hitting the machine's aperture. 
@@ -146,6 +156,7 @@ According to Ref. \cite{rr0}, the transverse acceptance of the Recycler Ring is 
     \includegraphics[width=\columnwidth]{chapter6/static14turns_emittance_dampersOFF.png}
     \caption{Static tune scan with beam survival ratio (BSR), average q-factor for the q-Gaussian fits, and normalized emittance at an equivalent intensity of 14 Booster turns or approximately 4.5e10 ppb.}
     \label{fig:static14_q}
+   \vspace{-1.25em}
 \end{figure}
 
 The other important feature from the plots shown in Figs. \ref{fig:static8_q} and \ref{fig:static14_q} is the average $q$-factor behavior. Close to $Q_x=25.35$, the average $q$-factor increases. This increase coincides with a dip in the beam survival ratio. Given that the beam is already on the acceptance limit, any increase in the beam tail population will inevitably lead to beam loss. This behavior is what Figs. \ref{fig:static8_q} and \ref{fig:static14_q} are essentially showing. A point is reached where there is no more space in the beam pipe to accommodate more beam tails. Therefore, any tail population mechanism will lead to beam loss. After this point, if the beam is wide enough, there are no beam tails, given that the beam pipe itself is collimating them, and everything is just the beam core. This is what happens for tunes left of the resonance line. Essentially, while emittance growth exists to the limits of the machine, any beam tail population mechanism will lead to beam loss. 
@@ -162,6 +173,7 @@ From just looking at Fig. \ref{fig:static2_dampersON}, one could conclude that t
     \includegraphics[width=\columnwidth]{chapter6/static2turns_ipm_dampersON.png}
     \caption{Static tune scan with beam survival ratio and IPM data box plots with $3Q_x$ compensation, transverse dampers ON and 2 Booster Turns of equivalent intensity or approximately 0.5e10 ppb.}
     \label{fig:static2_dampersON}
+   \vspace{-1.25em}
 \end{figure}
 
 \begin{figure}[H]
@@ -169,6 +181,7 @@ From just looking at Fig. \ref{fig:static2_dampersON}, one could conclude that t
     \includegraphics[width=\columnwidth]{chapter6/static2turns_ipm_dampersOFF.png}
     \caption{Static tune scan with beam survival ratio and IPM data box plots with $3Q_x$ compensation, transverse dampers OFF and 2 Booster Turns of equivalent intensity or approximately 0.5e10 ppb.}
     \label{fig:static2_dampersOFF}
+   \vspace{-1.25em}
 \end{figure}
 \newpage
 
@@ -179,4 +192,5 @@ Figure \ref{fig:static2_scatter_dampersON} looks at how the beam grows when the 
     \includegraphics[width=\columnwidth]{chapter6/static2turns_emittance_dampersON.png}
     \caption{Static tune scan with beam survival ratio (BSR), average q-factor for the q-Gaussian fits, and normalized emittance with $3Q_x$ compensation ON, transverse dampers ON and 2 Booster Turns of equivalent intensity or approximately 0.5e10 ppb.}
     \label{fig:static2_scatter_dampersON}
+   \vspace{-1.25em}
 \end{figure}

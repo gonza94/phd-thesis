@@ -1420,86 +1420,6 @@
       \endverb
       \keyw{Neutrinos,Long baseline,Beam,Target,Main Injector}
     \endentry
-    \entry{rr1}{article}{}
-      \name{author}{9}{}{%
-        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
-           family={Ainsworth},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=391d31de27b9e847b1cf2d3f45c600dd}{%
-           family={Adamson},
-           familyi={A\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod}}}%
-        {{hash=34166168504b71de8816c480ffb9ee68}{%
-           family={Brown},
-           familyi={B\bibinitperiod},
-           given={Bruce\bibnamedelima C.},
-           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=f3f5433af2b0d99b80d5fe125536bdc2}{%
-           family={Capista},
-           familyi={C\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=59da48c3d4aa93b2814f0921ff7a2764}{%
-           family={Hazelwood},
-           familyi={H\bibinitperiod},
-           given={Kyle},
-           giveni={K\bibinitperiod}}}%
-        {{hash=305f1a2989f8e4ea1effe8274740795f}{%
-           family={Kourbanis},
-           familyi={K\bibinitperiod},
-           given={Ioanis},
-           giveni={I\bibinitperiod}}}%
-        {{hash=ca5cdd4a4fd53f64cc8c81a0748c5a2a}{%
-           family={Morris},
-           familyi={M\bibinitperiod},
-           given={Denton\bibnamedelima K},
-           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=7177c54bd109a4d31d12325f327cdd9d}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Meiqin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ec20afc71167704fd53ef78512fe0ad6}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Ming-Jen},
-           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{fullhash}{1a408a640aa937cf78d2f6fd3d650c47}
-      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
-      \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{12}
-      \field{journaltitle}{Phys. Rev. Accel. Beams}
-      \field{month}{12}
-      \field{title}{High intensity operation using proton stacking in the Fermilab Recycler to deliver 700 kW of 120 GeV proton beam}
-      \field{volume}{23}
-      \field{year}{2020}
-      \field{pages}{121002}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevAccelBeams.23.121002
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
-      \endverb
-    \endentry
     \entry{wolski}{book}{}
       \name{author}{1}{}{%
         {{hash=2f9bada81f52159aa7641b0801229850}{%
@@ -1517,8 +1437,8 @@
       \strng{authorbibnamehash}{2f9bada81f52159aa7641b0801229850}
       \strng{authornamehash}{2f9bada81f52159aa7641b0801229850}
       \strng{authorfullhash}{2f9bada81f52159aa7641b0801229850}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
@@ -1554,8 +1474,8 @@
       \strng{authorbibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
       \strng{authornamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
       \strng{authorfullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Particle resonances in circular accelerators occur as a result of perturbation terms involving particular Fourier harmonics. That approach is based on the common knowledge that periodic perturbations of a harmonic oscillator can cause a resonance when the perturbation frequency is equal to an eigenfrequency of the oscillator.}
@@ -1592,8 +1512,8 @@
       \strng{authorbibnamehash}{3b955981f23005f4d5db1a8353f69248}
       \strng{authornamehash}{3b955981f23005f4d5db1a8353f69248}
       \strng{authorfullhash}{3b955981f23005f4d5db1a8353f69248}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://toddsatogata.net/2011-USPAS/lieAlgebras.pdf}}
@@ -1621,8 +1541,8 @@
       \strng{authorbibnamehash}{5b4322efa01b52d2a723d17d4b8aee21}
       \strng{authornamehash}{5b4322efa01b52d2a723d17d4b8aee21}
       \strng{authorfullhash}{5b4322efa01b52d2a723d17d4b8aee21}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Measurement and Compensation of Betatron Resonances at the CERN PS Booster Synchrotron}
@@ -1649,8 +1569,8 @@
       \strng{authorbibnamehash}{8c7b9e72fb7126927c84841dba7716a0}
       \strng{authornamehash}{8c7b9e72fb7126927c84841dba7716a0}
       \strng{authorfullhash}{8c7b9e72fb7126927c84841dba7716a0}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{1}
@@ -1757,8 +1677,8 @@
       \strng{authornamehash}{3f7eb129dd5661c4d43d030980c59888}
       \strng{authorfullhash}{3f7eb129dd5661c4d43d030980c59888}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PySCRDT}
@@ -2004,8 +1924,8 @@
       \strng{authorbibnamehash}{176948264f8b477574373b26687b6db1}
       \strng{authornamehash}{176948264f8b477574373b26687b6db1}
       \strng{authorfullhash}{176948264f8b477574373b26687b6db1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Foundations of potential theory}
@@ -2083,6 +2003,86 @@
       \endverb
       \verb{url}
       \verb https://www.osti.gov/biblio/1127965
+      \endverb
+    \endentry
+    \entry{rr1}{article}{}
+      \name{author}{9}{}{%
+        {{hash=3b2b8fcda2e4af5ce2859fe1bb4dfd0f}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=391d31de27b9e847b1cf2d3f45c600dd}{%
+           family={Adamson},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=34166168504b71de8816c480ffb9ee68}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Bruce\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f3f5433af2b0d99b80d5fe125536bdc2}{%
+           family={Capista},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=59da48c3d4aa93b2814f0921ff7a2764}{%
+           family={Hazelwood},
+           familyi={H\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=305f1a2989f8e4ea1effe8274740795f}{%
+           family={Kourbanis},
+           familyi={K\bibinitperiod},
+           given={Ioanis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ca5cdd4a4fd53f64cc8c81a0748c5a2a}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Denton\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7177c54bd109a4d31d12325f327cdd9d}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Meiqin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ec20afc71167704fd53ef78512fe0ad6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ming-Jen},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{fullhash}{1a408a640aa937cf78d2f6fd3d650c47}
+      \strng{bibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorbibnamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
+      \strng{authorfullhash}{1a408a640aa937cf78d2f6fd3d650c47}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. Accel. Beams}
+      \field{month}{12}
+      \field{title}{High intensity operation using proton stacking in the Fermilab Recycler to deliver 700 kW of 120 GeV proton beam}
+      \field{volume}{23}
+      \field{year}{2020}
+      \field{pages}{121002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevAccelBeams.23.121002
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.121002
       \endverb
     \endentry
     \entry{pipII1}{report}{}
@@ -2272,8 +2272,8 @@
       \strng{authorbibnamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authornamehash}{81e4565971d597e0b0d4d2d4c88ec50f}
       \strng{authorfullhash}{7a4889edae2162d1b0d597f6521b493f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -2306,8 +2306,8 @@
       \strng{authornamehash}{ab4656dc91407ddb7440ce45c3e65c15}
       \strng{authorfullhash}{ab4656dc91407ddb7440ce45c3e65c15}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Fermi National Accelerator Laboratory}
@@ -2413,8 +2413,8 @@
       \strng{authornamehash}{5c1734d0e9ffa3e96cd0c637f7d59603}
       \strng{authorfullhash}{22a087b249925ab1e7afe1ef1e4566b0}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -2586,7 +2586,6 @@
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{physics.acc-ph}
       \field{eprinttype}{arXiv}
       \field{title}{The Ionization Profile Monitors in the Recycler Ring}
       \field{year}{2023}
@@ -2609,11 +2608,10 @@
       \strng{authornamehash}{6e6ede3c9de6f73699c90cb2ea78f784}
       \strng{authorfullhash}{6e6ede3c9de6f73699c90cb2ea78f784}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{physics.acc-ph}
       \field{eprinttype}{arXiv}
       \field{title}{Recycler Chromaticities and End Shims for NOvA at Fermilab}
       \field{year}{2013}
@@ -2622,8 +2620,8 @@
       \endverb
     \endentry
     \entry{sussix}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{SUSSIX: A Computer Code for Frequency Analysis of Nonlinear Betatron Motion}
     \endentry
@@ -2828,8 +2826,8 @@
       \strng{authorbibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{authornamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{authorfullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Bayesian Optimization}
@@ -3073,8 +3071,8 @@
       \strng{authornamehash}{d767829ebe264b87c8ebdce7d89a5537}
       \strng{authorfullhash}{03d34e21a5698fc048e03844b07077c0}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{JACoW HB}
@@ -3116,8 +3114,8 @@
       \strng{authorbibnamehash}{d5d75cb64fafa9287c74ef15c00bc684}
       \strng{authornamehash}{d5d75cb64fafa9287c74ef15c00bc684}
       \strng{authorfullhash}{d5d75cb64fafa9287c74ef15c00bc684}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{6}
@@ -3143,8 +3141,8 @@
       \strng{authornamehash}{fc6e3f8425ade0b83d750635365ea0e0}
       \strng{authorfullhash}{fc6e3f8425ade0b83d750635365ea0e0}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Space charge and lattice driven resonances at the CERN injectors}}
@@ -3217,8 +3215,8 @@
       \strng{authornamehash}{ea37cc1fe0c64b30ac6eae4d61047cbb}
       \strng{authorfullhash}{0944d11ce02669a08c75141b1578502f}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc. IPAC'22}
@@ -3283,8 +3281,8 @@
       \strng{authorbibnamehash}{454e58abfc7736f65c846b964c37a282}
       \strng{authornamehash}{454e58abfc7736f65c846b964c37a282}
       \strng{authorfullhash}{52ceb08da4d6ed27504ef45831d3821c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{JACoW IPAC}
@@ -3355,8 +3353,8 @@
       \strng{authorbibnamehash}{82913876a7c6b784157a6a5447e78cac}
       \strng{authornamehash}{82913876a7c6b784157a6a5447e78cac}
       \strng{authorfullhash}{82913876a7c6b784157a6a5447e78cac}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{CALCULATION OF INCOHERENT SPACE CHARGE TUNE SPREAD}}
@@ -3411,8 +3409,8 @@
       \strng{authorbibnamehash}{c5ec02bc356229ab51877ab75f0c2722}
       \strng{authornamehash}{c5ec02bc356229ab51877ab75f0c2722}
       \strng{authorfullhash}{e9d313f42276726c1bca829a5c42c47c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -3445,8 +3443,8 @@
       \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{[Online; accessed 19-March-2024]}
@@ -3502,7 +3500,6 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{physics.acc-ph}
       \field{eprinttype}{arXiv}
       \field{title}{Transverse Instabilities in the FERMILAB Recycler}
       \field{year}{2012}

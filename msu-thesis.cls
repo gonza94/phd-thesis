@@ -1,6 +1,6 @@
 % MSU Thesis Class
 %
-% Copyright 2009-2022 by Alan Munn <amunn@msu.edu>
+% Copyright 2009-2024 by Alan Munn <amunn@msu.edu>
 %
 % This is a class file for producing dissertations and theses according to the
 % Michigan State University Graduate School Guidelines
@@ -180,13 +180,62 @@
 %						  moment.
 % Version 4.0 2022/12/13  First version to conform to the updated requirements (September 2022)
 % Version 4.0b 2022/12/15 Made box for degree name larger
-%
+% Version 4.1 2023/05/18  Added msutocdepth to allow minimal chapters only TOC
+% Version 4.1b 2023/05/25 Removed stupid contents colon; fixed template file to actually
+%                         reflect the current version of the class; reinstituted spacing
+%						  after chapter titles.
+% Version 4.1c 2023/06/27 Removed spacing after chapter titles (again)
+% Version 4.1d 2023/07/19 Fixed per chapter bibliography TOC page number bug
+% Version 4.1e 2023/07/24 Fixed per chapter appendices TOC bug; 
+% Version 4.1f 2023/07/28 Fixed title page spacing issue
+% Version 4.1g 2023/08/12 Per chapter appendices and bibliography TOC issue
+% Version 4.1h 2023/10/07 Changed option processing code
+% Version 4.1i 2023/12/02 Fixed spurious blank page with biblatex bibliography
+% Version 4.2 2024/02/18 Changed spacing for sections to address complaints about adjacent sectioning commands
 % Report bugs/problems/questions to <amunn@msu.edu>
 %
-\def\msu@version{4.0b}
-\def\msu@date{2023/12/15}
+\def\msu@version{4.2}
+\def\msu@date{2024/02/18}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{msu-thesis}[\msu@date\space  Michigan State University Thesis Class version \msu@version]
+\DeclareKeys[msu-thesis]
+{
+PhD.code = {\gdef\msu@degree{Doctor of Philosophy}},
+DEd.code = {\gdef\msu@degree{Doctor of Education}},
+DMA.code = {\gdef\msu@degree{Doctor of Musical Arts}},
+DNP.code = {\gdef\msu@degree{Doctor of Nursing Practice}},
+MA.code = {\gdef\msu@degree{Master of Arts}\global\msu@dissertationfalse},
+MS.code = {\gdef\msu@degree{Master of Science}\global\msu@dissertationfalse},
+MAT.code = {\gdef\msu@degree{Master of Arts for Teachers}\global\msu@dissertationfalse},
+MBA.code = {\gdef\msu@degree{Master of Business Administration}\global\msu@dissertationfalse},
+MFA.code = {\gdef\msu@degree{Master of Fine Arts}\global\msu@dissertationfalse},
+MIPS.code = {\gdef\msu@degree{Master of International Planning Studies}\global\msu@dissertationfalse},
+MHRL.code = {\gdef\msu@degree{Master of Human Resources and Labor Relations}\global\msu@dissertationfalse},
+MMus.code = {\gdef\msu@degree{Master of Music}\global\msu@dissertationfalse},
+%MSN.code = {\gdef\msu@degree{Master of Science in Nursing}\global\msu@dissertationfalse},
+MPH.code = {\gdef\msu@degree{Master of Public Health}\global\msu@dissertationfalse},
+MPP.code = {\gdef\msu@degree{Master of Public Policy}\global\msu@dissertationfalse},
+MSW.code = {\gdef\msu@degree{Master of Social Work}\global\msu@dissertationfalse},
+MURP.code = {\gdef\msu@degree{Master in Urban and Regional Planning}\global\msu@dissertationfalse},
+lscape.code = {%
+\msu@lscapetrue
+\AtEndDocument{\ClassWarningNoLine{msu-thesis}{You have chosen the [lscape] option. You may need to run latex twice to get landscape page numbering to display correctly}}},
+boldtoc.code = {\msu@stupidtoctrue\msu@plaintocfalse\msu@mixedtocfalse},
+plaintoc.code = {\msu@plaintoctrue\msu@stupidtocfalse\msu@mixedtocfalse},
+mixedtoc.code = {\msu@mixedtoctrue\msu@stupidtocfalse\msu@plaintocfalse},
+chapterbib.code = {\global\msu@chapterbibtrue\def\msu@bibtype{CHAPBIB}}, % per-chapter bibliographies added v3.0
+bibassection.code = {\def\msu@bibsection{section}}, % per-chapter bibs as sections in TOC
+chapterapp.code = {
+    \global\msu@chapterapptrue
+	\def\msu@apptype{CHAPAPP}
+	% per-chapter appendices added v3.0
+	\renewcommand\msuappendixnumformat{\the@ppsavesec\Alph{chapter}} % Appendix numbers per-chapter (now permitted)
+},
+12pt.code = {\def\msu@sizeoption{12pt}}, % added v2.9
+11pt.code = {\def\msu@sizeoption{11pt}},
+10pt.code = {\def\msu@sizeoption{10pt}}
+}
+
 \newif\ifmsu@dissertation\msu@dissertationtrue % added v2.7 boolean for \msu@thesistype
 \newif\ifmsu@chapterbib\msu@chapterbibfalse % added v3.0
 \def\msu@bibtype{BIB}
@@ -201,42 +250,9 @@
 \newif\ifmsu@colonintoc\msu@colonintocfalse
 \newif\ifmsu@hyperloaded\msu@hyperloadedfalse
 \newif\ifmsu@dualmajor\msu@dualmajorfalse
-\DeclareOption{PhD}{\gdef\msu@degree{Doctor of Philosophy}}
-\DeclareOption{DEd}{\gdef\msu@degree{Doctor of Education}}
-\DeclareOption{DMA}{\gdef\msu@degree{Doctor of Musical Arts}}
-\DeclareOption{DNP}{\gdef\msu@degree{Doctor of Nursing Practice}}
-\DeclareOption{MA}{\gdef\msu@degree{Master of Arts}\global\msu@dissertationfalse}
-\DeclareOption{MS}{\gdef\msu@degree{Master of Science}\global\msu@dissertationfalse}
-\DeclareOption{MAT}{\gdef\msu@degree{Master of Arts for Teachers}\global\msu@dissertationfalse}
-\DeclareOption{MBA}{\gdef\msu@degree{Master of Business Administration}\global\msu@dissertationfalse}
-\DeclareOption{MFA}{\gdef\msu@degree{Master of Fine Arts}\global\msu@dissertationfalse}
-\DeclareOption{MIPS}{\gdef\msu@degree{Master of International Planning Studies}\global\msu@dissertationfalse}
-\DeclareOption{MHRL}{\gdef\msu@degree{Master of Human Resources and Labor Relations}\global\msu@dissertationfalse}
-\DeclareOption{MMus}{\gdef\msu@degree{Master of Music}\global\msu@dissertationfalse}
-%\DeclareOption{MSN}{\gdef\msu@degree{Master of Science in Nursing}\global\msu@dissertationfalse}
-\DeclareOption{MPH}{\gdef\msu@degree{Master of Public Health}\global\msu@dissertationfalse}
-\DeclareOption{MPP}{\gdef\msu@degree{Master of Public Policy}\global\msu@dissertationfalse}
-\DeclareOption{MSW}{\gdef\msu@degree{Master of Social Work}\global\msu@dissertationfalse}
-\DeclareOption{MURP}{\gdef\msu@degree{Master in Urban and Regional Planning}\global\msu@dissertationfalse}
-\DeclareOption{lscape}{%
-\msu@lscapetrue
-\AtEndDocument{\ClassWarningNoLine{msu-thesis}{You have chosen the [lscape] option. You may need to run latex twice to get landscape page numbering to display correctly}}}
-\DeclareOption{boldtoc}{\msu@stupidtoctrue\msu@plaintocfalse\msu@mixedtocfalse}
-\DeclareOption{plaintoc}{\msu@plaintoctrue\msu@stupidtocfalse\msu@mixedtocfalse}
-\DeclareOption{mixedtoc}{\msu@mixedtoctrue\msu@stupidtocfalse\msu@plaintocfalse}
-\DeclareOption{chapterbib}{\global\msu@chapterbibtrue\def\msu@bibtype{CHAPBIB}} % per-chapter bibliographies added v3.0
 \newcommand*\msu@bibsection{chapter} % per-chapter bibliographies like chapters in TOC
-\DeclareOption{bibassection}{\def\msu@bibsection{section}} % per-chapter bibs as sections in TOC
-\DeclareOption{chapterapp}{
-    \global\msu@chapterapptrue
-	\def\msu@apptype{APPENDICES}
-	% per-chapter appendices added v3.0
-	\renewcommand\msuappendixnumformat{\ifmsu@singleappendix\else\Alph{chapter}\fi} % Appendix numbers per-chapter not permitted as of v4
-}
-\DeclareOption{12pt}{\def\msu@sizeoption{12pt}} % added v2.9
-\DeclareOption{11pt}{\def\msu@sizeoption{11pt}}
-\DeclareOption{10pt}{\def\msu@sizeoption{10pt}}
-\ExecuteOptions{PhD,12pt}
+\SetKeys[msu-thesis]{PhD,12pt}
+\ProcessKeyOptions[msu-thesis]
 \DeclareOption*{
 \PassOptionsToClass{\CurrentOption}{memoir}
 }
@@ -297,6 +313,8 @@
 \newcommand*{\msu@fieldseparator}{\textemdash} % this is between the degree name and field of study
 \newcommand*{\dualmajor}[2]{\msu@dualmajortrue\gdef\msu@fieldofstudy{#1}\gdef\msu@dualmajor{#2}}
 \newcommand*{\msu@DUALMAJOR}{Dual Major}
+\newcounter{msutocdepth}
+\setcounter{msutocdepth}{1} % section level included in the TOC
 \newcounter{msu@hchap} % global counter for chapters used by hyperref
 % This may also be solved by using \hypersetup{hypertexnames=false}
 % hard to tell whether this is a better solution.
@@ -316,12 +334,12 @@
 \posttitle{\end{center}}
 \preauthor{\begin{textblock}{6}(5.5,6.625)\begin{center}By\\[2\onelineskip]}
 \postauthor{\end{center}\end{textblock}}
-\predate{\begin{textblock}{13.5}(1.75,13.625)\begin{center}\msu@titleintro\msu@thesistype\\[\onelineskip]Submitted to\\Michigan State University\\in partial fulfillment of the requirements\\for the degree of\\[2\onelineskip]\msu@fieldofstudy\msu@fieldseparator\msu@degree\ifmsu@dualmajor\\\msu@dualmajor\msu@fieldseparator\msu@DUALMAJOR\\[\onelineskip]\else\\[2\onelineskip]\fi}\postdate{\end{center}\end{textblock}}
+\predate{\begin{textblock}{13.5}(1.75,13.625)\begin{center}\msu@titleintro\msu@thesistype\\[2\onelineskip]Submitted to\\Michigan State University\\in partial fulfillment of the requirements\\for the degree of\\[\onelineskip]\msu@fieldofstudy\msu@fieldseparator\msu@degree\ifmsu@dualmajor\\\msu@dualmajor\msu@fieldseparator\msu@DUALMAJOR\\[\onelineskip]\else\\[2\onelineskip]\fi}\postdate{\end{center}\end{textblock}}
 
 % set up the chapter titles
 \chapterstyle{thatcher}
 \setlength{\beforechapskip}{-1sp}% changed 2020/12/17 Need negative value to suppress indentation
-\setlength{\afterchapskip}{0pt} % changed 2017/05/03 because of thesis office complaints; changed again for v4 since now they want "uniform" space
+\setlength{\afterchapskip}{0pt} % changed 2017/05/03 because of thesis office complaints; changed again for v4 since now they want "uniform" space % changed again 4.1
 \renewcommand*{\chapnamefont}{\centering\bfseries}
 \renewcommand*{\chapnumfont}{\bfseries}
 \renewcommand*{\chaptitlefont}{\SingleSpacing\bfseries}
@@ -343,10 +361,16 @@
 
 
 % set up the section styles
-
-\setsecheadstyle{\normalfont\SingleSpacing\bfseries} % made uniform size v4
-\setsubsecheadstyle{\normalfont\SingleSpacing\bfseries}
-\setsubsubsecheadstyle{\normalfont\SingleSpacing\bfseries}
+% Added spacing command v4.2 due to complaints about extra space when two
+% sectioning commands are adjacent
+\newcommand*{\msu@SingleSpacing}{%
+  \setSpacing{\m@m@singlespace}%
+  \ifx\@nodocument\relax\vskip\onelineskip\fi% correction for coming into single spacing
+}
+%
+\setsecheadstyle{\normalfont\msu@SingleSpacing\bfseries} % made uniform size v4
+\setsubsecheadstyle{\normalfont\msu@SingleSpacing\bfseries}
+\setsubsubsecheadstyle{\normalfont\msu@SingleSpacing\bfseries}
 % 2023 requirements seem to want "uniform" spacing even after headings, even though this
 % is not stated explicitly anywhere. After skips must be positive not zero to avoid runin formatting
 % Before skips can be 0
@@ -360,7 +384,7 @@
 
 % set up TOC
 
-\settocdepth{section}
+\setcounter{tocdepth}{\value{msutocdepth}}
 \setsecnumdepth{subsubsection}
 \setlength{\cftsectionindent}{.5in}
 \renewcommand*{\printtoctitle}[1]{\centering\bfseries\msu@contentsname}
@@ -488,7 +512,7 @@
   \renewcommand\cftchapterpagefont{\msu@tocfont}
   \renewcommand*{\cftappendixname}{APPENDIX\space}
   \renewcommand\cftchapteraftersnum{\msutocdelim}
-
+  %\ifthenelse{\value{msutocdepth}=0}{\addtocounter{tocdepth}{-1}}{} % removed 8/12/2023
 }
 
 % This code resets the TOC back to normal section spacing if appendices have been used
@@ -496,11 +520,11 @@
 \cftinsertcode{CHAPAPPR}{
 \cftsetindents{section}{.5in}{2.3em}
 \setlength{\cftchapterindent}{0em}
-\setlength{\cftchapternumwidth}{3em} % added 6/24/2022
+%\setlength{\cftchapternumwidth}{3em} % removed 2/1/2023 
 \setlength{\cftbeforechapterskip}{1.0em \@plus\p@}
   \renewcommand\cftchapterfont{\msu@chapfont\MakeUppercase}
   \renewcommand\cftchapterpagefont{\msu@chapfont}
-  \settocdepth{section} % added 6/24/2022
+  \setcounter{tocdepth}{\value{msutocdepth}}
 }
 % This code resets the changes made in the APP code back to normal
 % so that the bibliography will appear correctly in the TOC
@@ -509,7 +533,7 @@
 \setlength{\cftbeforechapterskip}{1.0em \@plus\p@}
   \renewcommand\cftchapterfont{\msu@chapfont\MakeUppercase}
   \renewcommand\cftchapterpagefont{\msu@chapfont}
-  \settocdepth{section}
+  \setcounter{tocdepth}{\value{msutocdepth}}
 }
 
 \cftinsertcode{CHAPBIB}{
@@ -517,6 +541,7 @@
   \setlength\cftbeforechapterskip{0pt}
   \renewcommand\cftsectionfont{\msu@tocfont} % fixed 12/13/17
   \renewcommand\cftchapterpagefont{\msu@tocfont}
+%  \addtocounter{tocdepth}{-1} % removed 8/12/2023
 }
 
 
@@ -540,7 +565,7 @@
 %  \l@chapapp{\msu@tocfont\MakeUppercase{#1}}{#2}{\cftappendixname}} % Format appendix names
 %
 
-\setlength{\cftchapternumwidth}{3em}
+\setlength{\cftchapternumwidth}{3em} % Could this be smaller?
 \setrmarg{3.5em} % better wrapping of long titles
 
 % Added to make sure that chapters within landscape mode have correct pagestyle
@@ -639,8 +664,8 @@
 % Make the caption delimiter a space instead of colon space so that the
 % contents lists don't look so stupid.  Can be changed if necessary.
 \newcommand*\msucaptiondelim{\space}
-\newcommand*\msutocdelim{:}
-\captiondelim{\msucaptiondelim}
+\newcommand*\msutocdelim{} % removed idiotic colon 5/25/23
+\captiondelim{\msucaptiondelim} 
 
 \pagestyle{plain}
 
@@ -734,11 +759,11 @@
 %   \ifmsu@chapterapp\else
    \msu@singleappendixtrue
 % \fi% make sure single appendix doesn't have a number if global 3.1b (always 3.2)
-   \msu@apppage\cftinserthook{toc}{SINGAPP}\settocdepth{chapter}\@resets@pp\anappendixtrue}%
+   \msu@apppage\cftinserthook{toc}{SINGAPP}\setcounter{tocdepth}{0}\@resets@pp\anappendixtrue}%
   {\@ppsaveapp\@pprestoresec\anappendixfalse\cftinserthook{toc}{CHAPAPPR}} % reset aded 2022/04/16
 
 \renewenvironment{appendices}%
-  {\msu@singleappendixfalse\msu@apppage\ifmsu@chapterapp\cftinserthook{toc}{APPENDICES}\fi\settocdepth{chapter}
+  {\msu@singleappendixfalse\msu@apppage\ifmsu@chapterapp\cftinserthook{toc}{APPENDICES}\fi\addtocontents{toc}{\setcounter{tocdepth}{0}}
    \@resets@pp\anappendixtrue}%
   {\@ppsaveapp\@pprestoresec\anappendixfalse\cftinserthook{toc}{CHAPAPPR}} % reset added 2022/04/16
 
@@ -771,7 +796,7 @@
   \let\bibtocname\bibname % moved inside this page to beat apacite
   \let\bibpagename\bibname
   \cftinserthook{toc}{\msu@bibtype}
-  \settocdepth{section} % changed v2.7 to allow for chapter bibs
+  \setcounter{tocdepth}{\value{msutocdepth}} % changed v2.7 to allow for chapter bibs
 %  \@setuppart
 %  \msu@preaddbibpagetotochook
   \msu@addbibheadtotoc
@@ -792,15 +817,19 @@
 
 % modified 4/18/2022 to allow for per-chapter bibliographies to appear either
 % as chapters or as sections in the bibliography. Thesis office isn't consistent in this.
+% \clearpage added 7/19/2023 because page numbers were off in the TOC.
+% This code probably needs to be revisited since it’s a unholy amalgam of old and new code
+% Removed clearpage from the document level code in response to issue #26.
+% Problem seems to only arise with biblatex so more testing is needed
 \newcommand\msu@addbibheadtotoc{%
     \ifmsu@chapterbib
-        \phantomsection\addcontentsline{toc}{\msu@bibsection}{\bibtocname}
+        \clearpage\phantomsection\addcontentsline{toc}{\msu@bibsection}{\bibtocname}
     \else
     	\phantomsection\addcontentsline{toc}{chapter}{\bibtocname}
 	\fi
 	}
 % Since the bibliography page is the TOC entry we remove the bib in the TOC
-% when it's introduced
+% when it's introduced.  This should be revisited too.
 \nobibintoc % removed v4 as no longer neededd
 % Modified 8/7/14 to add the bibliography cover page to the TOC and not the actual bibliography page
 % This should also work for biblatex even though memoir doesn't check for it
@@ -827,6 +856,7 @@
 		{\AtBeginEnvironment{thebibliography}{\SingleSpacing\setlength{\bibsep}{\baselineskip}}} % natbib
 		{\AtBeginEnvironment{thebibliography}{\SingleSpacing}}} % any other bib package
 %\topskip=0pt % setting this because the Grad School doesn’t know how to measure -changed back 6/15/17
+\setcounter{tocdepth}{\value{msutocdepth}}
 \checkandfixthelayout
 %
 % set up subscript sizes so that 10 pt is the smallest
